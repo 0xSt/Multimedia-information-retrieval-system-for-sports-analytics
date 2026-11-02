@@ -1,0 +1,108 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wc: <http://example.org/worldcup/ontology#> .
+
+wc:position_AM a wc:Position,
+        skos:Concept ;
+    skos:notation "AM" ;
+    skos:prefLabel "attacking midfielder"@en .
+
+wc:position_CB a wc:Position,
+        skos:Concept ;
+    skos:notation "CB" ;
+    skos:prefLabel "center back"@en .
+
+wc:position_CF a wc:Position,
+        skos:Concept ;
+    skos:notation "CF" ;
+    skos:prefLabel "center forward"@en .
+
+wc:position_CM a wc:Position,
+        skos:Concept ;
+    skos:notation "CM" ;
+    skos:prefLabel "center midfielder"@en .
+
+wc:position_DF a wc:Position,
+        skos:Concept ;
+    skos:notation "DF" ;
+    skos:prefLabel "defender"@en .
+
+wc:position_DM a wc:Position,
+        skos:Concept ;
+    skos:notation "DM" ;
+    skos:prefLabel "defensive midfielder"@en .
+
+wc:position_FW a wc:Position,
+        skos:Concept ;
+    skos:notation "FW" ;
+    skos:prefLabel "forward"@en .
+
+wc:position_GK a wc:Position,
+        skos:Concept ;
+    skos:notation "GK" ;
+    skos:prefLabel "goal keeper"@en .
+
+wc:position_LB a wc:Position,
+        skos:Concept ;
+    skos:notation "LB" ;
+    skos:prefLabel "left back"@en .
+
+wc:position_LF a wc:Position,
+        skos:Concept ;
+    skos:notation "LF" ;
+    skos:prefLabel "left forward"@en .
+
+wc:position_LM a wc:Position,
+        skos:Concept ;
+    skos:notation "LM" ;
+    skos:prefLabel "left midfielder"@en .
+
+wc:position_LW a wc:Position,
+        skos:Concept ;
+    skos:notation "LW" ;
+    skos:prefLabel "left winger"@en .
+
+wc:position_LWB a wc:Position,
+        skos:Concept ;
+    skos:notation "LWB" ;
+    skos:prefLabel "left wing back"@en .
+
+wc:position_MF a wc:Position,
+        skos:Concept ;
+    skos:notation "MF" ;
+    skos:prefLabel "midfielder"@en .
+
+wc:position_RB a wc:Position,
+        skos:Concept ;
+    skos:notation "RB" ;
+    skos:prefLabel "right back"@en .
+
+wc:position_RF a wc:Position,
+        skos:Concept ;
+    skos:notation "RF" ;
+    skos:prefLabel "right forward"@en .
+
+wc:position_RM a wc:Position,
+        skos:Concept ;
+    skos:notation "RM" ;
+    skos:prefLabel "right midfielder"@en .
+
+wc:position_RW a wc:Position,
+        skos:Concept ;
+    skos:notation "RW" ;
+    skos:prefLabel "right winger"@en .
+
+wc:position_RWB a wc:Position,
+        skos:Concept ;
+    skos:notation "RWB" ;
+    skos:prefLabel "right wing back"@en .
+
+wc:position_SS a wc:Position,
+        skos:Concept ;
+    skos:notation "SS" ;
+    skos:prefLabel "second striker"@en .
+
+wc:position_SW a wc:Position,
+        skos:Concept ;
+    skos:notation "SW" ;
+    skos:prefLabel "sweeper"@en .
+

@@ -1,0 +1,12 @@
+@prefix wc: <http://example.org/worldcup/ontology#> .
+
+<http://example.org/worldcup/resource/federation/T-21> wc:predecessorOf <http://example.org/worldcup/resource/federation/T-20> .
+
+<http://example.org/worldcup/resource/federation/T-72> wc:predecessorOf <http://example.org/worldcup/resource/federation/T-62> .
+
+<http://example.org/worldcup/resource/federation/T-86> wc:predecessorOf <http://example.org/worldcup/resource/federation/T-31> .
+
+<http://example.org/worldcup/resource/federation/T-87> wc:predecessorOf <http://example.org/worldcup/resource/federation/T-67> .
+
+<http://example.org/worldcup/resource/federation/T-67> wc:predecessorOf <http://example.org/worldcup/resource/federation/T-66> .
+

@@ -1,0 +1,1926 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wc: <http://example.org/worldcup/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/worldcup/resource/stadium/S-001> a wc:Stadium ;
+    rdfs:label "Estadio José Amalfitani" ;
+    wc:capacity 49000 ;
+    wc:cityName "Buenos Aires" ;
+    wc:countryName "Argentina" ;
+    owl:sameAs <http://dbpedia.org/resource/José_Amalfitani_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/José_Amalfitani_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-002> a wc:Stadium ;
+    rdfs:label "Estadio Monumental" ;
+    wc:capacity 75000 ;
+    wc:cityName "Buenos Aires" ;
+    wc:countryName "Argentina" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_Monumental_Antonio_Vespucio_Liberti> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_Monumental_Antonio_Vespucio_Liberti> .
+
+<http://example.org/worldcup/resource/stadium/S-003> a wc:Stadium ;
+    rdfs:label "Estadio Chateau Carreras" ;
+    wc:capacity 47000 ;
+    wc:cityName "Córdoba" ;
+    wc:countryName "Argentina" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_Mario_Alberto_Kempes> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_Mario_Alberto_Kempes> .
+
+<http://example.org/worldcup/resource/stadium/S-004> a wc:Stadium ;
+    rdfs:label "Estadio José María Minella" ;
+    wc:capacity 44000 ;
+    wc:cityName "Mar del Plata" ;
+    wc:countryName "Argentina" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_José_María_Minella> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_José_Mar%C3%ADa_Minella> .
+
+<http://example.org/worldcup/resource/stadium/S-005> a wc:Stadium ;
+    rdfs:label "Estadio Ciudad de Mendoza" ;
+    wc:capacity 35000 ;
+    wc:cityName "Mendoza" ;
+    wc:countryName "Argentina" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_Malvinas_Argentinas> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_Malvinas_Argentinas> .
+
+<http://example.org/worldcup/resource/stadium/S-006> a wc:Stadium ;
+    rdfs:label "Estadio Gigante de Arroyito" ;
+    wc:capacity 46000 ;
+    wc:cityName "Rosario" ;
+    wc:countryName "Argentina" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_Gigante_de_Arroyito> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_Gigante_de_Arroyito> .
+
+<http://example.org/worldcup/resource/stadium/S-007> a wc:Stadium ;
+    rdfs:label "Estádio Independência" ;
+    wc:capacity 30000 ;
+    wc:cityName "Belo Horizonte" ;
+    wc:countryName "Brazil" ;
+    owl:sameAs <http://dbpedia.org/resource/Estádio_Independência> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estádio_Independência> .
+
+<http://example.org/worldcup/resource/stadium/S-008> a wc:Stadium ;
+    rdfs:label "Estádio Mineirão" ;
+    wc:capacity 43000 ;
+    wc:cityName "Belo Horizonte" ;
+    wc:countryName "Brazil" ;
+    owl:sameAs <http://dbpedia.org/resource/Mineirão> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Mineirão> .
+
+<http://example.org/worldcup/resource/stadium/S-009> a wc:Stadium ;
+    rdfs:label "Estádio Nacional" ;
+    wc:capacity 70000 ;
+    wc:cityName "Brasília" ;
+    wc:countryName "Brazil" ;
+    owl:sameAs <http://dbpedia.org/resource/Estádio_Nacional_Mané_Garrincha> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estádio_Nacional_Mané_Garrincha> .
+
+<http://example.org/worldcup/resource/stadium/S-010> a wc:Stadium ;
+    rdfs:label "Arena Pantanal" ;
+    wc:capacity 41000 ;
+    wc:cityName "Cuiabá" ;
+    wc:countryName "Brazil" ;
+    owl:sameAs <http://dbpedia.org/resource/Arena_Pantanal> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Arena_Pantanal> .
+
+<http://example.org/worldcup/resource/stadium/S-011> a wc:Stadium ;
+    rdfs:label "Arena da Baixada" ;
+    wc:capacity 40000 ;
+    wc:cityName "Curitiba" ;
+    wc:countryName "Brazil" ;
+    owl:sameAs <http://dbpedia.org/resource/Arena_da_Baixada> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Arena_da_Baixada> .
+
+<http://example.org/worldcup/resource/stadium/S-012> a wc:Stadium ;
+    rdfs:label "Estádio Vila Capanema" ;
+    wc:capacity 10000 ;
+    wc:cityName "Curitiba" ;
+    wc:countryName "Brazil" ;
+    owl:sameAs <http://dbpedia.org/resource/Estádio_Vila_Capanema> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estádio_Vila_Capanema> .
+
+<http://example.org/worldcup/resource/stadium/S-013> a wc:Stadium ;
+    rdfs:label "Estádio Castelão" ;
+    wc:capacity 63000 ;
+    wc:cityName "Fortaleza" ;
+    wc:countryName "Brazil" ;
+    owl:sameAs <http://dbpedia.org/resource/Castelão_(Ceará)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Castelão_(Ceará)> .
+
+<http://example.org/worldcup/resource/stadium/S-014> a wc:Stadium ;
+    rdfs:label "Arena da Amazônia" ;
+    wc:capacity 41000 ;
+    wc:cityName "Manaus" ;
+    wc:countryName "Brazil" ;
+    owl:sameAs <http://dbpedia.org/resource/Arena_da_Amazônia> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Arena_da_Amazônia> .
+
+<http://example.org/worldcup/resource/stadium/S-015> a wc:Stadium ;
+    rdfs:label "Arena das Dunas" ;
+    wc:capacity 40000 ;
+    wc:cityName "Natal" ;
+    wc:countryName "Brazil" ;
+    owl:sameAs <http://dbpedia.org/resource/Arena_das_Dunas> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Arena_das_Dunas> .
+
+<http://example.org/worldcup/resource/stadium/S-016> a wc:Stadium ;
+    rdfs:label "Estádio Beira-Rio" ;
+    wc:capacity 43000 ;
+    wc:cityName "Porto Alegre" ;
+    wc:countryName "Brazil" ;
+    owl:sameAs <http://dbpedia.org/resource/Estádio_Beira-Rio> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estádio_Beira-Rio> .
+
+<http://example.org/worldcup/resource/stadium/S-017> a wc:Stadium ;
+    rdfs:label "Estádio dos Eucaliptos" ;
+    wc:capacity 20000 ;
+    wc:cityName "Porto Alegre" ;
+    wc:countryName "Brazil" ;
+    owl:sameAs <http://dbpedia.org/resource/Estádio_dos_Eucaliptos> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estádio_dos_Eucaliptos> .
+
+<http://example.org/worldcup/resource/stadium/S-018> a wc:Stadium ;
+    rdfs:label "Arena Pernambuco" ;
+    wc:capacity 43000 ;
+    wc:cityName "Recife" ;
+    wc:countryName "Brazil" ;
+    owl:sameAs <http://dbpedia.org/resource/Arena_Pernambuco> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Arena_Pernambuco> .
+
+<http://example.org/worldcup/resource/stadium/S-019> a wc:Stadium ;
+    rdfs:label "Estádio Ilha do Retiro" ;
+    wc:capacity 30000 ;
+    wc:cityName "Recife" ;
+    wc:countryName "Brazil" ;
+    owl:sameAs <http://dbpedia.org/resource/Estádio_Ilha_do_Retiro> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estádio_Ilha_do_Retiro> .
+
+<http://example.org/worldcup/resource/stadium/S-020> a wc:Stadium ;
+    rdfs:label "Estádio do Maracanã" ;
+    wc:capacity 200000 ;
+    wc:cityName "Rio de Janeiro" ;
+    wc:countryName "Brazil" ;
+    owl:sameAs <http://dbpedia.org/resource/Maracanã_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Maracanã_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-021> a wc:Stadium ;
+    rdfs:label "Arena Fonte Nova" ;
+    wc:capacity 52000 ;
+    wc:cityName "Salvador" ;
+    wc:countryName "Brazil" ;
+    owl:sameAs <http://dbpedia.org/resource/Arena_Fonte_Nova> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Arena_Fonte_Nova> .
+
+<http://example.org/worldcup/resource/stadium/S-022> a wc:Stadium ;
+    rdfs:label "Arena Corinthians" ;
+    wc:capacity 63000 ;
+    wc:cityName "São Paulo" ;
+    wc:countryName "Brazil" ;
+    owl:sameAs <http://dbpedia.org/resource/Arena_Corinthians> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Arena_Corinthians> .
+
+<http://example.org/worldcup/resource/stadium/S-023> a wc:Stadium ;
+    rdfs:label "Estádio do Pacaembu" ;
+    wc:capacity 60000 ;
+    wc:cityName "São Paulo" ;
+    wc:countryName "Brazil" ;
+    owl:sameAs <http://dbpedia.org/resource/Pacaembu_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Pacaembu_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-024> a wc:Stadium ;
+    rdfs:label "Commonwealth Stadium" ;
+    wc:capacity 56000 ;
+    wc:cityName "Edmonton" ;
+    wc:countryName "Canada" ;
+    owl:sameAs <http://dbpedia.org/resource/Commonwealth_Stadium_(Edmonton)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Commonwealth_Stadium_(Edmonton)> .
+
+<http://example.org/worldcup/resource/stadium/S-025> a wc:Stadium ;
+    rdfs:label "Moncton Stadium" ;
+    wc:capacity 13000 ;
+    wc:cityName "Moncton" ;
+    wc:countryName "Canada" ;
+    owl:sameAs <http://dbpedia.org/resource/Moncton_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Moncton_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-026> a wc:Stadium ;
+    rdfs:label "Olympic Stadium" ;
+    wc:capacity 56000 ;
+    wc:cityName "Montreal" ;
+    wc:countryName "Canada" ;
+    owl:sameAs <http://dbpedia.org/resource/Olympic_Stadium_(Montreal)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Olympic_Stadium_(Montreal)> .
+
+<http://example.org/worldcup/resource/stadium/S-027> a wc:Stadium ;
+    rdfs:label "TD Place Stadium" ;
+    wc:capacity 24000 ;
+    wc:cityName "Ottawa" ;
+    wc:countryName "Canada" ;
+    owl:sameAs <http://dbpedia.org/resource/TD_Place_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/TD_Place_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-028> a wc:Stadium ;
+    rdfs:label "BC Place" ;
+    wc:capacity 54000 ;
+    wc:cityName "Vancouver" ;
+    wc:countryName "Canada" ;
+    owl:sameAs <http://dbpedia.org/resource/BC_Place> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/BC_Place> .
+
+<http://example.org/worldcup/resource/stadium/S-029> a wc:Stadium ;
+    rdfs:label "Investors Group Field" ;
+    wc:capacity 33000 ;
+    wc:cityName "Winnipeg" ;
+    wc:countryName "Canada" ;
+    owl:sameAs <http://dbpedia.org/resource/Investors_Group_Field> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Investors_Group_Field> .
+
+<http://example.org/worldcup/resource/stadium/S-030> a wc:Stadium ;
+    rdfs:label "Estadio Carlos Dittborn" ;
+    wc:capacity 18000 ;
+    wc:cityName "Arica" ;
+    wc:countryName "Chile" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_Carlos_Dittborn> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_Carlos_Dittborn> .
+
+<http://example.org/worldcup/resource/stadium/S-031> a wc:Stadium ;
+    rdfs:label "Estadio El Teniente" ;
+    wc:capacity 18000 ;
+    wc:cityName "Rancagua" ;
+    wc:countryName "Chile" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_El_Teniente> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_El_Teniente> .
+
+<http://example.org/worldcup/resource/stadium/S-032> a wc:Stadium ;
+    rdfs:label "Estadio Nacional" ;
+    wc:capacity 67000 ;
+    wc:cityName "Santiago" ;
+    wc:countryName "Chile" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_Nacional_Julio_Martínez_Prádanos> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_Nacional_Julio_Mart%C3%ADnez_Prádanos> .
+
+<http://example.org/worldcup/resource/stadium/S-033> a wc:Stadium ;
+    rdfs:label "Estadio Sausalito" ;
+    wc:capacity 18000 ;
+    wc:cityName "Viña del Mar" ;
+    wc:countryName "Chile" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_Sausalito> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_Sausalito> .
+
+<http://example.org/worldcup/resource/stadium/S-034> a wc:Stadium ;
+    rdfs:label "Chengdu Sports Center" ;
+    wc:capacity 40000 ;
+    wc:cityName "Chengdu" ;
+    wc:countryName "China" ;
+    owl:sameAs <http://dbpedia.org/resource/Chengdu_Sports_Centre> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Chengdu_Sports_Centre> .
+
+<http://example.org/worldcup/resource/stadium/S-035> a wc:Stadium ;
+    rdfs:label "New Plaza Stadium" ;
+    wc:capacity 14000 ;
+    wc:cityName "Foshan" ;
+    wc:countryName "China" ;
+    owl:sameAs <http://dbpedia.org/resource/New_Plaza_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/New_Plaza_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-036> a wc:Stadium ;
+    rdfs:label "Gaungdong Provincial Stadium" ;
+    wc:capacity 25000 ;
+    wc:cityName "Guangzhou" ;
+    wc:countryName "China" ;
+    owl:sameAs <http://dbpedia.org/resource/Guangdong_Provincial_People's_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Guangdong_Provincial_People's_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-037> a wc:Stadium ;
+    rdfs:label "Guangdong Provincial Stadium" ;
+    wc:capacity 25000 ;
+    wc:cityName "Guangzhou" ;
+    wc:countryName "China" ;
+    owl:sameAs <http://dbpedia.org/resource/Guangdong_Provincial_People's_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Guangdong_Provincial_People's_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-038> a wc:Stadium ;
+    rdfs:label "Tainhe Stadium" ;
+    wc:capacity 60000 ;
+    wc:cityName "Guangzhou" ;
+    wc:countryName "China" ;
+    owl:sameAs <http://dbpedia.org/resource/Tianhe_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Tianhe_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-039> a wc:Stadium ;
+    rdfs:label "Tianhe Stadium" ;
+    wc:capacity 60000 ;
+    wc:cityName "Guangzhou" ;
+    wc:countryName "China" ;
+    owl:sameAs <http://dbpedia.org/resource/Tianhe_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Tianhe_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-040> a wc:Stadium ;
+    rdfs:label "Ying Tung Stadium" ;
+    wc:capacity 15000 ;
+    wc:cityName "Guangzhou" ;
+    wc:countryName "China" ;
+    owl:sameAs <http://dbpedia.org/resource/Henry_Fok_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Henry_Fok_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-041> a wc:Stadium ;
+    rdfs:label "Yellow Dragon Sports Center" ;
+    wc:capacity 51000 ;
+    wc:cityName "Hangzhou" ;
+    wc:countryName "China" ;
+    owl:sameAs <http://dbpedia.org/resource/Yellow_Dragon_Sports_Center> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Yellow_Dragon_Sports_Center> .
+
+<http://example.org/worldcup/resource/stadium/S-042> a wc:Stadium ;
+    rdfs:label "Jiangmen Stadium" ;
+    wc:capacity 13000 ;
+    wc:cityName "Jiangmen" ;
+    wc:countryName "China" ;
+    owl:sameAs <http://dbpedia.org/resource/Jiangmen_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jiangmen_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-043> a wc:Stadium ;
+    rdfs:label "Hongkou Football Stadium" ;
+    wc:capacity 33000 ;
+    wc:cityName "Shanghai" ;
+    wc:countryName "China" ;
+    owl:sameAs <http://dbpedia.org/resource/Hongkou_Football_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Hongkou_Football_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-044> a wc:Stadium ;
+    rdfs:label "Tianjin Olympic Center" ;
+    wc:capacity 60000 ;
+    wc:cityName "Tianjin" ;
+    wc:countryName "China" ;
+    owl:sameAs <http://dbpedia.org/resource/Tianjin_Olympic_Center> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Tianjin_Olympic_Center> .
+
+<http://example.org/worldcup/resource/stadium/S-045> a wc:Stadium ;
+    rdfs:label "Wuhan Sports Center" ;
+    wc:capacity 60000 ;
+    wc:cityName "Wuhan" ;
+    wc:countryName "China" ;
+    owl:sameAs <http://dbpedia.org/resource/Wuhan_Sports_Center> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Wuhan_Sports_Center> .
+
+<http://example.org/worldcup/resource/stadium/S-046> a wc:Stadium ;
+    rdfs:label "Zhongshan Stadium" ;
+    wc:capacity 12000 ;
+    wc:cityName "Zhongshan" ;
+    wc:countryName "China" ;
+    owl:sameAs <http://dbpedia.org/resource/Zhongshan_Sports_Center_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Zhongshan_Sports_Center_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-047> a wc:Stadium ;
+    rdfs:label "Villa Park" ;
+    wc:capacity 52000 ;
+    wc:cityName "Birmingham" ;
+    wc:countryName "England" ;
+    owl:sameAs <http://dbpedia.org/resource/Villa_Park> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Villa_Park> .
+
+<http://example.org/worldcup/resource/stadium/S-048> a wc:Stadium ;
+    rdfs:label "Goodison Park" ;
+    wc:capacity 50000 ;
+    wc:cityName "Liverpool" ;
+    wc:countryName "England" ;
+    owl:sameAs <http://dbpedia.org/resource/Goodison_Park> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Goodison_Park> .
+
+<http://example.org/worldcup/resource/stadium/S-049> a wc:Stadium ;
+    rdfs:label "Wembley Stadium" ;
+    wc:capacity 99000 ;
+    wc:cityName "London" ;
+    wc:countryName "England" ;
+    owl:sameAs <http://dbpedia.org/resource/Wembley_Stadium_(1923)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Wembley_Stadium_(1923)> .
+
+<http://example.org/worldcup/resource/stadium/S-050> a wc:Stadium ;
+    rdfs:label "White City Stadium" ;
+    wc:capacity 77000 ;
+    wc:cityName "London" ;
+    wc:countryName "England" ;
+    owl:sameAs <http://dbpedia.org/resource/White_City_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/White_City_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-051> a wc:Stadium ;
+    rdfs:label "Old Trafford" ;
+    wc:capacity 58000 ;
+    wc:cityName "Manchester" ;
+    wc:countryName "England" ;
+    owl:sameAs <http://dbpedia.org/resource/Old_Trafford> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Old_Trafford> .
+
+<http://example.org/worldcup/resource/stadium/S-052> a wc:Stadium ;
+    rdfs:label "Ayresome Park" ;
+    wc:capacity 40000 ;
+    wc:cityName "Middlesbrough" ;
+    wc:countryName "England" ;
+    owl:sameAs <http://dbpedia.org/resource/Ayresome_Park> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ayresome_Park> .
+
+<http://example.org/worldcup/resource/stadium/S-053> a wc:Stadium ;
+    rdfs:label "Hillsborough Stadium" ;
+    wc:capacity 43000 ;
+    wc:cityName "Sheffield" ;
+    wc:countryName "England" ;
+    owl:sameAs <http://dbpedia.org/resource/Hillsborough_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Hillsborough_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-054> a wc:Stadium ;
+    rdfs:label "Roker Park" ;
+    wc:capacity 40000 ;
+    wc:cityName "Sunderland" ;
+    wc:countryName "England" ;
+    owl:sameAs <http://dbpedia.org/resource/Roker_Park> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Roker_Park> .
+
+<http://example.org/worldcup/resource/stadium/S-055> a wc:Stadium ;
+    rdfs:label "Stade du Fort Carré" ;
+    wc:capacity 7000 ;
+    wc:cityName "Antibes" ;
+    wc:countryName "France" ;
+    owl:sameAs <http://dbpedia.org/resource/Stade_du_Fort_Carré> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stade_du_Fort_Carré> .
+
+<http://example.org/worldcup/resource/stadium/S-056> a wc:Stadium ;
+    rdfs:label "Stade du Parc Lescure" ;
+    wc:capacity 35000 ;
+    wc:cityName "Bordeaux" ;
+    wc:countryName "France" ;
+    owl:sameAs <http://dbpedia.org/resource/Stade_Chaban-Delmas> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stade_Chaban-Delmas> .
+
+<http://example.org/worldcup/resource/stadium/S-057> a wc:Stadium ;
+    rdfs:label "Stade des Alpes" ;
+    wc:capacity 18000 ;
+    wc:cityName "Grenoble" ;
+    wc:countryName "France" ;
+    owl:sameAs <http://dbpedia.org/resource/Stade_des_Alpes> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stade_des_Alpes> .
+
+<http://example.org/worldcup/resource/stadium/S-058> a wc:Stadium ;
+    rdfs:label "Stade Jules Deschaseaux" ;
+    wc:capacity 22000 ;
+    wc:cityName "Le Havre" ;
+    wc:countryName "France" ;
+    owl:sameAs <http://dbpedia.org/resource/Stade_Jules_Deschaseaux> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stade_Jules_Deschaseaux> .
+
+<http://example.org/worldcup/resource/stadium/S-059> a wc:Stadium ;
+    rdfs:label "Stade Océane" ;
+    wc:capacity 24000 ;
+    wc:cityName "Le Havre" ;
+    wc:countryName "France" ;
+    owl:sameAs <http://dbpedia.org/resource/Stade_Océane> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stade_Océane> .
+
+<http://example.org/worldcup/resource/stadium/S-060> a wc:Stadium ;
+    rdfs:label "Stade Félix-Bollaert" ;
+    wc:capacity 41000 ;
+    wc:cityName "Lens" ;
+    wc:countryName "France" ;
+    owl:sameAs <http://dbpedia.org/resource/Stade_Bollaert-Delelis> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stade_Bollaert-Delelis> .
+
+<http://example.org/worldcup/resource/stadium/S-061> a wc:Stadium ;
+    rdfs:label "Stade Victor Boucquey" ;
+    wc:capacity 15000 ;
+    wc:cityName "Lille" ;
+    wc:countryName "France" ;
+    owl:sameAs <http://dbpedia.org/resource/Stade_Henri-Jooris> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stade_Henri-Jooris> .
+
+<http://example.org/worldcup/resource/stadium/S-062> a wc:Stadium ;
+    rdfs:label "Parc Olympique Lyonnais" ;
+    wc:capacity 58000 ;
+    wc:cityName "Lyon" ;
+    wc:countryName "France" ;
+    owl:sameAs <http://dbpedia.org/resource/Parc_Olympique_Lyonnais> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Parc_Olympique_Lyonnais> .
+
+<http://example.org/worldcup/resource/stadium/S-063> a wc:Stadium ;
+    rdfs:label "Stade de Gerland" ;
+    wc:capacity 44000 ;
+    wc:cityName "Lyon" ;
+    wc:countryName "France" ;
+    owl:sameAs <http://dbpedia.org/resource/Stade_de_Gerland> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stade_de_Gerland> .
+
+<http://example.org/worldcup/resource/stadium/S-064> a wc:Stadium ;
+    rdfs:label "Stade Vélodrome" ;
+    wc:capacity 60000 ;
+    wc:cityName "Marseille" ;
+    wc:countryName "France" ;
+    owl:sameAs <http://dbpedia.org/resource/Stade_Vélodrome> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stade_Vélodrome> .
+
+<http://example.org/worldcup/resource/stadium/S-065> a wc:Stadium ;
+    rdfs:label "Stade de la Mosson" ;
+    wc:capacity 34000 ;
+    wc:cityName "Montpellier" ;
+    wc:countryName "France" ;
+    owl:sameAs <http://dbpedia.org/resource/Stade_de_la_Mosson> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stade_de_la_Mosson> .
+
+<http://example.org/worldcup/resource/stadium/S-066> a wc:Stadium ;
+    rdfs:label "Stade de la Beaujoire" ;
+    wc:capacity 40000 ;
+    wc:cityName "Nantes" ;
+    wc:countryName "France" ;
+    owl:sameAs <http://dbpedia.org/resource/Stade_de_la_Beaujoire> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stade_de_la_Beaujoire> .
+
+<http://example.org/worldcup/resource/stadium/S-067> a wc:Stadium ;
+    rdfs:label "Allianz Riviera" ;
+    wc:capacity 35000 ;
+    wc:cityName "Nice" ;
+    wc:countryName "France" ;
+    owl:sameAs <http://dbpedia.org/resource/Allianz_Riviera> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Allianz_Riviera> .
+
+<http://example.org/worldcup/resource/stadium/S-068> a wc:Stadium ;
+    rdfs:label "Parc des Princes" ;
+    wc:capacity 49000 ;
+    wc:cityName "Paris" ;
+    wc:countryName "France" ;
+    owl:sameAs <http://dbpedia.org/resource/Parc_des_Princes> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Parc_des_Princes> .
+
+<http://example.org/worldcup/resource/stadium/S-069> a wc:Stadium ;
+    rdfs:label "Stade Olympique de Colombes" ;
+    wc:capacity 60000 ;
+    wc:cityName "Paris" ;
+    wc:countryName "France" ;
+    owl:sameAs <http://dbpedia.org/resource/Stade_Olympique_Yves-du-Manoir> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stade_Olympique_Yves-du-Manoir> .
+
+<http://example.org/worldcup/resource/stadium/S-070> a wc:Stadium ;
+    rdfs:label "Stade Auguste-Delaune" ;
+    wc:capacity 21000 ;
+    wc:cityName "Reims" ;
+    wc:countryName "France" ;
+    owl:sameAs <http://dbpedia.org/resource/Stade_Auguste-Delaune> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stade_Auguste-Delaune> .
+
+<http://example.org/worldcup/resource/stadium/S-071> a wc:Stadium ;
+    rdfs:label "Vélodrome Municipal" ;
+    wc:capacity 22000 ;
+    wc:cityName "Reims" ;
+    wc:countryName "France" ;
+    owl:sameAs <http://dbpedia.org/resource/Stade_Auguste_Delaune> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stade_Auguste_Delaune> .
+
+<http://example.org/worldcup/resource/stadium/S-072> a wc:Stadium ;
+    rdfs:label "Roazhon Park" ;
+    wc:capacity 29000 ;
+    wc:cityName "Rennes" ;
+    wc:countryName "France" ;
+    owl:sameAs <http://dbpedia.org/resource/Roazhon_Park> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Roazhon_Park> .
+
+<http://example.org/worldcup/resource/stadium/S-073> a wc:Stadium ;
+    rdfs:label "Stade de France" ;
+    wc:capacity 80000 ;
+    wc:cityName "Saint-Denis" ;
+    wc:countryName "France" ;
+    owl:sameAs <http://dbpedia.org/resource/Stade_de_France> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stade_de_France> .
+
+<http://example.org/worldcup/resource/stadium/S-074> a wc:Stadium ;
+    rdfs:label "Stade Geoffroy-Guichard" ;
+    wc:capacity 36000 ;
+    wc:cityName "Saint-Étienne" ;
+    wc:countryName "France" ;
+    owl:sameAs <http://dbpedia.org/resource/Stade_Geoffroy-Guichard> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stade_Geoffroy-Guichard> .
+
+<http://example.org/worldcup/resource/stadium/S-075> a wc:Stadium ;
+    rdfs:label "Stade de la Meinau" ;
+    wc:capacity 30000 ;
+    wc:cityName "Strasbourg" ;
+    wc:countryName "France" ;
+    owl:sameAs <http://dbpedia.org/resource/Stade_de_la_Meinau> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stade_de_la_Meinau> .
+
+<http://example.org/worldcup/resource/stadium/S-076> a wc:Stadium ;
+    rdfs:label "Stade de Toulouse" ;
+    wc:capacity 37000 ;
+    wc:cityName "Toulouse" ;
+    wc:countryName "France" ;
+    owl:sameAs <http://dbpedia.org/resource/Stadium_Municipal> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stadium_Municipal> .
+
+<http://example.org/worldcup/resource/stadium/S-077> a wc:Stadium ;
+    rdfs:label "Stade du T.O.E.C." ;
+    wc:capacity 15000 ;
+    wc:cityName "Toulouse" ;
+    wc:countryName "France" ;
+    owl:sameAs <http://dbpedia.org/resource/Stade_Chapou> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stade_Chapou> .
+
+<http://example.org/worldcup/resource/stadium/S-078> a wc:Stadium ;
+    rdfs:label "Stade du Hainaut" ;
+    wc:capacity 23000 ;
+    wc:cityName "Valenciennes" ;
+    wc:countryName "France" ;
+    owl:sameAs <http://dbpedia.org/resource/Stade_du_Hainaut> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stade_du_Hainaut> .
+
+<http://example.org/worldcup/resource/stadium/S-079> a wc:Stadium ;
+    rdfs:label "Impuls Arena" ;
+    wc:capacity 25000 ;
+    wc:cityName "Augsburg" ;
+    wc:countryName "Germany" ;
+    owl:sameAs <http://dbpedia.org/resource/Impuls_Arena> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Impuls_Arena> .
+
+<http://example.org/worldcup/resource/stadium/S-080> a wc:Stadium ;
+    rdfs:label "Olympiastadion" ;
+    wc:capacity 86000 ;
+    wc:cityName "Berlin" ;
+    wc:countryName "Germany" ;
+    owl:sameAs <http://dbpedia.org/resource/Olympiastadion_(Berlin)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Olympiastadion_(Berlin)> .
+
+<http://example.org/worldcup/resource/stadium/S-081> a wc:Stadium ;
+    rdfs:label "Ruhrstadion" ;
+    wc:capacity 21000 ;
+    wc:cityName "Bochum" ;
+    wc:countryName "Germany" ;
+    owl:sameAs <http://dbpedia.org/resource/Ruhrstadion> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ruhrstadion> .
+
+<http://example.org/worldcup/resource/stadium/S-082> a wc:Stadium ;
+    rdfs:label "RheinEnergieStadion" ;
+    wc:capacity 45000 ;
+    wc:cityName "Cologne" ;
+    wc:countryName "Germany" ;
+    owl:sameAs <http://dbpedia.org/resource/RheinEnergieStadion> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/RheinEnergieStadion> .
+
+<http://example.org/worldcup/resource/stadium/S-083> a wc:Stadium ;
+    rdfs:label "Westfalenstadion" ;
+    wc:capacity 65000 ;
+    wc:cityName "Dortmund" ;
+    wc:countryName "Germany" ;
+    owl:sameAs <http://dbpedia.org/resource/Westfalenstadion> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Westfalenstadion> .
+
+<http://example.org/worldcup/resource/stadium/S-084> a wc:Stadium ;
+    rdfs:label "Rudolf-Harbig-Stadion" ;
+    wc:capacity 26000 ;
+    wc:cityName "Dresden" ;
+    wc:countryName "Germany" ;
+    owl:sameAs <http://dbpedia.org/resource/Rudolf-Harbig-Stadion> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Rudolf-Harbig-Stadion> .
+
+<http://example.org/worldcup/resource/stadium/S-085> a wc:Stadium ;
+    rdfs:label "Rheinstadion" ;
+    wc:capacity 70000 ;
+    wc:cityName "Düsseldorf" ;
+    wc:countryName "Germany" ;
+    owl:sameAs <http://dbpedia.org/resource/Rheinstadion> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Rheinstadion> .
+
+<http://example.org/worldcup/resource/stadium/S-086> a wc:Stadium ;
+    rdfs:label "Waldstadion" ;
+    wc:capacity 62000 ;
+    wc:cityName "Frankfurt" ;
+    wc:countryName "Germany" ;
+    owl:sameAs <http://dbpedia.org/resource/Waldstadion_(Frankfurt)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Waldstadion_(Frankfurt)> .
+
+<http://example.org/worldcup/resource/stadium/S-087> a wc:Stadium ;
+    rdfs:label "Arena AufShalke" ;
+    wc:capacity 52000 ;
+    wc:cityName "Gelsenkirchen" ;
+    wc:countryName "Germany" ;
+    owl:sameAs <http://dbpedia.org/resource/Arena_AufSchalke> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Arena_AufSchalke> .
+
+<http://example.org/worldcup/resource/stadium/S-088> a wc:Stadium ;
+    rdfs:label "Parkstadion" ;
+    wc:capacity 72000 ;
+    wc:cityName "Gelsenkirchen" ;
+    wc:countryName "Germany" ;
+    owl:sameAs <http://dbpedia.org/resource/Parkstadion> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Parkstadion> .
+
+<http://example.org/worldcup/resource/stadium/S-089> a wc:Stadium ;
+    rdfs:label "Volksparkstadion" ;
+    wc:capacity 61000 ;
+    wc:cityName "Hamburg" ;
+    wc:countryName "Germany" ;
+    owl:sameAs <http://dbpedia.org/resource/Volksparkstadion> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Volksparkstadion> .
+
+<http://example.org/worldcup/resource/stadium/S-090> a wc:Stadium ;
+    rdfs:label "Niedersachsenstadion" ;
+    wc:capacity 60000 ;
+    wc:cityName "Hanover" ;
+    wc:countryName "Germany" ;
+    owl:sameAs <http://dbpedia.org/resource/Niedersachsenstadion> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Niedersachsenstadion> .
+
+<http://example.org/worldcup/resource/stadium/S-091> a wc:Stadium ;
+    rdfs:label "Fritz-Walter-Stadion" ;
+    wc:capacity 46000 ;
+    wc:cityName "Kaiserslautern" ;
+    wc:countryName "Germany" ;
+    owl:sameAs <http://dbpedia.org/resource/Fritz-Walter-Stadion> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Fritz-Walter-Stadion> .
+
+<http://example.org/worldcup/resource/stadium/S-092> a wc:Stadium ;
+    rdfs:label "Zentralstadion" ;
+    wc:capacity 43000 ;
+    wc:cityName "Leipzig" ;
+    wc:countryName "Germany" ;
+    owl:sameAs <http://dbpedia.org/resource/Red_Bull_Arena_(Leipzig)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Red_Bull_Arena_(Leipzig)> .
+
+<http://example.org/worldcup/resource/stadium/S-093> a wc:Stadium ;
+    rdfs:label "BayArena" ;
+    wc:capacity 30000 ;
+    wc:cityName "Leverkusen" ;
+    wc:countryName "Germany" ;
+    owl:sameAs <http://dbpedia.org/resource/BayArena> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/BayArena> .
+
+<http://example.org/worldcup/resource/stadium/S-094> a wc:Stadium ;
+    rdfs:label "Borussia-Park" ;
+    wc:capacity 46000 ;
+    wc:cityName "Mönchengladbach" ;
+    wc:countryName "Germany" ;
+    owl:sameAs <http://dbpedia.org/resource/Borussia-Park> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Borussia-Park> .
+
+<http://example.org/worldcup/resource/stadium/S-095> a wc:Stadium ;
+    rdfs:label "Allianz Arena" ;
+    wc:capacity 66000 ;
+    wc:cityName "Munich" ;
+    wc:countryName "Germany" ;
+    owl:sameAs <http://dbpedia.org/resource/Allianz_Arena> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Allianz_Arena> .
+
+<http://example.org/worldcup/resource/stadium/S-096> a wc:Stadium ;
+    rdfs:label "Olympiastadion" ;
+    wc:capacity 78000 ;
+    wc:cityName "Munich" ;
+    wc:countryName "Germany" ;
+    owl:sameAs <http://dbpedia.org/resource/Olympiastadion_(Munich)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Olympiastadion_(Munich)> .
+
+<http://example.org/worldcup/resource/stadium/S-097> a wc:Stadium ;
+    rdfs:label "Frankenstadion" ;
+    wc:capacity 41000 ;
+    wc:cityName "Nuremberg" ;
+    wc:countryName "Germany" ;
+    owl:sameAs <http://dbpedia.org/resource/Nuremberg> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Nuremberg> .
+
+<http://example.org/worldcup/resource/stadium/S-098> a wc:Stadium ;
+    rdfs:label "Rhein-Neckar-Arena" ;
+    wc:capacity 30000 ;
+    wc:cityName "Sinsheim" ;
+    wc:countryName "Germany" ;
+    owl:sameAs <http://dbpedia.org/resource/Rhein-Neckar-Arena> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Rhein-Neckar-Arena> .
+
+<http://example.org/worldcup/resource/stadium/S-099> a wc:Stadium ;
+    rdfs:label "Neckarstadion" ;
+    wc:capacity 72000 ;
+    wc:cityName "Stuttgart" ;
+    wc:countryName "Germany" ;
+    owl:sameAs <http://dbpedia.org/resource/Mercedes-Benz_Arena_(Stuttgart)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Mercedes-Benz_Arena_(Stuttgart)> .
+
+<http://example.org/worldcup/resource/stadium/S-100> a wc:Stadium ;
+    rdfs:label "Volkswagen Arena" ;
+    wc:capacity 26000 ;
+    wc:cityName "Wolfsburg" ;
+    wc:countryName "Germany" ;
+    owl:sameAs <http://dbpedia.org/resource/Volkswagen_Arena> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Volkswagen_Arena> .
+
+<http://example.org/worldcup/resource/stadium/S-101> a wc:Stadium ;
+    rdfs:label "Stadio San Nicola" ;
+    wc:capacity 51000 ;
+    wc:cityName "Bari" ;
+    wc:countryName "Italy" ;
+    owl:sameAs <http://dbpedia.org/resource/Stadio_San_Nicola> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stadio_San_Nicola> .
+
+<http://example.org/worldcup/resource/stadium/S-102> a wc:Stadium ;
+    rdfs:label "Stadio Renato Dall'Ara" ;
+    wc:capacity 50000 ;
+    wc:cityName "Bologna" ;
+    wc:countryName "Italy" ;
+    owl:sameAs <http://dbpedia.org/resource/Stadio_Renato_Dall'Ara> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stadio_Renato_Dall%27Ara> .
+
+<http://example.org/worldcup/resource/stadium/S-103> a wc:Stadium ;
+    rdfs:label "Stadio Sant'Elia" ;
+    wc:capacity 35000 ;
+    wc:cityName "Cagliari" ;
+    wc:countryName "Italy" ;
+    owl:sameAs <http://dbpedia.org/resource/Stadio_Sant'Elia> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stadio_Sant%27Elia> .
+
+<http://example.org/worldcup/resource/stadium/S-104> a wc:Stadium ;
+    rdfs:label "Stadio Comunale" ;
+    wc:capacity 39000 ;
+    wc:cityName "Florence" ;
+    wc:countryName "Italy" ;
+    owl:sameAs <http://dbpedia.org/resource/Stadio_Artemio_Franchi> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stadio_Artemio_Franchi> .
+
+<http://example.org/worldcup/resource/stadium/S-105> a wc:Stadium ;
+    rdfs:label "Stadio Giovanni Berta" ;
+    wc:capacity 47000 ;
+    wc:cityName "Florence" ;
+    wc:countryName "Italy" ;
+    owl:sameAs <http://dbpedia.org/resource/Stadio_Artemio_Franchi_(Florence)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stadio_Artemio_Franchi_(Florence)> .
+
+<http://example.org/worldcup/resource/stadium/S-106> a wc:Stadium ;
+    rdfs:label "Stadio Luigi Ferraris" ;
+    wc:capacity 37000 ;
+    wc:cityName "Genoa" ;
+    wc:countryName "Italy" ;
+    owl:sameAs <http://dbpedia.org/resource/Stadio_Luigi_Ferraris> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stadio_Luigi_Ferraris> .
+
+<http://example.org/worldcup/resource/stadium/S-107> a wc:Stadium ;
+    rdfs:label "San Siro" ;
+    wc:capacity 75000 ;
+    wc:cityName "Milan" ;
+    wc:countryName "Italy" ;
+    owl:sameAs <http://dbpedia.org/resource/San_Siro> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/San_Siro> .
+
+<http://example.org/worldcup/resource/stadium/S-108> a wc:Stadium ;
+    rdfs:label "Stadio Giorgio Ascarelli" ;
+    wc:capacity 40000 ;
+    wc:cityName "Naples" ;
+    wc:countryName "Italy" ;
+    owl:sameAs <http://dbpedia.org/resource/Stadio_Giorgio_Ascarelli> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stadio_Giorgio_Ascarelli> .
+
+<http://example.org/worldcup/resource/stadium/S-109> a wc:Stadium ;
+    rdfs:label "Stadio San Paolo" ;
+    wc:capacity 60000 ;
+    wc:cityName "Naples" ;
+    wc:countryName "Italy" ;
+    owl:sameAs <http://dbpedia.org/resource/Stadio_San_Paolo> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stadio_San_Paolo> .
+
+<http://example.org/worldcup/resource/stadium/S-110> a wc:Stadium ;
+    rdfs:label "Stadio La Favorita" ;
+    wc:capacity 33000 ;
+    wc:cityName "Palermo" ;
+    wc:countryName "Italy" ;
+    owl:sameAs <http://dbpedia.org/resource/Stadio_Renzo_Barbera> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stadio_Renzo_Barbera> .
+
+<http://example.org/worldcup/resource/stadium/S-111> a wc:Stadium ;
+    rdfs:label "Stadio Nazionale PNF" ;
+    wc:capacity 47000 ;
+    wc:cityName "Rome" ;
+    wc:countryName "Italy" ;
+    owl:sameAs <http://dbpedia.org/resource/Stadio_Nazionale_PNF> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stadio_Nazionale_PNF> .
+
+<http://example.org/worldcup/resource/stadium/S-112> a wc:Stadium ;
+    rdfs:label "Stadio Olimpico" ;
+    wc:capacity 74000 ;
+    wc:cityName "Rome" ;
+    wc:countryName "Italy" ;
+    owl:sameAs <http://dbpedia.org/resource/Stadio_Olimpico> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stadio_Olimpico> .
+
+<http://example.org/worldcup/resource/stadium/S-113> a wc:Stadium ;
+    rdfs:label "Stadio Littorio" ;
+    wc:capacity 8000 ;
+    wc:cityName "Trieste" ;
+    wc:countryName "Italy" ;
+    owl:sameAs <http://dbpedia.org/resource/Stadio_Giuseppe_Grezar> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stadio_Giuseppe_Grezar> .
+
+<http://example.org/worldcup/resource/stadium/S-114> a wc:Stadium ;
+    rdfs:label "Stadio Benito Mussolini" ;
+    wc:capacity 28000 ;
+    wc:cityName "Turin" ;
+    wc:countryName "Italy" ;
+    owl:sameAs <http://dbpedia.org/resource/Stadio_Olimpico_Grande_Torino> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stadio_Olimpico_Grande_Torino> .
+
+<http://example.org/worldcup/resource/stadium/S-115> a wc:Stadium ;
+    rdfs:label "Stadio delle Alpi" ;
+    wc:capacity 63000 ;
+    wc:cityName "Turin" ;
+    wc:countryName "Italy" ;
+    owl:sameAs <http://dbpedia.org/resource/Stadio_delle_Alpi> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stadio_delle_Alpi> .
+
+<http://example.org/worldcup/resource/stadium/S-116> a wc:Stadium ;
+    rdfs:label "Stadio Friuli" ;
+    wc:capacity 36000 ;
+    wc:cityName "Udine" ;
+    wc:countryName "Italy" ;
+    owl:sameAs <http://dbpedia.org/resource/Stadio_Friuli> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stadio_Friuli> .
+
+<http://example.org/worldcup/resource/stadium/S-117> a wc:Stadium ;
+    rdfs:label "Stadio Marc'Antonio Bentegodi" ;
+    wc:capacity 36000 ;
+    wc:cityName "Verona" ;
+    wc:countryName "Italy" ;
+    owl:sameAs <http://dbpedia.org/resource/Stadio_Marc'Antonio_Bentegodi> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stadio_Marc%27Antonio_Bentegodi> .
+
+<http://example.org/worldcup/resource/stadium/S-118> a wc:Stadium ;
+    rdfs:label "Kashima Stadium" ;
+    wc:capacity 42000 ;
+    wc:cityName "Ibaraki" ;
+    wc:countryName "Japan" ;
+    owl:sameAs <http://dbpedia.org/resource/Kashima_Soccer_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Kashima_Soccer_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-119> a wc:Stadium ;
+    rdfs:label "Kobe Wing Stadium" ;
+    wc:capacity 42000 ;
+    wc:cityName "Kobe" ;
+    wc:countryName "Japan" ;
+    owl:sameAs <http://dbpedia.org/resource/Kobe_Wing_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Kobe_Wing_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-120> a wc:Stadium ;
+    rdfs:label "Miyagi Stadium" ;
+    wc:capacity 49000 ;
+    wc:cityName "Miyagi" ;
+    wc:countryName "Japan" ;
+    owl:sameAs <http://dbpedia.org/resource/Miyagi_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Miyagi_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-121> a wc:Stadium ;
+    rdfs:label "Niigata Stadium" ;
+    wc:capacity 42000 ;
+    wc:cityName "Niigata" ;
+    wc:countryName "Japan" ;
+    owl:sameAs <http://dbpedia.org/resource/Denka_Big_Swan_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Denka_Big_Swan_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-122> a wc:Stadium ;
+    rdfs:label "Ōita Stadium" ;
+    wc:capacity 43000 ;
+    wc:cityName "Ōita" ;
+    wc:countryName "Japan" ;
+    owl:sameAs <http://dbpedia.org/resource/Showa_Denko_Dome_Oita> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Showa_Denko_Dome_Oita> .
+
+<http://example.org/worldcup/resource/stadium/S-123> a wc:Stadium ;
+    rdfs:label "Nagai Stadium" ;
+    wc:capacity 50000 ;
+    wc:cityName "Osaka" ;
+    wc:countryName "Japan" ;
+    owl:sameAs <http://dbpedia.org/resource/Nagai_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Nagai_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-124> a wc:Stadium ;
+    rdfs:label "Saitama Stadium" ;
+    wc:capacity 63000 ;
+    wc:cityName "Saitama" ;
+    wc:countryName "Japan" ;
+    owl:sameAs <http://dbpedia.org/resource/Saitama_Stadium_2002> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Saitama_Stadium_2002> .
+
+<http://example.org/worldcup/resource/stadium/S-125> a wc:Stadium ;
+    rdfs:label "Sapporo Dome" ;
+    wc:capacity 42000 ;
+    wc:cityName "Sapporo" ;
+    wc:countryName "Japan" ;
+    owl:sameAs <http://dbpedia.org/resource/Sapporo_Dome> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Sapporo_Dome> .
+
+<http://example.org/worldcup/resource/stadium/S-126> a wc:Stadium ;
+    rdfs:label "Shizuoka Stadium ECOPA" ;
+    wc:capacity 51000 ;
+    wc:cityName "Shizuoka" ;
+    wc:countryName "Japan" ;
+    owl:sameAs <http://dbpedia.org/resource/Shizuoka_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Shizuoka_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-127> a wc:Stadium ;
+    rdfs:label "International Stadium Yokohama" ;
+    wc:capacity 72000 ;
+    wc:cityName "Yokohama" ;
+    wc:countryName "Japan" ;
+    owl:sameAs <http://dbpedia.org/resource/International_Stadium_Yokohama> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/International_Stadium_Yokohama> .
+
+<http://example.org/worldcup/resource/stadium/S-128> a wc:Stadium ;
+    rdfs:label "Estadio Jalisco" ;
+    wc:capacity 71000 ;
+    wc:cityName "Guadalajara" ;
+    wc:countryName "Mexico" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_Jalisco> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_Jalisco> .
+
+<http://example.org/worldcup/resource/stadium/S-129> a wc:Stadium ;
+    rdfs:label "Estadio Tres de Marzo" ;
+    wc:capacity 30000 ;
+    wc:cityName "Guadalajara" ;
+    wc:countryName "Mexico" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_Tres_de_Marzo> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_Tres_de_Marzo> .
+
+<http://example.org/worldcup/resource/stadium/S-130> a wc:Stadium ;
+    rdfs:label "Estadio Sergio León Chavez" ;
+    wc:capacity 31000 ;
+    wc:cityName "Irapuato" ;
+    wc:countryName "Mexico" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_Sergio_León_Chávez> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_Sergio_León_Chávez> .
+
+<http://example.org/worldcup/resource/stadium/S-131> a wc:Stadium ;
+    rdfs:label "Estadio Nou Camp" ;
+    wc:capacity 31000 ;
+    wc:cityName "León" ;
+    wc:countryName "Mexico" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_Nou_Camp> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_Nou_Camp> .
+
+<http://example.org/worldcup/resource/stadium/S-132> a wc:Stadium ;
+    rdfs:label "Estadio Azteca" ;
+    wc:capacity 115000 ;
+    wc:cityName "Mexico City" ;
+    wc:countryName "Mexico" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_Azteca> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_Azteca> .
+
+<http://example.org/worldcup/resource/stadium/S-133> a wc:Stadium ;
+    rdfs:label "Estadio Olímpico Universitario" ;
+    wc:capacity 72000 ;
+    wc:cityName "Mexico City" ;
+    wc:countryName "Mexico" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_Olímpico_Universitario> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_Ol%C3%ADmpico_Universitario> .
+
+<http://example.org/worldcup/resource/stadium/S-134> a wc:Stadium ;
+    rdfs:label "Estadio Tecnológico" ;
+    wc:capacity 34000 ;
+    wc:cityName "Monterrey" ;
+    wc:countryName "Mexico" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_Tecnológico> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_Tecnológico> .
+
+<http://example.org/worldcup/resource/stadium/S-135> a wc:Stadium ;
+    rdfs:label "Estadio Universitario" ;
+    wc:capacity 44000 ;
+    wc:cityName "Monterrey" ;
+    wc:countryName "Mexico" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_Universitario_(UANL)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_Universitario_(UANL)> .
+
+<http://example.org/worldcup/resource/stadium/S-136> a wc:Stadium ;
+    rdfs:label "Estadio Neza 86" ;
+    wc:capacity 35000 ;
+    wc:cityName "Nezahualcóyotl" ;
+    wc:countryName "Mexico" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_Neza_86> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_Neza_86> .
+
+<http://example.org/worldcup/resource/stadium/S-137> a wc:Stadium ;
+    rdfs:label "Estadio Cuauhtémoc" ;
+    wc:capacity 46000 ;
+    wc:cityName "Puebla" ;
+    wc:countryName "Mexico" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_Cuauhtémoc> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_Cuauhtémoc> .
+
+<http://example.org/worldcup/resource/stadium/S-138> a wc:Stadium ;
+    rdfs:label "Estadio La Corregidora" ;
+    wc:capacity 39000 ;
+    wc:cityName "Querétaro" ;
+    wc:countryName "Mexico" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_La_Corregidora> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_La_Corregidora> .
+
+<http://example.org/worldcup/resource/stadium/S-139> a wc:Stadium ;
+    rdfs:label "La Bombonera" ;
+    wc:capacity 33000 ;
+    wc:cityName "Toluca" ;
+    wc:countryName "Mexico" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_Nemesio_Díez> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_Nemesio_D%C3%ADez> .
+
+<http://example.org/worldcup/resource/stadium/S-140> a wc:Stadium ;
+    rdfs:label "Al Bayt Stadium" ;
+    wc:capacity 69000 ;
+    wc:cityName "Al Khor" ;
+    wc:countryName "Qatar" ;
+    owl:sameAs <http://dbpedia.org/resource/Al_Bayt_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Al_Bayt_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-141> a wc:Stadium ;
+    rdfs:label "Ahmad bin Ali Stadium" ;
+    wc:capacity 45000 ;
+    wc:cityName "Al Rayyan" ;
+    wc:countryName "Qatar" ;
+    owl:sameAs <http://dbpedia.org/resource/Ahmad_bin_Ali_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ahmad_bin_Ali_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-142> a wc:Stadium ;
+    rdfs:label "Education City Stadium" ;
+    wc:capacity 45000 ;
+    wc:cityName "Al Rayyan" ;
+    wc:countryName "Qatar" ;
+    owl:sameAs <http://dbpedia.org/resource/Education_City_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Education_City_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-143> a wc:Stadium ;
+    rdfs:label "Khalifa International Stadium" ;
+    wc:capacity 46000 ;
+    wc:cityName "Al Rayyan" ;
+    wc:countryName "Qatar" ;
+    owl:sameAs <http://dbpedia.org/resource/Khalifa_International_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Khalifa_International_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-144> a wc:Stadium ;
+    rdfs:label "Al Janoub Stadium" ;
+    wc:capacity 44000 ;
+    wc:cityName "Al Wakrah" ;
+    wc:countryName "Qatar" ;
+    owl:sameAs <http://dbpedia.org/resource/Al_Janoub_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Al_Janoub_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-145> a wc:Stadium ;
+    rdfs:label "Al Thumama Stadium" ;
+    wc:capacity 44000 ;
+    wc:cityName "Doha" ;
+    wc:countryName "Qatar" ;
+    owl:sameAs <http://dbpedia.org/resource/Al_Thumama_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Al_Thumama_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-146> a wc:Stadium ;
+    rdfs:label "Stadium 974" ;
+    wc:capacity 44000 ;
+    wc:cityName "Doha" ;
+    wc:countryName "Qatar" ;
+    owl:sameAs <http://dbpedia.org/resource/Stadium_974> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stadium_974> .
+
+<http://example.org/worldcup/resource/stadium/S-147> a wc:Stadium ;
+    rdfs:label "Lusail Stadium" ;
+    wc:capacity 89000 ;
+    wc:cityName "Lusail" ;
+    wc:countryName "Qatar" ;
+    owl:sameAs <http://dbpedia.org/resource/Lusail_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Lusail_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-148> a wc:Stadium ;
+    rdfs:label "Kaliningrad Stadium" ;
+    wc:capacity 34000 ;
+    wc:cityName "Kaliningrad" ;
+    wc:countryName "Russia" ;
+    owl:sameAs <http://dbpedia.org/resource/Kaliningrad_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Kaliningrad_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-149> a wc:Stadium ;
+    rdfs:label "Kazan Arena" ;
+    wc:capacity 43000 ;
+    wc:cityName "Kazan" ;
+    wc:countryName "Russia" ;
+    owl:sameAs <http://dbpedia.org/resource/Kazan_Arena> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Kazan_Arena> .
+
+<http://example.org/worldcup/resource/stadium/S-150> a wc:Stadium ;
+    rdfs:label "Luzhniki Stadium" ;
+    wc:capacity 78000 ;
+    wc:cityName "Moscow" ;
+    wc:countryName "Russia" ;
+    owl:sameAs <http://dbpedia.org/resource/Luzhniki_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Luzhniki_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-151> a wc:Stadium ;
+    rdfs:label "Otkritie Arena" ;
+    wc:capacity 44000 ;
+    wc:cityName "Moscow" ;
+    wc:countryName "Russia" ;
+    owl:sameAs <http://dbpedia.org/resource/Otkritie_Arena> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Otkritie_Arena> .
+
+<http://example.org/worldcup/resource/stadium/S-152> a wc:Stadium ;
+    rdfs:label "Nizhny Novgorod Stadium" ;
+    wc:capacity 43000 ;
+    wc:cityName "Nizhny Novgorod" ;
+    wc:countryName "Russia" ;
+    owl:sameAs <http://dbpedia.org/resource/Nizhny_Novgorod_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Nizhny_Novgorod_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-153> a wc:Stadium ;
+    rdfs:label "Rostov Arena" ;
+    wc:capacity 43000 ;
+    wc:cityName "Rostov-on-Don" ;
+    wc:countryName "Russia" ;
+    owl:sameAs <http://dbpedia.org/resource/Rostov_Arena> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Rostov_Arena> .
+
+<http://example.org/worldcup/resource/stadium/S-154> a wc:Stadium ;
+    rdfs:label "Krestovsky Stadium" ;
+    wc:capacity 64000 ;
+    wc:cityName "Saint Petersburg" ;
+    wc:countryName "Russia" ;
+    owl:sameAs <http://dbpedia.org/resource/Krestovsky_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Krestovsky_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-155> a wc:Stadium ;
+    rdfs:label "Samara Arena" ;
+    wc:capacity 42000 ;
+    wc:cityName "Samara" ;
+    wc:countryName "Russia" ;
+    owl:sameAs <http://dbpedia.org/resource/Samara_Arena> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Samara_Arena> .
+
+<http://example.org/worldcup/resource/stadium/S-156> a wc:Stadium ;
+    rdfs:label "Mordovia Arena" ;
+    wc:capacity 42000 ;
+    wc:cityName "Saransk" ;
+    wc:countryName "Russia" ;
+    owl:sameAs <http://dbpedia.org/resource/Mordovia_Arena> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Mordovia_Arena> .
+
+<http://example.org/worldcup/resource/stadium/S-157> a wc:Stadium ;
+    rdfs:label "Fisht Olympic Stadium" ;
+    wc:capacity 44000 ;
+    wc:cityName "Sochi" ;
+    wc:countryName "Russia" ;
+    owl:sameAs <http://dbpedia.org/resource/Fisht_Olympic_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Fisht_Olympic_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-158> a wc:Stadium ;
+    rdfs:label "Volgograd Arena" ;
+    wc:capacity 44000 ;
+    wc:cityName "Volgograd" ;
+    wc:countryName "Russia" ;
+    owl:sameAs <http://dbpedia.org/resource/Volgograd_Arena> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Volgograd_Arena> .
+
+<http://example.org/worldcup/resource/stadium/S-159> a wc:Stadium ;
+    rdfs:label "Central Stadium" ;
+    wc:capacity 33000 ;
+    wc:cityName "Yekaterinburg" ;
+    wc:countryName "Russia" ;
+    owl:sameAs <http://dbpedia.org/resource/Central_Stadium_(Yekaterinburg)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Central_Stadium_(Yekaterinburg)> .
+
+<http://example.org/worldcup/resource/stadium/S-160> a wc:Stadium ;
+    rdfs:label "Free State Stadium" ;
+    wc:capacity 41000 ;
+    wc:cityName "Bloemfontein" ;
+    wc:countryName "South Africa" ;
+    owl:sameAs <http://dbpedia.org/resource/Free_State_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Free_State_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-161> a wc:Stadium ;
+    rdfs:label "Cape Town Stadium" ;
+    wc:capacity 64000 ;
+    wc:cityName "Cape Town" ;
+    wc:countryName "South Africa" ;
+    owl:sameAs <http://dbpedia.org/resource/Cape_Town_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Cape_Town_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-162> a wc:Stadium ;
+    rdfs:label "Moses Mabhida Stadium" ;
+    wc:capacity 63000 ;
+    wc:cityName "Durban" ;
+    wc:countryName "South Africa" ;
+    owl:sameAs <http://dbpedia.org/resource/Moses_Mabhida_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Moses_Mabhida_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-163> a wc:Stadium ;
+    rdfs:label "Ellis Park Stadium" ;
+    wc:capacity 56000 ;
+    wc:cityName "Johannesburg" ;
+    wc:countryName "South Africa" ;
+    owl:sameAs <http://dbpedia.org/resource/Ellis_Park_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ellis_Park_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-164> a wc:Stadium ;
+    rdfs:label "Soccer City" ;
+    wc:capacity 84000 ;
+    wc:cityName "Johannesburg" ;
+    wc:countryName "South Africa" ;
+    owl:sameAs <http://dbpedia.org/resource/FNB_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/FNB_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-165> a wc:Stadium ;
+    rdfs:label "Mbombela Stadium" ;
+    wc:capacity 41000 ;
+    wc:cityName "Nelspruit" ;
+    wc:countryName "South Africa" ;
+    owl:sameAs <http://dbpedia.org/resource/Mbombela_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Mbombela_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-166> a wc:Stadium ;
+    rdfs:label "Peter Mokaba Stadium" ;
+    wc:capacity 42000 ;
+    wc:cityName "Polokwane" ;
+    wc:countryName "South Africa" ;
+    owl:sameAs <http://dbpedia.org/resource/Peter_Mokaba_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Peter_Mokaba_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-167> a wc:Stadium ;
+    rdfs:label "Nelson Mandela Bay Stadium" ;
+    wc:capacity 42000 ;
+    wc:cityName "Port Elizabeth" ;
+    wc:countryName "South Africa" ;
+    owl:sameAs <http://dbpedia.org/resource/Nelson_Mandela_Bay_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Nelson_Mandela_Bay_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-168> a wc:Stadium ;
+    rdfs:label "Loftus Versfeld Stadium" ;
+    wc:capacity 43000 ;
+    wc:cityName "Pretoria" ;
+    wc:countryName "South Africa" ;
+    owl:sameAs <http://dbpedia.org/resource/Loftus_Versfeld_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Loftus_Versfeld_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-169> a wc:Stadium ;
+    rdfs:label "Royal Bafokeng Stadium" ;
+    wc:capacity 42000 ;
+    wc:cityName "Rustenburg" ;
+    wc:countryName "South Africa" ;
+    owl:sameAs <http://dbpedia.org/resource/Royal_Bafokeng_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Royal_Bafokeng_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-170> a wc:Stadium ;
+    rdfs:label "Busan Asiad Stadium" ;
+    wc:capacity 56000 ;
+    wc:cityName "Busan" ;
+    wc:countryName "South Korea" ;
+    owl:sameAs <http://dbpedia.org/resource/Busan_Asiad_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Busan_Asiad_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-171> a wc:Stadium ;
+    rdfs:label "Daegu World Cup Stadium" ;
+    wc:capacity 68000 ;
+    wc:cityName "Daegu" ;
+    wc:countryName "South Korea" ;
+    owl:sameAs <http://dbpedia.org/resource/Daegu_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Daegu_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-172> a wc:Stadium ;
+    rdfs:label "Daejeon World Cup Stadium" ;
+    wc:capacity 40000 ;
+    wc:cityName "Daejeon" ;
+    wc:countryName "South Korea" ;
+    owl:sameAs <http://dbpedia.org/resource/Daejeon_World_Cup_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Daejeon_World_Cup_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-173> a wc:Stadium ;
+    rdfs:label "Gwangju World Cup Stadium" ;
+    wc:capacity 43000 ;
+    wc:cityName "Gwangju" ;
+    wc:countryName "South Korea" ;
+    owl:sameAs <http://dbpedia.org/resource/Gwangju_World_Cup_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Gwangju_World_Cup_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-174> a wc:Stadium ;
+    rdfs:label "Incheon Munhak Stadium" ;
+    wc:capacity 52000 ;
+    wc:cityName "Incheon" ;
+    wc:countryName "South Korea" ;
+    owl:sameAs <http://dbpedia.org/resource/Incheon_Munhak_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Incheon_Munhak_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-175> a wc:Stadium ;
+    rdfs:label "Jeonju World Cup Stadium" ;
+    wc:capacity 42000 ;
+    wc:cityName "Jeonju" ;
+    wc:countryName "South Korea" ;
+    owl:sameAs <http://dbpedia.org/resource/Jeonju_World_Cup_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jeonju_World_Cup_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-176> a wc:Stadium ;
+    rdfs:label "Jeju World Cup Stadium" ;
+    wc:capacity 42000 ;
+    wc:cityName "Seogwipo" ;
+    wc:countryName "South Korea" ;
+    owl:sameAs <http://dbpedia.org/resource/Jeju_World_Cup_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jeju_World_Cup_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-177> a wc:Stadium ;
+    rdfs:label "Seoul World Cup Stadium" ;
+    wc:capacity 64000 ;
+    wc:cityName "Seoul" ;
+    wc:countryName "South Korea" ;
+    owl:sameAs <http://dbpedia.org/resource/Seoul_World_Cup_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Seoul_World_Cup_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-178> a wc:Stadium ;
+    rdfs:label "Suwon World Cup Stadium" ;
+    wc:capacity 43000 ;
+    wc:cityName "Suwon" ;
+    wc:countryName "South Korea" ;
+    owl:sameAs <http://dbpedia.org/resource/Suwon_World_Cup_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Suwon_World_Cup_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-179> a wc:Stadium ;
+    rdfs:label "Ulsan Munsu Football Stadium" ;
+    wc:capacity 44000 ;
+    wc:cityName "Ulsan" ;
+    wc:countryName "South Korea" ;
+    owl:sameAs <http://dbpedia.org/resource/Ulsan_Munsu_Football_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ulsan_Munsu_Football_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-180> a wc:Stadium ;
+    rdfs:label "Estadio Riazor" ;
+    wc:capacity 34000 ;
+    wc:cityName "A Coruña" ;
+    wc:countryName "Spain" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_Riazor> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_Riazor> .
+
+<http://example.org/worldcup/resource/stadium/S-181> a wc:Stadium ;
+    rdfs:label "Estadio José Rico Pérez" ;
+    wc:capacity 33000 ;
+    wc:cityName "Alicante" ;
+    wc:countryName "Spain" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_José_Rico_Pérez> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_José_Rico_Pérez> .
+
+<http://example.org/worldcup/resource/stadium/S-182> a wc:Stadium ;
+    rdfs:label "Camp Nou" ;
+    wc:capacity 121000 ;
+    wc:cityName "Barcelona" ;
+    wc:countryName "Spain" ;
+    owl:sameAs <http://dbpedia.org/resource/Camp_Nou> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Camp_Nou> .
+
+<http://example.org/worldcup/resource/stadium/S-183> a wc:Stadium ;
+    rdfs:label "Estadi de Sarrià" ;
+    wc:capacity 40000 ;
+    wc:cityName "Barcelona" ;
+    wc:countryName "Spain" ;
+    owl:sameAs <http://dbpedia.org/resource/Sarrià_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Sarrià_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-184> a wc:Stadium ;
+    rdfs:label "Estadio San Mamés" ;
+    wc:capacity 46000 ;
+    wc:cityName "Bilbao" ;
+    wc:countryName "Spain" ;
+    owl:sameAs <http://dbpedia.org/resource/San_Mamés_Stadium_(1913)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/San_Mamés_Stadium_(1913)> .
+
+<http://example.org/worldcup/resource/stadium/S-185> a wc:Stadium ;
+    rdfs:label "Nuevo Estadio" ;
+    wc:capacity 53000 ;
+    wc:cityName "Elche" ;
+    wc:countryName "Spain" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_Manuel_Martínez_Valero> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_Manuel_Mart%C3%ADnez_Valero> .
+
+<http://example.org/worldcup/resource/stadium/S-186> a wc:Stadium ;
+    rdfs:label "Estadio El Molinón" ;
+    wc:capacity 45000 ;
+    wc:cityName "Gijón" ;
+    wc:countryName "Spain" ;
+    owl:sameAs <http://dbpedia.org/resource/El_Molinón> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/El_Molinón> .
+
+<http://example.org/worldcup/resource/stadium/S-187> a wc:Stadium ;
+    rdfs:label "Estadio Santiago Bernabéu" ;
+    wc:capacity 90000 ;
+    wc:cityName "Madrid" ;
+    wc:countryName "Spain" ;
+    owl:sameAs <http://dbpedia.org/resource/Santiago_Bernabéu_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Santiago_Bernabéu_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-188> a wc:Stadium ;
+    rdfs:label "Vicente Calderón" ;
+    wc:capacity 66000 ;
+    wc:cityName "Madrid" ;
+    wc:countryName "Spain" ;
+    owl:sameAs <http://dbpedia.org/resource/Vicente_Calderón_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Vicente_Calderón_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-189> a wc:Stadium ;
+    rdfs:label "Estadio La Rosaleda" ;
+    wc:capacity 45000 ;
+    wc:cityName "Málaga" ;
+    wc:countryName "Spain" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_La_Rosaleda> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_La_Rosaleda> .
+
+<http://example.org/worldcup/resource/stadium/S-190> a wc:Stadium ;
+    rdfs:label "Estadio Carlos Tartiere" ;
+    wc:capacity 24000 ;
+    wc:cityName "Oviedo" ;
+    wc:countryName "Spain" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_Carlos_Tartiere_(1932)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_Carlos_Tartiere_(1932)> .
+
+<http://example.org/worldcup/resource/stadium/S-191> a wc:Stadium ;
+    rdfs:label "Estadio Benito Villamarín" ;
+    wc:capacity 50000 ;
+    wc:cityName "Seville" ;
+    wc:countryName "Spain" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_Benito_Villamarín> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_Benito_Villamar%C3%ADn> .
+
+<http://example.org/worldcup/resource/stadium/S-192> a wc:Stadium ;
+    rdfs:label "Estadio Ramón Sánchez Pizjuán" ;
+    wc:capacity 68000 ;
+    wc:cityName "Seville" ;
+    wc:countryName "Spain" ;
+    owl:sameAs <http://dbpedia.org/resource/Ramón_Sánchez_Pizjuán_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ramón_Sánchez_Pizjuán_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-193> a wc:Stadium ;
+    rdfs:label "Estadio Luis Casanova" ;
+    wc:capacity 50000 ;
+    wc:cityName "Valencia" ;
+    wc:countryName "Spain" ;
+    owl:sameAs <http://dbpedia.org/resource/Mestalla_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Mestalla_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-194> a wc:Stadium ;
+    rdfs:label "Estadio José Zorrilla" ;
+    wc:capacity 30000 ;
+    wc:cityName "Valladolid" ;
+    wc:countryName "Spain" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_José_Zorrilla> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_José_Zorrilla> .
+
+<http://example.org/worldcup/resource/stadium/S-195> a wc:Stadium ;
+    rdfs:label "Balaídos" ;
+    wc:capacity 33000 ;
+    wc:cityName "Vigo" ;
+    wc:countryName "Spain" ;
+    owl:sameAs <http://dbpedia.org/resource/Balaídos> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Bala%C3%ADdos> .
+
+<http://example.org/worldcup/resource/stadium/S-196> a wc:Stadium ;
+    rdfs:label "Estadio La Romareda" ;
+    wc:capacity 42000 ;
+    wc:cityName "Zaragoza" ;
+    wc:countryName "Spain" ;
+    owl:sameAs <http://dbpedia.org/resource/La_Romareda> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/La_Romareda> .
+
+<http://example.org/worldcup/resource/stadium/S-197> a wc:Stadium ;
+    rdfs:label "Ryavallen" ;
+    wc:capacity 15000 ;
+    wc:cityName "Borås" ;
+    wc:countryName "Sweden" ;
+    owl:sameAs <http://dbpedia.org/resource/Ryavallen> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ryavallen> .
+
+<http://example.org/worldcup/resource/stadium/S-198> a wc:Stadium ;
+    rdfs:label "Tunavallen" ;
+    wc:capacity 22000 ;
+    wc:cityName "Eskilstuna" ;
+    wc:countryName "Sweden" ;
+    owl:sameAs <http://dbpedia.org/resource/Tunavallen> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Tunavallen> .
+
+<http://example.org/worldcup/resource/stadium/S-199> a wc:Stadium ;
+    rdfs:label "Strömvallen" ;
+    wc:capacity 7000 ;
+    wc:cityName "Gävle" ;
+    wc:countryName "Sweden" ;
+    owl:sameAs <http://dbpedia.org/resource/Strömvallen> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Strömvallen> .
+
+<http://example.org/worldcup/resource/stadium/S-200> a wc:Stadium ;
+    rdfs:label "Ullevi" ;
+    wc:capacity 54000 ;
+    wc:cityName "Gothenburg" ;
+    wc:countryName "Sweden" ;
+    owl:sameAs <http://dbpedia.org/resource/Ullevi> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ullevi> .
+
+<http://example.org/worldcup/resource/stadium/S-201> a wc:Stadium ;
+    rdfs:label "Örjans Vall" ;
+    wc:capacity 15000 ;
+    wc:cityName "Halmstad" ;
+    wc:countryName "Sweden" ;
+    owl:sameAs <http://dbpedia.org/resource/Örjans_Vall> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Örjans_Vall> .
+
+<http://example.org/worldcup/resource/stadium/S-202> a wc:Stadium ;
+    rdfs:label "Olympia" ;
+    wc:capacity 27000 ;
+    wc:cityName "Helsingborg" ;
+    wc:countryName "Sweden" ;
+    owl:sameAs <http://dbpedia.org/resource/Olympia_(Helsingborg)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Olympia_(Helsingborg)> .
+
+<http://example.org/worldcup/resource/stadium/S-203> a wc:Stadium ;
+    rdfs:label "Tingvalla IP" ;
+    wc:capacity 5000 ;
+    wc:cityName "Karlstad" ;
+    wc:countryName "Sweden" ;
+    owl:sameAs <http://dbpedia.org/resource/Tingvalla_IP> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Tingvalla_IP> .
+
+<http://example.org/worldcup/resource/stadium/S-204> a wc:Stadium ;
+    rdfs:label "Malmö Stadion" ;
+    wc:capacity 30000 ;
+    wc:cityName "Malmö" ;
+    wc:countryName "Sweden" ;
+    owl:sameAs <http://dbpedia.org/resource/Malmö_Stadion> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Malmö_Stadion> .
+
+<http://example.org/worldcup/resource/stadium/S-205> a wc:Stadium ;
+    rdfs:label "Idrottsparken" ;
+    wc:capacity 20000 ;
+    wc:cityName "Norrköping" ;
+    wc:countryName "Sweden" ;
+    owl:sameAs <http://dbpedia.org/resource/Nya_Parken> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Nya_Parken> .
+
+<http://example.org/worldcup/resource/stadium/S-206> a wc:Stadium ;
+    rdfs:label "Eyravallen" ;
+    wc:capacity 13000 ;
+    wc:cityName "Örebro" ;
+    wc:countryName "Sweden" ;
+    owl:sameAs <http://dbpedia.org/resource/Behrn_Arena> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Behrn_Arena> .
+
+<http://example.org/worldcup/resource/stadium/S-207> a wc:Stadium ;
+    rdfs:label "Jernvallen" ;
+    wc:capacity 20000 ;
+    wc:cityName "Sandviken" ;
+    wc:countryName "Sweden" ;
+    owl:sameAs <http://dbpedia.org/resource/Jernvallen> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jernvallen> .
+
+<http://example.org/worldcup/resource/stadium/S-208> a wc:Stadium ;
+    rdfs:label "Råsunda Stadium" ;
+    wc:capacity 52000 ;
+    wc:cityName "Solna" ;
+    wc:countryName "Sweden" ;
+    owl:sameAs <http://dbpedia.org/resource/Råsunda_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Råsunda_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-209> a wc:Stadium ;
+    rdfs:label "Rimnersvallen" ;
+    wc:capacity 18000 ;
+    wc:cityName "Uddevalla" ;
+    wc:countryName "Sweden" ;
+    owl:sameAs <http://dbpedia.org/resource/Rimnersvallen> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Rimnersvallen> .
+
+<http://example.org/worldcup/resource/stadium/S-210> a wc:Stadium ;
+    rdfs:label "Arosvallen" ;
+    wc:capacity 10000 ;
+    wc:cityName "Västerås" ;
+    wc:countryName "Sweden" ;
+    owl:sameAs <http://dbpedia.org/resource/Arosvallen> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Arosvallen> .
+
+<http://example.org/worldcup/resource/stadium/S-211> a wc:Stadium ;
+    rdfs:label "St. Jakob Stadium" ;
+    wc:capacity 55000 ;
+    wc:cityName "Basel" ;
+    wc:countryName "Switzerland" ;
+    owl:sameAs <http://dbpedia.org/resource/St._Jakob_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/St._Jakob_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-212> a wc:Stadium ;
+    rdfs:label "Wankdorf Stadium" ;
+    wc:capacity 65000 ;
+    wc:cityName "Bern" ;
+    wc:countryName "Switzerland" ;
+    owl:sameAs <http://dbpedia.org/resource/Wankdorf_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Wankdorf_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-213> a wc:Stadium ;
+    rdfs:label "Charmilles Stadium" ;
+    wc:capacity 36000 ;
+    wc:cityName "Geneva" ;
+    wc:countryName "Switzerland" ;
+    owl:sameAs <http://dbpedia.org/resource/Charmilles_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Charmilles_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-214> a wc:Stadium ;
+    rdfs:label "Stade Olympique de la Pontaise" ;
+    wc:capacity 50000 ;
+    wc:cityName "Lausanne" ;
+    wc:countryName "Switzerland" ;
+    owl:sameAs <http://dbpedia.org/resource/Stade_Olympique_de_la_Pontaise> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stade_Olympique_de_la_Pontaise> .
+
+<http://example.org/worldcup/resource/stadium/S-215> a wc:Stadium ;
+    rdfs:label "Cornaredo Stadium" ;
+    wc:capacity 36000 ;
+    wc:cityName "Lugano" ;
+    wc:countryName "Switzerland" ;
+    owl:sameAs <http://dbpedia.org/resource/Cornaredo_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Cornaredo_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-216> a wc:Stadium ;
+    rdfs:label "Hardturm Stadium" ;
+    wc:capacity 35000 ;
+    wc:cityName "Zürich" ;
+    wc:countryName "Switzerland" ;
+    owl:sameAs <http://dbpedia.org/resource/Hardturm> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Hardturm> .
+
+<http://example.org/worldcup/resource/stadium/S-217> a wc:Stadium ;
+    rdfs:label "Foxboro Stadium" ;
+    wc:capacity 59000 ;
+    wc:cityName "Boston" ;
+    wc:countryName "United States" ;
+    owl:sameAs <http://dbpedia.org/resource/Foxboro_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Foxboro_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-218> a wc:Stadium ;
+    rdfs:label "Home Depot Center" ;
+    wc:capacity 28000 ;
+    wc:cityName "Carson" ;
+    wc:countryName "United States" ;
+    owl:sameAs <http://dbpedia.org/resource/Dignity_Health_Sports_Park> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Dignity_Health_Sports_Park> .
+
+<http://example.org/worldcup/resource/stadium/S-219> a wc:Stadium ;
+    rdfs:label "Soldier Field" ;
+    wc:capacity 65000 ;
+    wc:cityName "Chicago" ;
+    wc:countryName "United States" ;
+    owl:sameAs <http://dbpedia.org/resource/Soldier_Field> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Soldier_Field> .
+
+<http://example.org/worldcup/resource/stadium/S-220> a wc:Stadium ;
+    rdfs:label "Columbus Crew Stadium" ;
+    wc:capacity 23000 ;
+    wc:cityName "Columbus" ;
+    wc:countryName "United States" ;
+    owl:sameAs <http://dbpedia.org/resource/Mapfre_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Mapfre_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-221> a wc:Stadium ;
+    rdfs:label "Cotton Bowl" ;
+    wc:capacity 64000 ;
+    wc:cityName "Dallas" ;
+    wc:countryName "United States" ;
+    owl:sameAs <http://dbpedia.org/resource/Cotton_Bowl_(stadium)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Cotton_Bowl_(stadium)> .
+
+<http://example.org/worldcup/resource/stadium/S-222> a wc:Stadium ;
+    rdfs:label "Giants Stadium" ;
+    wc:capacity 76000 ;
+    wc:cityName "East Rutherford" ;
+    wc:countryName "United States" ;
+    owl:sameAs <http://dbpedia.org/resource/Giants_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Giants_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-223> a wc:Stadium ;
+    rdfs:label "Foxboro Stadium" ;
+    wc:capacity 54000 ;
+    wc:cityName "Foxborough" ;
+    wc:countryName "United States" ;
+    owl:sameAs <http://dbpedia.org/resource/Foxboro_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Foxboro_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-224> a wc:Stadium ;
+    rdfs:label "Gillette Stadium" ;
+    wc:capacity 68000 ;
+    wc:cityName "Foxborough" ;
+    wc:countryName "United States" ;
+    owl:sameAs <http://dbpedia.org/resource/Gillette_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Gillette_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-225> a wc:Stadium ;
+    rdfs:label "Rose Bowl" ;
+    wc:capacity 96000 ;
+    wc:cityName "Los Angeles" ;
+    wc:countryName "United States" ;
+    owl:sameAs <http://dbpedia.org/resource/Rose_Bowl_(stadium)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Rose_Bowl_(stadium)> .
+
+<http://example.org/worldcup/resource/stadium/S-226> a wc:Stadium ;
+    rdfs:label "Giants Stadium" ;
+    wc:capacity 78000 ;
+    wc:cityName "New York City" ;
+    wc:countryName "United States" ;
+    owl:sameAs <http://dbpedia.org/resource/Giants_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Giants_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-227> a wc:Stadium ;
+    rdfs:label "Citrus Bowl" ;
+    wc:capacity 62000 ;
+    wc:cityName "Orlando" ;
+    wc:countryName "United States" ;
+    owl:sameAs <http://dbpedia.org/resource/Citrus_Bowl_(stadium)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Citrus_Bowl_(stadium)> .
+
+<http://example.org/worldcup/resource/stadium/S-228> a wc:Stadium ;
+    rdfs:label "Rose Bowl" ;
+    wc:capacity 94000 ;
+    wc:cityName "Pasadena" ;
+    wc:countryName "United States" ;
+    owl:sameAs <http://dbpedia.org/resource/Rose_Bowl_(stadium)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Rose_Bowl_(stadium)> .
+
+<http://example.org/worldcup/resource/stadium/S-229> a wc:Stadium ;
+    rdfs:label "Lincoln Financial Field" ;
+    wc:capacity 70000 ;
+    wc:cityName "Philadelphia" ;
+    wc:countryName "United States" ;
+    owl:sameAs <http://dbpedia.org/resource/Lincoln_Financial_Field> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Lincoln_Financial_Field> .
+
+<http://example.org/worldcup/resource/stadium/S-230> a wc:Stadium ;
+    rdfs:label "Pontiac Silverdome" ;
+    wc:capacity 78000 ;
+    wc:cityName "Pontiac" ;
+    wc:countryName "United States" ;
+    owl:sameAs <http://dbpedia.org/resource/Pontiac_Silverdome> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Pontiac_Silverdome> .
+
+<http://example.org/worldcup/resource/stadium/S-231> a wc:Stadium ;
+    rdfs:label "Civic Stadium" ;
+    wc:capacity 27000 ;
+    wc:cityName "Portland" ;
+    wc:countryName "United States" ;
+    owl:sameAs <http://dbpedia.org/resource/Civic_Stadium_(Portland,_Oregon)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Civic_Stadium_(Portland,_Oregon)> .
+
+<http://example.org/worldcup/resource/stadium/S-232> a wc:Stadium ;
+    rdfs:label "PGE Park" ;
+    wc:capacity 28000 ;
+    wc:cityName "Portland" ;
+    wc:countryName "United States" ;
+    owl:sameAs <http://dbpedia.org/resource/Providence_Park> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Providence_Park> .
+
+<http://example.org/worldcup/resource/stadium/S-233> a wc:Stadium ;
+    rdfs:label "Stanford Stadium" ;
+    wc:capacity 85000 ;
+    wc:cityName "San Fransisco" ;
+    wc:countryName "United States" ;
+    owl:sameAs <http://dbpedia.org/resource/Stanford_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stanford_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-234> a wc:Stadium ;
+    rdfs:label "Spartan Stadium" ;
+    wc:capacity 26000 ;
+    wc:cityName "San Jose" ;
+    wc:countryName "United States" ;
+    owl:sameAs <http://dbpedia.org/resource/Spartan_Stadium_(San_Jose)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Spartan_Stadium_(San_Jose)> .
+
+<http://example.org/worldcup/resource/stadium/S-235> a wc:Stadium ;
+    rdfs:label "Stanford Stadium" ;
+    wc:capacity 84000 ;
+    wc:cityName "Stanford" ;
+    wc:countryName "United States" ;
+    owl:sameAs <http://dbpedia.org/resource/Stanford_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stanford_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-236> a wc:Stadium ;
+    rdfs:label "Jack Kent Cooke Stadium" ;
+    wc:capacity 80000 ;
+    wc:cityName "Washington, D.C." ;
+    wc:countryName "United States" ;
+    owl:sameAs <http://dbpedia.org/resource/Jack_Kent_Cooke_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jack_Kent_Cooke_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-237> a wc:Stadium ;
+    rdfs:label "RFK Stadium" ;
+    wc:capacity 53000 ;
+    wc:cityName "Washington, D.C." ;
+    wc:countryName "United States" ;
+    owl:sameAs <http://dbpedia.org/resource/Robert_F._Kennedy_Memorial_Stadium> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Robert_F._Kennedy_Memorial_Stadium> .
+
+<http://example.org/worldcup/resource/stadium/S-238> a wc:Stadium ;
+    rdfs:label "Estadio Centenario" ;
+    wc:capacity 90000 ;
+    wc:cityName "Montevideo" ;
+    wc:countryName "Uruguay" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_Centenario> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_Centenario> .
+
+<http://example.org/worldcup/resource/stadium/S-239> a wc:Stadium ;
+    rdfs:label "Estadio Gran Parque Central" ;
+    wc:capacity 20000 ;
+    wc:cityName "Montevideo" ;
+    wc:countryName "Uruguay" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_Gran_Parque_Central> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_Gran_Parque_Central> .
+
+<http://example.org/worldcup/resource/stadium/S-240> a wc:Stadium ;
+    rdfs:label "Estadio Pocitos" ;
+    wc:capacity 10000 ;
+    wc:cityName "Montevideo" ;
+    wc:countryName "Uruguay" ;
+    owl:sameAs <http://dbpedia.org/resource/Estadio_Pocitos> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Estadio_Pocitos> .
+

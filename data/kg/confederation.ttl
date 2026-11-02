@@ -1,0 +1,41 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wc: <http://example.org/worldcup/ontology#> .
+
+<http://example.org/worldcup/resource/confederation/CF-1> a wc:Confederation ;
+    rdfs:label "Asian Football Confederation" ;
+    wc:confederationCode "AFC" ;
+    owl:sameAs <http://dbpedia.org/resource/Asian_Football_Confederation> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Asian_Football_Confederation> .
+
+<http://example.org/worldcup/resource/confederation/CF-2> a wc:Confederation ;
+    rdfs:label "Confederation of African Football" ;
+    wc:confederationCode "CAF" ;
+    owl:sameAs <http://dbpedia.org/resource/Confederation_of_African_Football> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Confederation_of_African_Football> .
+
+<http://example.org/worldcup/resource/confederation/CF-3> a wc:Confederation ;
+    rdfs:label "Confederation of North, Central American and Caribbean Association Football" ;
+    wc:confederationCode "CONCACAF" ;
+    owl:sameAs <http://dbpedia.org/resource/CONCACAF> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/CONCACAF> .
+
+<http://example.org/worldcup/resource/confederation/CF-4> a wc:Confederation ;
+    rdfs:label "South American Football Confederation" ;
+    wc:confederationCode "CONMEBOL" ;
+    owl:sameAs <http://dbpedia.org/resource/CONMEBOL> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/CONMEBOL> .
+
+<http://example.org/worldcup/resource/confederation/CF-5> a wc:Confederation ;
+    rdfs:label "Oceania Football Confederation" ;
+    wc:confederationCode "OFC" ;
+    owl:sameAs <http://dbpedia.org/resource/Oceania_Football_Confederation> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Oceania_Football_Confederation> .
+
+<http://example.org/worldcup/resource/confederation/CF-6> a wc:Confederation ;
+    rdfs:label "Union of European Football Associations" ;
+    wc:confederationCode "UEFA" ;
+    owl:sameAs <http://dbpedia.org/resource/UEFA> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/UEFA> .
+

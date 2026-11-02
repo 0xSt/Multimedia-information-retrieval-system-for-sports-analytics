@@ -1,0 +1,48 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wc: <http://example.org/worldcup/ontology#> .
+
+<http://example.org/worldcup/resource/brand/adidas> a wc:Brand ;
+    rdfs:label "Adidas" .
+
+<http://example.org/worldcup/resource/brand/asics> a wc:Brand ;
+    rdfs:label "Asics" .
+
+<http://example.org/worldcup/resource/brand/charly> a wc:Brand ;
+    rdfs:label "Charly" .
+
+<http://example.org/worldcup/resource/brand/hummel> a wc:Brand ;
+    rdfs:label "Hummel" .
+
+<http://example.org/worldcup/resource/brand/kappa> a wc:Brand ;
+    rdfs:label "Kappa" .
+
+<http://example.org/worldcup/resource/brand/lotto> a wc:Brand ;
+    rdfs:label "Lotto" .
+
+<http://example.org/worldcup/resource/brand/majid> a wc:Brand ;
+    rdfs:label "Majid" .
+
+<http://example.org/worldcup/resource/brand/marathon> a wc:Brand ;
+    rdfs:label "Marathon" .
+
+<http://example.org/worldcup/resource/brand/mizuno> a wc:Brand ;
+    rdfs:label "Mizuno" .
+
+<http://example.org/worldcup/resource/brand/new-balance> a wc:Brand ;
+    rdfs:label "New Balance" .
+
+<http://example.org/worldcup/resource/brand/nike> a wc:Brand ;
+    rdfs:label "Nike" .
+
+<http://example.org/worldcup/resource/brand/one-all-sports> a wc:Brand ;
+    rdfs:label "One All Sports" .
+
+<http://example.org/worldcup/resource/brand/puma> a wc:Brand ;
+    rdfs:label "Puma" .
+
+<http://example.org/worldcup/resource/brand/umbro> a wc:Brand ;
+    rdfs:label "Umbro" .
+
+<http://example.org/worldcup/resource/brand/under-armour> a wc:Brand ;
+    rdfs:label "Under Armour" .
+

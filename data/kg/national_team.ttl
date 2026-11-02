@@ -1,0 +1,851 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wc: <http://example.org/worldcup/ontology#> .
+
+<http://example.org/worldcup/resource/nationalteam/T-01/men> a wc:NationalTeam ;
+    rdfs:label "Algeria (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-01> ;
+    owl:sameAs <http://dbpedia.org/resource/Algeria_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Algeria_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-02/men> a wc:NationalTeam ;
+    rdfs:label "Angola (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-02> ;
+    owl:sameAs <http://dbpedia.org/resource/Angola_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Angola_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-03/men> a wc:NationalTeam ;
+    rdfs:label "Argentina (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-03> ;
+    owl:sameAs <http://dbpedia.org/resource/Argentina_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Argentina_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-03/women> a wc:NationalTeam ;
+    rdfs:label "Argentina (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-03> ;
+    owl:sameAs <http://dbpedia.org/resource/Argentina_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Argentina_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-04/men> a wc:NationalTeam ;
+    rdfs:label "Australia (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-04> ;
+    owl:sameAs <http://dbpedia.org/resource/Australia_men's_national_soccer_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Australia_men%27s_national_soccer_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-04/women> a wc:NationalTeam ;
+    rdfs:label "Australia (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-04> ;
+    owl:sameAs <http://dbpedia.org/resource/Australia_women's_national_soccer_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Australia_women's_national_soccer_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-05/men> a wc:NationalTeam ;
+    rdfs:label "Austria (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-05> ;
+    owl:sameAs <http://dbpedia.org/resource/Austria_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Austria_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-06/men> a wc:NationalTeam ;
+    rdfs:label "Belgium (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-06> ;
+    owl:sameAs <http://dbpedia.org/resource/Belgium_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Belgium_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-07/men> a wc:NationalTeam ;
+    rdfs:label "Bolivia (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-07> ;
+    owl:sameAs <http://dbpedia.org/resource/Bolivia_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Bolivia_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-08/men> a wc:NationalTeam ;
+    rdfs:label "Bosnia and Herzegovina (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-08> ;
+    owl:sameAs <http://dbpedia.org/resource/Bosnia_and_Herzegovina_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-09/men> a wc:NationalTeam ;
+    rdfs:label "Brazil (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-09> ;
+    owl:sameAs <http://dbpedia.org/resource/Brazil_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Brazil_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-09/women> a wc:NationalTeam ;
+    rdfs:label "Brazil (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-09> ;
+    owl:sameAs <http://dbpedia.org/resource/Brazil_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Brazil_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-10/men> a wc:NationalTeam ;
+    rdfs:label "Bulgaria (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-10> ;
+    owl:sameAs <http://dbpedia.org/resource/Bulgaria_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Bulgaria_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-11/men> a wc:NationalTeam ;
+    rdfs:label "Cameroon (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-11> ;
+    owl:sameAs <http://dbpedia.org/resource/Cameroon_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Cameroon_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-11/women> a wc:NationalTeam ;
+    rdfs:label "Cameroon (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-11> ;
+    owl:sameAs <http://dbpedia.org/resource/Cameroon_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Cameroon_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-12/men> a wc:NationalTeam ;
+    rdfs:label "Canada (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-12> ;
+    owl:sameAs <http://dbpedia.org/resource/Canada_men's_national_soccer_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Canada_men%27s_national_soccer_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-12/women> a wc:NationalTeam ;
+    rdfs:label "Canada (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-12> ;
+    owl:sameAs <http://dbpedia.org/resource/Canada_women's_national_soccer_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Canada_women's_national_soccer_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-13/men> a wc:NationalTeam ;
+    rdfs:label "Chile (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-13> ;
+    owl:sameAs <http://dbpedia.org/resource/Chile_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Chile_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-13/women> a wc:NationalTeam ;
+    rdfs:label "Chile (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-13> ;
+    owl:sameAs <http://dbpedia.org/resource/Chile_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Chile_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-14/men> a wc:NationalTeam ;
+    rdfs:label "China (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-14> ;
+    owl:sameAs <http://dbpedia.org/resource/China_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/China_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-14/women> a wc:NationalTeam ;
+    rdfs:label "China (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-14> ;
+    owl:sameAs <http://dbpedia.org/resource/China_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/China_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-15/women> a wc:NationalTeam ;
+    rdfs:label "Chinese Taipei (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-15> ;
+    owl:sameAs <http://dbpedia.org/resource/Chinese_Taipei_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Chinese_Taipei_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-16/men> a wc:NationalTeam ;
+    rdfs:label "Colombia (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-16> ;
+    owl:sameAs <http://dbpedia.org/resource/Colombia_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Colombia_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-16/women> a wc:NationalTeam ;
+    rdfs:label "Colombia (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-16> ;
+    owl:sameAs <http://dbpedia.org/resource/Colombia_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Colombia_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-17/men> a wc:NationalTeam ;
+    rdfs:label "Costa Rica (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-17> ;
+    owl:sameAs <http://dbpedia.org/resource/Costa_Rica_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Costa_Rica_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-17/women> a wc:NationalTeam ;
+    rdfs:label "Costa Rica (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-17> ;
+    owl:sameAs <http://dbpedia.org/resource/Costa_Rica_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Costa_Rica_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-18/men> a wc:NationalTeam ;
+    rdfs:label "Croatia (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-18> ;
+    owl:sameAs <http://dbpedia.org/resource/Croatia_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Croatia_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-19/men> a wc:NationalTeam ;
+    rdfs:label "Cuba (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-19> ;
+    owl:sameAs <http://dbpedia.org/resource/Cuba_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Cuba_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-20/men> a wc:NationalTeam ;
+    rdfs:label "Czech Republic (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-20> ;
+    owl:sameAs <http://dbpedia.org/resource/Czech_Republic_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Czech_Republic_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-21/men> a wc:NationalTeam ;
+    rdfs:label "Czechoslovakia (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-21> ;
+    owl:sameAs <http://dbpedia.org/resource/Czechoslovakia_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Czechoslovakia_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-22/men> a wc:NationalTeam ;
+    rdfs:label "Denmark (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-22> ;
+    owl:sameAs <http://dbpedia.org/resource/Denmark_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Denmark_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-22/women> a wc:NationalTeam ;
+    rdfs:label "Denmark (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-22> ;
+    owl:sameAs <http://dbpedia.org/resource/Denmark_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Denmark_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-23/men> a wc:NationalTeam ;
+    rdfs:label "Dutch East Indies (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-23> ;
+    owl:sameAs <http://dbpedia.org/resource/Indonesia_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Indonesia_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-24/men> a wc:NationalTeam ;
+    rdfs:label "East Germany (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-24> ;
+    owl:sameAs <http://dbpedia.org/resource/East_Germany_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/East_Germany_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-25/men> a wc:NationalTeam ;
+    rdfs:label "Ecuador (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-25> ;
+    owl:sameAs <http://dbpedia.org/resource/Ecuador_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ecuador_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-25/women> a wc:NationalTeam ;
+    rdfs:label "Ecuador (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-25> ;
+    owl:sameAs <http://dbpedia.org/resource/Ecuador_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ecuador_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-26/men> a wc:NationalTeam ;
+    rdfs:label "Egypt (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-26> ;
+    owl:sameAs <http://dbpedia.org/resource/Egypt_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Egypt_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-27/men> a wc:NationalTeam ;
+    rdfs:label "El Salvador (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-27> ;
+    owl:sameAs <http://dbpedia.org/resource/El_Salvador_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/El_Salvador_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-28/men> a wc:NationalTeam ;
+    rdfs:label "England (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-28> ;
+    owl:sameAs <http://dbpedia.org/resource/England_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/England_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-28/women> a wc:NationalTeam ;
+    rdfs:label "England (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-28> ;
+    owl:sameAs <http://dbpedia.org/resource/England_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/England_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-29/women> a wc:NationalTeam ;
+    rdfs:label "Equatorial Guinea (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-29> ;
+    owl:sameAs <http://dbpedia.org/resource/Equatorial_Guinea_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Equatorial_Guinea_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-30/men> a wc:NationalTeam ;
+    rdfs:label "France (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-30> ;
+    owl:sameAs <http://dbpedia.org/resource/France_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/France_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-30/women> a wc:NationalTeam ;
+    rdfs:label "France (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-30> ;
+    owl:sameAs <http://dbpedia.org/resource/France_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/France_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-31/men> a wc:NationalTeam ;
+    rdfs:label "Germany (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-31> ;
+    owl:sameAs <http://dbpedia.org/resource/Germany_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Germany_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-31/women> a wc:NationalTeam ;
+    rdfs:label "Germany (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-31> ;
+    owl:sameAs <http://dbpedia.org/resource/Germany_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Germany_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-32/men> a wc:NationalTeam ;
+    rdfs:label "Ghana (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-32> ;
+    owl:sameAs <http://dbpedia.org/resource/Ghana_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ghana_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-32/women> a wc:NationalTeam ;
+    rdfs:label "Ghana (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-32> ;
+    owl:sameAs <http://dbpedia.org/resource/Ghana_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ghana_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-33/men> a wc:NationalTeam ;
+    rdfs:label "Greece (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-33> ;
+    owl:sameAs <http://dbpedia.org/resource/Greece_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Greece_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-34/men> a wc:NationalTeam ;
+    rdfs:label "Haiti (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-34> ;
+    owl:sameAs <http://dbpedia.org/resource/Haiti_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Haiti_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-35/men> a wc:NationalTeam ;
+    rdfs:label "Honduras (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-35> ;
+    owl:sameAs <http://dbpedia.org/resource/Honduras_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Honduras_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-36/men> a wc:NationalTeam ;
+    rdfs:label "Hungary (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-36> ;
+    owl:sameAs <http://dbpedia.org/resource/Hungary_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Hungary_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-37/men> a wc:NationalTeam ;
+    rdfs:label "Iceland (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-37> ;
+    owl:sameAs <http://dbpedia.org/resource/Iceland_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Iceland_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-38/men> a wc:NationalTeam ;
+    rdfs:label "Iran (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-38> ;
+    owl:sameAs <http://dbpedia.org/resource/Iran_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Iran_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-39/men> a wc:NationalTeam ;
+    rdfs:label "Iraq (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-39> ;
+    owl:sameAs <http://dbpedia.org/resource/Iraq_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Iraq_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-40/men> a wc:NationalTeam ;
+    rdfs:label "Israel (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-40> ;
+    owl:sameAs <http://dbpedia.org/resource/Israel_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Israel_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-41/men> a wc:NationalTeam ;
+    rdfs:label "Italy (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-41> ;
+    owl:sameAs <http://dbpedia.org/resource/Italy_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Italy_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-41/women> a wc:NationalTeam ;
+    rdfs:label "Italy (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-41> ;
+    owl:sameAs <http://dbpedia.org/resource/Italy_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Italy_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-42/men> a wc:NationalTeam ;
+    rdfs:label "Ivory Coast (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-42> ;
+    owl:sameAs <http://dbpedia.org/resource/Ivory_Coast_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ivory_Coast_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-42/women> a wc:NationalTeam ;
+    rdfs:label "Ivory Coast (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-42> ;
+    owl:sameAs <http://dbpedia.org/resource/Ivory_Coast_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ivory_Coast_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-43/men> a wc:NationalTeam ;
+    rdfs:label "Jamaica (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-43> ;
+    owl:sameAs <http://dbpedia.org/resource/Jamaica_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jamaica_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-43/women> a wc:NationalTeam ;
+    rdfs:label "Jamaica (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-43> ;
+    owl:sameAs <http://dbpedia.org/resource/Jamaica_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jamaica_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-44/men> a wc:NationalTeam ;
+    rdfs:label "Japan (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-44> ;
+    owl:sameAs <http://dbpedia.org/resource/Japan_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Japan_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-44/women> a wc:NationalTeam ;
+    rdfs:label "Japan (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-44> ;
+    owl:sameAs <http://dbpedia.org/resource/Japan_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Japan_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-45/men> a wc:NationalTeam ;
+    rdfs:label "Kuwait (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-45> ;
+    owl:sameAs <http://dbpedia.org/resource/Kuwait_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Kuwait_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-46/men> a wc:NationalTeam ;
+    rdfs:label "Mexico (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-46> ;
+    owl:sameAs <http://dbpedia.org/resource/Mexico_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Mexico_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-46/women> a wc:NationalTeam ;
+    rdfs:label "Mexico (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-46> ;
+    owl:sameAs <http://dbpedia.org/resource/Mexico_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Mexico_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-47/men> a wc:NationalTeam ;
+    rdfs:label "Morocco (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-47> ;
+    owl:sameAs <http://dbpedia.org/resource/Morocco_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Morocco_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-48/men> a wc:NationalTeam ;
+    rdfs:label "Netherlands (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-48> ;
+    owl:sameAs <http://dbpedia.org/resource/Netherlands_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Netherlands_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-48/women> a wc:NationalTeam ;
+    rdfs:label "Netherlands (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-48> ;
+    owl:sameAs <http://dbpedia.org/resource/Netherlands_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Netherlands_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-49/men> a wc:NationalTeam ;
+    rdfs:label "New Zealand (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-49> ;
+    owl:sameAs <http://dbpedia.org/resource/New_Zealand_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/New_Zealand_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-49/women> a wc:NationalTeam ;
+    rdfs:label "New Zealand (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-49> ;
+    owl:sameAs <http://dbpedia.org/resource/New_Zealand_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/New_Zealand_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-50/men> a wc:NationalTeam ;
+    rdfs:label "Nigeria (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-50> ;
+    owl:sameAs <http://dbpedia.org/resource/Nigeria_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Nigeria_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-50/women> a wc:NationalTeam ;
+    rdfs:label "Nigeria (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-50> ;
+    owl:sameAs <http://dbpedia.org/resource/Nigeria_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Nigeria_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-51/men> a wc:NationalTeam ;
+    rdfs:label "North Korea (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-51> ;
+    owl:sameAs <http://dbpedia.org/resource/North_Korea_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/North_Korea_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-51/women> a wc:NationalTeam ;
+    rdfs:label "North Korea (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-51> ;
+    owl:sameAs <http://dbpedia.org/resource/North_Korea_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/North_Korea_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-52/men> a wc:NationalTeam ;
+    rdfs:label "Northern Ireland (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-52> ;
+    owl:sameAs <http://dbpedia.org/resource/Northern_Ireland_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Northern_Ireland_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-53/men> a wc:NationalTeam ;
+    rdfs:label "Norway (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-53> ;
+    owl:sameAs <http://dbpedia.org/resource/Norway_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Norway_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-53/women> a wc:NationalTeam ;
+    rdfs:label "Norway (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-53> ;
+    owl:sameAs <http://dbpedia.org/resource/Norway_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Norway_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-54/men> a wc:NationalTeam ;
+    rdfs:label "Panama (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-54> ;
+    owl:sameAs <http://dbpedia.org/resource/Panama_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Panama_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-55/men> a wc:NationalTeam ;
+    rdfs:label "Paraguay (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-55> ;
+    owl:sameAs <http://dbpedia.org/resource/Paraguay_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Paraguay_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-56/men> a wc:NationalTeam ;
+    rdfs:label "Peru (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-56> ;
+    owl:sameAs <http://dbpedia.org/resource/Peru_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Peru_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-57/men> a wc:NationalTeam ;
+    rdfs:label "Poland (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-57> ;
+    owl:sameAs <http://dbpedia.org/resource/Poland_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Poland_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-58/men> a wc:NationalTeam ;
+    rdfs:label "Portugal (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-58> ;
+    owl:sameAs <http://dbpedia.org/resource/Portugal_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Portugal_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-59/men> a wc:NationalTeam ;
+    rdfs:label "Qatar (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-59> ;
+    owl:sameAs <http://dbpedia.org/resource/Qatar_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Qatar_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-60/men> a wc:NationalTeam ;
+    rdfs:label "Republic of Ireland (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-60> ;
+    owl:sameAs <http://dbpedia.org/resource/Republic_of_Ireland_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Republic_of_Ireland_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-61/men> a wc:NationalTeam ;
+    rdfs:label "Romania (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-61> ;
+    owl:sameAs <http://dbpedia.org/resource/Romania_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Romania_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-62/men> a wc:NationalTeam ;
+    rdfs:label "Russia (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-62> ;
+    owl:sameAs <http://dbpedia.org/resource/Russia_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Russia_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-62/women> a wc:NationalTeam ;
+    rdfs:label "Russia (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-62> ;
+    owl:sameAs <http://dbpedia.org/resource/Russia_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Russia_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-63/men> a wc:NationalTeam ;
+    rdfs:label "Saudi Arabia (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-63> ;
+    owl:sameAs <http://dbpedia.org/resource/Saudi_Arabia_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Saudi_Arabia_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-64/men> a wc:NationalTeam ;
+    rdfs:label "Scotland (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-64> ;
+    owl:sameAs <http://dbpedia.org/resource/Scotland_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Scotland_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-64/women> a wc:NationalTeam ;
+    rdfs:label "Scotland (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-64> ;
+    owl:sameAs <http://dbpedia.org/resource/Scotland_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Scotland_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-65/men> a wc:NationalTeam ;
+    rdfs:label "Senegal (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-65> ;
+    owl:sameAs <http://dbpedia.org/resource/Senegal_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Senegal_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-66/men> a wc:NationalTeam ;
+    rdfs:label "Serbia (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-66> ;
+    owl:sameAs <http://dbpedia.org/resource/Serbia_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Serbia_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-67/men> a wc:NationalTeam ;
+    rdfs:label "Serbia and Montenegro (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-67> ;
+    owl:sameAs <http://dbpedia.org/resource/Serbia_and_Montenegro_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Serbia_and_Montenegro_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-68/men> a wc:NationalTeam ;
+    rdfs:label "Slovakia (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-68> ;
+    owl:sameAs <http://dbpedia.org/resource/Slovakia_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Slovakia_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-69/men> a wc:NationalTeam ;
+    rdfs:label "Slovenia (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-69> ;
+    owl:sameAs <http://dbpedia.org/resource/Slovenia_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Slovenia_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-70/men> a wc:NationalTeam ;
+    rdfs:label "South Africa (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-70> ;
+    owl:sameAs <http://dbpedia.org/resource/South_Africa_national_soccer_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/South_Africa_national_soccer_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-70/women> a wc:NationalTeam ;
+    rdfs:label "South Africa (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-70> ;
+    owl:sameAs <http://dbpedia.org/resource/South_Africa_women's_national_soccer_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/South_Africa_women's_national_soccer_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-71/men> a wc:NationalTeam ;
+    rdfs:label "South Korea (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-71> ;
+    owl:sameAs <http://dbpedia.org/resource/South_Korea_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/South_Korea_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-71/women> a wc:NationalTeam ;
+    rdfs:label "South Korea (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-71> ;
+    owl:sameAs <http://dbpedia.org/resource/South_Korea_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/South_Korea_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-72/men> a wc:NationalTeam ;
+    rdfs:label "Soviet Union (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-72> ;
+    owl:sameAs <http://dbpedia.org/resource/Soviet_Union_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Soviet_Union_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-73/men> a wc:NationalTeam ;
+    rdfs:label "Spain (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-73> ;
+    owl:sameAs <http://dbpedia.org/resource/Spain_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Spain_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-73/women> a wc:NationalTeam ;
+    rdfs:label "Spain (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-73> ;
+    owl:sameAs <http://dbpedia.org/resource/Spain_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Spain_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-74/men> a wc:NationalTeam ;
+    rdfs:label "Sweden (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-74> ;
+    owl:sameAs <http://dbpedia.org/resource/Sweden_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Sweden_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-74/women> a wc:NationalTeam ;
+    rdfs:label "Sweden (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-74> ;
+    owl:sameAs <http://dbpedia.org/resource/Sweden_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Sweden_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-75/men> a wc:NationalTeam ;
+    rdfs:label "Switzerland (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-75> ;
+    owl:sameAs <http://dbpedia.org/resource/Switzerland_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Switzerland_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-75/women> a wc:NationalTeam ;
+    rdfs:label "Switzerland (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-75> ;
+    owl:sameAs <http://dbpedia.org/resource/Switzerland_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Switzerland_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-76/women> a wc:NationalTeam ;
+    rdfs:label "Thailand (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-76> ;
+    owl:sameAs <http://dbpedia.org/resource/Thailand_women's_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Thailand_women's_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-77/men> a wc:NationalTeam ;
+    rdfs:label "Togo (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-77> ;
+    owl:sameAs <http://dbpedia.org/resource/Togo_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Togo_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-78/men> a wc:NationalTeam ;
+    rdfs:label "Trinidad and Tobago (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-78> ;
+    owl:sameAs <http://dbpedia.org/resource/Trinidad_and_Tobago_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Trinidad_and_Tobago_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-79/men> a wc:NationalTeam ;
+    rdfs:label "Tunisia (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-79> ;
+    owl:sameAs <http://dbpedia.org/resource/Tunisia_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Tunisia_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-80/men> a wc:NationalTeam ;
+    rdfs:label "Turkey (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-80> ;
+    owl:sameAs <http://dbpedia.org/resource/Turkey_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Turkey_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-81/men> a wc:NationalTeam ;
+    rdfs:label "Ukraine (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-81> ;
+    owl:sameAs <http://dbpedia.org/resource/Ukraine_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ukraine_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-82/men> a wc:NationalTeam ;
+    rdfs:label "United Arab Emirates (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-82> ;
+    owl:sameAs <http://dbpedia.org/resource/United_Arab_Emirates_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/United_Arab_Emirates_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-83/men> a wc:NationalTeam ;
+    rdfs:label "United States (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-83> ;
+    owl:sameAs <http://dbpedia.org/resource/United_States_men's_national_soccer_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/United_States_men%27s_national_soccer_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-83/women> a wc:NationalTeam ;
+    rdfs:label "United States (women)" ;
+    wc:gender "women" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-83> ;
+    owl:sameAs <http://dbpedia.org/resource/United_States_women's_national_soccer_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/United_States_women's_national_soccer_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-84/men> a wc:NationalTeam ;
+    rdfs:label "Uruguay (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-84> ;
+    owl:sameAs <http://dbpedia.org/resource/Uruguay_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Uruguay_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-85/men> a wc:NationalTeam ;
+    rdfs:label "Wales (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-85> ;
+    owl:sameAs <http://dbpedia.org/resource/Wales_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Wales_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-86/men> a wc:NationalTeam ;
+    rdfs:label "West Germany (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-86> ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Germany_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-87/men> a wc:NationalTeam ;
+    rdfs:label "Yugoslavia (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-87> ;
+    owl:sameAs <http://dbpedia.org/resource/Yugoslavia_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Yugoslavia_national_football_team> .
+
+<http://example.org/worldcup/resource/nationalteam/T-88/men> a wc:NationalTeam ;
+    rdfs:label "Zaire (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation <http://example.org/worldcup/resource/federation/T-88> ;
+    owl:sameAs <http://dbpedia.org/resource/DR_Congo_national_football_team> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/DR_Congo_national_football_team> .
+

@@ -1,0 +1,17 @@
+# Versioni usate nel progetto (Python 3.12)
+pandas==3.0.6
+numpy==2.5.4
+pyarrow==26.0.0
+rapidfuzz==3.14.6
+Unidecode==1.4.0
+rdflib==7.6.0
+neo4j==6.4.1
+sentence-transformers==6.1.0
+torch==2.14.1
+transformers==5.20.1
+pillow==12.3.0
+tqdm==4.70.1
+streamlit==1.66.0
+altair==6.3.0
+google-genai==2.32.0
+ipykernel==7.4.0

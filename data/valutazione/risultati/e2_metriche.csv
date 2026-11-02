@@ -1,0 +1,127 @@
+id,caso,classe,strategia,pertinenti,P@5,R@10,nDCG@10,RR,vuota
+P1,1,Player,solo semantica,3,0.0,0.3333333333333333,0.13565197343244778,0.1,False
+P1,1,Player,indice prima 50,3,0.2,0.3333333333333333,0.2960819109658652,0.5,False
+P1,1,Player,indice prima 100,3,0.2,0.6666666666666666,0.4441228664487979,0.5,False
+P1,1,Player,indice prima 500,3,0.2,0.6666666666666666,0.4441228664487979,0.5,False
+P1,1,Player,grafo prima,3,0.2,0.6666666666666666,0.4441228664487979,0.5,False
+P1,1,Player,grafo prima (domanda intera),3,0.4,0.6666666666666666,0.4367467095119258,0.3333333333333333,False
+P2,1,Player,solo semantica,6,0.2,0.3333333333333333,0.41039156802332444,1.0,False
+P2,1,Player,indice prima 50,6,0.0,0.0,0.0,0.0,False
+P2,1,Player,indice prima 100,6,0.0,0.16666666666666666,0.09109240322345807,0.1111111111111111,False
+P2,1,Player,indice prima 500,6,0.0,0.16666666666666666,0.09109240322345807,0.1111111111111111,False
+P2,1,Player,grafo prima,6,0.0,0.16666666666666666,0.09109240322345807,0.1111111111111111,False
+P2,1,Player,grafo prima (domanda intera),6,0.2,0.3333333333333333,0.41039156802332444,1.0,False
+P3,1,Player,solo semantica,9,0.2,0.1111111111111111,0.1012286082123002,0.25,False
+P3,1,Player,indice prima 50,9,0.0,0.0,0.0,0.0,True
+P3,1,Player,indice prima 100,9,0.0,0.0,0.0,0.0,True
+P3,1,Player,indice prima 500,9,0.0,0.0,0.0,0.0,False
+P3,1,Player,grafo prima,9,0.4,0.2222222222222222,0.20845080532622157,0.3333333333333333,False
+P3,1,Player,grafo prima (domanda intera),9,0.2,0.1111111111111111,0.1012286082123002,0.25,False
+P4,1,Player,solo semantica,8,0.2,0.375,0.4058540797740153,1.0,False
+P4,1,Player,indice prima 50,8,1.0,0.875,0.9202054614375518,1.0,False
+P4,1,Player,indice prima 100,8,1.0,0.875,0.9202054614375518,1.0,False
+P4,1,Player,indice prima 500,8,1.0,0.875,0.9202054614375518,1.0,False
+P4,1,Player,grafo prima,8,1.0,0.875,0.9202054614375518,1.0,False
+P4,1,Player,grafo prima (domanda intera),8,0.8,0.75,0.8067492731263584,1.0,False
+P5,1,Player,solo semantica,3,0.2,0.6666666666666666,0.6257049680303419,1.0,False
+P5,1,Player,indice prima 50,3,0.0,0.0,0.0,0.0,True
+P5,1,Player,indice prima 100,3,0.2,0.3333333333333333,0.46927872602275644,1.0,False
+P5,1,Player,indice prima 500,3,0.2,0.3333333333333333,0.46927872602275644,1.0,False
+P5,1,Player,grafo prima,3,0.2,0.3333333333333333,0.46927872602275644,1.0,False
+P5,1,Player,grafo prima (domanda intera),3,0.4,0.6666666666666666,0.7039180890341347,1.0,False
+P6,1,Player,solo semantica,14,0.4,0.21428571428571427,0.42257499837058643,1.0,False
+P6,1,Player,indice prima 50,14,0.4,0.14285714285714285,0.20483424751859086,0.3333333333333333,False
+P6,1,Player,indice prima 100,14,0.4,0.14285714285714285,0.20483424751859086,0.3333333333333333,False
+P6,1,Player,indice prima 500,14,0.4,0.14285714285714285,0.20483424751859086,0.3333333333333333,False
+P6,1,Player,grafo prima,14,0.4,0.14285714285714285,0.20483424751859086,0.3333333333333333,False
+P6,1,Player,grafo prima (domanda intera),14,0.4,0.21428571428571427,0.42257499837058643,1.0,False
+P7,1,Player,solo semantica,4,0.6,0.75,0.8318724637288826,1.0,False
+P7,1,Player,indice prima 50,4,0.2,0.25,0.3903800499921017,1.0,False
+P7,1,Player,indice prima 100,4,0.2,0.25,0.3903800499921017,1.0,False
+P7,1,Player,indice prima 500,4,0.4,0.5,0.6366824387328317,1.0,False
+P7,1,Player,grafo prima,4,0.4,0.5,0.6366824387328317,1.0,False
+P7,1,Player,grafo prima (domanda intera),4,0.6,0.75,0.8318724637288826,1.0,False
+P8,1,Player,solo semantica,12,0.0,0.0,0.0,0.0,False
+P8,1,Player,indice prima 50,12,0.0,0.0,0.0,0.0,True
+P8,1,Player,indice prima 100,12,0.0,0.0,0.0,0.0,True
+P8,1,Player,indice prima 500,12,0.0,0.0,0.0,0.0,True
+P8,1,Player,grafo prima,12,0.8,0.5,0.6816808362189437,1.0,False
+P8,1,Player,grafo prima (domanda intera),12,0.0,0.0,0.0,0.0,False
+T1,1,Participation,solo semantica,7,0.4,0.2857142857142857,0.39325912586965384,1.0,False
+T1,1,Participation,indice prima 50,7,1.0,1.0,1.0,1.0,False
+T1,1,Participation,indice prima 100,7,1.0,1.0,1.0,1.0,False
+T1,1,Participation,indice prima 500,7,1.0,1.0,1.0,1.0,False
+T1,1,Participation,grafo prima,7,1.0,1.0,1.0,1.0,False
+T1,1,Participation,grafo prima (domanda intera),7,0.6,0.5714285714285714,0.652553596282728,1.0,False
+T2,1,Participation,solo semantica,11,0.6,0.6363636363636364,0.5676818677290052,0.3333333333333333,False
+T2,1,Participation,indice prima 50,11,1.0,0.5454545454545454,0.7273298443105218,1.0,False
+T2,1,Participation,indice prima 100,11,1.0,0.5454545454545454,0.7273298443105218,1.0,False
+T2,1,Participation,indice prima 500,11,1.0,0.6363636363636364,0.7967610662472991,1.0,False
+T2,1,Participation,grafo prima,11,1.0,0.6363636363636364,0.7967610662472991,1.0,False
+T2,1,Participation,grafo prima (domanda intera),11,0.6,0.6363636363636364,0.5676818677290052,0.3333333333333333,False
+T3,1,Participation,solo semantica,8,0.8,0.625,0.7322538581500236,1.0,False
+T3,1,Participation,indice prima 50,8,0.0,0.25,0.15743107269979564,0.14285714285714285,False
+T3,1,Participation,indice prima 100,8,0.0,0.25,0.15743107269979564,0.14285714285714285,False
+T3,1,Participation,indice prima 500,8,0.0,0.25,0.15743107269979564,0.14285714285714285,False
+T3,1,Participation,grafo prima,8,0.0,0.25,0.15743107269979564,0.14285714285714285,False
+T3,1,Participation,grafo prima (domanda intera),8,0.8,0.625,0.7322538581500236,1.0,False
+T4,1,Participation,solo semantica,3,0.0,0.3333333333333333,0.1480409554829326,0.125,False
+T4,1,Participation,indice prima 50,3,0.0,0.0,0.0,0.0,False
+T4,1,Participation,indice prima 100,3,0.0,0.0,0.0,0.0,False
+T4,1,Participation,indice prima 500,3,0.0,0.6666666666666666,0.2920782154400332,0.14285714285714285,False
+T4,1,Participation,grafo prima,3,0.0,0.6666666666666666,0.2920782154400332,0.14285714285714285,False
+T4,1,Participation,grafo prima (domanda intera),3,0.0,0.3333333333333333,0.1480409554829326,0.125,False
+M1,1,Match,solo semantica,5,0.2,0.4,0.32703966649239957,0.5,False
+M1,1,Match,indice prima 50,5,0.2,0.2,0.3391602052736161,1.0,False
+M1,1,Match,indice prima 100,5,0.6,0.6,0.7227265726449519,1.0,False
+M1,1,Match,indice prima 500,5,0.6,0.6,0.7227265726449519,1.0,False
+M1,1,Match,grafo prima,5,0.6,0.6,0.7227265726449519,1.0,False
+M1,1,Match,grafo prima (domanda intera),5,0.6,0.6,0.7227265726449519,1.0,False
+M2,1,Match,solo semantica,4,0.4,0.5,0.6366824387328317,1.0,False
+M2,1,Match,indice prima 50,4,0.0,0.0,0.0,0.0,False
+M2,1,Match,indice prima 100,4,0.0,0.0,0.0,0.0,False
+M2,1,Match,indice prima 500,4,0.0,0.0,0.0,0.0,False
+M2,1,Match,grafo prima,4,0.0,0.0,0.0,0.0,False
+M2,1,Match,grafo prima (domanda intera),4,0.4,0.5,0.6366824387328317,1.0,False
+M3,1,Match,solo semantica,10,0.4,0.2,0.20483424751859086,0.3333333333333333,False
+M3,1,Match,indice prima 50,10,0.0,0.0,0.0,0.0,True
+M3,1,Match,indice prima 100,10,0.0,0.0,0.0,0.0,False
+M3,1,Match,indice prima 500,10,0.2,0.2,0.1681522864689108,0.25,False
+M3,1,Match,grafo prima,10,0.2,0.2,0.1681522864689108,0.25,False
+M3,1,Match,grafo prima (domanda intera),10,0.4,0.3,0.42838543210841196,1.0,False
+M4,1,Match,solo semantica,3,0.4,0.6666666666666666,0.7039180890341347,1.0,False
+M4,1,Match,indice prima 50,3,0.0,0.0,0.0,0.0,True
+M4,1,Match,indice prima 100,3,0.0,0.0,0.0,0.0,True
+M4,1,Match,indice prima 500,3,0.2,0.3333333333333333,0.18154179253735267,0.2,False
+M4,1,Match,grafo prima,3,0.2,0.3333333333333333,0.18154179253735267,0.2,False
+M4,1,Match,grafo prima (domanda intera),3,0.4,0.6666666666666666,0.7039180890341347,1.0,False
+M5,1,Match,solo semantica,17,0.4,0.17647058823529413,0.37850091886658266,1.0,False
+M5,1,Match,indice prima 50,17,0.0,0.0,0.0,0.0,True
+M5,1,Match,indice prima 100,17,0.0,0.0,0.0,0.0,False
+M5,1,Match,indice prima 500,17,0.6,0.23529411764705882,0.4220949603708207,0.5,False
+M5,1,Match,grafo prima,17,0.6,0.23529411764705882,0.4220949603708207,0.5,False
+M5,1,Match,grafo prima (domanda intera),17,0.4,0.17647058823529413,0.37850091886658266,1.0,False
+F1,1,Federation,solo semantica,3,0.6,1.0,0.9060254355346823,1.0,False
+F1,1,Federation,indice prima 50,3,0.4,0.6666666666666666,0.7653606369886217,1.0,False
+F1,1,Federation,indice prima 100,3,0.6,1.0,0.9469024295259745,1.0,False
+F1,1,Federation,indice prima 500,3,0.6,1.0,0.9469024295259745,1.0,False
+F1,1,Federation,grafo prima,3,0.6,1.0,0.9469024295259745,1.0,False
+F1,1,Federation,grafo prima (domanda intera),3,0.6,1.0,1.0,1.0,False
+C1,1,Club,solo semantica,22,0.6,0.2727272727272727,0.5181001594748443,0.5,False
+C1,1,Club,indice prima 50,22,0.4,0.18181818181818182,0.4721567066247473,1.0,False
+C1,1,Club,indice prima 100,22,0.4,0.18181818181818182,0.4721567066247473,1.0,False
+C1,1,Club,indice prima 500,22,0.4,0.18181818181818182,0.4721567066247473,1.0,False
+C1,1,Club,grafo prima,22,0.4,0.18181818181818182,0.4721567066247473,1.0,False
+C1,1,Club,grafo prima (domanda intera),22,0.6,0.2727272727272727,0.5181001594748443,0.5,False
+S1,1,Stadium,solo semantica,1,0.2,1.0,1.0,1.0,False
+S1,1,Stadium,indice prima 50,1,0.2,1.0,1.0,1.0,False
+S1,1,Stadium,indice prima 100,1,0.2,1.0,1.0,1.0,False
+S1,1,Stadium,indice prima 500,1,0.2,1.0,1.0,1.0,False
+S1,1,Stadium,grafo prima,1,0.2,1.0,1.0,1.0,False
+S1,1,Stadium,grafo prima (domanda intera),1,0.2,1.0,1.0,1.0,False
+X1,4,Match,solo semantica,3,0.0,0.0,0.0,0.0,False
+X1,4,Match,indice prima 50,3,0.0,0.0,0.0,0.0,True
+X1,4,Match,indice prima 100,3,0.2,0.3333333333333333,0.46927872602275644,1.0,False
+X1,4,Match,indice prima 500,3,0.4,0.6666666666666666,0.7653606369886217,1.0,False
+X1,4,Match,grafo prima,3,0.4,0.6666666666666666,0.7653606369886217,1.0,False
+X1,4,Match,grafo prima (domanda intera),3,0.6,1.0,0.9674679834891693,1.0,False

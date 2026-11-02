@@ -1,0 +1,44 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wc: <http://example.org/worldcup/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/worldcup/resource/award/A-1> a wc:Award ;
+    rdfs:label "Golden Ball" ;
+    wc:awardDescription "best player" ;
+    wc:yearIntroduced "1978"^^xsd:gYear .
+
+<http://example.org/worldcup/resource/award/A-2> a wc:Award ;
+    rdfs:label "Silver Ball" ;
+    wc:awardDescription "second best player" ;
+    wc:yearIntroduced "1978"^^xsd:gYear .
+
+<http://example.org/worldcup/resource/award/A-3> a wc:Award ;
+    rdfs:label "Bronze Ball" ;
+    wc:awardDescription "third best player" ;
+    wc:yearIntroduced "1978"^^xsd:gYear .
+
+<http://example.org/worldcup/resource/award/A-4> a wc:Award ;
+    rdfs:label "Golden Boot" ;
+    wc:awardDescription "top goal scorer" ;
+    wc:yearIntroduced "1930"^^xsd:gYear .
+
+<http://example.org/worldcup/resource/award/A-5> a wc:Award ;
+    rdfs:label "Silver Boot" ;
+    wc:awardDescription "second top goal scorer" ;
+    wc:yearIntroduced "1930"^^xsd:gYear .
+
+<http://example.org/worldcup/resource/award/A-6> a wc:Award ;
+    rdfs:label "Bronze Boot" ;
+    wc:awardDescription "third top goal scorer" ;
+    wc:yearIntroduced "1930"^^xsd:gYear .
+
+<http://example.org/worldcup/resource/award/A-7> a wc:Award ;
+    rdfs:label "Golden Glove" ;
+    wc:awardDescription "best goal keeper" ;
+    wc:yearIntroduced "1994"^^xsd:gYear .
+
+<http://example.org/worldcup/resource/award/A-8> a wc:Award ;
+    rdfs:label "Best Young Player" ;
+    wc:awardDescription "best young player" ;
+    wc:yearIntroduced "1958"^^xsd:gYear .
+

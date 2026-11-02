@@ -1,0 +1,2379 @@
+@prefix wc: <http://example.org/worldcup/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-001> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1982-50> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1982/T-86> ;
+    wc:player <http://example.org/worldcup/resource/player/P-68969> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-002> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1982-50> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1982/T-86> ;
+    wc:player <http://example.org/worldcup/resource/player/P-48686> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-003> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1982-50> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1982/T-86> ;
+    wc:player <http://example.org/worldcup/resource/player/P-45695> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-004> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1982-50> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1982/T-86> ;
+    wc:player <http://example.org/worldcup/resource/player/P-89975> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-005> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1982-50> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1982/T-86> ;
+    wc:player <http://example.org/worldcup/resource/player/P-59574> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-006> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1982-50> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1982/T-86> ;
+    wc:player <http://example.org/worldcup/resource/player/P-89949> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-007> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1982-50> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1982/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-79617> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-008> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1982-50> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1982/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-69834> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-009> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1982-50> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1982/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-99991> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-010> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1982-50> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1982/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-74565> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-011> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1982-50> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1982/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-08939> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-012> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1982-50> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1982/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-03719> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-013> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1986-45> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1986/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-78605> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-014> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1986-45> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1986/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-76896> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-015> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1986-45> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1986/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-37483> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-016> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1986-45> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1986/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-90842> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-017> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1986-45> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1986/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-05820> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-018> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1986-45> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1986/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-22982> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-019> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1986-45> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1986/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-69834> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-020> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1986-45> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1986/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-12716> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-021> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1986-45> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1986/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-08939> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-022> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1986-45> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1986/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-00643> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-023> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1986-46> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1986/T-86> ;
+    wc:player <http://example.org/worldcup/resource/player/P-95392> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-024> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1986-46> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1986/T-86> ;
+    wc:player <http://example.org/worldcup/resource/player/P-67713> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-025> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1986-46> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1986/T-86> ;
+    wc:player <http://example.org/worldcup/resource/player/P-49502> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-026> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1986-46> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1986/T-86> ;
+    wc:player <http://example.org/worldcup/resource/player/P-89975> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-027> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1986-46> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1986/T-46> ;
+    wc:player <http://example.org/worldcup/resource/player/P-66199> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-028> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1986-46> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1986/T-46> ;
+    wc:player <http://example.org/worldcup/resource/player/P-28996> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-029> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1986-46> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1986/T-46> ;
+    wc:player <http://example.org/worldcup/resource/player/P-89412> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-030> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1986-48> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1986/T-73> ;
+    wc:player <http://example.org/worldcup/resource/player/P-32414> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-031> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1986-48> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1986/T-73> ;
+    wc:player <http://example.org/worldcup/resource/player/P-74307> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-032> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1986-48> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1986/T-73> ;
+    wc:player <http://example.org/worldcup/resource/player/P-31693> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-033> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1986-48> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1986/T-73> ;
+    wc:player <http://example.org/worldcup/resource/player/P-12940> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-034> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1986-48> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1986/T-73> ;
+    wc:player <http://example.org/worldcup/resource/player/P-91970> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-035> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1986-48> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1986/T-06> ;
+    wc:player <http://example.org/worldcup/resource/player/P-47038> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-036> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1986-48> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1986/T-06> ;
+    wc:player <http://example.org/worldcup/resource/player/P-97414> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-037> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1986-48> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1986/T-06> ;
+    wc:player <http://example.org/worldcup/resource/player/P-93848> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-038> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1986-48> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1986/T-06> ;
+    wc:player <http://example.org/worldcup/resource/player/P-92384> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-039> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1986-48> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1986/T-06> ;
+    wc:player <http://example.org/worldcup/resource/player/P-43888> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-040> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-41> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-60> ;
+    wc:player <http://example.org/worldcup/resource/player/P-72379> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-041> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-41> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-60> ;
+    wc:player <http://example.org/worldcup/resource/player/P-95491> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-042> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-41> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-60> ;
+    wc:player <http://example.org/worldcup/resource/player/P-28854> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-043> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-41> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-60> ;
+    wc:player <http://example.org/worldcup/resource/player/P-94106> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-044> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-41> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-60> ;
+    wc:player <http://example.org/worldcup/resource/player/P-64796> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-045> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-41> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-61> ;
+    wc:player <http://example.org/worldcup/resource/player/P-30739> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-046> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-41> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-61> ;
+    wc:player <http://example.org/worldcup/resource/player/P-49988> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-047> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-41> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-61> ;
+    wc:player <http://example.org/worldcup/resource/player/P-23176> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-048> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-41> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-61> ;
+    wc:player <http://example.org/worldcup/resource/player/P-86528> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-049> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-41> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-61> ;
+    wc:player <http://example.org/worldcup/resource/player/P-40531> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-050> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-45> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-80379> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-051> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-45> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-95267> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-052> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-45> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-80404> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-053> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-45> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-30977> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-054> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-45> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-53936> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-055> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-45> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-87> ;
+    wc:player <http://example.org/worldcup/resource/player/P-93318> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-056> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-45> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-87> ;
+    wc:player <http://example.org/worldcup/resource/player/P-62861> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-057> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-45> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-87> ;
+    wc:player <http://example.org/worldcup/resource/player/P-18303> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-058> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-45> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-87> ;
+    wc:player <http://example.org/worldcup/resource/player/P-71107> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-059> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-45> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-87> ;
+    wc:player <http://example.org/worldcup/resource/player/P-85893> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-060> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-49> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-80379> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-061> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-49> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-95267> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-062> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-49> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-46907> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-063> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-49> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-80404> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-064> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-49> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-41> ;
+    wc:player <http://example.org/worldcup/resource/player/P-42920> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-065> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-49> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-41> ;
+    wc:player <http://example.org/worldcup/resource/player/P-78756> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-066> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-49> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-41> ;
+    wc:player <http://example.org/worldcup/resource/player/P-35719> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-067> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-49> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-41> ;
+    wc:player <http://example.org/worldcup/resource/player/P-38434> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-068> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-49> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-41> ;
+    wc:player <http://example.org/worldcup/resource/player/P-35253> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-069> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-50> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-86> ;
+    wc:player <http://example.org/worldcup/resource/player/P-67713> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-070> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-50> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-86> ;
+    wc:player <http://example.org/worldcup/resource/player/P-49502> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-071> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-50> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-86> ;
+    wc:player <http://example.org/worldcup/resource/player/P-43380> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-072> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-50> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-86> ;
+    wc:player <http://example.org/worldcup/resource/player/P-45408> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-073> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-50> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-28> ;
+    wc:player <http://example.org/worldcup/resource/player/P-36651> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-074> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-50> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-28> ;
+    wc:player <http://example.org/worldcup/resource/player/P-18335> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-075> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-50> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-28> ;
+    wc:player <http://example.org/worldcup/resource/player/P-34450> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-076> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-50> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-28> ;
+    wc:player <http://example.org/worldcup/resource/player/P-67307> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-077> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1990-50> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1990/T-28> ;
+    wc:player <http://example.org/worldcup/resource/player/P-19351> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-078> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-44> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-46> ;
+    wc:player <http://example.org/worldcup/resource/player/P-21495> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-079> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-44> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-46> ;
+    wc:player <http://example.org/worldcup/resource/player/P-40627> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-080> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-44> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-46> ;
+    wc:player <http://example.org/worldcup/resource/player/P-35042> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-081> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-44> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-46> ;
+    wc:player <http://example.org/worldcup/resource/player/P-78308> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-082> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-44> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-10> ;
+    wc:player <http://example.org/worldcup/resource/player/P-22562> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-083> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-44> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-10> ;
+    wc:player <http://example.org/worldcup/resource/player/P-67920> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-084> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-44> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-10> ;
+    wc:player <http://example.org/worldcup/resource/player/P-40793> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-085> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-44> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-10> ;
+    wc:player <http://example.org/worldcup/resource/player/P-19567> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-086> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-48> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-61> ;
+    wc:player <http://example.org/worldcup/resource/player/P-69340> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-087> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-48> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-61> ;
+    wc:player <http://example.org/worldcup/resource/player/P-30739> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-088> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-48> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-61> ;
+    wc:player <http://example.org/worldcup/resource/player/P-86528> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-089> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-48> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-61> ;
+    wc:player <http://example.org/worldcup/resource/player/P-12625> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-090> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-48> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-61> ;
+    wc:player <http://example.org/worldcup/resource/player/P-54322> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-091> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-48> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-61> ;
+    wc:player <http://example.org/worldcup/resource/player/P-43639> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-092> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-48> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-74> ;
+    wc:player <http://example.org/worldcup/resource/player/P-66178> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-093> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-48> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-74> ;
+    wc:player <http://example.org/worldcup/resource/player/P-60371> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-094> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-48> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-74> ;
+    wc:player <http://example.org/worldcup/resource/player/P-26281> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-095> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-48> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-74> ;
+    wc:player <http://example.org/worldcup/resource/player/P-21234> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-096> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-48> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-74> ;
+    wc:player <http://example.org/worldcup/resource/player/P-23360> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-097> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-48> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-74> ;
+    wc:player <http://example.org/worldcup/resource/player/P-42895> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-098> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-52> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-07679> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-099> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-52> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-61251> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-100> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-52> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-90842> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-101> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-52> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-32466> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-102> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-52> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-41> ;
+    wc:player <http://example.org/worldcup/resource/player/P-42920> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-103> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-52> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-41> ;
+    wc:player <http://example.org/worldcup/resource/player/P-87231> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-104> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-52> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-41> ;
+    wc:player <http://example.org/worldcup/resource/player/P-38178> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-105> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-52> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-41> ;
+    wc:player <http://example.org/worldcup/resource/player/P-31072> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-106> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1994-52> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1994/T-41> ;
+    wc:player <http://example.org/worldcup/resource/player/P-78756> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-107> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1995-22> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1995/T-74> ;
+    wc:player <http://example.org/worldcup/resource/player/P-97773> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-108> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1995-22> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1995/T-74> ;
+    wc:player <http://example.org/worldcup/resource/player/P-33270> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-109> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1995-22> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1995/T-74> ;
+    wc:player <http://example.org/worldcup/resource/player/P-90709> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-110> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1995-22> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1995/T-74> ;
+    wc:player <http://example.org/worldcup/resource/player/P-12441> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-111> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1995-22> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1995/T-74> ;
+    wc:player <http://example.org/worldcup/resource/player/P-82426> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-112> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1995-22> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1995/T-14> ;
+    wc:player <http://example.org/worldcup/resource/player/P-14903> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-113> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1995-22> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1995/T-14> ;
+    wc:player <http://example.org/worldcup/resource/player/P-46333> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-114> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1995-22> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1995/T-14> ;
+    wc:player <http://example.org/worldcup/resource/player/P-51755> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-115> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1995-22> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1995/T-14> ;
+    wc:player <http://example.org/worldcup/resource/player/P-70203> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-116> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1995-22> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1995/T-14> ;
+    wc:player <http://example.org/worldcup/resource/player/P-10128> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-117> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-56> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-70099> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-118> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-56> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-19888> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-119> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-56> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-62209> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-120> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-56> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-94002> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-121> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-56> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-83403> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-122> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-56> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-28> ;
+    wc:player <http://example.org/worldcup/resource/player/P-63416> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-123> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-56> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-28> ;
+    wc:player <http://example.org/worldcup/resource/player/P-15550> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-124> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-56> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-28> ;
+    wc:player <http://example.org/worldcup/resource/player/P-69168> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-125> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-56> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-28> ;
+    wc:player <http://example.org/worldcup/resource/player/P-51130> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-126> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-56> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-28> ;
+    wc:player <http://example.org/worldcup/resource/player/P-92367> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-127> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-57> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-41> ;
+    wc:player <http://example.org/worldcup/resource/player/P-78756> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-128> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-57> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-41> ;
+    wc:player <http://example.org/worldcup/resource/player/P-87231> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-129> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-57> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-41> ;
+    wc:player <http://example.org/worldcup/resource/player/P-36036> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-130> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-57> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-41> ;
+    wc:player <http://example.org/worldcup/resource/player/P-34670> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-131> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-57> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-41> ;
+    wc:player <http://example.org/worldcup/resource/player/P-42659> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-132> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-57> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-56430> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-133> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-57> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-56735> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-134> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-57> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-12167> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-135> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-57> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-51395> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-136> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-57> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-74952> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-137> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-61> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-62722> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-138> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-61> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-74261> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-139> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-61> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-52008> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-140> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-61> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-32466> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-141> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-61> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-48> ;
+    wc:player <http://example.org/worldcup/resource/player/P-32212> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-142> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-61> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-48> ;
+    wc:player <http://example.org/worldcup/resource/player/P-22409> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-143> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-61> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-48> ;
+    wc:player <http://example.org/worldcup/resource/player/P-42224> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-144> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1998-61> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1998/T-48> ;
+    wc:player <http://example.org/worldcup/resource/player/P-92804> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-145> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1999-31> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1999/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-26383> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-146> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1999-31> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1999/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-96106> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-147> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1999-31> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1999/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-90420> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-148> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1999-31> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1999/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-67574> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-149> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1999-31> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1999/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-09127> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-150> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1999-31> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1999/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-19610> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-151> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1999-31> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1999/T-53> ;
+    wc:player <http://example.org/worldcup/resource/player/P-84389> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-152> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1999-31> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1999/T-53> ;
+    wc:player <http://example.org/worldcup/resource/player/P-75121> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-153> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1999-31> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1999/T-53> ;
+    wc:player <http://example.org/worldcup/resource/player/P-31385> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-154> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1999-31> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1999/T-53> ;
+    wc:player <http://example.org/worldcup/resource/player/P-04956> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-155> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1999-31> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1999/T-53> ;
+    wc:player <http://example.org/worldcup/resource/player/P-70069> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-156> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1999-31> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1999/T-53> ;
+    wc:player <http://example.org/worldcup/resource/player/P-29915> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-157> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1999-32> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1999/T-83> ;
+    wc:player <http://example.org/worldcup/resource/player/P-56906> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-158> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1999-32> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1999/T-83> ;
+    wc:player <http://example.org/worldcup/resource/player/P-30345> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-159> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1999-32> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1999/T-83> ;
+    wc:player <http://example.org/worldcup/resource/player/P-25850> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-160> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1999-32> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1999/T-83> ;
+    wc:player <http://example.org/worldcup/resource/player/P-28901> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-161> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1999-32> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1999/T-83> ;
+    wc:player <http://example.org/worldcup/resource/player/P-99201> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-162> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1999-32> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1999/T-14> ;
+    wc:player <http://example.org/worldcup/resource/player/P-46333> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-163> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1999-32> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1999/T-14> ;
+    wc:player <http://example.org/worldcup/resource/player/P-84161> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-164> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1999-32> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1999/T-14> ;
+    wc:player <http://example.org/worldcup/resource/player/P-48897> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-165> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1999-32> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1999/T-14> ;
+    wc:player <http://example.org/worldcup/resource/player/P-70314> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-166> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-1999-32> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-1999/T-14> ;
+    wc:player <http://example.org/worldcup/resource/player/P-14903> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-167> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2002-52> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2002/T-73> ;
+    wc:player <http://example.org/worldcup/resource/player/P-35246> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-168> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2002-52> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2002/T-73> ;
+    wc:player <http://example.org/worldcup/resource/player/P-23800> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-169> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2002-52> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2002/T-73> ;
+    wc:player <http://example.org/worldcup/resource/player/P-29082> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-170> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2002-52> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2002/T-73> ;
+    wc:player <http://example.org/worldcup/resource/player/P-76612> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-171> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2002-52> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2002/T-73> ;
+    wc:player <http://example.org/worldcup/resource/player/P-37161> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-172> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2002-52> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2002/T-60> ;
+    wc:player <http://example.org/worldcup/resource/player/P-84878> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-173> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2002-52> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2002/T-60> ;
+    wc:player <http://example.org/worldcup/resource/player/P-00105> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-174> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2002-52> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2002/T-60> ;
+    wc:player <http://example.org/worldcup/resource/player/P-20792> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-175> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2002-52> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2002/T-60> ;
+    wc:player <http://example.org/worldcup/resource/player/P-32499> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-176> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2002-52> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2002/T-60> ;
+    wc:player <http://example.org/worldcup/resource/player/P-56778> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-177> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2002-59> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2002/T-73> ;
+    wc:player <http://example.org/worldcup/resource/player/P-35246> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-178> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2002-59> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2002/T-73> ;
+    wc:player <http://example.org/worldcup/resource/player/P-23800> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-179> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2002-59> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2002/T-73> ;
+    wc:player <http://example.org/worldcup/resource/player/P-29415> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-180> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2002-59> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2002/T-73> ;
+    wc:player <http://example.org/worldcup/resource/player/P-70144> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-181> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2002-59> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2002/T-71> ;
+    wc:player <http://example.org/worldcup/resource/player/P-15222> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-182> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2002-59> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2002/T-71> ;
+    wc:player <http://example.org/worldcup/resource/player/P-25724> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-183> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2002-59> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2002/T-71> ;
+    wc:player <http://example.org/worldcup/resource/player/P-56626> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-184> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2002-59> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2002/T-71> ;
+    wc:player <http://example.org/worldcup/resource/player/P-26616> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-185> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2002-59> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2002/T-71> ;
+    wc:player <http://example.org/worldcup/resource/player/P-55097> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-186> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-54> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-75> ;
+    wc:player <http://example.org/worldcup/resource/player/P-87221> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-187> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-54> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-75> ;
+    wc:player <http://example.org/worldcup/resource/player/P-97143> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-188> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-54> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-75> ;
+    wc:player <http://example.org/worldcup/resource/player/P-11817> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-189> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-54> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-81> ;
+    wc:player <http://example.org/worldcup/resource/player/P-86650> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-190> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-54> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-81> ;
+    wc:player <http://example.org/worldcup/resource/player/P-69073> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-191> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-54> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-81> ;
+    wc:player <http://example.org/worldcup/resource/player/P-56553> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-192> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-54> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-81> ;
+    wc:player <http://example.org/worldcup/resource/player/P-82307> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-193> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-57> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-31> ;
+    wc:player <http://example.org/worldcup/resource/player/P-55504> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-194> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-57> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-31> ;
+    wc:player <http://example.org/worldcup/resource/player/P-84003> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-195> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-57> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-31> ;
+    wc:player <http://example.org/worldcup/resource/player/P-36287> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-196> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-57> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-31> ;
+    wc:player <http://example.org/worldcup/resource/player/P-08154> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-197> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-57> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-38198> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-198> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-57> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-83403> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-199> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-57> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-33570> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-200> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-57> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-66229> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-201> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-59> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-28> ;
+    wc:player <http://example.org/worldcup/resource/player/P-65534> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-202> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-59> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-28> ;
+    wc:player <http://example.org/worldcup/resource/player/P-61216> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-203> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-59> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-28> ;
+    wc:player <http://example.org/worldcup/resource/player/P-62157> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-204> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-59> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-28> ;
+    wc:player <http://example.org/worldcup/resource/player/P-50944> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-205> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-59> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-58> ;
+    wc:player <http://example.org/worldcup/resource/player/P-32279> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-206> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-59> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-58> ;
+    wc:player <http://example.org/worldcup/resource/player/P-83823> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-207> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-59> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-58> ;
+    wc:player <http://example.org/worldcup/resource/player/P-92307> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-208> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-59> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-58> ;
+    wc:player <http://example.org/worldcup/resource/player/P-83900> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-209> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-59> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-58> ;
+    wc:player <http://example.org/worldcup/resource/player/P-70442> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-210> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-64> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-41> ;
+    wc:player <http://example.org/worldcup/resource/player/P-99537> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-211> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-64> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-41> ;
+    wc:player <http://example.org/worldcup/resource/player/P-37126> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-212> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-64> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-41> ;
+    wc:player <http://example.org/worldcup/resource/player/P-65802> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-213> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-64> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-41> ;
+    wc:player <http://example.org/worldcup/resource/player/P-83836> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-214> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-64> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-41> ;
+    wc:player <http://example.org/worldcup/resource/player/P-99473> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-215> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-64> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-00916> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-216> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-64> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-12167> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-217> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-64> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-04469> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-218> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2006-64> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2006/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-23315> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-219> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2010-55> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2010/T-55> ;
+    wc:player <http://example.org/worldcup/resource/player/P-44396> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-220> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2010-55> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2010/T-55> ;
+    wc:player <http://example.org/worldcup/resource/player/P-41357> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-221> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2010-55> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2010/T-55> ;
+    wc:player <http://example.org/worldcup/resource/player/P-78654> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-222> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2010-55> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2010/T-55> ;
+    wc:player <http://example.org/worldcup/resource/player/P-50699> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-223> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2010-55> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2010/T-55> ;
+    wc:player <http://example.org/worldcup/resource/player/P-30381> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-224> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2010-55> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2010/T-44> ;
+    wc:player <http://example.org/worldcup/resource/player/P-61292> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-225> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2010-55> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2010/T-44> ;
+    wc:player <http://example.org/worldcup/resource/player/P-91793> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-226> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2010-55> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2010/T-44> ;
+    wc:player <http://example.org/worldcup/resource/player/P-46091> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-227> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2010-55> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2010/T-44> ;
+    wc:player <http://example.org/worldcup/resource/player/P-33175> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-228> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2010-58> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2010/T-84> ;
+    wc:player <http://example.org/worldcup/resource/player/P-86087> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-229> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2010-58> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2010/T-84> ;
+    wc:player <http://example.org/worldcup/resource/player/P-92649> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-230> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2010-58> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2010/T-84> ;
+    wc:player <http://example.org/worldcup/resource/player/P-87316> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-231> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2010-58> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2010/T-84> ;
+    wc:player <http://example.org/worldcup/resource/player/P-41944> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-232> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2010-58> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2010/T-84> ;
+    wc:player <http://example.org/worldcup/resource/player/P-64372> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-233> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2010-58> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2010/T-32> ;
+    wc:player <http://example.org/worldcup/resource/player/P-38556> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-234> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2010-58> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2010/T-32> ;
+    wc:player <http://example.org/worldcup/resource/player/P-09728> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-235> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2010-58> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2010/T-32> ;
+    wc:player <http://example.org/worldcup/resource/player/P-29967> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-236> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2010-58> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2010/T-32> ;
+    wc:player <http://example.org/worldcup/resource/player/P-65216> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-237> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2011-25> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2011/T-28> ;
+    wc:player <http://example.org/worldcup/resource/player/P-12357> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-238> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2011-25> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2011/T-28> ;
+    wc:player <http://example.org/worldcup/resource/player/P-34666> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-239> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2011-25> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2011/T-28> ;
+    wc:player <http://example.org/worldcup/resource/player/P-77877> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-240> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2011-25> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2011/T-28> ;
+    wc:player <http://example.org/worldcup/resource/player/P-35919> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-241> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2011-25> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2011/T-28> ;
+    wc:player <http://example.org/worldcup/resource/player/P-81136> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-242> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2011-25> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2011/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-72635> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-243> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2011-25> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2011/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-81978> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-244> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2011-25> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2011/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-23859> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-245> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2011-25> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2011/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-25958> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-246> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2011-25> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2011/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-70239> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-247> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2011-28> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2011/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-93057> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-248> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2011-28> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2011/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-07458> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-249> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2011-28> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2011/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-25746> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-250> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2011-28> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2011/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-51448> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-251> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2011-28> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2011/T-83> ;
+    wc:player <http://example.org/worldcup/resource/player/P-92403> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-252> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2011-28> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2011/T-83> ;
+    wc:player <http://example.org/worldcup/resource/player/P-62104> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-253> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2011-28> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2011/T-83> ;
+    wc:player <http://example.org/worldcup/resource/player/P-89236> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-254> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2011-28> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2011/T-83> ;
+    wc:player <http://example.org/worldcup/resource/player/P-09273> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-255> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2011-28> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2011/T-83> ;
+    wc:player <http://example.org/worldcup/resource/player/P-45187> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-256> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2011-32> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2011/T-44> ;
+    wc:player <http://example.org/worldcup/resource/player/P-04310> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-257> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2011-32> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2011/T-44> ;
+    wc:player <http://example.org/worldcup/resource/player/P-20246> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-258> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2011-32> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2011/T-44> ;
+    wc:player <http://example.org/worldcup/resource/player/P-99210> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-259> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2011-32> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2011/T-44> ;
+    wc:player <http://example.org/worldcup/resource/player/P-90878> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-260> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2011-32> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2011/T-83> ;
+    wc:player <http://example.org/worldcup/resource/player/P-92403> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-261> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2011-32> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2011/T-83> ;
+    wc:player <http://example.org/worldcup/resource/player/P-62104> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-262> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2011-32> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2011/T-83> ;
+    wc:player <http://example.org/worldcup/resource/player/P-35525> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-263> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2011-32> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2011/T-83> ;
+    wc:player <http://example.org/worldcup/resource/player/P-89236> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-264> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-49> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-87449> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-265> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-49> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-62621> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-266> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-49> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-70650> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-267> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-49> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-86524> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-268> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-49> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-87008> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-269> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-49> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-13> ;
+    wc:player <http://example.org/worldcup/resource/player/P-89582> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-270> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-49> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-13> ;
+    wc:player <http://example.org/worldcup/resource/player/P-30014> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-271> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-49> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-13> ;
+    wc:player <http://example.org/worldcup/resource/player/P-22391> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-272> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-49> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-13> ;
+    wc:player <http://example.org/worldcup/resource/player/P-74494> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-273> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-49> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-13> ;
+    wc:player <http://example.org/worldcup/resource/player/P-21890> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-274> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-52> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-17> ;
+    wc:player <http://example.org/worldcup/resource/player/P-11767> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-275> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-52> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-17> ;
+    wc:player <http://example.org/worldcup/resource/player/P-99590> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-276> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-52> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-17> ;
+    wc:player <http://example.org/worldcup/resource/player/P-04808> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-277> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-52> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-17> ;
+    wc:player <http://example.org/worldcup/resource/player/P-70812> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-278> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-52> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-17> ;
+    wc:player <http://example.org/worldcup/resource/player/P-52458> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-279> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-52> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-33> ;
+    wc:player <http://example.org/worldcup/resource/player/P-97050> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-280> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-52> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-33> ;
+    wc:player <http://example.org/worldcup/resource/player/P-68693> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-281> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-52> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-33> ;
+    wc:player <http://example.org/worldcup/resource/player/P-59823> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-282> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-52> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-33> ;
+    wc:player <http://example.org/worldcup/resource/player/P-56893> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-283> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-60> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-48> ;
+    wc:player <http://example.org/worldcup/resource/player/P-99934> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-284> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-60> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-48> ;
+    wc:player <http://example.org/worldcup/resource/player/P-23705> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-285> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-60> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-48> ;
+    wc:player <http://example.org/worldcup/resource/player/P-51336> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-286> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-60> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-48> ;
+    wc:player <http://example.org/worldcup/resource/player/P-33312> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-287> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-60> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-17> ;
+    wc:player <http://example.org/worldcup/resource/player/P-11767> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-288> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-60> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-17> ;
+    wc:player <http://example.org/worldcup/resource/player/P-99590> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-289> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-60> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-17> ;
+    wc:player <http://example.org/worldcup/resource/player/P-04808> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-290> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-60> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-17> ;
+    wc:player <http://example.org/worldcup/resource/player/P-57722> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-291> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-60> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-17> ;
+    wc:player <http://example.org/worldcup/resource/player/P-52458> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-292> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-62> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-48> ;
+    wc:player <http://example.org/worldcup/resource/player/P-21798> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-293> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-62> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-48> ;
+    wc:player <http://example.org/worldcup/resource/player/P-23705> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-294> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-62> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-48> ;
+    wc:player <http://example.org/worldcup/resource/player/P-51336> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-295> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-62> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-48> ;
+    wc:player <http://example.org/worldcup/resource/player/P-33312> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-296> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-62> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-14758> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-297> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-62> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-61051> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-298> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-62> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-36870> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-299> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2014-62> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2014/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-33570> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-300> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2015-45> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2015/T-31> ;
+    wc:player <http://example.org/worldcup/resource/player/P-39260> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-301> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2015-45> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2015/T-31> ;
+    wc:player <http://example.org/worldcup/resource/player/P-47092> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-302> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2015-45> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2015/T-31> ;
+    wc:player <http://example.org/worldcup/resource/player/P-59869> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-303> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2015-45> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2015/T-31> ;
+    wc:player <http://example.org/worldcup/resource/player/P-84273> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-304> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2015-45> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2015/T-31> ;
+    wc:player <http://example.org/worldcup/resource/player/P-66612> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-305> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2015-45> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2015/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-23859> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-306> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2015-45> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2015/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-72635> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-307> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2015-45> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2015/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-63892> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-308> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2015-45> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2015/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-32017> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-309> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2015-45> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2015/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-13090> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-310> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-51> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-73> ;
+    wc:player <http://example.org/worldcup/resource/player/P-56330> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-311> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-51> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-73> ;
+    wc:player <http://example.org/worldcup/resource/player/P-64348> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-312> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-51> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-73> ;
+    wc:player <http://example.org/worldcup/resource/player/P-37294> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-313> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-51> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-73> ;
+    wc:player <http://example.org/worldcup/resource/player/P-89177> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-314> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-51> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-73> ;
+    wc:player <http://example.org/worldcup/resource/player/P-60554> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-315> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-51> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-62> ;
+    wc:player <http://example.org/worldcup/resource/player/P-18383> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-316> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-51> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-62> ;
+    wc:player <http://example.org/worldcup/resource/player/P-79763> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-317> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-51> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-62> ;
+    wc:player <http://example.org/worldcup/resource/player/P-22778> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-318> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-51> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-62> ;
+    wc:player <http://example.org/worldcup/resource/player/P-43675> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-319> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-52> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-18> ;
+    wc:player <http://example.org/worldcup/resource/player/P-77789> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-320> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-52> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-18> ;
+    wc:player <http://example.org/worldcup/resource/player/P-65182> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-321> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-52> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-18> ;
+    wc:player <http://example.org/worldcup/resource/player/P-29491> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-322> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-52> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-18> ;
+    wc:player <http://example.org/worldcup/resource/player/P-89420> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-323> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-52> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-18> ;
+    wc:player <http://example.org/worldcup/resource/player/P-65979> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-324> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-52> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-22> ;
+    wc:player <http://example.org/worldcup/resource/player/P-50104> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-325> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-52> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-22> ;
+    wc:player <http://example.org/worldcup/resource/player/P-14988> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-326> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-52> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-22> ;
+    wc:player <http://example.org/worldcup/resource/player/P-71525> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-327> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-52> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-22> ;
+    wc:player <http://example.org/worldcup/resource/player/P-60880> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-328> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-52> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-22> ;
+    wc:player <http://example.org/worldcup/resource/player/P-67216> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-329> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-56> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-16> ;
+    wc:player <http://example.org/worldcup/resource/player/P-74655> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-330> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-56> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-16> ;
+    wc:player <http://example.org/worldcup/resource/player/P-83216> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-331> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-56> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-16> ;
+    wc:player <http://example.org/worldcup/resource/player/P-16245> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-332> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-56> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-16> ;
+    wc:player <http://example.org/worldcup/resource/player/P-07807> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-333> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-56> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-16> ;
+    wc:player <http://example.org/worldcup/resource/player/P-12476> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-334> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-56> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-28> ;
+    wc:player <http://example.org/worldcup/resource/player/P-58924> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-335> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-56> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-28> ;
+    wc:player <http://example.org/worldcup/resource/player/P-59837> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-336> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-56> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-28> ;
+    wc:player <http://example.org/worldcup/resource/player/P-08169> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-337> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-56> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-28> ;
+    wc:player <http://example.org/worldcup/resource/player/P-25937> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-338> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-56> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-28> ;
+    wc:player <http://example.org/worldcup/resource/player/P-31219> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-339> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-60> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-62> ;
+    wc:player <http://example.org/worldcup/resource/player/P-18383> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-340> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-60> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-62> ;
+    wc:player <http://example.org/worldcup/resource/player/P-69896> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-341> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-60> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-62> ;
+    wc:player <http://example.org/worldcup/resource/player/P-17872> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-342> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-60> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-62> ;
+    wc:player <http://example.org/worldcup/resource/player/P-79763> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-343> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-60> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-62> ;
+    wc:player <http://example.org/worldcup/resource/player/P-17415> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-344> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-60> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-18> ;
+    wc:player <http://example.org/worldcup/resource/player/P-79215> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-345> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-60> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-18> ;
+    wc:player <http://example.org/worldcup/resource/player/P-07670> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-346> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-60> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-18> ;
+    wc:player <http://example.org/worldcup/resource/player/P-29491> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-347> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-60> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-18> ;
+    wc:player <http://example.org/worldcup/resource/player/P-91294> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-348> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2018-60> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2018/T-18> ;
+    wc:player <http://example.org/worldcup/resource/player/P-65979> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-349> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2019-38> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2019/T-53> ;
+    wc:player <http://example.org/worldcup/resource/player/P-22811> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-350> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2019-38> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2019/T-53> ;
+    wc:player <http://example.org/worldcup/resource/player/P-77652> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-351> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2019-38> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2019/T-53> ;
+    wc:player <http://example.org/worldcup/resource/player/P-74073> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-352> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2019-38> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2019/T-53> ;
+    wc:player <http://example.org/worldcup/resource/player/P-56682> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-353> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2019-38> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2019/T-04> ;
+    wc:player <http://example.org/worldcup/resource/player/P-76435> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-354> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2019-38> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2019/T-04> ;
+    wc:player <http://example.org/worldcup/resource/player/P-74493> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-355> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2019-38> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2019/T-04> ;
+    wc:player <http://example.org/worldcup/resource/player/P-28164> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-356> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-53> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-44> ;
+    wc:player <http://example.org/worldcup/resource/player/P-05559> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-357> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-53> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-44> ;
+    wc:player <http://example.org/worldcup/resource/player/P-22633> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-358> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-53> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-44> ;
+    wc:player <http://example.org/worldcup/resource/player/P-46913> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-359> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-53> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-44> ;
+    wc:player <http://example.org/worldcup/resource/player/P-89321> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-360> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-53> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-18> ;
+    wc:player <http://example.org/worldcup/resource/player/P-22160> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-361> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-53> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-18> ;
+    wc:player <http://example.org/worldcup/resource/player/P-79215> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-362> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-53> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-18> ;
+    wc:player <http://example.org/worldcup/resource/player/P-31643> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-363> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-53> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-18> ;
+    wc:player <http://example.org/worldcup/resource/player/P-89948> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-364> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-55> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-47> ;
+    wc:player <http://example.org/worldcup/resource/player/P-05265> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-365> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-55> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-47> ;
+    wc:player <http://example.org/worldcup/resource/player/P-70715> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-366> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-55> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-47> ;
+    wc:player <http://example.org/worldcup/resource/player/P-00597> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-367> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-55> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-47> ;
+    wc:player <http://example.org/worldcup/resource/player/P-45288> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-368> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-55> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-73> ;
+    wc:player <http://example.org/worldcup/resource/player/P-81427> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-369> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-55> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-73> ;
+    wc:player <http://example.org/worldcup/resource/player/P-30405> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-370> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-55> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-73> ;
+    wc:player <http://example.org/worldcup/resource/player/P-28010> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-371> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-57> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-18> ;
+    wc:player <http://example.org/worldcup/resource/player/P-22160> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-372> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-57> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-18> ;
+    wc:player <http://example.org/worldcup/resource/player/P-64353> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-373> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-57> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-18> ;
+    wc:player <http://example.org/worldcup/resource/player/P-29491> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-374> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-57> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-18> ;
+    wc:player <http://example.org/worldcup/resource/player/P-26942> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-375> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-57> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-06446> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-376> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-57> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-02305> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-377> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-57> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-15197> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-378> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-57> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-09> ;
+    wc:player <http://example.org/worldcup/resource/player/P-76060> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-379> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-58> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-48> ;
+    wc:player <http://example.org/worldcup/resource/player/P-56029> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-380> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-58> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-48> ;
+    wc:player <http://example.org/worldcup/resource/player/P-10326> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-381> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-58> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-48> ;
+    wc:player <http://example.org/worldcup/resource/player/P-35705> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-382> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-58> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-48> ;
+    wc:player <http://example.org/worldcup/resource/player/P-95036> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-383> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-58> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-48> ;
+    wc:player <http://example.org/worldcup/resource/player/P-64551> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-384> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-58> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-14758> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-385> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-58> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-27582> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-386> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-58> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-91431> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-387> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-58> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-10739> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-388> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-58> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-81505> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-389> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-64> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-14758> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-390> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-64> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-28151> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-391> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-64> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-27582> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-392> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-64> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-03> ;
+    wc:player <http://example.org/worldcup/resource/player/P-91431> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-393> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-64> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-64077> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-394> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-64> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-06614> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-395> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-64> ;
+    wc:isConverted false ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-54517> .
+
+<http://example.org/worldcup/resource/penaltykick/PK-396> a wc:PenaltyKick ;
+    wc:inMatch <http://example.org/worldcup/resource/match/M-2022-64> ;
+    wc:isConverted true ;
+    wc:participation <http://example.org/worldcup/resource/participation/WC-2022/T-30> ;
+    wc:player <http://example.org/worldcup/resource/player/P-92987> .
+

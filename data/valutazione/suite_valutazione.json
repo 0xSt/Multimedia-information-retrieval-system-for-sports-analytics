@@ -1,0 +1,398 @@
+{
+ "e2": [
+  {
+   "id": "P1",
+   "caso": 1,
+   "classe": "Player",
+   "domanda": "Brazilian goalkeepers at the 2002 World Cup",
+   "testo_semantico": "Brazilian goalkeeper",
+   "filtro": "EXISTS { MATCH (n)<-[:player]-(s:SquadMembership), (s)-[:participation]->(pa:Participation)-[:tournament]->(:Tournament {year: 2002}) }",
+   "pertinenti": "MATCH (n)<-[:player]-(s:SquadMembership)-[:position]->(:Position {notation: 'GK'}), (s)-[:participation]->(pa:Participation)-[:tournament]->(:Tournament {year: 2002}), (pa)-[:team]->(:NationalTeam)-[:representsFederation]->(:Federation {label: 'Brazil'}) RETURN DISTINCT n.uri AS uri",
+   "attesi": 3,
+   "perche": "insieme piccolo; nazionalità ('Brazilian' contro 'for Brazil') e ruolo sono nella descrizione, l'anno va al grafo"
+  },
+  {
+   "id": "P2",
+   "caso": 1,
+   "classe": "Player",
+   "domanda": "Croatian midfielders at the 2018 World Cup",
+   "testo_semantico": "Croatian midfielder",
+   "filtro": "EXISTS { MATCH (n)<-[:player]-(s:SquadMembership), (s)-[:participation]->(pa:Participation)-[:tournament]->(:Tournament {year: 2018}) }",
+   "pertinenti": "MATCH (n)<-[:player]-(s:SquadMembership)-[:position]->(:Position {notation: 'MF'}), (s)-[:participation]->(pa:Participation)-[:tournament]->(:Tournament {year: 2018}), (pa)-[:team]->(:NationalTeam)-[:representsFederation]->(:Federation {label: 'Croatia'}) RETURN DISTINCT n.uri AS uri",
+   "attesi": 6,
+   "perche": "come P1 con un insieme medio (6): misura il richiamo oltre al primo risultato"
+  },
+  {
+   "id": "P3",
+   "caso": 1,
+   "classe": "Player",
+   "domanda": "women who received the award for the top scorer of a World Cup",
+   "testo_semantico": "received the award for the top scorer of the tournament",
+   "filtro": "n.isFemale = true",
+   "pertinenti": "MATCH (n:Player)<-[:player]-(s:SquadMembership)-[:wonAward]->(:Award {label: 'Golden Boot'}), (s)-[:participation]->(:Participation)-[:tournament]->(:Tournament {gender: 'women'}) RETURN DISTINCT n.uri AS uri",
+   "attesi": 9,
+   "perche": "parafrasi del nome del premio ('award for the top scorer' contro 'Golden Boot'): la semantica deve colmare la differenza di parole"
+  },
+  {
+   "id": "P4",
+   "caso": 1,
+   "classe": "Player",
+   "domanda": "Italian defenders who won the 2006 World Cup",
+   "testo_semantico": "Italian defender, world champion",
+   "filtro": "EXISTS { MATCH (n)<-[:player]-(s:SquadMembership), (s)-[:participation]->(pa:Participation)-[:tournament]->(:Tournament {year: 2006}) }",
+   "pertinenti": "MATCH (n)<-[:player]-(s:SquadMembership)-[:position]->(:Position {notation: 'DF'}), (s)-[:participation]->(pa:Participation)-[:tournament]->(:Tournament {year: 2006}), (pa)-[:team]->(:NationalTeam)-[:representsFederation]->(:Federation {label: 'Italy'}) RETURN DISTINCT n.uri AS uri",
+   "attesi": 8,
+   "perche": "ruolo + risultato della squadra ('World champion in 2006' nella descrizione)"
+  },
+  {
+   "id": "P5",
+   "caso": 1,
+   "classe": "Player",
+   "domanda": "German forwards who scored at the 2014 World Cup",
+   "testo_semantico": "German forward who scored goals",
+   "filtro": "EXISTS { MATCH (n)<-[:player]-(s:SquadMembership), (s)-[:participation]->(pa:Participation)-[:tournament]->(:Tournament {year: 2014}) }",
+   "pertinenti": "MATCH (n)<-[:player]-(s:SquadMembership)-[:position]->(:Position {notation: 'FW'}), (s)-[:participation]->(pa:Participation)-[:tournament]->(:Tournament {year: 2014}), (pa)-[:team]->(:NationalTeam)-[:representsFederation]->(:Federation {label: 'Germany'}) WHERE EXISTS { MATCH (n)<-[:player]-(:Goal {isOwnGoal: false})-[:participation]->(pa) } RETURN DISTINCT n.uri AS uri",
+   "attesi": 3,
+   "perche": "un vincolo numerico (almeno un gol nel 2014): gli embedding capiscono male i numeri"
+  },
+  {
+   "id": "P6",
+   "caso": 1,
+   "classe": "Player",
+   "domanda": "goalkeepers who received the award for the best goalkeeper of the tournament",
+   "testo_semantico": "received the award for the best goalkeeper of the tournament",
+   "filtro": "EXISTS { MATCH (n)<-[:player]-(:SquadMembership)-[:position]->(:Position {notation: 'GK'}) }",
+   "pertinenti": "MATCH (n:Player)<-[:player]-(:SquadMembership)-[:wonAward]->(:Award {label: 'Golden Glove'}) RETURN DISTINCT n.uri AS uri",
+   "attesi": 14,
+   "perche": "insieme grande (14), uomini e donne, e parafrasi del premio ('best goalkeeper' contro 'Golden Glove')"
+  },
+  {
+   "id": "P7",
+   "caso": 1,
+   "classe": "Player",
+   "domanda": "Mexican players who took part in five World Cups",
+   "testo_semantico": "played five World Cups",
+   "filtro": "EXISTS { MATCH (n)<-[:player]-(:SquadMembership)-[:participation]->(:Participation)-[:team]->(:NationalTeam)-[:representsFederation]->(:Federation {label: 'Mexico'}) }",
+   "pertinenti": "MATCH (n:Player) WHERE COUNT { (n)<-[:player]-(:SquadMembership)-[:participation]->(:Participation)-[:team]->(:NationalTeam)-[:representsFederation]->(:Federation {label: 'Mexico'}) } >= 5 RETURN n.uri AS uri",
+   "attesi": 4,
+   "perche": "il vincolo è un numero ('five World Cups' contro '5 World Cups: …'): caso difficile atteso per la semantica"
+  },
+  {
+   "id": "P8",
+   "caso": 1,
+   "classe": "Player",
+   "domanda": "American women who won both the 2015 and the 2019 World Cup",
+   "testo_semantico": "world champion in 2015 and 2019",
+   "filtro": "EXISTS { MATCH (n)<-[:player]-(:SquadMembership)-[:participation]->(:Participation)-[:team]->(:NationalTeam {gender: 'women'})-[:representsFederation]->(:Federation {label: 'United States'}) }",
+   "pertinenti": "MATCH (n:Player) WHERE EXISTS { MATCH (n)<-[:player]-(s:SquadMembership), (s)-[:participation]->(pa:Participation)-[:tournament]->(:Tournament {year: 2015}), (pa)-[:team]->(:NationalTeam)-[:representsFederation]->(:Federation {label: 'United States'}) } AND EXISTS { MATCH (n)<-[:player]-(s:SquadMembership), (s)-[:participation]->(pa:Participation)-[:tournament]->(:Tournament {year: 2019}), (pa)-[:team]->(:NationalTeam)-[:representsFederation]->(:Federation {label: 'United States'}) } RETURN n.uri AS uri",
+   "attesi": 12,
+   "perche": "due anni nello stesso vincolo, insieme grande (12)"
+  },
+  {
+   "id": "T1",
+   "caso": 1,
+   "classe": "Participation",
+   "domanda": "teams that won the World Cup on home soil",
+   "testo_semantico": "world champions, won the final",
+   "filtro": "n.isHost = true",
+   "pertinenti": "MATCH (n:Participation {isHost: true, finalPosition: 1}) RETURN n.uri AS uri",
+   "attesi": 7,
+   "perche": "'on home soil' contro 'Host nation': parafrasi; il grafo può prendere 'ospitante' come vincolo esatto"
+  },
+  {
+   "id": "T2",
+   "caso": 1,
+   "classe": "Participation",
+   "domanda": "African teams knocked out in the round of 16",
+   "testo_semantico": "knocked out in the round of 16",
+   "filtro": "EXISTS { MATCH (n)-[:team]->(:NationalTeam)-[:representsFederation]->(:Federation)-[:memberOf]->(:Confederation {confederationCode: 'CAF'}) }",
+   "pertinenti": "MATCH (n:Participation {performance: 'round of 16'})-[:team]->(:NationalTeam)-[:representsFederation]->(:Federation)-[:memberOf]->(:Confederation {confederationCode: 'CAF'}) RETURN n.uri AS uri",
+   "attesi": 11,
+   "perche": "'African' non compare nella descrizione della partecipazione (solo il paese): la semantica pura deve dedurre il continente"
+  },
+  {
+   "id": "T3",
+   "caso": 1,
+   "classe": "Participation",
+   "domanda": "teams that finished third at a women's World Cup",
+   "testo_semantico": "finished in third place",
+   "filtro": "EXISTS { MATCH (n)-[:tournament]->(:Tournament {gender: 'women'}) }",
+   "pertinenti": "MATCH (n:Participation {finalPosition: 3})-[:tournament]->(:Tournament {gender: 'women'}) RETURN n.uri AS uri",
+   "attesi": 8,
+   "perche": "genere del torneo + posizione finale"
+  },
+  {
+   "id": "T4",
+   "caso": 1,
+   "classe": "Participation",
+   "domanda": "teams that lost all their matches at the 2014 World Cup",
+   "testo_semantico": "lost all three matches, eliminated in the group stage",
+   "filtro": "EXISTS { MATCH (n)-[:tournament]->(:Tournament {year: 2014, gender: 'men'}) }",
+   "pertinenti": "MATCH (n:Participation)-[:tournament]->(:Tournament {year: 2014, gender: 'men'}) WHERE COUNT { (m:Match)-[:homeTeam]->(n) WHERE m.homeScore >= m.awayScore } = 0 AND COUNT { (m:Match)-[:awayTeam]->(n) WHERE m.awayScore >= m.homeScore } = 0 RETURN n.uri AS uri",
+   "attesi": 3,
+   "perche": "risposta calcolata con un'aggregazione (0 vittorie, 0 pareggi): la descrizione la riporta come '0 wins, 0 draws, 3 losses'"
+  },
+  {
+   "id": "M1",
+   "caso": 1,
+   "classe": "Match",
+   "domanda": "World Cup finals decided on penalties",
+   "testo_semantico": "decided on penalties after a draw",
+   "filtro": "EXISTS { MATCH (n)-[:inStage]->(:Stage {stageName: 'final'}) }",
+   "pertinenti": "MATCH (n:Match {penaltyShootout: true})-[:inStage]->(:Stage {stageName: 'final'}) RETURN n.uri AS uri",
+   "attesi": 5,
+   "perche": "fase al grafo, modo del risultato alla semantica ('won 4-2 on penalties' nella descrizione)"
+  },
+  {
+   "id": "M2",
+   "caso": 1,
+   "classe": "Match",
+   "domanda": "matches of the 2014 World Cup won by at least four goals",
+   "testo_semantico": "a heavy defeat, won by four or more goals",
+   "filtro": "EXISTS { MATCH (n)-[:inStage]->(:Stage)-[:stageOf]->(:Tournament {year: 2014, gender: 'men'}) }",
+   "pertinenti": "MATCH (n:Match)-[:inStage]->(:Stage)-[:stageOf]->(:Tournament {year: 2014, gender: 'men'}) WHERE abs(n.homeScore - n.awayScore) >= 4 RETURN n.uri AS uri",
+   "attesi": 4,
+   "perche": "vincolo numerico sul punteggio (7-1, 5-1, 4-0…): caso difficile atteso"
+  },
+  {
+   "id": "M3",
+   "caso": 1,
+   "classe": "Match",
+   "domanda": "World Cup semi-finals that needed extra time",
+   "testo_semantico": "went to extra time",
+   "filtro": "EXISTS { MATCH (n)-[:inStage]->(:Stage {stageName: 'semi-finals'}) }",
+   "pertinenti": "MATCH (n:Match {extraTime: true})-[:inStage]->(:Stage {stageName: 'semi-finals'}) RETURN n.uri AS uri",
+   "attesi": 10,
+   "perche": "insieme medio-grande (10), uomini e donne; 'after extra time' è nella descrizione"
+  },
+  {
+   "id": "M4",
+   "caso": 1,
+   "classe": "Match",
+   "domanda": "goalless group matches at the 1990 World Cup",
+   "testo_semantico": "a goalless draw, 0-0",
+   "filtro": "EXISTS { MATCH (n)-[:inStage]->(:Stage {stageName: 'group stage'})-[:stageOf]->(:Tournament {year: 1990}) }",
+   "pertinenti": "MATCH (n:Match {homeScore: 0, awayScore: 0})-[:inStage]->(:Stage {stageName: 'group stage'})-[:stageOf]->(:Tournament {year: 1990}) RETURN n.uri AS uri",
+   "attesi": 3,
+   "perche": "'goalless' contro '0-0; draw': parafrasi di un risultato numerico"
+  },
+  {
+   "id": "M5",
+   "caso": 1,
+   "classe": "Match",
+   "domanda": "matches of the 2010 World Cup that ended 1-0",
+   "testo_semantico": "ended 1-0, won by a single goal",
+   "filtro": "EXISTS { MATCH (n)-[:inStage]->(:Stage)-[:stageOf]->(:Tournament {year: 2010}) }",
+   "pertinenti": "MATCH (n:Match)-[:inStage]->(:Stage)-[:stageOf]->(:Tournament {year: 2010}) WHERE (n.homeScore = 1 AND n.awayScore = 0) OR (n.homeScore = 0 AND n.awayScore = 1) RETURN n.uri AS uri",
+   "attesi": 17,
+   "perche": "insieme grande (17, più dei 10 risultati valutati): il richiamo@10 non può superare 10/17"
+  },
+  {
+   "id": "F1",
+   "caso": 1,
+   "classe": "Federation",
+   "domanda": "South American countries that have won the World Cup",
+   "testo_semantico": "world champions",
+   "filtro": "EXISTS { MATCH (n)-[:memberOf]->(:Confederation {confederationCode: 'CONMEBOL'}) }",
+   "pertinenti": "MATCH (n:Federation)-[:memberOf]->(:Confederation {confederationCode: 'CONMEBOL'}) WHERE EXISTS { MATCH (n)<-[:representsFederation]-(:NationalTeam)<-[:team]-(:Participation {finalPosition: 1}) } RETURN n.uri AS uri",
+   "attesi": 3,
+   "perche": "classe piccola (88 federazioni); 'South American' contro 'from South America, member of CONMEBOL'"
+  },
+  {
+   "id": "C1",
+   "caso": 1,
+   "classe": "Club",
+   "domanda": "clubs that sent Moroccan players to the 2022 World Cup",
+   "testo_semantico": "Moroccan players at the 2022 World Cup",
+   "filtro": "true",
+   "pertinenti": "MATCH (n:Club)<-[:club]-(:SquadMembership)-[:participation]->(:Participation)-[:team]->(:NationalTeam)-[:representsFederation]->(:Federation {label: 'Morocco'}) RETURN DISTINCT n.uri AS uri",
+   "attesi": 22,
+   "perche": "caso di controllo: nessun vincolo strutturale da dare al grafo, quindi le tre strategie devono coincidere"
+  },
+  {
+   "id": "S1",
+   "caso": 1,
+   "classe": "Stadium",
+   "domanda": "Mexican stadiums that hosted a World Cup final",
+   "testo_semantico": "venue of a World Cup final",
+   "filtro": "n.countryName = 'Mexico'",
+   "pertinenti": "MATCH (n:Stadium {countryName: 'Mexico'}) WHERE EXISTS { MATCH (n)<-[:playedAt]-(:Match)-[:inStage]->(:Stage {stageName: 'final'}) } RETURN n.uri AS uri",
+   "attesi": 1,
+   "perche": "un solo pertinente: conta la posizione del primo (MRR)"
+  },
+  {
+   "id": "X1",
+   "caso": 4,
+   "classe": "Match",
+   "domanda": "World Cup finals with a hat-trick",
+   "testo_semantico": "a player scored a hat-trick",
+   "filtro": "EXISTS { MATCH (n)-[:inStage]->(:Stage {stageName: 'final'}) }",
+   "pertinenti": "MATCH (n:Match)-[:inStage]->(:Stage {stageName: 'final'}) MATCH (n)<-[:inMatch]-(g:Goal {isOwnGoal: false})-[:player]->(p:Player) WITH n, p, count(g) AS gol WHERE gol >= 3 RETURN DISTINCT n.uri AS uri",
+   "attesi": 3,
+   "perche": "caso 4: la risposta esatta richiede di contare i gol per giocatore e per partita; la descrizione dice già 'Hat-trick by …'"
+  },
+  {
+   "id": "X2",
+   "caso": 2,
+   "classe": "Player",
+   "domanda": "Dutch wingers in the squad that reached the 2010 final",
+   "testo_semantico": "winger",
+   "filtro": "EXISTS { MATCH (n)<-[:player]-(s:SquadMembership), (s)-[:participation]->(pa:Participation)-[:tournament]->(:Tournament {year: 2010}), (pa)-[:team]->(:NationalTeam)-[:representsFederation]->(:Federation {label: 'Netherlands'}) }",
+   "pertinenti": null,
+   "attesi": null,
+   "criterio": "giocatore che nella sua carriera ha giocato abitualmente da ala o esterno d'attacco (giudizio a mano)",
+   "perche": "caso 2: 'winger' non esiste nel grafo (ruoli solo GK, DF, MF, FW); una query esatta non può rispondere"
+  },
+  {
+   "id": "X3",
+   "caso": 3,
+   "classe": "Player",
+   "domanda": "players similar to Luka Modrić",
+   "vettore_da": "player/P-29491",
+   "testo_semantico": null,
+   "filtro": "EXISTS { MATCH (n)<-[:player]-(:SquadMembership)-[:position]->(:Position {notation: 'MF'}) }",
+   "pertinenti": null,
+   "attesi": null,
+   "criterio": "centrocampista con una carriera ai Mondiali paragonabile: almeno 3 Mondiali e almeno una finale o un premio individuale (giudizio a mano)",
+   "perche": "caso 3: la somiglianza non ha un equivalente Cypher; si usa il vettore del nodo di Modrić come domanda"
+  },
+  {
+   "id": "X4",
+   "caso": 2,
+   "classe": "Participation",
+   "domanda": "host nations that disappointed at their home World Cup",
+   "testo_semantico": "disappointing, eliminated early",
+   "filtro": "n.isHost = true",
+   "pertinenti": null,
+   "attesi": null,
+   "criterio": "paese ospitante eliminato prima dei quarti di finale (giudizio a mano)",
+   "perche": "caso 2: concetto vago ('deludente') senza un attributo nel grafo"
+  }
+ ],
+ "e3": {
+  "a_persona": {
+   "famosi": [
+    "P-14758",
+    "P-70442",
+    "P-87008",
+    "P-64077",
+    "P-29491",
+    "P-58924",
+    "P-48955",
+    "P-00549",
+    "P-90908",
+    "P-77335",
+    "P-56029",
+    "P-28154",
+    "P-30486",
+    "P-19408",
+    "P-63927"
+   ],
+   "meno_noti": [
+    "P-57615",
+    "P-67578",
+    "P-42223",
+    "P-80656",
+    "P-37935",
+    "P-45981",
+    "P-68599",
+    "P-15905",
+    "P-03472",
+    "P-47182",
+    "P-37860",
+    "P-74111",
+    "P-85670",
+    "P-57029",
+    "P-68060"
+   ],
+   "testo": "a photo of {nome}",
+   "k": 5,
+   "perche": "CLIP riconosce la persona dal nome? Pertinenti = le immagini collegate al giocatore (depicts)"
+  },
+  "b_concetti": [
+   {
+    "id": "B1",
+    "testo": "a photo of a goalkeeper",
+    "pertinenti": "portieri",
+    "filtro": null,
+    "perche": "concetto visivo con etichetta dal grafo: immagini di giocatori con ruolo GK"
+   },
+   {
+    "id": "B2",
+    "testo": "a football player wearing the yellow shirt of Brazil",
+    "pertinenti": "squadra:Brazil",
+    "filtro": null,
+    "perche": "colore della maglia: pertinenti = convocati del Brasile 2022"
+   },
+   {
+    "id": "B3",
+    "testo": "a football player wearing the orange shirt of the Netherlands",
+    "pertinenti": "squadra:Netherlands",
+    "filtro": null,
+    "perche": "come B2 con un'altra maglia riconoscibile"
+   },
+   {
+    "id": "B4",
+    "testo": "a football player in the light blue and white striped shirt of Argentina",
+    "pertinenti": "squadra:Argentina",
+    "filtro": null,
+    "perche": "come B2, maglia a strisce"
+   },
+   {
+    "id": "B5",
+    "testo": "a photo of a goalkeeper",
+    "pertinenti": "portieri",
+    "filtro": "squadra:Brazil",
+    "perche": "B1 nel modo 'grafo prima': solo le immagini del Brasile 2022, poi coseno"
+   }
+  ],
+  "c_giudizi": [
+   {
+    "id": "V1",
+    "testo": "a football player celebrating a goal"
+   },
+   {
+    "id": "V2",
+    "testo": "a team photo of a football squad"
+   },
+   {
+    "id": "V3",
+    "testo": "a goalkeeper diving to save the ball"
+   },
+   {
+    "id": "V4",
+    "testo": "a football player holding a trophy"
+   },
+   {
+    "id": "V5",
+    "testo": "a close-up portrait of a footballer's face"
+   }
+  ],
+  "d_scheda": {
+   "giocatori": [
+    "P-14758",
+    "P-70442",
+    "P-87008",
+    "P-64077",
+    "P-29491",
+    "P-58924",
+    "P-48955",
+    "P-00549",
+    "P-90908",
+    "P-77335",
+    "P-57615",
+    "P-67578",
+    "P-42223",
+    "P-80656",
+    "P-37935",
+    "P-45981",
+    "P-68599",
+    "P-15905",
+    "P-03472",
+    "P-47182"
+   ],
+   "seme": 0,
+   "perche": "l'immagine della scheda (non duplicata, labelConfidence più alta) ritrae il giocatore? Confronto con un'immagine a caso della stessa cartella"
+  }
+ }
+}

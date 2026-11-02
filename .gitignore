@@ -1,0 +1,12 @@
+# segreti
+.env
+# ambiente e file di sistema
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+# dati non inclusi: dataset originali di terzi ed embedding (si rigenerano)
+data/raw/
+data/embeddings/
+# miniature delle foto del dataset 4 (tavole per i giudizi): non pubblicate
+data/valutazione/risultati/tavole_giudizi/

@@ -1,0 +1,832 @@
+team_name,player_folder,player_name,captain,player_id,metodo,score
+Ecuador,Images_Alan Franco,Alan Franco,False,P-28364,1_nome_esatto,100
+Ecuador,Images_Alexander Dom├¡nguez,Alexander Domínguez,False,P-94877,1_nome_esatto,100
+Ecuador,Images_Ayrton Preciado,Ayrton Preciado,False,P-16576,1_nome_esatto,100
+Ecuador,Images_Carlos Gruezo,Carlos Gruezo,False,P-13321,1_nome_esatto,100
+Ecuador,Images_Diego Palacios,Diego Palacios,False,P-04237,1_nome_esatto,100
+Ecuador,Images_Djorkaeff Reasco,Djorkaeff Reasco,False,P-69217,1_nome_esatto,100
+Ecuador,Images_Enner Valencia (captain),Enner Valencia,True,P-75912,1_nome_esatto,100
+Ecuador,Images_F├®lix Torres,Félix Torres,False,P-96347,1_nome_esatto,100
+Ecuador,Images_Gonzalo Plata,Gonzalo Plata,False,P-13973,1_nome_esatto,100
+Ecuador,Images_Hern├ín Gal├¡ndez,Hernán Galíndez,False,P-56347,1_nome_esatto,100
+Ecuador,Images_Jackson Porozo,Jackson Porozo,False,P-73694,1_nome_esatto,100
+Ecuador,Images_Jeremy Sarmiento,Jeremy Sarmiento,False,P-78091,1_nome_esatto,100
+Ecuador,Images_Jos├® Cifuentes,José Cifuentes,False,P-75628,1_nome_esatto,100
+Ecuador,Images_Kevin Rodr├¡guez,Kevin Rodríguez,False,P-02839,1_nome_esatto,100
+Ecuador,Images_Michael Estrada,Michael Estrada,False,P-44851,1_nome_esatto,100
+Ecuador,Images_Mois├®s Caicedo,Moisés Caicedo,False,P-82216,1_nome_esatto,100
+Ecuador,Images_Mois├®s Ram├¡rez,Moisés Ramírez,False,P-39347,1_nome_esatto,100
+Ecuador,Images_Pervis Estupi├▒├ín,Pervis Estupiñán,False,P-52697,1_nome_esatto,100
+Ecuador,Images_Piero Hincapi├®,Piero Hincapié,False,P-29713,1_nome_esatto,100
+Ecuador,Images_Robert Arboleda,Robert Arboleda,False,P-22286,1_nome_esatto,100
+Ecuador,Images_Romario Ibarra,Romario Ibarra,False,P-34543,1_nome_esatto,100
+Ecuador,Images_Sebas M├®ndez,Sebas Méndez,False,P-56839,1_nome_esatto,100
+Ecuador,Images_William Pacho,William Pacho,False,P-49934,1_nome_esatto,100
+Ecuador,Images_Xavier Arreaga,Xavier Arreaga,False,P-06545,1_nome_esatto,100
+Ecuador,Images_├üngel Mena,Ángel Mena,False,P-11495,1_nome_esatto,100
+Ecuador,Images_├üngelo Preciado,Ángelo Preciado,False,P-62543,1_nome_esatto,100
+Netherlands,Images_Andries Noppert,Andries Noppert,False,P-82000,1_nome_esatto,100
+Netherlands,Images_Cody Gakpo,Cody Gakpo,False,P-28911,1_nome_esatto,100
+Netherlands,Images_Daley Blind,Daley Blind,False,P-39861,1_nome_esatto,100
+Netherlands,Images_Davy Klaassen,Davy Klaassen,False,P-42078,1_nome_esatto,100
+Netherlands,Images_Denzel Dumfries,Denzel Dumfries,False,P-97615,1_nome_esatto,100
+Netherlands,Images_Frenkie de Jong,Frenkie de Jong,False,P-17688,1_nome_esatto,100
+Netherlands,Images_Jeremie Frimpong,Jeremie Frimpong,False,P-70227,1_nome_esatto,100
+Netherlands,Images_Jurri├½n Timber,Jurriën Timber,False,P-74111,1_nome_esatto,100
+Netherlands,Images_Justin Bijlow,Justin Bijlow,False,P-15282,1_nome_esatto,100
+Netherlands,Images_Kenneth Taylor,Kenneth Taylor,False,P-95763,1_nome_esatto,100
+Netherlands,Images_Luuk de Jong,Luuk de Jong,False,P-64551,1_nome_esatto,100
+Netherlands,Images_Marten de Roon,Marten de Roon,False,P-55965,1_nome_esatto,100
+Netherlands,Images_Matthijs de Ligt,Matthijs de Ligt,False,P-73572,1_nome_esatto,100
+Netherlands,Images_Memphis Depay,Memphis Depay,False,P-27540,1_nome_esatto,100
+Netherlands,Images_Nathan Ak├®,Nathan Aké,False,P-64438,1_nome_esatto,100
+Netherlands,Images_Noa Lang,Noa Lang,False,P-57903,1_nome_esatto,100
+Netherlands,Images_Remko Pasveer,Remko Pasveer,False,P-18921,1_nome_esatto,100
+Netherlands,Images_Stefan de Vrij,Stefan de Vrij,False,P-70280,1_nome_esatto,100
+Netherlands,Images_Steven Berghuis,Steven Berghuis,False,P-10326,1_nome_esatto,100
+Netherlands,Images_Steven Bergwijn,Steven Bergwijn,False,P-44799,1_nome_esatto,100
+Netherlands,Images_Teun Koopmeiners,Teun Koopmeiners,False,P-35705,1_nome_esatto,100
+Netherlands,Images_Tyrell Malacia,Tyrell Malacia,False,P-78630,1_nome_esatto,100
+Netherlands,Images_Vincent Janssen,Vincent Janssen,False,P-57087,1_nome_esatto,100
+Netherlands,Images_Virgil van Dijk (captain),Virgil van Dijk,True,P-56029,1_nome_esatto,100
+Netherlands,Images_Wout Weghorst,Wout Weghorst,False,P-95036,1_nome_esatto,100
+Netherlands,Images_Xavi Simons,Xavi Simons,False,P-34458,1_nome_esatto,100
+Qatar,Images_Abdelkarim Hassan,Abdelkarim Hassan,False,P-01258,1_nome_esatto,100
+Qatar,Images_Abdulaziz Hatem,Abdulaziz Hatem,False,P-97800,1_nome_esatto,100
+Qatar,Images_Ahmed Alaaeldin,Ahmed Alaaeldin,False,P-57100,1_nome_esatto,100
+Qatar,Images_Akram Afif,Akram Afif,False,P-47319,1_nome_esatto,100
+Qatar,Images_Ali Assadalla,Ali Assadalla,False,P-51678,1_nome_esatto,100
+Qatar,Images_Almoez Ali,Almoez Ali,False,P-01930,1_nome_esatto,100
+Qatar,Images_Assim Madibo,Assim Madibo,False,P-63532,1_nome_esatto,100
+Qatar,Images_Bassam Al-Rawi,Bassam Al-Rawi,False,P-15161,1_nome_esatto,100
+Qatar,Images_Boualem Khoukhi,Boualem Khoukhi,False,P-12810,1_nome_esatto,100
+Qatar,Images_Hassan Al-Haydos (captain),Hassan Al-Haydos,True,P-38732,1_nome_esatto,100
+Qatar,Images_Homam Ahmed,Homam Ahmed,False,P-33804,1_nome_esatto,100
+Qatar,Images_Ismaeel Mohammad,Ismaeel Mohammad,False,P-01077,1_nome_esatto,100
+Qatar,Images_Jassem Gaber,Jassem Gaber,False,P-22110,1_nome_esatto,100
+Qatar,Images_Karim Boudiaf,Karim Boudiaf,False,P-95754,1_nome_esatto,100
+Qatar,Images_Khalid Muneer,Khalid Muneer,False,P-54495,1_nome_esatto,100
+Qatar,Images_Meshaal Barsham,Meshaal Barsham,False,P-28811,1_nome_esatto,100
+Qatar,Images_Mohammed Muntari,Mohammed Muntari,False,P-17048,1_nome_esatto,100
+Qatar,Images_Mohammed Waad,Mohammed Waad,False,P-90689,1_nome_esatto,100
+Qatar,Images_Mostafa Meshaal,Mostafa Meshaal,False,P-26637,1_nome_esatto,100
+Qatar,Images_Musab Kheder,Musab Kheder,False,P-32949,1_nome_esatto,100
+Qatar,Images_Naif Al-Hadhrami,Naif Al-Hadhrami,False,P-93316,1_nome_esatto,100
+Qatar,Images_R├│-R├│,Ró-Ró,False,P-00052,1_nome_esatto,100
+Qatar,Images_Saad Al-Sheeb,Saad Al-Sheeb,False,P-70879,1_nome_esatto,100
+Qatar,Images_Salem Al-Hajri,Salem Al-Hajri,False,P-43921,1_nome_esatto,100
+Qatar,Images_Tarek Salman,Tarek Salman,False,P-42663,1_nome_esatto,100
+Qatar,Images_Yousef Hassan,Yousef Hassan,False,P-75618,1_nome_esatto,100
+Senegal,Images_Abdou Diallo,Abdou Diallo,False,P-77769,1_nome_esatto,100
+Senegal,Images_Alfred Gomis,Alfred Gomis,False,P-53694,1_nome_esatto,100
+Senegal,Images_Bamba Dieng,Bamba Dieng,False,P-88928,1_nome_esatto,100
+Senegal,Images_Boulaye Dia,Boulaye Dia,False,P-33622,1_nome_esatto,100
+Senegal,Images_Cheikhou Kouyat├®,Cheikhou Kouyaté,False,P-55140,1_nome_esatto,100
+Senegal,Images_Famara Di├®dhiou,Famara Diédhiou,False,P-27280,1_nome_esatto,100
+Senegal,Images_Fod├® Ballo-Tour├®,Fodé Ballo-Touré,False,P-86095,1_nome_esatto,100
+Senegal,Images_Formose Mendy,Formose Mendy,False,P-11718,1_nome_esatto,100
+Senegal,Images_Idrissa Gueye,Idrissa Gueye,False,P-40621,1_nome_esatto,100
+Senegal,Images_Iliman Ndiaye,Iliman Ndiaye,False,P-33958,1_nome_esatto,100
+Senegal,Images_Ismail Jakobs,Ismail Jakobs,False,P-54506,1_nome_esatto,100
+Senegal,Images_Isma├»la Sarr,Ismaïla Sarr,False,P-37935,1_nome_esatto,100
+Senegal,Images_Kalidou Koulibaly (captain),Kalidou Koulibaly,True,P-47321,1_nome_esatto,100
+Senegal,Images_Kr├®pin Diatta,Krépin Diatta,False,P-09292,1_nome_esatto,100
+Senegal,Images_Mamadou Loum,Mamadou Loum,False,P-37001,1_nome_esatto,100
+Senegal,Images_Moustapha Name,Moustapha Name,False,P-92891,1_nome_esatto,100
+Senegal,Images_Nampalys Mendy,Nampalys Mendy,False,P-96697,1_nome_esatto,100
+Senegal,Images_Nicolas Jackson,Nicolas Jackson,False,P-86937,1_nome_esatto,100
+Senegal,Images_Pape Abou Ciss├®,Pape Abou Cissé,False,P-90626,1_nome_esatto,100
+Senegal,Images_Pape Gueye,Pape Gueye,False,P-45280,1_nome_esatto,100
+Senegal,Images_Pape Matar Sarr,Pape Matar Sarr,False,P-76835,1_nome_esatto,100
+Senegal,Images_Path├® Ciss,Pathé Ciss,False,P-61416,1_nome_esatto,100
+Senegal,Images_Sadio Man├®,Sadio Mané,False,P-79299,5_manuale,52
+Senegal,Images_Seny Dieng,Seny Dieng,False,P-99821,1_nome_esatto,100
+Senegal,Images_Youssouf Sabaly,Youssouf Sabaly,False,P-55298,1_nome_esatto,100
+Senegal,Images_├ëdouard Mendy,Édouard Mendy,False,P-45399,1_nome_esatto,100
+England,Images_Aaron Ramsdale,Aaron Ramsdale,False,P-62368,1_nome_esatto,100
+England,Images_Ben White,Ben White,False,P-50034,1_nome_esatto,100
+England,Images_Bukayo Saka,Bukayo Saka,False,P-76842,1_nome_esatto,100
+England,Images_Callum Wilson,Callum Wilson,False,P-22844,1_nome_esatto,100
+England,Images_Conor Coady,Conor Coady,False,P-76287,1_nome_esatto,100
+England,Images_Conor Gallagher,Conor Gallagher,False,P-46540,1_nome_esatto,100
+England,Images_Declan Rice,Declan Rice,False,P-84787,1_nome_esatto,100
+England,Images_Eric Dier,Eric Dier,False,P-31219,1_nome_esatto,100
+England,Images_Harry Kane (captain),Harry Kane,True,P-58924,1_nome_esatto,100
+England,Images_Harry Maguire,Harry Maguire,False,P-02465,1_nome_esatto,100
+England,Images_Jack Grealish,Jack Grealish,False,P-21153,1_nome_esatto,100
+England,Images_James Maddison,James Maddison,False,P-95181,1_nome_esatto,100
+England,Images_John Stones,John Stones,False,P-92628,1_nome_esatto,100
+England,Images_Jordan Henderson,Jordan Henderson,False,P-08169,1_nome_esatto,100
+England,Images_Jordan Pickford,Jordan Pickford,False,P-70618,1_nome_esatto,100
+England,Images_Jude Bellingham,Jude Bellingham,False,P-15674,1_nome_esatto,100
+England,Images_Kalvin Phillips,Kalvin Phillips,False,P-43567,1_nome_esatto,100
+England,Images_Kieran Trippier,Kieran Trippier,False,P-25937,1_nome_esatto,100
+England,Images_Kyle Walker,Kyle Walker,False,P-74071,1_nome_esatto,100
+England,Images_Luke Shaw,Luke Shaw,False,P-36400,1_nome_esatto,100
+England,Images_Marcus Rashford,Marcus Rashford,False,P-59837,1_nome_esatto,100
+England,Images_Mason Mount,Mason Mount,False,P-90012,1_nome_esatto,100
+England,Images_Nick Pope,Nick Pope,False,P-89070,1_nome_esatto,100
+England,Images_Phil Foden,Phil Foden,False,P-10501,1_nome_esatto,100
+England,Images_Raheem Sterling,Raheem Sterling,False,P-21553,1_nome_esatto,100
+England,Images_Trent Alexander-Arnold,Trent Alexander-Arnold,False,P-05318,1_nome_esatto,100
+Iran,Images_Abolfazl Jalali,Abolfazl Jalali,False,P-62858,1_nome_esatto,100
+Iran,Images_Ahmad Nourollahi,Ahmad Nourollahi,False,P-42215,1_nome_esatto,100
+Iran,Images_Ali Gholizadeh,Ali Gholizadeh,False,P-45653,1_nome_esatto,100
+Iran,Images_Ali Karimi,Ali Karimi,False,P-68842,1_nome_esatto,100
+Iran,Images_Alireza Beiranvand,Alireza Beiranvand,False,P-20998,1_nome_esatto,100
+Iran,Images_Alireza Jahanbakhsh,Alireza Jahanbakhsh,False,P-98775,1_nome_esatto,100
+Iran,Images_Amir Abedzadeh,Amir Abedzadeh,False,P-80505,1_nome_esatto,100
+Iran,Images_Ehsan Hajsafi (captain),Ehsan Hajsafi,True,P-75785,1_nome_esatto,100
+Iran,Images_Hossein Hosseini,Hossein Hosseini,False,P-28492,1_nome_esatto,100
+Iran,Images_Hossein Kanaanizadegan,Hossein Kanaanizadegan,False,P-74612,1_nome_esatto,100
+Iran,Images_Karim Ansarifard,Karim Ansarifard,False,P-53957,1_nome_esatto,100
+Iran,Images_Majid Hosseini,Majid Hosseini,False,P-15905,1_nome_esatto,100
+Iran,Images_Mehdi Taremi,Mehdi Taremi,False,P-85860,1_nome_esatto,100
+Iran,Images_Mehdi Torabi,Mehdi Torabi,False,P-04541,1_nome_esatto,100
+Iran,Images_Milad Mohammadi,Milad Mohammadi,False,P-74098,1_nome_esatto,100
+Iran,Images_Morteza Pouraliganji,Morteza Pouraliganji,False,P-29864,1_nome_esatto,100
+Iran,Images_Payam Niazmand,Payam Niazmand,False,P-17784,1_nome_esatto,100
+Iran,Images_Ramin Rezaeian,Ramin Rezaeian,False,P-47137,1_nome_esatto,100
+Iran,Images_Rouzbeh Cheshmi,Rouzbeh Cheshmi,False,P-98747,1_nome_esatto,100
+Iran,Images_Sadegh Moharrami,Sadegh Moharrami,False,P-84382,1_nome_esatto,100
+Iran,Images_Saeid Ezatolahi,Saeid Ezatolahi,False,P-95374,1_nome_esatto,100
+Iran,Images_Saman Ghoddos,Saman Ghoddos,False,P-87786,1_nome_esatto,100
+Iran,Images_Sardar Azmoun,Sardar Azmoun,False,P-09113,1_nome_esatto,100
+Iran,Images_Shojae Khalilzadeh,Shojae Khalilzadeh,False,P-97838,1_nome_esatto,100
+Iran,Images_Vahid Amiri,Vahid Amiri,False,P-24531,1_nome_esatto,100
+United States,Images_Aaron Long,Aaron Long,False,P-75522,1_nome_esatto,100
+United States,Images_Antonee Robinson,Antonee Robinson,False,P-70867,1_nome_esatto,100
+United States,Images_Brenden Aaronson,Brenden Aaronson,False,P-03484,1_nome_esatto,100
+United States,Images_Cameron Carter-Vickers,Cameron Carter-Vickers,False,P-25925,1_nome_esatto,100
+United States,Images_Christian Pulisic,Christian Pulisic,False,P-11737,1_nome_esatto,100
+United States,Images_Cristian Roldan,Cristian Roldan,False,P-35320,1_nome_esatto,100
+United States,Images_DeAndre Yedlin,DeAndre Yedlin,False,P-95273,1_nome_esatto,100
+United States,Images_Ethan Horvath,Ethan Horvath,False,P-01792,1_nome_esatto,100
+United States,Images_Giovanni Reyna,Giovanni Reyna,False,P-85878,1_nome_esatto,100
+United States,Images_Haji Wright,Haji Wright,False,P-68131,1_nome_esatto,100
+United States,Images_Jes├║s Ferreira,Jesús Ferreira,False,P-34132,1_nome_esatto,100
+United States,Images_Joe Scally,Joe Scally,False,P-80838,1_nome_esatto,100
+United States,Images_Jordan Morris,Jordan Morris,False,P-77402,1_nome_esatto,100
+United States,Images_Josh Sargent,Josh Sargent,False,P-94647,1_nome_esatto,100
+United States,Images_Kellyn Acosta,Kellyn Acosta,False,P-86410,1_nome_esatto,100
+United States,Images_Luca de la Torre,Luca de la Torre,False,P-74007,1_nome_esatto,100
+United States,Images_Matt Turner,Matt Turner,False,P-48903,1_nome_esatto,100
+United States,Images_Sean Johnson,Sean Johnson,False,P-38940,1_nome_esatto,100
+United States,Images_Sergi├▒o Dest,Sergiño Dest,False,P-89452,1_nome_esatto,100
+United States,Images_Shaq Moore,Shaq Moore,False,P-48265,1_nome_esatto,100
+United States,Images_Tim Ream,Tim Ream,False,P-26367,1_nome_esatto,100
+United States,Images_Timothy Weah,Timothy Weah,False,P-30252,1_nome_esatto,100
+United States,Images_Tyler Adams,Tyler Adams,False,P-14151,1_nome_esatto,100
+United States,Images_Walker Zimmerman,Walker Zimmerman,False,P-57029,1_nome_esatto,100
+United States,Images_Weston McKennie,Weston McKennie,False,P-68952,1_nome_esatto,100
+United States,Images_Yunus Musah,Yunus Musah,False,P-59571,1_nome_esatto,100
+Wales,Images_Aaron Ramsey,Aaron Ramsey,False,P-86951,1_nome_esatto,100
+Wales,Images_Adam Davies,Adam Davies,False,P-92482,1_nome_esatto,100
+Wales,Images_Ben Cabango,Ben Cabango,False,P-02030,1_nome_esatto,100
+Wales,Images_Ben Davies,Ben Davies,False,P-41198,1_nome_esatto,100
+Wales,Images_Brennan Johnson,Brennan Johnson,False,P-57098,1_nome_esatto,100
+Wales,Images_Chris Gunter,Chris Gunter,False,P-92343,1_nome_esatto,100
+Wales,Images_Chris Mepham,Chris Mepham,False,P-74888,1_nome_esatto,100
+Wales,Images_Connor Roberts,Connor Roberts,False,P-56503,1_nome_esatto,100
+Wales,Images_Daniel James,Daniel James,False,P-74707,1_nome_esatto,100
+Wales,Images_Danny Ward,Danny Ward,False,P-31718,1_nome_esatto,100
+Wales,Images_Dylan Levitt,Dylan Levitt,False,P-24982,1_nome_esatto,100
+Wales,Images_Ethan Ampadu,Ethan Ampadu,False,P-50398,1_nome_esatto,100
+Wales,Images_Gareth Bale (captain),Gareth Bale,True,P-63927,1_nome_esatto,100
+Wales,Images_Harry Wilson,Harry Wilson,False,P-94779,1_nome_esatto,100
+Wales,Images_Joe Allen,Joe Allen,False,P-92761,1_nome_esatto,100
+Wales,Images_Joe Morrell,Joe Morrell,False,P-69082,1_nome_esatto,100
+Wales,Images_Joe Rodon,Joe Rodon,False,P-38105,1_nome_esatto,100
+Wales,Images_Jonny Williams,Jonny Williams,False,P-56664,1_nome_esatto,100
+Wales,Images_Kieffer Moore,Kieffer Moore,False,P-10657,1_nome_esatto,100
+Wales,Images_Mark Harris,Mark Harris,False,P-37173,1_nome_esatto,100
+Wales,Images_Matthew Smith,Matthew Smith,False,P-84269,1_nome_esatto,100
+Wales,Images_Neco Williams,Neco Williams,False,P-87190,1_nome_esatto,100
+Wales,Images_Rubin Colwill,Rubin Colwill,False,P-07137,1_nome_esatto,100
+Wales,Images_Sorba Thomas,Sorba Thomas,False,P-20564,1_nome_esatto,100
+Wales,Images_Tom Lockyer,Tom Lockyer,False,P-34567,1_nome_esatto,100
+Wales,Images_Wayne Hennessey,Wayne Hennessey,False,P-46457,1_nome_esatto,100
+Argentina,Images_Alexis Mac Allister,Alexis Mac Allister,False,P-71343,1_nome_esatto,100
+Argentina,Images_Cristian Romero,Cristian Romero,False,P-79650,1_nome_esatto,100
+Argentina,Images_Emiliano Mart├¡nez,Emiliano Martínez,False,P-13162,1_nome_esatto,100
+Argentina,Images_Enzo Fern├índez,Enzo Fernández,False,P-10739,1_nome_esatto,100
+Argentina,Images_Exequiel Palacios,Exequiel Palacios,False,P-40147,1_nome_esatto,100
+Argentina,Images_Franco Armani,Franco Armani,False,P-39788,1_nome_esatto,100
+Argentina,Images_Germ├ín Pezzella,Germán Pezzella,False,P-29298,1_nome_esatto,100
+Argentina,Images_Ger├│nimo Rulli,Gerónimo Rulli,False,P-36188,1_nome_esatto,100
+Argentina,Images_Gonzalo Montiel,Gonzalo Montiel,False,P-91431,1_nome_esatto,100
+Argentina,Images_Guido Rodr├¡guez,Guido Rodríguez,False,P-03265,1_nome_esatto,100
+Argentina,Images_Juan Foyth,Juan Foyth,False,P-00652,1_nome_esatto,100
+Argentina,Images_Juli├ín ├ülvarez,Julián Álvarez,False,P-19776,1_nome_esatto,100
+Argentina,Images_Lautaro Mart├¡nez,Lautaro Martínez,False,P-81505,1_nome_esatto,100
+Argentina,Images_Leandro Paredes,Leandro Paredes,False,P-27582,1_nome_esatto,100
+Argentina,Images_Lionel Messi (captain),Lionel Messi,True,P-14758,1_nome_esatto,100
+Argentina,Images_Lisandro Mart├¡nez,Lisandro Martínez,False,P-23070,1_nome_esatto,100
+Argentina,Images_Marcos Acu├▒a,Marcos Acuña,False,P-73712,1_nome_esatto,100
+Argentina,Images_Nahuel Molina,Nahuel Molina,False,P-84430,1_nome_esatto,100
+Argentina,Images_Nicol├ís Otamendi,Nicolás Otamendi,False,P-49114,1_nome_esatto,100
+Argentina,Images_Nicol├ís Tagliafico,Nicolás Tagliafico,False,P-35173,1_nome_esatto,100
+Argentina,Images_Papu G├│mez,Papu Gómez,False,P-10231,1_nome_esatto,100
+Argentina,Images_Paulo Dybala,Paulo Dybala,False,P-28151,1_nome_esatto,100
+Argentina,Images_Rodrigo De Paul,Rodrigo De Paul,False,P-37314,1_nome_esatto,100
+Argentina,Images_Thiago Almada,Thiago Almada,False,P-56659,1_nome_esatto,100
+Argentina,Images_├üngel Correa,Ángel Correa,False,P-92353,1_nome_esatto,100
+Argentina,Images_├üngel Di Mar├¡a,Ángel Di María,False,P-42113,1_nome_esatto,100
+Mexico,Images_Alexis Vega,Alexis Vega,False,P-64182,1_nome_esatto,100
+Mexico,Images_Alfredo Talavera,Alfredo Talavera,False,P-94928,1_nome_esatto,100
+Mexico,Images_Andr├®s Guardado (captain),Andrés Guardado,True,P-40312,1_nome_esatto,100
+Mexico,Images_Carlos Rodr├¡guez,Carlos Rodríguez,False,P-19618,1_nome_esatto,100
+Mexico,Images_C├®sar Montes,César Montes,False,P-36212,1_nome_esatto,100
+Mexico,Images_Edson ├ülvarez,Edson Álvarez,False,P-26546,1_nome_esatto,100
+Mexico,Images_Gerardo Arteaga,Gerardo Arteaga,False,P-96510,1_nome_esatto,100
+Mexico,Images_Guillermo Ochoa,Guillermo Ochoa,False,P-80826,1_nome_esatto,100
+Mexico,Images_Henry Mart├¡n,Henry Martín,False,P-49482,1_nome_esatto,100
+Mexico,Images_Hirving Lozano,Hirving Lozano,False,P-24705,1_nome_esatto,100
+Mexico,Images_H├®ctor Herrera,Héctor Herrera,False,P-42911,1_nome_esatto,100
+Mexico,Images_H├®ctor Moreno,Héctor Moreno,False,P-21208,1_nome_esatto,100
+Mexico,Images_Jes├║s Gallardo,Jesús Gallardo,False,P-80088,1_nome_esatto,100
+Mexico,Images_Johan V├ísquez,Johan Vásquez,False,P-09877,1_nome_esatto,100
+Mexico,Images_Jorge S├ínchez,Jorge Sánchez,False,P-24062,1_nome_esatto,100
+Mexico,Images_Kevin ├ülvarez,Kevin Álvarez,False,P-09058,1_nome_esatto,100
+Mexico,Images_Luis Ch├ívez,Luis Chávez,False,P-49806,1_nome_esatto,100
+Mexico,Images_Luis Romo,Luis Romo,False,P-26412,1_nome_esatto,100
+Mexico,Images_N├®stor Araujo,Néstor Araujo,False,P-38529,1_nome_esatto,100
+Mexico,Images_Orbel├¡n Pineda,Orbelín Pineda,False,P-95198,1_nome_esatto,100
+Mexico,Images_Ra├║l Jim├®nez,Raúl Jiménez,False,P-57865,1_nome_esatto,100
+Mexico,Images_Roberto Alvarado,Roberto Alvarado,False,P-73491,1_nome_esatto,100
+Mexico,Images_Rodolfo Cota,Rodolfo Cota,False,P-96662,1_nome_esatto,100
+Mexico,Images_Rogelio Funes Mori,Rogelio Funes Mori,False,P-51689,1_nome_esatto,100
+Mexico,Images_Uriel Antuna,Uriel Antuna,False,P-81433,1_nome_esatto,100
+Mexico,Images_├ërick Guti├®rrez,Érick Gutiérrez,False,P-64299,1_nome_esatto,100
+Poland,Images_Arkadiusz Milik,Arkadiusz Milik,False,P-12381,1_nome_esatto,100
+Poland,Images_Artur J─Ödrzejczyk,Artur Jędrzejczyk,False,P-61813,1_nome_esatto,100
+Poland,Images_Bartosz Bereszy┼äski,Bartosz Bereszyński,False,P-42160,1_nome_esatto,100
+Poland,Images_Damian Szyma┼äski,Damian Szymański,False,P-44699,1_nome_esatto,100
+Poland,Images_Grzegorz Krychowiak,Grzegorz Krychowiak,False,P-45449,1_nome_esatto,100
+Poland,Images_Jakub Kami┼äski,Jakub Kamiński,False,P-83610,1_nome_esatto,100
+Poland,Images_Jakub Kiwior,Jakub Kiwior,False,P-44780,1_nome_esatto,100
+Poland,Images_Jan Bednarek,Jan Bednarek,False,P-10172,1_nome_esatto,100
+Poland,Images_Kamil Glik,Kamil Glik,False,P-29046,1_nome_esatto,100
+Poland,Images_Kamil Grabara,Kamil Grabara,False,P-90913,1_nome_esatto,100
+Poland,Images_Kamil Grosicki,Kamil Grosicki,False,P-64261,1_nome_esatto,100
+Poland,Images_Karol ┼Üwiderski,Karol Świderski,False,P-85630,1_nome_esatto,100
+Poland,Images_Krystian Bielik,Krystian Bielik,False,P-14593,1_nome_esatto,100
+Poland,Images_Krzysztof Pi─àtek,Krzysztof Piątek,False,P-11013,1_nome_esatto,100
+Poland,Images_Mateusz Wieteska,Mateusz Wieteska,False,P-76995,1_nome_esatto,100
+Poland,Images_Matty Cash,Matty Cash,False,P-17099,1_nome_esatto,100
+Poland,Images_Micha┼é Sk├│ra┼ø,Michał Skóraś,False,P-02071,1_nome_esatto,100
+Poland,Images_Nicola Zalewski,Nicola Zalewski,False,P-40498,1_nome_esatto,100
+Poland,Images_Piotr Zieli┼äski,Piotr Zieliński,False,P-32165,1_nome_esatto,100
+Poland,Images_Przemys┼éaw Frankowski,Przemysław Frankowski,False,P-23437,1_nome_esatto,100
+Poland,Images_Robert Gumny,Robert Gumny,False,P-42168,1_nome_esatto,100
+Poland,Images_Robert Lewandowski (captain),Robert Lewandowski,True,P-00549,1_nome_esatto,100
+Poland,Images_Sebastian Szyma┼äski,Sebastian Szymański,False,P-65512,1_nome_esatto,100
+Poland,Images_Szymon ┼╗urkowski,Szymon Żurkowski,False,P-31085,1_nome_esatto,100
+Poland,Images_Wojciech Szcz─Ösny,Wojciech Szczęsny,False,P-31606,1_nome_esatto,100
+Poland,Images_┼üukasz Skorupski,Łukasz Skorupski,False,P-17943,1_nome_esatto,100
+Saudi Arabia,Images_Abdulelah Al-Amri,Abdulelah Al-Amri,False,P-12335,1_nome_esatto,100
+Saudi Arabia,Images_Abdulellah Al-Malki,Abdulellah Al-Malki,False,P-20216,1_nome_esatto,100
+Saudi Arabia,Images_Abdullah Madu,Abdullah Madu,False,P-20388,1_nome_esatto,100
+Saudi Arabia,Images_Abdullah Otayf,Abdullah Otayf,False,P-99177,1_nome_esatto,100
+Saudi Arabia,Images_Abdulrahman Al-Aboud,Abdulrahman Al-Aboud,False,P-45581,1_nome_esatto,100
+Saudi Arabia,Images_Ali Al-Bulaihi,Ali Al-Bulaihi,False,P-87284,1_nome_esatto,100
+Saudi Arabia,Images_Ali Al-Hassan,Ali Al-Hassan,False,P-45413,1_nome_esatto,100
+Saudi Arabia,Images_Firas Al-Buraikan,Firas Al-Buraikan,False,P-89845,1_nome_esatto,100
+Saudi Arabia,Images_Haitham Asiri,Haitham Asiri,False,P-40487,1_nome_esatto,100
+Saudi Arabia,Images_Hassan Al-Tambakti,Hassan Al-Tambakti,False,P-93173,1_nome_esatto,100
+Saudi Arabia,Images_Hattan Bahebri,Hattan Bahebri,False,P-84563,1_nome_esatto,100
+Saudi Arabia,Images_Mohamed Kanno,Mohamed Kanno,False,P-91268,1_nome_esatto,100
+Saudi Arabia,Images_Mohammed Al-Breik,Mohammed Al-Breik,False,P-94422,1_nome_esatto,100
+Saudi Arabia,Images_Mohammed Al-Owais,Mohammed Al-Owais,False,P-85438,1_nome_esatto,100
+Saudi Arabia,Images_Mohammed Al-Rubaie,Mohammed Al-Rubaie,False,P-06659,1_nome_esatto,100
+Saudi Arabia,Images_Nasser Al-Dawsari,Nasser Al-Dawsari,False,P-10907,1_nome_esatto,100
+Saudi Arabia,Images_Nawaf Al-Abed,Nawaf Al-Abed,False,P-76864,1_nome_esatto,100
+Saudi Arabia,Images_Nawaf Al-Aqidi,Nawaf Al-Aqidi,False,P-67035,1_nome_esatto,100
+Saudi Arabia,Images_Riyadh Sharahili,Riyadh Sharahili,False,P-06750,1_nome_esatto,100
+Saudi Arabia,Images_Saleh Al-Shehri,Saleh Al-Shehri,False,P-37308,1_nome_esatto,100
+Saudi Arabia,Images_Salem Al-Dawsari,Salem Al-Dawsari,False,P-70583,1_nome_esatto,100
+Saudi Arabia,Images_Salman Al-Faraj (captain),Salman Al-Faraj,True,P-93688,1_nome_esatto,100
+Saudi Arabia,Images_Sami Al-Najei,Sami Al-Najei,False,P-87569,1_nome_esatto,100
+Saudi Arabia,Images_Saud Abdulhamid,Saud Abdulhamid,False,P-08125,1_nome_esatto,100
+Saudi Arabia,Images_Sultan Al-Ghannam,Sultan Al-Ghannam,False,P-06789,1_nome_esatto,100
+Saudi Arabia,Images_Yasser Al-Shahrani,Yasser Al-Shahrani,False,P-45457,1_nome_esatto,100
+Australia,Images_Aaron Mooy,Aaron Mooy,False,P-95847,1_nome_esatto,100
+Australia,Images_Ajdin Hrustic,Ajdin Hrustic,False,P-82945,1_nome_esatto,100
+Australia,Images_Andrew Redmayne,Andrew Redmayne,False,P-30596,1_nome_esatto,100
+Australia,Images_Awer Mabil,Awer Mabil,False,P-61979,1_nome_esatto,100
+Australia,Images_Aziz Behich,Aziz Behich,False,P-51118,1_nome_esatto,100
+Australia,Images_Bailey Wright,Bailey Wright,False,P-97422,1_nome_esatto,100
+Australia,Images_Cameron Devlin,Cameron Devlin,False,P-64249,1_nome_esatto,100
+Australia,Images_Craig Goodwin,Craig Goodwin,False,P-82010,1_nome_esatto,100
+Australia,Images_Danny Vukovic,Danny Vukovic,False,P-11675,1_nome_esatto,100
+Australia,Images_Fran Kara─ìi─ç,Fran Karačić,False,P-24134,1_nome_esatto,100
+Australia,Images_Garang Kuol,Garang Kuol,False,P-05864,1_nome_esatto,100
+Australia,Images_Harry Souttar,Harry Souttar,False,P-89217,1_nome_esatto,100
+Australia,Images_Jackson Irvine,Jackson Irvine,False,P-34822,1_nome_esatto,100
+Australia,Images_Jamie Maclaren,Jamie Maclaren,False,P-20087,1_nome_esatto,100
+Australia,Images_Jason Cummings,Jason Cummings,False,P-67089,1_nome_esatto,100
+Australia,Images_Joel King,Joel King,False,P-53409,1_nome_esatto,100
+Australia,Images_Keanu Baccus,Keanu Baccus,False,P-27035,1_nome_esatto,100
+Australia,Images_Kye Rowles,Kye Rowles,False,P-88273,1_nome_esatto,100
+Australia,Images_Martin Boyle,Martin Boyle,False,,4_da_verificare,48
+Australia,Images_Mathew Leckie,Mathew Leckie,False,P-35837,1_nome_esatto,100
+Australia,Images_Mathew Ryan (captain),Mathew Ryan,True,P-10244,1_nome_esatto,100
+Australia,Images_Milo┼í Degenek,Miloš Degenek,False,P-59727,1_nome_esatto,100
+Australia,Images_Mitchell Duke,Mitchell Duke,False,P-91029,1_nome_esatto,100
+Australia,Images_Nathaniel Atkinson,Nathaniel Atkinson,False,P-09062,1_nome_esatto,100
+Australia,Images_Riley McGree,Riley McGree,False,P-51406,1_nome_esatto,100
+Australia,Images_Thomas Deng,Thomas Deng,False,P-68599,1_nome_esatto,100
+Denmark,Images_Alexander Bah,Alexander Bah,False,P-92135,1_nome_esatto,100
+Denmark,Images_Andreas Christensen,Andreas Christensen,False,P-18923,1_nome_esatto,100
+Denmark,Images_Andreas Cornelius,Andreas Cornelius,False,P-29053,1_nome_esatto,100
+Denmark,Images_Andreas Skov Olsen,Andreas Skov Olsen,False,P-82313,1_nome_esatto,100
+Denmark,Images_Christian Eriksen,Christian Eriksen,False,P-50104,1_nome_esatto,100
+Denmark,Images_Christian N├©rgaard,Christian Nørgaard,False,P-56182,1_nome_esatto,100
+Denmark,Images_Daniel Wass,Daniel Wass,False,P-93781,1_nome_esatto,100
+Denmark,Images_Frederik R├©nnow,Frederik Rønnow,False,P-35930,1_nome_esatto,100
+Denmark,Images_Jens Stryger Larsen,Jens Stryger Larsen,False,P-11588,1_nome_esatto,100
+Denmark,Images_Jesper Lindstr├©m,Jesper Lindstrøm,False,P-70516,1_nome_esatto,100
+Denmark,Images_Joachim Andersen,Joachim Andersen,False,P-43705,1_nome_esatto,100
+Denmark,Images_Joakim M├ªhle,Joakim Mæhle,False,P-39995,1_nome_esatto,100
+Denmark,Images_Jonas Wind,Jonas Wind,False,P-59609,1_nome_esatto,100
+Denmark,Images_Kasper Dolberg,Kasper Dolberg,False,P-72592,1_nome_esatto,100
+Denmark,Images_Kasper Schmeichel,Kasper Schmeichel,False,P-58755,1_nome_esatto,100
+Denmark,Images_Martin Braithwaite,Martin Braithwaite,False,P-85579,1_nome_esatto,100
+Denmark,Images_Mathias Jensen,Mathias Jensen,False,P-26593,1_nome_esatto,100
+Denmark,Images_Mikkel Damsgaard,Mikkel Damsgaard,False,P-57782,1_nome_esatto,100
+Denmark,Images_Oliver Christensen,Oliver Christensen,False,P-07304,1_nome_esatto,100
+Denmark,Images_Pierre-Emile H├©jbjerg,Pierre-Emile Højbjerg,False,P-98199,1_nome_esatto,100
+Denmark,Images_Rasmus Kristensen,Rasmus Kristensen,False,P-82877,1_nome_esatto,100
+Denmark,Images_Robert Skov,Robert Skov,False,P-76468,1_nome_esatto,100
+Denmark,Images_Simon Kj├ªr (captain),Simon Kjær,True,P-14988,1_nome_esatto,100
+Denmark,Images_Thomas Delaney,Thomas Delaney,False,P-57615,1_nome_esatto,100
+Denmark,Images_Victor Nelsson,Victor Nelsson,False,P-49454,1_nome_esatto,100
+Denmark,Images_Yussuf Poulsen,Yussuf Poulsen,False,P-08442,1_nome_esatto,100
+France,Images_Adrien Rabiot,Adrien Rabiot,False,P-57401,1_nome_esatto,100
+France,Images_Alphonse Areola,Alphonse Areola,False,P-81466,1_nome_esatto,100
+France,Images_Antoine Griezmann,Antoine Griezmann,False,P-90908,1_nome_esatto,100
+France,Images_Aur├®lien Tchouam├®ni,Aurélien Tchouaméni,False,P-54517,1_nome_esatto,100
+France,Images_Axel Disasi,Axel Disasi,False,P-91324,1_nome_esatto,100
+France,Images_Benjamin Pavard,Benjamin Pavard,False,P-60652,1_nome_esatto,100
+France,Images_Dayot Upamecano,Dayot Upamecano,False,P-03945,1_nome_esatto,100
+France,Images_Eduardo Camavinga,Eduardo Camavinga,False,P-80996,1_nome_esatto,100
+France,Images_Hugo Lloris (captain),Hugo Lloris,True,P-30711,1_nome_esatto,100
+France,Images_Ibrahima Konat├®,Ibrahima Konaté,False,P-86920,1_nome_esatto,100
+France,Images_Jordan Veretout,Jordan Veretout,False,P-00465,1_nome_esatto,100
+France,Images_Jules Kound├®,Jules Koundé,False,P-78484,1_nome_esatto,100
+France,Images_Karim Benzema,Karim Benzema,False,P-35408,1_nome_esatto,100
+France,Images_Kingsley Coman,Kingsley Coman,False,P-06614,1_nome_esatto,100
+France,Images_Kylian Mbapp├®,Kylian Mbappé,False,P-64077,1_nome_esatto,100
+France,Images_Lucas Hernandez,Lucas Hernandez,False,P-84424,1_nome_esatto,100
+France,Images_Marcus Thuram,Marcus Thuram,False,P-13613,1_nome_esatto,100
+France,Images_Matteo Guendouzi,Matteo Guendouzi,False,P-32431,1_nome_esatto,100
+France,Images_Olivier Giroud,Olivier Giroud,False,P-89750,1_nome_esatto,100
+France,Images_Ousmane Demb├®l├®,Ousmane Dembélé,False,P-97778,1_nome_esatto,100
+France,Images_Randal Kolo Muani,Randal Kolo Muani,False,P-92987,1_nome_esatto,100
+France,Images_Rapha├½l Varane,Raphaël Varane,False,P-42326,1_nome_esatto,100
+France,Images_Steve Mandanda,Steve Mandanda,False,P-69594,1_nome_esatto,100
+France,Images_Theo Hernandez,Theo Hernandez,False,P-09867,1_nome_esatto,100
+France,Images_William Saliba,William Saliba,False,P-07089,1_nome_esatto,100
+France,Images_Youssouf Fofana,Youssouf Fofana,False,P-23304,1_nome_esatto,100
+Tunisia,Images_Ali Abdi,Ali Abdi,False,P-64924,1_nome_esatto,100
+Tunisia,Images_Ali Ma├óloul,Ali Maâloul,False,P-38981,1_nome_esatto,100
+Tunisia,Images_Anis Ben Slimane,Anis Ben Slimane,False,P-45680,1_nome_esatto,100
+Tunisia,Images_Aymen Dahmen,Aymen Dahmen,False,P-32803,1_nome_esatto,100
+Tunisia,Images_Aymen Mathlouthi,Aymen Mathlouthi,False,P-25989,1_nome_esatto,100
+Tunisia,Images_A├»ssa La├»douni,Aïssa Laïdouni,False,P-29063,1_nome_esatto,100
+Tunisia,Images_Bechir Ben Sa├»d,Bechir Ben Saïd,False,P-82657,1_nome_esatto,100
+Tunisia,Images_Bilel Ifa,Bilel Ifa,False,P-22128,1_nome_esatto,100
+Tunisia,Images_Dylan Bronn,Dylan Bronn,False,P-11879,1_nome_esatto,100
+Tunisia,Images_Ellyes Skhiri,Ellyes Skhiri,False,P-47815,1_nome_esatto,100
+Tunisia,Images_Ferjani Sassi,Ferjani Sassi,False,P-90867,1_nome_esatto,100
+Tunisia,Images_Ghailene Chaalali,Ghailene Chaalali,False,P-09569,1_nome_esatto,100
+Tunisia,Images_Hannibal Mejbri,Hannibal Mejbri,False,P-48887,1_nome_esatto,100
+Tunisia,Images_Issam Jebali,Issam Jebali,False,P-11346,1_nome_esatto,100
+Tunisia,Images_Mohamed Ali Ben Romdhane,Mohamed Ali Ben Romdhane,False,P-42575,1_nome_esatto,100
+Tunisia,Images_Mohamed Dr├ñger,Mohamed Dräger,False,P-49094,1_nome_esatto,100
+Tunisia,Images_Montassar Talbi,Montassar Talbi,False,P-73455,1_nome_esatto,100
+Tunisia,Images_Mouez Hassen,Mouez Hassen,False,P-57303,1_nome_esatto,100
+Tunisia,Images_Nader Ghandri,Nader Ghandri,False,P-68161,1_nome_esatto,100
+Tunisia,Images_Na├»m Sliti,Naïm Sliti,False,P-69793,1_nome_esatto,100
+Tunisia,Images_Seifeddine Jaziri,Seifeddine Jaziri,False,P-82056,1_nome_esatto,100
+Tunisia,Images_Taha Yassine Khenissi,Taha Yassine Khenissi,False,P-21865,1_nome_esatto,100
+Tunisia,Images_Wahbi Khazri,Wahbi Khazri,False,P-42223,1_nome_esatto,100
+Tunisia,Images_Wajdi Kechrida,Wajdi Kechrida,False,P-27079,1_nome_esatto,100
+Tunisia,Images_Yassine Meriah,Yassine Meriah,False,P-81706,1_nome_esatto,100
+Tunisia,Images_Youssef Msakni (captain),Youssef Msakni,True,P-25741,1_nome_esatto,100
+Costa Rica,Images_Anthony Contreras,Anthony Contreras,False,P-02556,1_nome_esatto,100
+Costa Rica,Images_Anthony Hern├índez,Anthony Hernández,False,P-14872,1_nome_esatto,100
+Costa Rica,Images_Brandon Aguilera,Brandon Aguilera,False,P-44957,1_nome_esatto,100
+Costa Rica,Images_Bryan Oviedo,Bryan Oviedo,False,P-10740,1_nome_esatto,100
+Costa Rica,Images_Bryan Ruiz (captain),Bryan Ruiz,True,P-99590,1_nome_esatto,100
+Costa Rica,Images_Carlos Mart├¡nez,Carlos Martínez,False,P-39281,1_nome_esatto,100
+Costa Rica,Images_Celso Borges,Celso Borges,False,P-11767,1_nome_esatto,100
+Costa Rica,Images_Daniel Chac├│n,Daniel Chacón,False,P-57150,1_nome_esatto,100
+Costa Rica,Images_Douglas L├│pez,Douglas López,False,P-01994,1_nome_esatto,100
+Costa Rica,Images_Esteban Alvarado,Esteban Alvarado,False,P-03616,1_nome_esatto,100
+Costa Rica,Images_Francisco Calvo,Francisco Calvo,False,P-71100,1_nome_esatto,100
+Costa Rica,Images_Gerson Torres,Gerson Torres,False,P-12179,1_nome_esatto,100
+Costa Rica,Images_Jewison Bennette,Jewison Bennette,False,P-09889,1_nome_esatto,100
+Costa Rica,Images_Joel Campbell,Joel Campbell,False,P-70812,1_nome_esatto,100
+Costa Rica,Images_Johan Venegas,Johan Venegas,False,P-58669,1_nome_esatto,100
+Costa Rica,Images_Juan Pablo Vargas,Juan Pablo Vargas,False,P-65777,1_nome_esatto,100
+Costa Rica,Images_Kendall Waston,Kendall Waston,False,P-37984,1_nome_esatto,100
+Costa Rica,Images_Keylor Navas,Keylor Navas,False,P-81392,1_nome_esatto,100
+Costa Rica,Images_Keysher Fuller,Keysher Fuller,False,P-80986,1_nome_esatto,100
+Costa Rica,Images_Patrick Sequeira,Patrick Sequeira,False,P-81142,1_nome_esatto,100
+Costa Rica,Images_Roan Wilson,Roan Wilson,False,P-23993,1_nome_esatto,100
+Costa Rica,Images_R├│nald Matarrita,Rónald Matarrita,False,P-37189,1_nome_esatto,100
+Costa Rica,Images_Yeltsin Tejeda,Yeltsin Tejeda,False,P-24978,1_nome_esatto,100
+Costa Rica,Images_Youstin Salas,Youstin Salas,False,P-32622,1_nome_esatto,100
+Costa Rica,Images_├ôscar Duarte,Óscar Duarte,False,P-97912,1_nome_esatto,100
+Costa Rica,Images_├ülvaro Zamora,Álvaro Zamora,False,P-22631,1_nome_esatto,100
+Germany,Images_Antonio R├╝diger,Antonio Rüdiger,False,P-51201,1_nome_esatto,100
+Germany,Images_Armel Bella-Kotchap,Armel Bella-Kotchap,False,P-69200,1_nome_esatto,100
+Germany,Images_Christian G├╝nter,Christian Günter,False,P-63385,1_nome_esatto,100
+Germany,Images_David Raum,David Raum,False,P-20804,1_nome_esatto,100
+Germany,Images_Jamal Musiala,Jamal Musiala,False,P-47182,1_nome_esatto,100
+Germany,Images_Jonas Hofmann,Jonas Hofmann,False,P-18188,1_nome_esatto,100
+Germany,Images_Joshua Kimmich,Joshua Kimmich,False,P-30316,1_nome_esatto,100
+Germany,Images_Julian Brandt,Julian Brandt,False,P-50679,1_nome_esatto,100
+Germany,Images_Kai Havertz,Kai Havertz,False,P-77743,1_nome_esatto,100
+Germany,Images_Karim Adeyemi,Karim Adeyemi,False,P-05901,1_nome_esatto,100
+Germany,Images_Kevin Trapp,Kevin Trapp,False,P-81947,1_nome_esatto,100
+Germany,Images_Leon Goretzka,Leon Goretzka,False,P-79409,1_nome_esatto,100
+Germany,Images_Leroy San├®,Leroy Sané,False,P-39464,1_nome_esatto,100
+Germany,Images_Lukas Klostermann,Lukas Klostermann,False,P-89863,1_nome_esatto,100
+Germany,Images_Manuel Neuer (captain),Manuel Neuer,True,P-19408,1_nome_esatto,100
+Germany,Images_Marc-Andr├® ter Stegen,Marc-André ter Stegen,False,P-03367,1_nome_esatto,100
+Germany,Images_Mario G├Âtze,Mario Götze,False,P-63673,1_nome_esatto,100
+Germany,Images_Matthias Ginter,Matthias Ginter,False,P-36126,1_nome_esatto,100
+Germany,Images_Niclas F├╝llkrug,Niclas Füllkrug,False,P-46246,1_nome_esatto,100
+Germany,Images_Nico Schlotterbeck,Nico Schlotterbeck,False,P-71859,1_nome_esatto,100
+Germany,Images_Niklas S├╝le,Niklas Süle,False,P-48737,1_nome_esatto,100
+Germany,Images_Serge Gnabry,Serge Gnabry,False,P-75989,1_nome_esatto,100
+Germany,Images_Thilo Kehrer,Thilo Kehrer,False,P-11933,1_nome_esatto,100
+Germany,Images_Thomas M├╝ller,Thomas Müller,False,P-28154,1_nome_esatto,100
+Germany,Images_Youssoufa Moukoko,Youssoufa Moukoko,False,P-04137,1_nome_esatto,100
+Germany,Images_─░lkay G├╝ndo─ƒan,İlkay Gündoğan,False,P-08896,1_nome_esatto,100
+Japan,Images_Ao Tanaka,Ao Tanaka,False,P-82447,1_nome_esatto,100
+Japan,Images_Ayase Ueda,Ayase Ueda,False,P-57586,1_nome_esatto,100
+Japan,Images_Daichi Kamada,Daichi Kamada,False,P-62952,1_nome_esatto,100
+Japan,Images_Daizen Maeda,Daizen Maeda,False,P-30206,1_nome_esatto,100
+Japan,Images_Daniel Schmidt,Daniel Schmidt,False,P-77827,1_nome_esatto,100
+Japan,Images_Eiji Kawashima,Eiji Kawashima,False,P-53272,1_nome_esatto,100
+Japan,Images_Gaku Shibasaki,Gaku Shibasaki,False,P-99817,1_nome_esatto,100
+Japan,Images_Hidemasa Morita,Hidemasa Morita,False,P-75751,1_nome_esatto,100
+Japan,Images_Hiroki Ito,Hiroki Ito,False,P-41902,1_nome_esatto,100
+Japan,Images_Hiroki Sakai,Hiroki Sakai,False,P-56398,1_nome_esatto,100
+Japan,Images_Junya Ito,Junya Ito,False,P-86909,1_nome_esatto,100
+Japan,Images_Kaoru Mitoma,Kaoru Mitoma,False,P-22633,1_nome_esatto,100
+Japan,Images_Ko Itakura,Ko Itakura,False,P-35225,1_nome_esatto,100
+Japan,Images_Maya Yoshida (captain),Maya Yoshida,True,P-89321,1_nome_esatto,100
+Japan,Images_Miki Yamane,Miki Yamane,False,P-45981,1_nome_esatto,100
+Japan,Images_Ritsu D┼ìan,Ritsu Dōan,False,P-58907,1_nome_esatto,100
+Japan,Images_Shogo Taniguchi,Shogo Taniguchi,False,P-77382,1_nome_esatto,100
+Japan,Images_Shuto Machino,Shuto Machino,False,P-44328,1_nome_esatto,100
+Japan,Images_Sh┼½ichi Gonda,Shūichi Gonda,False,P-66906,1_nome_esatto,100
+Japan,Images_Takefusa Kubo,Takefusa Kubo,False,P-39942,1_nome_esatto,100
+Japan,Images_Takehiro Tomiyasu,Takehiro Tomiyasu,False,P-68429,1_nome_esatto,100
+Japan,Images_Takuma Asano,Takuma Asano,False,P-46913,1_nome_esatto,100
+Japan,Images_Takumi Minamino,Takumi Minamino,False,P-05559,1_nome_esatto,100
+Japan,Images_Wataru Endo,Wataru Endo,False,P-53282,1_nome_esatto,100
+Japan,Images_Yuki Soma,Yuki Soma,False,P-64056,1_nome_esatto,100
+Japan,Images_Yuto Nagatomo,Yuto Nagatomo,False,P-26303,1_nome_esatto,100
+Spain,Images_Alejandro Balde,Alejandro Balde,False,P-49008,1_nome_esatto,100
+Spain,Images_Ansu Fati,Ansu Fati,False,P-33854,1_nome_esatto,100
+Spain,Images_Aymeric Laporte,Aymeric Laporte,False,P-99025,1_nome_esatto,100
+Spain,Images_Carlos Soler,Carlos Soler,False,P-30405,1_nome_esatto,100
+Spain,Images_C├®sar Azpilicueta,César Azpilicueta,False,P-60716,1_nome_esatto,100
+Spain,Images_Dani Carvajal,Dani Carvajal,False,P-71071,1_nome_esatto,100
+Spain,Images_Dani Olmo,Dani Olmo,False,P-40007,1_nome_esatto,100
+Spain,Images_David Raya,David Raya,False,P-33433,1_nome_esatto,100
+Spain,Images_Eric Garc├¡a,Eric García,False,P-37420,1_nome_esatto,100
+Spain,Images_Ferran Torres,Ferran Torres,False,P-31301,1_nome_esatto,100
+Spain,Images_Gavi,Gavi,False,P-88433,1_nome_esatto,100
+Spain,Images_Hugo Guillam├│n,Hugo Guillamón,False,P-87958,1_nome_esatto,100
+Spain,Images_Jordi Alba,Jordi Alba,False,P-01416,1_nome_esatto,100
+Spain,Images_Koke,Koke,False,P-37294,1_nome_esatto,100
+Spain,Images_Marco Asensio,Marco Asensio,False,P-09400,1_nome_esatto,100
+Spain,Images_Marcos Llorente,Marcos Llorente,False,P-86871,1_nome_esatto,100
+Spain,Images_Nico Williams,Nico Williams,False,P-68218,1_nome_esatto,100
+Spain,Images_Pablo Sarabia,Pablo Sarabia,False,P-81427,1_nome_esatto,100
+Spain,Images_Pau Torres,Pau Torres,False,P-16333,1_nome_esatto,100
+Spain,Images_Pedri,Pedri,False,P-24897,1_nome_esatto,100
+Spain,Images_Robert S├ínchez,Robert Sánchez,False,P-92513,1_nome_esatto,100
+Spain,Images_Rodri,Rodri,False,P-62341,1_nome_esatto,100
+Spain,Images_Sergio Busquets (captain),Sergio Busquets,True,P-28010,1_nome_esatto,100
+Spain,Images_Unai Sim├│n,Unai Simón,False,P-94271,1_nome_esatto,100
+Spain,Images_Yeremy Pino,Yeremy Pino,False,P-46898,1_nome_esatto,100
+Spain,Images_├ülvaro Morata,Álvaro Morata,False,P-29274,1_nome_esatto,100
+Belgium,Images_Amadou Onana,Amadou Onana,False,P-21652,1_nome_esatto,100
+Belgium,Images_Arthur Theate,Arthur Theate,False,P-75820,1_nome_esatto,100
+Belgium,Images_Axel Witsel,Axel Witsel,False,P-53048,1_nome_esatto,100
+Belgium,Images_Charles De Ketelaere,Charles De Ketelaere,False,P-61810,1_nome_esatto,100
+Belgium,Images_Dries Mertens,Dries Mertens,False,P-84852,1_nome_esatto,100
+Belgium,Images_Eden Hazard (captain),Eden Hazard,True,P-72011,1_nome_esatto,100
+Belgium,Images_Hans Vanaken,Hans Vanaken,False,P-81997,1_nome_esatto,100
+Belgium,Images_Jan Vertonghen,Jan Vertonghen,False,P-64049,1_nome_esatto,100
+Belgium,Images_J├®r├®my Doku,Jérémy Doku,False,P-29578,1_nome_esatto,100
+Belgium,Images_Kevin De Bruyne,Kevin De Bruyne,False,P-48955,1_nome_esatto,100
+Belgium,Images_Koen Casteels,Koen Casteels,False,P-88715,1_nome_esatto,100
+Belgium,Images_Leander Dendoncker,Leander Dendoncker,False,P-73834,1_nome_esatto,100
+Belgium,Images_Leandro Trossard,Leandro Trossard,False,P-95312,1_nome_esatto,100
+Belgium,Images_Lo├»s Openda,Loïs Openda,False,P-70691,1_nome_esatto,100
+Belgium,Images_Michy Batshuayi,Michy Batshuayi,False,P-13975,1_nome_esatto,100
+Belgium,Images_Romelu Lukaku,Romelu Lukaku,False,P-72637,1_nome_esatto,100
+Belgium,Images_Simon Mignolet,Simon Mignolet,False,P-10313,1_nome_esatto,100
+Belgium,Images_Thibaut Courtois,Thibaut Courtois,False,P-09658,1_nome_esatto,100
+Belgium,Images_Thomas Meunier,Thomas Meunier,False,P-22930,1_nome_esatto,100
+Belgium,Images_Thorgan Hazard,Thorgan Hazard,False,P-74337,1_nome_esatto,100
+Belgium,Images_Timothy Castagne,Timothy Castagne,False,P-56069,1_nome_esatto,100
+Belgium,Images_Toby Alderweireld,Toby Alderweireld,False,P-70547,1_nome_esatto,100
+Belgium,Images_Wout Faes,Wout Faes,False,P-61413,1_nome_esatto,100
+Belgium,Images_Yannick Carrasco,Yannick Carrasco,False,P-06338,1_nome_esatto,100
+Belgium,Images_Youri Tielemans,Youri Tielemans,False,P-47906,1_nome_esatto,100
+Belgium,Images_Zeno Debast,Zeno Debast,False,P-56669,1_nome_esatto,100
+Canada,Images_Alistair Johnston,Alistair Johnston,False,P-12635,1_nome_esatto,100
+Canada,Images_Alphonso Davies,Alphonso Davies,False,P-46358,1_nome_esatto,100
+Canada,Images_Atiba Hutchinson (captain),Atiba Hutchinson,True,P-03472,1_nome_esatto,100
+Canada,Images_Cyle Larin,Cyle Larin,False,P-01925,1_nome_esatto,100
+Canada,Images_David Wotherspoon,David Wotherspoon,False,P-49915,1_nome_esatto,100
+Canada,Images_Dayne St. Clair,Dayne St. Clair,False,P-94317,1_nome_esatto,100
+Canada,Images_Derek Cornelius,Derek Cornelius,False,P-21099,1_nome_esatto,100
+Canada,Images_Ik├® Ugbo,Iké Ugbo,False,P-83822,1_nome_esatto,100
+Canada,Images_Isma├½l Kon├®,Ismaël Koné,False,P-85670,1_nome_esatto,100
+Canada,Images_James Pantemis,James Pantemis,False,P-61949,1_nome_esatto,100
+Canada,Images_Joel Waterman,Joel Waterman,False,P-71727,1_nome_esatto,100
+Canada,Images_Jonathan David,Jonathan David,False,P-48340,1_nome_esatto,100
+Canada,Images_Jonathan Osorio,Jonathan Osorio,False,P-27541,1_nome_esatto,100
+Canada,Images_Junior Hoilett,Junior Hoilett,False,P-35706,1_nome_esatto,100
+Canada,Images_Kamal Miller,Kamal Miller,False,P-31806,1_nome_esatto,100
+Canada,Images_Liam Fraser,Liam Fraser,False,P-32574,1_nome_esatto,100
+Canada,Images_Liam Millar,Liam Millar,False,P-00809,1_nome_esatto,100
+Canada,Images_Lucas Cavallini,Lucas Cavallini,False,P-58061,1_nome_esatto,100
+Canada,Images_Mark-Anthony Kaye,Mark-Anthony Kaye,False,P-72399,1_nome_esatto,100
+Canada,Images_Milan Borjan,Milan Borjan,False,P-46263,1_nome_esatto,100
+Canada,Images_Richie Laryea,Richie Laryea,False,P-42390,1_nome_esatto,100
+Canada,Images_Sam Adekugbe,Sam Adekugbe,False,P-55821,1_nome_esatto,100
+Canada,Images_Samuel Piette,Samuel Piette,False,P-65386,1_nome_esatto,100
+Canada,Images_Stephen Eust├íquio,Stephen Eustáquio,False,P-28794,1_nome_esatto,100
+Canada,Images_Steven Vit├│ria,Steven Vitória,False,P-89710,1_nome_esatto,100
+Canada,Images_Tajon Buchanan,Tajon Buchanan,False,P-96259,1_nome_esatto,100
+Croatia,Images_Andrej Kramari─ç,Andrej Kramarić,False,P-65182,1_nome_esatto,100
+Croatia,Images_Ante Budimir,Ante Budimir,False,P-99461,1_nome_esatto,100
+Croatia,Images_Borna Bari┼íi─ç,Borna Barišić,False,P-95766,1_nome_esatto,100
+Croatia,Images_Borna Sosa,Borna Sosa,False,P-84190,1_nome_esatto,100
+Croatia,Images_Bruno Petkovi─ç,Bruno Petković,False,P-46461,1_nome_esatto,100
+Croatia,Images_Dejan Lovren,Dejan Lovren,False,P-56297,1_nome_esatto,100
+Croatia,Images_Domagoj Vida,Domagoj Vida,False,P-91294,1_nome_esatto,100
+Croatia,Images_Dominik Livakovi─ç,Dominik Livaković,False,P-99988,1_nome_esatto,100
+Croatia,Images_Ivan Peri┼íi─ç,Ivan Perišić,False,P-93884,1_nome_esatto,100
+Croatia,Images_Ivica Ivu┼íi─ç,Ivica Ivušić,False,P-94815,1_nome_esatto,100
+Croatia,Images_Ivo Grbi─ç,Ivo Grbić,False,P-32870,1_nome_esatto,100
+Croatia,Images_Josip Juranovi─ç,Josip Juranović,False,P-16484,1_nome_esatto,100
+Croatia,Images_Josip Stani┼íi─ç,Josip Stanišić,False,P-91350,1_nome_esatto,100
+Croatia,Images_Josip ┼áutalo,Josip Šutalo,False,P-57417,1_nome_esatto,100
+Croatia,Images_Jo┼íko Gvardiol,Joško Gvardiol,False,P-58420,1_nome_esatto,100
+Croatia,Images_Kristijan Jaki─ç,Kristijan Jakić,False,P-86466,1_nome_esatto,100
+Croatia,Images_Lovro Majer,Lovro Majer,False,P-64353,1_nome_esatto,100
+Croatia,Images_Luka Modri─ç (captain),Luka Modrić,True,P-29491,1_nome_esatto,100
+Croatia,Images_Luka Su─ìi─ç,Luka Sučić,False,P-67668,1_nome_esatto,100
+Croatia,Images_Marcelo Brozovi─ç,Marcelo Brozović,False,P-79215,1_nome_esatto,100
+Croatia,Images_Mario Pa┼íali─ç,Mario Pašalić,False,P-89948,1_nome_esatto,100
+Croatia,Images_Marko Livaja,Marko Livaja,False,P-31643,1_nome_esatto,100
+Croatia,Images_Martin Erli─ç,Martin Erlić,False,P-01196,1_nome_esatto,100
+Croatia,Images_Mateo Kova─ìi─ç,Mateo Kovačić,False,P-07670,1_nome_esatto,100
+Croatia,Images_Mislav Or┼íi─ç,Mislav Oršić,False,P-26942,1_nome_esatto,100
+Croatia,Images_Nikola Vla┼íi─ç,Nikola Vlašić,False,P-22160,1_nome_esatto,100
+Morocco,Images_Abde Ezzalzouli,Abde Ezzalzouli,False,P-21052,1_nome_esatto,100
+Morocco,Images_Abdelhamid Sabiri,Abdelhamid Sabiri,False,P-05265,1_nome_esatto,100
+Morocco,Images_Abderrazak Hamdallah,Abderrazak Hamdallah,False,P-90423,1_nome_esatto,100
+Morocco,Images_Achraf Dari,Achraf Dari,False,P-52013,1_nome_esatto,100
+Morocco,Images_Achraf Hakimi,Achraf Hakimi,False,P-45288,1_nome_esatto,100
+Morocco,Images_Ahmed Reda Tagnaouti,Ahmed Reda Tagnaouti,False,P-88869,1_nome_esatto,100
+Morocco,Images_Anass Zaroury,Anass Zaroury,False,P-94093,1_nome_esatto,100
+Morocco,Images_Azzedine Ounahi,Azzedine Ounahi,False,P-40619,1_nome_esatto,100
+Morocco,Images_Badr Benoun,Badr Benoun,False,P-00597,1_nome_esatto,100
+Morocco,Images_Bilal El Khannous,Bilal El Khannous,False,P-80656,1_nome_esatto,100
+Morocco,Images_Hakim Ziyech,Hakim Ziyech,False,P-70715,1_nome_esatto,100
+Morocco,Images_Ilias Chair,Ilias Chair,False,P-87409,1_nome_esatto,100
+Morocco,Images_Jawad El Yamiq,Jawad El Yamiq,False,P-14026,1_nome_esatto,100
+Morocco,Images_Munir Mohamedi,Munir Mohamedi,False,P-15566,1_nome_esatto,100
+Morocco,Images_Nayef Aguerd,Nayef Aguerd,False,P-47490,1_nome_esatto,100
+Morocco,Images_Noussair Mazraoui,Noussair Mazraoui,False,P-09614,1_nome_esatto,100
+Morocco,Images_Romain Sa├»ss (captain),Romain Saïss,True,P-26068,1_nome_esatto,100
+Morocco,Images_Selim Amallah,Selim Amallah,False,P-23330,1_nome_esatto,100
+Morocco,Images_Sofiane Boufal,Sofiane Boufal,False,P-59033,1_nome_esatto,100
+Morocco,Images_Sofyan Amrabat,Sofyan Amrabat,False,P-71023,1_nome_esatto,100
+Morocco,Images_Walid Cheddira,Walid Cheddira,False,P-05216,1_nome_esatto,100
+Morocco,Images_Yahia Attiyat Allah,Yahia Attiyat Allah,False,P-91543,1_nome_esatto,100
+Morocco,Images_Yahya Jabrane,Yahya Jabrane,False,P-86644,1_nome_esatto,100
+Morocco,Images_Yassine Bounou,Yassine Bounou,False,P-50688,1_nome_esatto,100
+Morocco,Images_Youssef En-Nesyri,Youssef En-Nesyri,False,P-42517,1_nome_esatto,100
+Morocco,Images_Zakaria Aboukhlal,Zakaria Aboukhlal,False,P-48295,1_nome_esatto,100
+Brazil,Images_Alex Sandro,Alex Sandro,False,P-97698,1_nome_esatto,100
+Brazil,Images_Alex Telles,Alex Telles,False,P-26953,1_nome_esatto,100
+Brazil,Images_Alisson,Alisson,False,P-21531,1_nome_esatto,100
+Brazil,Images_Antony,Antony,False,P-37860,1_nome_esatto,100
+Brazil,Images_Bremer,Bremer,False,P-14060,1_nome_esatto,100
+Brazil,Images_Bruno Guimar├úes,Bruno Guimarães,False,P-74688,1_nome_esatto,100
+Brazil,Images_Casemiro,Casemiro,False,P-02305,1_nome_esatto,100
+Brazil,Images_Dani Alves,Dani Alves,False,P-09441,1_nome_esatto,100
+Brazil,Images_Danilo,Danilo,False,P-40137,1_nome_esatto,100
+Brazil,Images_Ederson,Ederson,False,P-89248,1_nome_esatto,100
+Brazil,Images_Fabinho,Fabinho,False,P-77071,1_nome_esatto,100
+Brazil,Images_Fred,Fred,False,P-74941,1_nome_esatto,100
+Brazil,Images_Gabriel Jesus,Gabriel Jesus,False,P-92004,1_nome_esatto,100
+Brazil,Images_Gabriel Martinelli,Gabriel Martinelli,False,P-70483,1_nome_esatto,100
+Brazil,Images_Lucas Paquet├í,Lucas Paquetá,False,P-05164,1_nome_esatto,100
+Brazil,Images_Marquinhos,Marquinhos,False,P-76060,1_nome_esatto,100
+Brazil,Images_Neymar,Neymar,False,P-87008,1_nome_esatto,100
+Brazil,Images_Pedro,Pedro,False,P-15197,1_nome_esatto,100
+Brazil,Images_Raphinha,Raphinha,False,P-83169,1_nome_esatto,100
+Brazil,Images_Richarlison,Richarlison,False,P-68016,1_nome_esatto,100
+Brazil,Images_Rodrygo,Rodrygo,False,P-06446,1_nome_esatto,100
+Brazil,Images_Thiago Silva (captain),Thiago Silva,True,P-32798,1_nome_esatto,100
+Brazil,Images_Vin├¡cius J├║nior,Vinícius Júnior,False,P-92812,1_nome_esatto,100
+Brazil,Images_Weverton,Weverton,False,P-66020,1_nome_esatto,100
+Brazil,Images_├ëder Milit├úo,Éder Militão,False,P-55590,1_nome_esatto,100
+Brazil,Images_├ëverton Ribeiro,Éverton Ribeiro,False,P-42740,1_nome_esatto,100
+Cameroon,Images_Andr├® Onana,André Onana,False,P-67127,1_nome_esatto,100
+Cameroon,Images_Andr├®-Frank Zambo Anguissa,André-Frank Zambo Anguissa,False,P-38355,1_nome_esatto,100
+Cameroon,Images_Bryan Mbeumo,Bryan Mbeumo,False,P-39394,1_nome_esatto,100
+Cameroon,Images_Christian Bassogog,Christian Bassogog,False,P-51549,1_nome_esatto,100
+Cameroon,Images_Christopher Wooh,Christopher Wooh,False,P-74894,1_nome_esatto,100
+Cameroon,Images_Collins Fai,Collins Fai,False,P-47677,1_nome_esatto,100
+Cameroon,Images_Devis Epassy,Devis Epassy,False,P-70357,1_nome_esatto,100
+Cameroon,Images_Enzo Ebosse,Enzo Ebosse,False,P-02759,1_nome_esatto,100
+Cameroon,Images_Eric Maxim Choupo-Moting,Eric Maxim Choupo-Moting,False,P-06117,1_nome_esatto,100
+Cameroon,Images_Ga├½l Ondoua,Gaël Ondoua,False,P-36707,1_nome_esatto,100
+Cameroon,Images_Georges-K├®vin Nkoudou,Georges-Kévin Nkoudou,False,P-68058,1_nome_esatto,100
+Cameroon,Images_Jean-Charles Castelletto,Jean-Charles Castelletto,False,P-59303,1_nome_esatto,100
+Cameroon,Images_Jean-Pierre Nsame,Jean-Pierre Nsame,False,P-39239,1_nome_esatto,100
+Cameroon,Images_Jerome Ngom Mbekeli,Jerome Ngom Mbekeli,False,P-32773,1_nome_esatto,100
+Cameroon,Images_Karl Toko Ekambi,Karl Toko Ekambi,False,P-20259,1_nome_esatto,100
+Cameroon,Images_Martin Hongla,Martin Hongla,False,P-34633,1_nome_esatto,100
+Cameroon,Images_Moumi Ngamaleu,Moumi Ngamaleu,False,P-27913,1_nome_esatto,100
+Cameroon,Images_Nicolas Nkoulou,Nicolas Nkoulou,False,P-93209,1_nome_esatto,100
+Cameroon,Images_Nouhou Tolo,Nouhou Tolo,False,P-55367,1_nome_esatto,100
+Cameroon,Images_Olivier Mbaizo,Olivier Mbaizo,False,P-80930,1_nome_esatto,100
+Cameroon,Images_Olivier Ntcham,Olivier Ntcham,False,P-62618,1_nome_esatto,100
+Cameroon,Images_Pierre Kunde,Pierre Kunde,False,P-29115,1_nome_esatto,100
+Cameroon,Images_Samuel Gouet,Samuel Gouet,False,P-63923,1_nome_esatto,100
+Cameroon,Images_Simon Ngapandouetnbu,Simon Ngapandouetnbu,False,P-22927,1_nome_esatto,100
+Cameroon,Images_Souaibou Marou,Souaibou Marou,False,P-25904,1_nome_esatto,100
+Cameroon,Images_Vincent Aboubakar (captain),Vincent Aboubakar,True,P-53452,1_nome_esatto,100
+Serbia,Images_Aleksandar Mitrovi─ç,Aleksandar Mitrović,False,P-85696,1_nome_esatto,100
+Serbia,Images_Andrija ┼¢ivkovi─ç,Andrija Živković,False,P-58363,1_nome_esatto,100
+Serbia,Images_Darko Lazovi─ç,Darko Lazović,False,P-54211,1_nome_esatto,100
+Serbia,Images_Du┼ían Tadi─ç (captain),Dušan Tadić,True,P-33390,1_nome_esatto,100
+Serbia,Images_Du┼ían Vlahovi─ç,Dušan Vlahović,False,P-63293,1_nome_esatto,100
+Serbia,Images_Filip Kosti─ç,Filip Kostić,False,P-80738,1_nome_esatto,100
+Serbia,Images_Filip Mladenovi─ç,Filip Mladenović,False,P-82143,1_nome_esatto,100
+Serbia,Images_Filip ─Éuri─ìi─ç,Filip Đuričić,False,P-79754,1_nome_esatto,100
+Serbia,Images_Ivan Ili─ç,Ivan Ilić,False,P-67641,1_nome_esatto,100
+Serbia,Images_Luka Jovi─ç,Luka Jović,False,P-62033,1_nome_esatto,100
+Serbia,Images_Marko Dmitrovi─ç,Marko Dmitrović,False,P-72770,1_nome_esatto,100
+Serbia,Images_Marko Gruji─ç,Marko Grujić,False,P-89573,1_nome_esatto,100
+Serbia,Images_Milo┼í Veljkovi─ç,Miloš Veljković,False,P-30283,1_nome_esatto,100
+Serbia,Images_Nemanja Gudelj,Nemanja Gudelj,False,P-24610,1_nome_esatto,100
+Serbia,Images_Nemanja Maksimovi─ç,Nemanja Maksimović,False,P-89598,1_nome_esatto,100
+Serbia,Images_Nemanja Radonji─ç,Nemanja Radonjić,False,P-79900,1_nome_esatto,100
+Serbia,Images_Nikola Milenkovi─ç,Nikola Milenković,False,P-57535,1_nome_esatto,100
+Serbia,Images_Predrag Rajkovi─ç,Predrag Rajković,False,P-35773,1_nome_esatto,100
+Serbia,Images_Sa┼ía Luki─ç,Saša Lukić,False,P-78056,1_nome_esatto,100
+Serbia,Images_Sergej Milinkovi─ç-Savi─ç,Sergej Milinković-Savić,False,P-27744,1_nome_esatto,100
+Serbia,Images_Sr─æan Babi─ç,Srđan Babić,False,P-70515,1_nome_esatto,100
+Serbia,Images_Stefan Mitrovi─ç,Stefan Mitrović,False,P-19069,1_nome_esatto,100
+Serbia,Images_Strahinja Erakovi─ç,Strahinja Eraković,False,P-55665,1_nome_esatto,100
+Serbia,Images_Strahinja Pavlovi─ç,Strahinja Pavlović,False,P-98435,1_nome_esatto,100
+Serbia,Images_Uro┼í Ra─ìi─ç,Uroš Račić,False,P-09530,1_nome_esatto,100
+Serbia,Images_Vanja Milinkovi─ç-Savi─ç,Vanja Milinković-Savić,False,P-24245,1_nome_esatto,100
+Switzerland,Images_Ardon Jashari,Ardon Jashari,False,P-17496,1_nome_esatto,100
+Switzerland,Images_Breel Embolo,Breel Embolo,False,P-19075,1_nome_esatto,100
+Switzerland,Images_Christian Fassnacht,Christian Fassnacht,False,P-71875,1_nome_esatto,100
+Switzerland,Images_Denis Zakaria,Denis Zakaria,False,P-83560,1_nome_esatto,100
+Switzerland,Images_Djibril Sow,Djibril Sow,False,P-11878,1_nome_esatto,100
+Switzerland,Images_Edimilson Fernandes,Edimilson Fernandes,False,P-29932,1_nome_esatto,100
+Switzerland,Images_Eray C├Âmert,Eray Cömert,False,P-56868,1_nome_esatto,100
+Switzerland,Images_Fabian Frei,Fabian Frei,False,P-00244,1_nome_esatto,100
+Switzerland,Images_Fabian Rieder,Fabian Rieder,False,P-25593,1_nome_esatto,100
+Switzerland,Images_Fabian Sch├ñr,Fabian Schär,False,P-25131,1_nome_esatto,100
+Switzerland,Images_Granit Xhaka (captain),Granit Xhaka,True,P-77224,1_nome_esatto,100
+Switzerland,Images_Gregor Kobel,Gregor Kobel,False,P-06076,1_nome_esatto,100
+Switzerland,Images_Haris Seferovic,Haris Seferovic,False,P-07180,1_nome_esatto,100
+Switzerland,Images_Jonas Omlin,Jonas Omlin,False,P-75926,1_nome_esatto,100
+Switzerland,Images_Manuel Akanji,Manuel Akanji,False,P-23925,1_nome_esatto,100
+Switzerland,Images_Michel Aebischer,Michel Aebischer,False,P-32222,1_nome_esatto,100
+Switzerland,Images_Nico Elvedi,Nico Elvedi,False,P-19193,1_nome_esatto,100
+Switzerland,Images_Noah Okafor,Noah Okafor,False,P-85577,1_nome_esatto,100
+Switzerland,Images_Philipp K├Âhn,Philipp Köhn,False,P-38800,1_nome_esatto,100
+Switzerland,Images_Remo Freuler,Remo Freuler,False,P-68060,1_nome_esatto,100
+Switzerland,Images_Renato Steffen,Renato Steffen,False,P-20482,1_nome_esatto,100
+Switzerland,Images_Ricardo Rodriguez,Ricardo Rodriguez,False,P-43367,1_nome_esatto,100
+Switzerland,Images_Ruben Vargas,Ruben Vargas,False,P-85823,1_nome_esatto,100
+Switzerland,Images_Silvan Widmer,Silvan Widmer,False,P-38927,1_nome_esatto,100
+Switzerland,Images_Xherdan Shaqiri,Xherdan Shaqiri,False,P-39460,1_nome_esatto,100
+Switzerland,Images_Yann Sommer,Yann Sommer,False,P-63312,1_nome_esatto,100
+Ghana,Images_Abdul Fatawu Issahaku,Abdul Fatawu Issahaku,False,P-62854,1_nome_esatto,100
+Ghana,Images_Abdul Manaf Nurudeen,Abdul Manaf Nurudeen,False,P-36638,1_nome_esatto,100
+Ghana,Images_Alexander Djiku,Alexander Djiku,False,P-59808,1_nome_esatto,100
+Ghana,Images_Alidu Seidu,Alidu Seidu,False,P-36105,1_nome_esatto,100
+Ghana,Images_Andr├® Ayew (captain),André Ayew,True,P-01945,1_nome_esatto,100
+Ghana,Images_Antoine Semenyo,Antoine Semenyo,False,P-14179,1_nome_esatto,100
+Ghana,Images_Baba Rahman,Baba Rahman,False,P-94579,1_nome_esatto,100
+Ghana,Images_Daniel Afriyie,Daniel Afriyie,False,P-13639,1_nome_esatto,100
+Ghana,Images_Daniel Amartey,Daniel Amartey,False,P-82956,1_nome_esatto,100
+Ghana,Images_Daniel-Kofi Kyereh,Daniel-Kofi Kyereh,False,P-92252,1_nome_esatto,100
+Ghana,Images_Denis Odoi,Denis Odoi,False,P-08359,1_nome_esatto,100
+Ghana,Images_Elisha Owusu,Elisha Owusu,False,P-70145,1_nome_esatto,100
+Ghana,Images_Gideon Mensah,Gideon Mensah,False,P-28517,1_nome_esatto,100
+Ghana,Images_Ibrahim Danlad,Ibrahim Danlad,False,P-16148,1_nome_esatto,100
+Ghana,Images_I├▒aki Williams,Iñaki Williams,False,P-53967,1_nome_esatto,100
+Ghana,Images_Jordan Ayew,Jordan Ayew,False,P-31765,1_nome_esatto,100
+Ghana,Images_Joseph Aidoo,Joseph Aidoo,False,P-09991,1_nome_esatto,100
+Ghana,Images_Kamal Sowah,Kamal Sowah,False,P-20467,1_nome_esatto,100
+Ghana,Images_Kamaldeen Sulemana,Kamaldeen Sulemana,False,P-33325,1_nome_esatto,100
+Ghana,Images_Lawrence Ati-Zigi,Lawrence Ati-Zigi,False,P-51990,1_nome_esatto,100
+Ghana,Images_Mohammed Kudus,Mohammed Kudus,False,P-23821,1_nome_esatto,100
+Ghana,Images_Mohammed Salisu,Mohammed Salisu,False,P-50142,1_nome_esatto,100
+Ghana,Images_Osman Bukari,Osman Bukari,False,P-72363,1_nome_esatto,100
+Ghana,Images_Salis Abdul Samed,Salis Abdul Samed,False,P-21820,1_nome_esatto,100
+Ghana,Images_Tariq Lamptey,Tariq Lamptey,False,P-12913,1_nome_esatto,100
+Ghana,Images_Thomas Partey,Thomas Partey,False,P-07875,1_nome_esatto,100
+Portugal,Images_Andr├® Silva,André Silva,False,P-33280,1_nome_esatto,100
+Portugal,Images_Ant├│nio Silva,António Silva,False,P-05289,1_nome_esatto,100
+Portugal,Images_Bernardo Silva,Bernardo Silva,False,P-34205,1_nome_esatto,100
+Portugal,Images_Bruno Fernandes,Bruno Fernandes,False,P-39584,1_nome_esatto,100
+Portugal,Images_Cristiano Ronaldo (captain),Cristiano Ronaldo,True,P-70442,1_nome_esatto,100
+Portugal,Images_Danilo Pereira,Danilo Pereira,False,P-98929,1_nome_esatto,100
+Portugal,Images_Diogo Costa,Diogo Costa,False,P-54827,1_nome_esatto,100
+Portugal,Images_Diogo Dalot,Diogo Dalot,False,P-41603,1_nome_esatto,100
+Portugal,Images_Gon├ºalo Ramos,Gonçalo Ramos,False,P-41647,1_nome_esatto,100
+Portugal,Images_Jos├® S├í,José Sá,False,P-85204,1_nome_esatto,100
+Portugal,Images_Jo├úo Cancelo,João Cancelo,False,P-16736,1_nome_esatto,100
+Portugal,Images_Jo├úo F├®lix,João Félix,False,P-17931,1_nome_esatto,100
+Portugal,Images_Jo├úo M├írio,João Mário,False,P-31133,1_nome_esatto,100
+Portugal,Images_Jo├úo Palhinha,João Palhinha,False,P-46583,1_nome_esatto,100
+Portugal,Images_Matheus Nunes,Matheus Nunes,False,P-57759,1_nome_esatto,100
+Portugal,Images_Nuno Mendes,Nuno Mendes,False,P-87003,1_nome_esatto,100
+Portugal,Images_Ot├ívio,Otávio,False,P-78787,1_nome_esatto,100
+Portugal,Images_Pepe,Pepe,False,P-81972,1_nome_esatto,100
+Portugal,Images_Rafael Le├úo,Rafael Leão,False,P-27349,1_nome_esatto,100
+Portugal,Images_Rapha├½l Guerreiro,Raphaël Guerreiro,False,P-67578,1_nome_esatto,100
+Portugal,Images_Ricardo Horta,Ricardo Horta,False,P-05304,1_nome_esatto,100
+Portugal,Images_Rui Patr├¡cio,Rui Patrício,False,P-72028,1_nome_esatto,100
+Portugal,Images_R├║ben Dias,Rúben Dias,False,P-10712,1_nome_esatto,100
+Portugal,Images_R├║ben Neves,Rúben Neves,False,P-22983,1_nome_esatto,100
+Portugal,Images_Vitinha,Vitinha,False,P-89266,1_nome_esatto,100
+Portugal,Images_William Carvalho,William Carvalho,False,P-44689,1_nome_esatto,100
+South Korea,Images_Cho Gue-sung,Cho Gue-sung,False,P-87169,1_nome_esatto,100
+South Korea,Images_Cho Yu-min,Cho Yu-min,False,P-05917,1_nome_esatto,100
+South Korea,Images_Hong Chul,Hong Chul,False,P-91889,2_fuzzy,100
+South Korea,Images_Hwang Hee-chan,Hwang Hee-chan,False,P-58692,2_fuzzy,100
+South Korea,Images_Hwang In-beom,Hwang In-beom,False,P-67516,1_nome_esatto,100
+South Korea,Images_Hwang Ui-jo,Hwang Ui-jo,False,P-92710,1_nome_esatto,100
+South Korea,Images_Jeong Woo-yeong,Jeong Woo-yeong,False,P-94500,1_nome_esatto,100
+South Korea,Images_Jo Hyeon-woo,Jo Hyeon-woo,False,P-04157,2_fuzzy,100
+South Korea,Images_Jung Woo-young,Jung Woo-young,False,P-64292,2_fuzzy,100
+South Korea,Images_Kim Jin-su,Kim Jin-su,False,P-82889,1_nome_esatto,100
+South Korea,Images_Kim Min-jae,Kim Min-jae,False,P-14360,1_nome_esatto,100
+South Korea,Images_Kim Moon-hwan,Kim Moon-hwan,False,P-07233,1_nome_esatto,100
+South Korea,Images_Kim Seung-gyu,Kim Seung-gyu,False,P-42523,2_fuzzy,100
+South Korea,Images_Kim Tae-hwan,Kim Tae-hwan,False,P-66969,1_nome_esatto,100
+South Korea,Images_Kim Young-gwon,Kim Young-gwon,False,P-07259,2_fuzzy,100
+South Korea,Images_Kwon Chang-hoon,Kwon Chang-hoon,False,P-88360,1_nome_esatto,100
+South Korea,Images_Kwon Kyung-won,Kwon Kyung-won,False,P-57511,1_nome_esatto,100
+South Korea,Images_Lee Jae-sung,Lee Jae-sung,False,P-93920,2_fuzzy,100
+South Korea,Images_Lee Kang-in,Lee Kang-in,False,P-87514,1_nome_esatto,100
+South Korea,Images_Na Sang-ho,Na Sang-ho,False,P-10357,1_nome_esatto,100
+South Korea,Images_Paik Seung-ho,Paik Seung-ho,False,P-32599,1_nome_esatto,100
+South Korea,Images_Son Heung-min (captain),Son Heung-min,True,P-77335,2_fuzzy,100
+South Korea,Images_Son Jun-ho,Son Jun-ho,False,P-61172,1_nome_esatto,100
+South Korea,Images_Song Bum-keun,Song Bum-keun,False,P-49090,1_nome_esatto,100
+South Korea,Images_Song Min-kyu,Song Min-kyu,False,P-97485,1_nome_esatto,100
+South Korea,Images_Yoon Jong-gyu,Yoon Jong-gyu,False,P-88529,1_nome_esatto,100
+Uruguay,Images_Agust├¡n Canobbio,Agustín Canobbio,False,P-24667,1_nome_esatto,100
+Uruguay,Images_Darwin N├║├▒ez,Darwin Núñez,False,P-18885,1_nome_esatto,100
+Uruguay,Images_Diego God├¡n (captain),Diego Godín,True,P-78440,1_nome_esatto,100
+Uruguay,Images_Edinson Cavani,Edinson Cavani,False,P-59138,1_nome_esatto,100
+Uruguay,Images_Facundo Pellistri,Facundo Pellistri,False,P-95062,1_nome_esatto,100
+Uruguay,Images_Facundo Torres,Facundo Torres,False,P-68430,1_nome_esatto,100
+Uruguay,Images_Federico Valverde,Federico Valverde,False,P-05174,1_nome_esatto,100
+Uruguay,Images_Fernando Muslera,Fernando Muslera,False,P-10014,1_nome_esatto,100
+Uruguay,Images_Giorgian de Arrascaeta,Giorgian de Arrascaeta,False,P-62594,1_nome_esatto,100
+Uruguay,Images_Guillermo Varela,Guillermo Varela,False,P-78932,1_nome_esatto,100
+Uruguay,Images_Jos├® Gim├®nez,José Giménez,False,P-65659,1_nome_esatto,100
+Uruguay,Images_Jos├® Luis Rodr├¡guez,José Luis Rodríguez,False,P-55597,1_nome_esatto,100
+Uruguay,Images_Lucas Torreira,Lucas Torreira,False,P-47386,1_nome_esatto,100
+Uruguay,Images_Luis Su├írez,Luis Suárez,False,P-30486,1_nome_esatto,100
+Uruguay,Images_Manuel Ugarte,Manuel Ugarte,False,P-94091,1_nome_esatto,100
+Uruguay,Images_Mart├¡n C├íceres,Martín Cáceres,False,P-74058,1_nome_esatto,100
+Uruguay,Images_Math├¡as Olivera,Mathías Olivera,False,P-90796,1_nome_esatto,100
+Uruguay,Images_Mat├¡as Vecino,Matías Vecino,False,P-46785,1_nome_esatto,100
+Uruguay,Images_Mat├¡as Vi├▒a,Matías Viña,False,P-18564,1_nome_esatto,100
+Uruguay,Images_Maxi G├│mez,Maxi Gómez,False,P-70671,1_nome_esatto,100
+Uruguay,Images_Nicol├ís de la Cruz,Nicolás de la Cruz,False,P-86878,1_nome_esatto,100
+Uruguay,Images_Rodrigo Bentancur,Rodrigo Bentancur,False,P-58791,1_nome_esatto,100
+Uruguay,Images_Ronald Ara├║jo,Ronald Araújo,False,P-89869,1_nome_esatto,100
+Uruguay,Images_Sebasti├ín Coates,Sebastián Coates,False,P-20051,1_nome_esatto,100
+Uruguay,Images_Sebasti├ín Sosa,Sebastián Sosa,False,P-19914,1_nome_esatto,100
+Uruguay,Images_Sergio Rochet,Sergio Rochet,False,P-00232,1_nome_esatto,100

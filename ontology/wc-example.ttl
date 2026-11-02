@@ -1,0 +1,187 @@
+@prefix wc:     <http://example.org/worldcup/ontology#> .
+@prefix r:      <http://example.org/worldcup/resource/> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <https://schema.org/> .
+@prefix foaf:   <http://xmlns.com/foaf/0.1/> .
+@prefix dbr:    <http://dbpedia.org/resource/> .
+
+# =====================================================================
+#  Esempio di istanze: Lionel Messi nella finale del Mondiale 2022.
+#  Valori reali presi dalle quattro fonti; il commento a fianco di ogni
+#  blocco indica da dove viene ciascun dato.
+# =====================================================================
+
+# --- Torneo, fase, stadio, partita (dataset 1) -------------------------
+
+r:tournament\/WC-2022 a wc:Tournament ;
+    rdfs:label "2022 FIFA Men's World Cup" ;
+    wc:year "2022"^^xsd:gYear ;
+    wc:gender "men" ;
+    wc:startDate "2022-11-20"^^xsd:date ;
+    wc:endDate "2022-12-18"^^xsd:date ;
+    wc:countTeams 32 .
+
+r:stage\/WC-2022\/6 a wc:Stage ;
+    wc:stageOf r:tournament\/WC-2022 ;
+    wc:stageNumber 6 ;
+    wc:stageName "final" ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true .
+
+r:stadium\/S-147 a wc:Stadium ;
+    rdfs:label "Lusail Stadium" ;
+    wc:cityName "Lusail" ;
+    wc:countryName "Qatar" ;
+    wc:capacity 89000 ;
+    owl:sameAs dbr:Lusail_Stadium .
+
+r:match\/M-2022-64 a wc:Match ;
+    rdfs:label "Argentina vs France" ;
+    wc:inStage r:stage\/WC-2022\/6 ;
+    wc:playedAt r:stadium\/S-147 ;
+    wc:matchDate "2022-12-18"^^xsd:date ;
+    wc:homeTeam r:participation\/WC-2022\/T-03 ;
+    wc:awayTeam r:participation\/WC-2022\/T-30 ;
+    wc:homeScore 3 ;
+    wc:awayScore 3 ;
+    wc:extraTime true ;
+    wc:penaltyShootout true ;
+    wc:homePenalties 4 ;
+    wc:awayPenalties 2 ;
+    wc:refereedBy r:referee\/R-269 .
+
+r:referee\/R-269 a wc:Referee ;
+    schema:givenName "Szymon" ;
+    schema:familyName "Marciniak" ;
+    wc:countryName "Poland" ;
+    wc:memberOf r:confederation\/CF-6 .
+
+# --- Squadre: confederazione, federazione, nazionale, partecipazione --
+
+r:confederation\/CF-4 a wc:Confederation ;
+    rdfs:label "South American Football Confederation" ;
+    wc:confederationCode "CONMEBOL" .
+
+r:confederation\/CF-6 a wc:Confederation ;
+    rdfs:label "Union of European Football Associations" ;
+    wc:confederationCode "UEFA" .
+
+r:federation\/T-03 a wc:Federation ;
+    rdfs:label "Argentina" ;
+    wc:teamCode "ARG" ;
+    wc:regionName "South America" ;
+    wc:memberOf r:confederation\/CF-4 ;
+    owl:sameAs dbr:Argentine_Football_Association .
+
+r:nationalteam\/T-03\/men a wc:NationalTeam ;
+    rdfs:label "Argentina (men)" ;
+    wc:gender "men" ;
+    wc:representsFederation r:federation\/T-03 ;
+    owl:sameAs dbr:Argentina_national_football_team .
+
+r:participation\/WC-2022\/T-03 a wc:Participation ;
+    rdfs:label "Argentina at the 2022 FIFA Men's World Cup" ;
+    wc:team r:nationalteam\/T-03\/men ;
+    wc:tournament r:tournament\/WC-2022 ;
+    wc:performance "final" ;            # Dataset 1: qualified_teams
+    wc:isHost false ;                   # Dataset 1: host_countries
+    wc:finalPosition 1 ;                # Dataset 1: tournament_standings
+    wc:finalRank 1 ;                    # Dataset 2: FIFA - 2022.csv
+    wc:fifaRanking 2 ;                  # Dataset 3: FIFA Ranking
+    wc:kitSponsor r:brand\/adidas ;      # Dataset 3: National Team Kit Sponsor
+    wc:hasManager r:manager\/M-383 .     # Dataset 1: manager_appointments
+
+r:participation\/WC-2022\/T-30 a wc:Participation ;
+    rdfs:label "France at the 2022 FIFA Men's World Cup" ;
+    wc:tournament r:tournament\/WC-2022 ;
+    wc:finalPosition 2 .
+
+r:manager\/M-383 a wc:Manager ;
+    schema:givenName "Lionel" ;
+    schema:familyName "Scaloni" ;
+    wc:countryName "Argentina" .
+
+# --- Giocatore, convocazione, presenza --------------------------------
+
+r:player\/P-14758 a wc:Player ;
+    schema:givenName "Lionel" ;
+    schema:familyName "Messi" ;
+    schema:birthDate "1987-06-24"^^xsd:date ;
+    wc:isFemale false ;
+    owl:sameAs dbr:Lionel_Messi ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Lionel_Messi> .
+
+r:membership\/WC-2022\/T-03\/P-14758 a wc:SquadMembership ;
+    wc:player r:player\/P-14758 ;
+    wc:participation r:participation\/WC-2022\/T-03 ;
+    wc:shirtNumber 10 ;                 # Dataset 1: squads
+    wc:position wc:position_FW ;        # Dataset 1: squads
+    wc:isCaptain true ;                 # Immagini: cartella "(captain)"
+    wc:club r:club\/psg ;                # Dataset 3: Club
+    wc:bootBrand r:brand\/adidas ;       # Dataset 3: Brand Used
+    wc:reportedAppearances 7 ;          # Dataset 3
+    wc:reportedGoals 7 ;
+    wc:assists 3 ;
+    wc:dribblesPer90 3.78 ;
+    wc:interceptionsPer90 0.0 ;
+    wc:tacklesPer90 0.65 ;
+    wc:duelsWonPer90 6.39 ;
+    wc:wonAward r:award\/A-1 .              # Dataset 1: award_winners (Pallone d'oro 2022)
+
+r:appearance\/M-2022-64\/P-14758 a wc:Appearance ;
+    wc:player r:player\/P-14758 ;
+    wc:inMatch r:match\/M-2022-64 ;
+    wc:participation r:participation\/WC-2022\/T-03 ;
+    wc:position wc:position_RF ;        # ruolo specifico nella partita
+    wc:shirtNumber 10 ;
+    wc:isStarter true ;
+    wc:isSubstitute false .
+
+# --- Eventi della partita ---------------------------------------------
+
+r:goal\/G-3632 a wc:Goal ;
+    wc:inMatch r:match\/M-2022-64 ;
+    wc:player r:player\/P-14758 ;
+    wc:participation r:participation\/WC-2022\/T-03 ;
+    wc:creditedTo r:participation\/WC-2022\/T-03 ;
+    wc:minuteRegulation 23 ;
+    wc:minuteStoppage 0 ;
+    wc:matchPeriod "first half" ;
+    wc:isPenalty true ;
+    wc:isOwnGoal false .
+
+r:goal\/G-3636 a wc:Goal ;
+    wc:inMatch r:match\/M-2022-64 ;
+    wc:player r:player\/P-14758 ;
+    wc:participation r:participation\/WC-2022\/T-03 ;
+    wc:creditedTo r:participation\/WC-2022\/T-03 ;
+    wc:minuteRegulation 108 ;
+    wc:minuteStoppage 0 ;
+    wc:matchPeriod "extra time, second half" ;
+    wc:isPenalty false ;
+    wc:isOwnGoal false .
+
+# --- Premio -----------------------------------------------------------
+
+r:award\/A-1 a wc:Award ;
+    rdfs:label "Golden Ball" ;
+    wc:awardDescription "best player" ;
+    wc:yearIntroduced "1978"^^xsd:gYear .
+
+# --- Entità esterne: club, marca, immagine ----------------------------
+
+r:club\/psg a wc:Club ;
+    rdfs:label "PSG" .
+
+r:brand\/adidas a wc:Brand ;
+    rdfs:label "Adidas" .
+
+r:image\/P-14758\/1 a wc:Image ;
+    wc:depicts r:player\/P-14758 ;
+    wc:filePath "Group C/Argentina Players/Images_Lionel Messi (captain)/Lionel Messi (captain)1.jpg" ;
+    wc:md5 "420238acd0985948eb57baa848fdf004" ;
+    wc:fileFormat "JPEG" ;
+    wc:fileSize 9869 ;
+    wc:hasDuplicateContent false .

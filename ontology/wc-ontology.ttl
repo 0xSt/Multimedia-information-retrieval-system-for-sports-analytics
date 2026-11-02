@@ -1,0 +1,973 @@
+@prefix wc:      <http://example.org/worldcup/ontology#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema:  <https://schema.org/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+# =====================================================================
+#  Ontologia del Knowledge Graph dei Mondiali FIFA
+#  Generata da spec.py: modificare la specifica, non questo file.
+# =====================================================================
+
+<http://example.org/worldcup/ontology>
+    a owl:Ontology ;
+    dcterms:title "World Cup Knowledge Graph Ontology"@en , "Ontologia del knowledge graph dei Mondiali"@it ;
+    dcterms:description "Schema globale che integra quattro dataset: il database dei Mondiali FIFA (dataset 1) e tre dataset Kaggle (dataset 2: classifiche 1930-2022; dataset 3: statistiche dei giocatori 2022; dataset 4: immagini dei giocatori 2022)."@it ;
+    dcterms:creator "Stef" ;
+    dcterms:source <https://github.com/jfjelstul/worldcup> ;
+    owl:versionInfo "0.3" .
+
+# Annotazione: dataset da cui provengono le istanze o i valori
+wc:sourceDataset a owl:AnnotationProperty ;
+    rdfs:label "dataset di origine"@it ;
+    rdfs:comment "1, 2, 3, 4 = dataset 1, 2, 3, 4; D = derivata o regola di integrazione."@it .
+
+wc:uriPattern a owl:AnnotationProperty ;
+    rdfs:label "schema dell'URI"@it ;
+    rdfs:comment "Modello con cui si costruisce l'URI delle istanze, relativo a http://example.org/worldcup/resource/"@it .
+
+
+# ---------------------------------------------------------------------
+#  Classi
+# ---------------------------------------------------------------------
+
+wc:Tournament a owl:Class ;
+    rdfs:subClassOf schema:SportsEvent ;
+    rdfs:label "Tournament"@en , "Torneo"@it ;
+    rdfs:comment "Un'edizione della Coppa del Mondo FIFA, maschile o femminile."@it ;
+    wc:sourceDataset "1" ;
+    wc:uriPattern "tournament/{tournament_id}" .
+
+wc:Stage a owl:Class ;
+    rdfs:label "Stage"@en , "Fase"@it ;
+    rdfs:comment "Una fase di un torneo (girone, ottavi, quarti, ...)."@it ;
+    wc:sourceDataset "1" ;
+    wc:uriPattern "stage/{tournament_id}/{stage_number}" .
+
+wc:Group a owl:Class ;
+    rdfs:label "Group"@en , "Girone"@it ;
+    rdfs:comment "Un girone all'interno di una fase a gironi."@it ;
+    wc:sourceDataset "1" ;
+    wc:uriPattern "group/{tournament_id}/{stage_number}/{group_letter}" .
+
+wc:Match a owl:Class ;
+    rdfs:subClassOf schema:SportsEvent ;
+    rdfs:label "Match"@en , "Partita"@it ;
+    rdfs:comment "Una partita del torneo."@it ;
+    wc:sourceDataset "1" ;
+    wc:uriPattern "match/{match_id}" .
+
+wc:Stadium a owl:Class ;
+    rdfs:subClassOf schema:StadiumOrArena ;
+    rdfs:label "Stadium"@en , "Stadio"@it ;
+    rdfs:comment "Uno stadio che ha ospitato almeno una partita."@it ;
+    wc:sourceDataset "1" ;
+    wc:uriPattern "stadium/{stadium_id}" .
+
+wc:Confederation a owl:Class ;
+    rdfs:subClassOf schema:SportsOrganization ;
+    rdfs:label "Confederation"@en , "Confederazione"@it ;
+    rdfs:comment "Una confederazione continentale FIFA (UEFA, CONMEBOL, ...)."@it ;
+    wc:sourceDataset "1" ;
+    wc:uriPattern "confederation/{confederation_id}" .
+
+wc:Federation a owl:Class ;
+    rdfs:subClassOf schema:SportsOrganization ;
+    rdfs:label "Federation"@en , "Federazione"@it ;
+    rdfs:comment "Una federazione calcistica nazionale (il team_id del dataset 1): comune alle nazionali maschile e femminile."@it ;
+    wc:sourceDataset "1" ;
+    wc:uriPattern "federation/{team_id}" .
+
+wc:NationalTeam a owl:Class ;
+    rdfs:subClassOf schema:SportsTeam ;
+    rdfs:label "NationalTeam"@en , "Nazionale"@it ;
+    rdfs:comment "La nazionale maschile o femminile di una federazione."@it ;
+    wc:sourceDataset "D" ;
+    wc:uriPattern "nationalteam/{team_id}/{gender}" .
+
+wc:Participation a owl:Class ;
+    rdfs:label "Participation"@en , "Partecipazione"@it ;
+    rdfs:comment "La partecipazione di una nazionale a un torneo (es. Italia al Mondiale 2006). Nodo pivot del grafo."@it ;
+    wc:sourceDataset "1" ;
+    wc:uriPattern "participation/{tournament_id}/{team_id}" .
+
+wc:GroupStanding a owl:Class ;
+    rdfs:label "GroupStanding"@en , "Classifica nel girone"@it ;
+    rdfs:comment "La posizione finale di una partecipazione in un girone."@it ;
+    wc:sourceDataset "1" ;
+    wc:uriPattern "groupstanding/{tournament_id}/{stage_number}/{group_letter}/{team_id}" .
+
+wc:Person a owl:Class ;
+    rdfs:subClassOf schema:Person ;
+    rdfs:subClassOf foaf:Person ;
+    rdfs:label "Person"@en , "Persona"@it ;
+    rdfs:comment "Una persona coinvolta nei tornei."@it ;
+    wc:sourceDataset "1" ;
+    wc:uriPattern "-" .
+
+wc:Player a owl:Class ;
+    rdfs:subClassOf wc:Person ;
+    rdfs:label "Player"@en , "Giocatore"@it ;
+    rdfs:comment "Un calciatore convocato ad almeno un Mondiale."@it ;
+    wc:sourceDataset "1" ;
+    wc:uriPattern "player/{player_id}" .
+
+wc:Manager a owl:Class ;
+    rdfs:subClassOf wc:Person ;
+    rdfs:label "Manager"@en , "Allenatore"@it ;
+    rdfs:comment "Un commissario tecnico."@it ;
+    wc:sourceDataset "1" ;
+    wc:uriPattern "manager/{manager_id}" .
+
+wc:Referee a owl:Class ;
+    rdfs:subClassOf wc:Person ;
+    rdfs:label "Referee"@en , "Arbitro"@it ;
+    rdfs:comment "Un arbitro principale."@it ;
+    wc:sourceDataset "1" ;
+    wc:uriPattern "referee/{referee_id}" .
+
+wc:SquadMembership a owl:Class ;
+    rdfs:label "SquadMembership"@en , "Convocazione"@it ;
+    rdfs:comment "La convocazione di un giocatore nella rosa di una partecipazione. Porta gli attributi che dipendono dal torneo."@it ;
+    wc:sourceDataset "1" ;
+    wc:uriPattern "membership/{tournament_id}/{team_id}/{player_id}" .
+
+wc:Appearance a owl:Class ;
+    rdfs:label "Appearance"@en , "Presenza"@it ;
+    rdfs:comment "La presenza di un giocatore in una partita (dal 1970)."@it ;
+    wc:sourceDataset "1" ;
+    wc:uriPattern "appearance/{match_id}/{player_id}" .
+
+wc:Position a owl:Class ;
+    rdfs:subClassOf skos:Concept ;
+    rdfs:label "Position"@en , "Ruolo"@it ;
+    rdfs:comment "Ruolo di gioco come scritto nel dataset 1 (codice e nome): 4 ruoli generali nelle rose, 21 codici nelle presenze (i 4 generali e 17 specifici). Nessuna gerarchia tra i ruoli."@it ;
+    wc:sourceDataset "1" ;
+    wc:uriPattern "wc:position_{codice}" .
+
+wc:Award a owl:Class ;
+    rdfs:label "Award"@en , "Premio"@it ;
+    rdfs:comment "Un premio individuale (Pallone d'oro, Scarpa d'oro, ...)."@it ;
+    wc:sourceDataset "1" ;
+    wc:uriPattern "award/{award_id}" .
+
+wc:MatchEvent a owl:Class ;
+    rdfs:label "MatchEvent"@en , "Evento di partita"@it ;
+    rdfs:comment "Un evento avvenuto durante una partita."@it ;
+    wc:sourceDataset "1" ;
+    wc:uriPattern "-" .
+
+wc:Goal a owl:Class ;
+    rdfs:subClassOf wc:MatchEvent ;
+    rdfs:label "Goal"@en , "Gol"@it ;
+    rdfs:comment "Un gol (esclusi i rigori delle serie finali)."@it ;
+    wc:sourceDataset "1" ;
+    wc:uriPattern "goal/{goal_id}" .
+
+wc:Booking a owl:Class ;
+    rdfs:subClassOf wc:MatchEvent ;
+    rdfs:label "Booking"@en , "Ammonizione o espulsione"@it ;
+    rdfs:comment "Un cartellino (dal 1970)."@it ;
+    wc:sourceDataset "1" ;
+    wc:uriPattern "booking/{booking_id}" .
+
+wc:Substitution a owl:Class ;
+    rdfs:subClassOf wc:MatchEvent ;
+    rdfs:label "Substitution"@en , "Sostituzione"@it ;
+    rdfs:comment "Un giocatore che entra o esce per sostituzione (una riga del dataset 1 per giocatore, dal 1970)."@it ;
+    wc:sourceDataset "1" ;
+    wc:uriPattern "substitution/{substitution_id}" .
+
+wc:PenaltyKick a owl:Class ;
+    rdfs:subClassOf wc:MatchEvent ;
+    rdfs:label "PenaltyKick"@en , "Rigore della serie finale"@it ;
+    rdfs:comment "Un tiro di rigore in una serie di rigori."@it ;
+    wc:sourceDataset "1" ;
+    wc:uriPattern "penaltykick/{penalty_kick_id}" .
+
+wc:Club a owl:Class ;
+    rdfs:subClassOf schema:SportsTeam ;
+    rdfs:label "Club"@en , "Club"@it ;
+    rdfs:comment "Il club di appartenenza dichiarato dal dataset 3 (aggiornato a fine 2022)."@it ;
+    wc:sourceDataset "3" ;
+    wc:uriPattern "club/{slug_nome}" .
+
+wc:Brand a owl:Class ;
+    rdfs:subClassOf schema:Brand ;
+    rdfs:label "Brand"@en , "Marca"@it ;
+    rdfs:comment "Una marca di abbigliamento sportivo (sponsor tecnico o scarpe)."@it ;
+    wc:sourceDataset "3" ;
+    wc:uriPattern "brand/{slug_nome}" .
+
+wc:Image a owl:Class ;
+    rdfs:subClassOf schema:ImageObject ;
+    rdfs:label "Image"@en , "Immagine"@it ;
+    rdfs:comment "Una fotografia del dataset immagini, con etichetta di giocatore non verificata."@it ;
+    wc:sourceDataset "4" ;
+    wc:uriPattern "image/{player_id}/{numero_file}" .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( wc:Tournament wc:Stage wc:Group wc:Match wc:Stadium wc:Confederation
+                  wc:NationalTeam wc:Participation wc:Person wc:SquadMembership wc:Appearance
+                  wc:MatchEvent wc:Club wc:Brand wc:Image ) .
+
+
+# ---------------------------------------------------------------------
+#  Proprietà oggetto
+# ---------------------------------------------------------------------
+
+wc:stageOf a owl:ObjectProperty ;
+    a owl:FunctionalProperty ;
+    rdfs:domain wc:Stage ;
+    rdfs:range wc:Tournament ;
+    rdfs:comment "Il torneo a cui appartiene la fase."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "tournament_stages.tournament_id" .
+
+wc:groupOf a owl:ObjectProperty ;
+    a owl:FunctionalProperty ;
+    rdfs:domain wc:Group ;
+    rdfs:range wc:Stage ;
+    rdfs:comment "La fase a cui appartiene il girone."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "groups.stage_number" .
+
+wc:inStage a owl:ObjectProperty ;
+    a owl:FunctionalProperty ;
+    rdfs:domain wc:Match ;
+    rdfs:range wc:Stage ;
+    rdfs:comment "La fase in cui si gioca la partita. Per le partite a gironi è la fase del girone ricavato dalle squadre; per quelle a eliminazione si confronta il nome della fase (quarter-final -> quarter-finals, semi-final -> semi-finals nei tornei femminili)."@it ;
+    wc:sourceDataset "D" ;
+    dcterms:source "fase del girone ricavato (partite a gironi); matches.stage_name normalizzato al plurale (eliminazione diretta)" .
+
+wc:inGroup a owl:ObjectProperty ;
+    rdfs:domain wc:Match ;
+    rdfs:range wc:Group ;
+    rdfs:comment "Il girone della partita, ricavato dalle due squadre e non dal nome del girone (922/922 partite risolte, nessuna ambigua)."@it ;
+    wc:sourceDataset "D" ;
+    dcterms:source "group_standings: girone che contiene entrambe le squadre nello stesso torneo" .
+
+wc:playedAt a owl:ObjectProperty ;
+    a owl:FunctionalProperty ;
+    rdfs:domain wc:Match ;
+    rdfs:range wc:Stadium ;
+    rdfs:comment "Lo stadio della partita."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "matches.stadium_id" .
+
+wc:homeTeam a owl:ObjectProperty ;
+    a owl:FunctionalProperty ;
+    rdfs:domain wc:Match ;
+    rdfs:range wc:Participation ;
+    rdfs:comment "La squadra di casa."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "matches.home_team_id" .
+
+wc:awayTeam a owl:ObjectProperty ;
+    a owl:FunctionalProperty ;
+    rdfs:domain wc:Match ;
+    rdfs:range wc:Participation ;
+    rdfs:comment "La squadra in trasferta."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "matches.away_team_id" .
+
+wc:refereedBy a owl:ObjectProperty ;
+    rdfs:domain wc:Match ;
+    rdfs:range wc:Referee ;
+    rdfs:comment "L'arbitro principale della partita."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "referee_appearances" .
+
+wc:memberOf a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( wc:Federation wc:Referee ) ] ;
+    rdfs:range wc:Confederation ;
+    rdfs:comment "La confederazione di appartenenza (usata anche per gli arbitri)."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "teams.confederation_id / referees.confederation_id" .
+
+wc:predecessorOf a owl:ObjectProperty ;
+    owl:inverseOf wc:successorOf ;
+    rdfs:domain wc:Federation ;
+    rdfs:range wc:Federation ;
+    rdfs:comment "Successione riconosciuta dalla FIFA (es. West Germany -> Germany, Soviet Union -> Russia)."@it ;
+    wc:sourceDataset "D" ;
+    dcterms:source "regola manuale" .
+
+wc:representsFederation a owl:ObjectProperty ;
+    rdfs:domain wc:NationalTeam ;
+    rdfs:range wc:Federation ;
+    rdfs:comment "La federazione della nazionale."@it ;
+    wc:sourceDataset "D" ;
+    dcterms:source "teams.team_id" .
+
+wc:team a owl:ObjectProperty ;
+    a owl:FunctionalProperty ;
+    rdfs:domain wc:Participation ;
+    rdfs:range wc:NationalTeam ;
+    rdfs:comment "La nazionale che partecipa."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "qualified_teams.team_id" .
+
+wc:tournament a owl:ObjectProperty ;
+    a owl:FunctionalProperty ;
+    rdfs:domain wc:Participation ;
+    rdfs:range wc:Tournament ;
+    rdfs:comment "Il torneo."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "qualified_teams.tournament_id" .
+
+wc:hasManager a owl:ObjectProperty ;
+    rdfs:domain wc:Participation ;
+    rdfs:range wc:Manager ;
+    rdfs:comment "Il commissario tecnico (anche più d'uno)."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "manager_appointments" .
+
+wc:kitSponsor a owl:ObjectProperty ;
+    rdfs:domain wc:Participation ;
+    rdfs:range wc:Brand ;
+    rdfs:comment "Lo sponsor tecnico della maglia (solo 2022)."@it ;
+    wc:sourceDataset "3" ;
+    dcterms:source "National Team Kit Sponsor" .
+
+wc:player a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( wc:SquadMembership wc:Appearance wc:MatchEvent ) ] ;
+    rdfs:range wc:Player ;
+    rdfs:comment "Il giocatore a cui si riferisce il nodo (convocazione, presenza, evento)."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "squads.player_id / player_appearances / goals / ..." .
+
+wc:participation a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( wc:SquadMembership wc:Appearance wc:MatchEvent wc:GroupStanding ) ] ;
+    rdfs:range wc:Participation ;
+    rdfs:comment "La partecipazione (squadra al torneo) a cui si riferisce il nodo."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "squads.team_id + tournament_id" .
+
+wc:position a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( wc:SquadMembership wc:Appearance ) ] ;
+    rdfs:range wc:Position ;
+    rdfs:comment "Il ruolo nella rosa."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "squads.position_code" .
+
+wc:club a owl:ObjectProperty ;
+    rdfs:domain wc:SquadMembership ;
+    rdfs:range wc:Club ;
+    rdfs:comment "Il club dichiarato dal dataset 3 (può essere successivo al torneo)."@it ;
+    wc:sourceDataset "3" ;
+    dcterms:source "Club" .
+
+wc:bootBrand a owl:ObjectProperty ;
+    rdfs:domain wc:SquadMembership ;
+    rdfs:range wc:Brand ;
+    rdfs:comment "La marca di scarpe del giocatore."@it ;
+    wc:sourceDataset "3" ;
+    dcterms:source "Brand Sponsor/Brand Used" .
+
+wc:inMatch a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( wc:MatchEvent wc:Appearance ) ] ;
+    rdfs:range wc:Match ;
+    rdfs:comment "La partita in cui avviene l'evento o la presenza."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "match_id" .
+
+wc:creditedTo a owl:ObjectProperty ;
+    rdfs:domain wc:Goal ;
+    rdfs:range wc:Participation ;
+    rdfs:comment "La squadra a cui è accreditato il gol (diversa da quella del giocatore negli autogol)."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "goals.team_id" .
+
+wc:inGroupStanding a owl:ObjectProperty ;
+    rdfs:domain wc:GroupStanding ;
+    rdfs:range wc:Group ;
+    rdfs:comment "Il girone della classifica."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "group_standings" .
+
+wc:wonAward a owl:ObjectProperty ;
+    rdfs:domain wc:SquadMembership ;
+    rdfs:range wc:Award ;
+    rdfs:comment "Premio vinto dal giocatore in quel torneo. Il premio è condiviso se nello stesso torneo è assegnato a più convocazioni."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "award_winners (torneo, squadra, giocatore) -> squads" .
+
+wc:depicts a owl:ObjectProperty ;
+    rdfs:subPropertyOf foaf:depicts ;
+    rdfs:domain wc:Image ;
+    rdfs:range wc:Player ;
+    rdfs:comment "Il giocatore raffigurato secondo l'etichetta del dataset (rumorosa)."@it ;
+    wc:sourceDataset "4" ;
+    dcterms:source "cartella Images_<giocatore> + match_images.csv" .
+
+wc:successorOf a owl:ObjectProperty ;
+    rdfs:comment "Inversa di predecessorOf."@it ;
+    wc:sourceDataset "D" .
+
+
+# ---------------------------------------------------------------------
+#  Proprietà dato
+# ---------------------------------------------------------------------
+
+wc:year a owl:DatatypeProperty ;
+    rdfs:domain wc:Tournament ;
+    rdfs:range xsd:gYear ;
+    rdfs:comment "Anno del torneo."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "tournaments.year" .
+
+wc:gender a owl:DatatypeProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( wc:Tournament wc:NationalTeam ) ] ;
+    rdfs:range xsd:string ;
+    rdfs:comment "\"men\" o \"women\" (anche per NationalTeam)."@it ;
+    wc:sourceDataset "D" ;
+    dcterms:source "tournaments.tournament_name" .
+
+wc:startDate a owl:DatatypeProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( wc:Tournament wc:Stage ) ] ;
+    rdfs:range xsd:date ;
+    rdfs:comment "Data di inizio (anche per Stage)."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "tournaments.start_date" .
+
+wc:endDate a owl:DatatypeProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( wc:Tournament wc:Stage ) ] ;
+    rdfs:range xsd:date ;
+    rdfs:comment "Data di fine (anche per Stage)."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "tournaments.end_date" .
+
+wc:countTeams a owl:DatatypeProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( wc:Tournament wc:Group ) ] ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Numero di squadre (anche per Group)."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "tournaments.count_teams" .
+
+wc:stageNumber a owl:DatatypeProperty ;
+    rdfs:domain wc:Stage ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Numero d'ordine della fase."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "tournament_stages.stage_number" .
+
+wc:stageName a owl:DatatypeProperty ;
+    rdfs:domain wc:Stage ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Nome della fase."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "tournament_stages.stage_name" .
+
+wc:isGroupStage a owl:DatatypeProperty ;
+    rdfs:domain wc:Stage ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Vero per le fasi a gironi."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "tournament_stages.group_stage" .
+
+wc:isKnockoutStage a owl:DatatypeProperty ;
+    rdfs:domain wc:Stage ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Vero per le fasi a eliminazione."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "tournament_stages.knockout_stage" .
+
+wc:groupLetter a owl:DatatypeProperty ;
+    rdfs:domain wc:Group ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Lettera o numero del girone (\"A\", \"1\")."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "groups.group_name" .
+
+wc:matchDate a owl:DatatypeProperty ;
+    rdfs:domain wc:Match ;
+    rdfs:range xsd:date ;
+    rdfs:comment "Data della partita."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "matches.match_date" .
+
+wc:homeScore a owl:DatatypeProperty ;
+    rdfs:domain wc:Match ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Gol della squadra di casa."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "matches.home_team_score" .
+
+wc:awayScore a owl:DatatypeProperty ;
+    rdfs:domain wc:Match ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Gol della squadra in trasferta."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "matches.away_team_score" .
+
+wc:extraTime a owl:DatatypeProperty ;
+    rdfs:domain wc:Match ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Vero se si sono giocati i supplementari."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "matches.extra_time" .
+
+wc:penaltyShootout a owl:DatatypeProperty ;
+    rdfs:domain wc:Match ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Vero se decisa ai rigori."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "matches.penalty_shootout" .
+
+wc:homePenalties a owl:DatatypeProperty ;
+    rdfs:domain wc:Match ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Rigori segnati dalla squadra di casa."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "matches.home_team_score_penalties" .
+
+wc:awayPenalties a owl:DatatypeProperty ;
+    rdfs:domain wc:Match ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Rigori segnati dalla squadra in trasferta."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "matches.away_team_score_penalties" .
+
+wc:isReplay a owl:DatatypeProperty ;
+    rdfs:domain wc:Match ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Vero se la partita è una ripetizione."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "matches.replay" .
+
+wc:cityName a owl:DatatypeProperty ;
+    rdfs:domain wc:Stadium ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Città dello stadio."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "stadiums.city_name" .
+
+wc:countryName a owl:DatatypeProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( wc:Stadium wc:Manager wc:Referee ) ] ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Paese (testo)."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "stadiums.country_name / managers / referees" .
+
+wc:capacity a owl:DatatypeProperty ;
+    rdfs:domain wc:Stadium ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Capienza approssimativa."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "stadiums.stadium_capacity" .
+
+wc:confederationCode a owl:DatatypeProperty ;
+    rdfs:domain wc:Confederation ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Sigla (UEFA, CAF, ...)."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "confederations.confederation_code" .
+
+wc:teamCode a owl:DatatypeProperty ;
+    rdfs:domain wc:Federation ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Codice ISO alpha-3 (non univoco: DEU per Germania e Germania Ovest)."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "teams.team_code" .
+
+wc:regionName a owl:DatatypeProperty ;
+    rdfs:domain wc:Federation ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Regione geografica."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "teams.region_name" .
+
+wc:performance a owl:DatatypeProperty ;
+    rdfs:domain wc:Participation ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Fase più avanzata raggiunta."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "qualified_teams.performance" .
+
+wc:isHost a owl:DatatypeProperty ;
+    rdfs:domain wc:Participation ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Vero se la nazionale ospitava il torneo."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "host_countries" .
+
+wc:finalPosition a owl:DatatypeProperty ;
+    rdfs:domain wc:Participation ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Posizione finale (solo prime 4)."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "tournament_standings.position" .
+
+wc:finalRank a owl:DatatypeProperty ;
+    rdfs:domain wc:Participation ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Posizione nella classifica finale completa (ammette pari merito)."@it ;
+    wc:sourceDataset "2" ;
+    dcterms:source "FIFA - <anno>.csv: Position" .
+
+wc:fifaRanking a owl:DatatypeProperty ;
+    rdfs:domain wc:Participation ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Posizione nel ranking FIFA (solo 2022)."@it ;
+    wc:sourceDataset "3" ;
+    dcterms:source "FIFA Ranking" .
+
+wc:isFemale a owl:DatatypeProperty ;
+    rdfs:domain wc:Person ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Vero per le donne."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "players.female / managers / referees" .
+
+wc:shirtNumber a owl:DatatypeProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( wc:SquadMembership wc:Appearance ) ] ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Numero di maglia (0 prima del 1954 = sconosciuto)."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "squads.shirt_number" .
+
+wc:isCaptain a owl:DatatypeProperty ;
+    rdfs:domain wc:SquadMembership ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Vero per il capitano (solo 2022)."@it ;
+    wc:sourceDataset "4" ;
+    dcterms:source "suffisso \"(captain)\" del nome cartella" .
+
+wc:reportedAppearances a owl:DatatypeProperty ;
+    rdfs:domain wc:SquadMembership ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Presenze secondo il dataset 3 (incomplete)."@it ;
+    wc:sourceDataset "3" ;
+    dcterms:source "Appearances" .
+
+wc:reportedGoals a owl:DatatypeProperty ;
+    rdfs:domain wc:SquadMembership ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Gol secondo il dataset 3 (incompleti)."@it ;
+    wc:sourceDataset "3" ;
+    dcterms:source "Goals Scored" .
+
+wc:assists a owl:DatatypeProperty ;
+    rdfs:domain wc:SquadMembership ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Assist (solo il dataset 3)."@it ;
+    wc:sourceDataset "3" ;
+    dcterms:source "Assists Provided" .
+
+wc:dribblesPer90 a owl:DatatypeProperty ;
+    rdfs:domain wc:SquadMembership ;
+    rdfs:range xsd:decimal ;
+    rdfs:comment "Dribbling ogni 90 minuti."@it ;
+    wc:sourceDataset "3" ;
+    dcterms:source "Dribbles per 90" .
+
+wc:interceptionsPer90 a owl:DatatypeProperty ;
+    rdfs:domain wc:SquadMembership ;
+    rdfs:range xsd:decimal ;
+    rdfs:comment "Intercetti ogni 90 minuti."@it ;
+    wc:sourceDataset "3" ;
+    dcterms:source "Interceptions per 90" .
+
+wc:tacklesPer90 a owl:DatatypeProperty ;
+    rdfs:domain wc:SquadMembership ;
+    rdfs:range xsd:decimal ;
+    rdfs:comment "Contrasti ogni 90 minuti."@it ;
+    wc:sourceDataset "3" ;
+    dcterms:source "Tackles per 90" .
+
+wc:duelsWonPer90 a owl:DatatypeProperty ;
+    rdfs:domain wc:SquadMembership ;
+    rdfs:range xsd:decimal ;
+    rdfs:comment "Duelli vinti ogni 90 minuti."@it ;
+    wc:sourceDataset "3" ;
+    dcterms:source "Total Duels Won per 90" .
+
+wc:savePercentage a owl:DatatypeProperty ;
+    rdfs:domain wc:SquadMembership ;
+    rdfs:range xsd:decimal ;
+    rdfs:comment "Percentuale di parate (frazione 0-1)."@it ;
+    wc:sourceDataset "3" ;
+    dcterms:source "Save Percentage" .
+
+wc:cleanSheetRate a owl:DatatypeProperty ;
+    rdfs:domain wc:SquadMembership ;
+    rdfs:range xsd:decimal ;
+    rdfs:comment "Quota di partite senza gol subiti (frazione 0-1)."@it ;
+    wc:sourceDataset "3" ;
+    dcterms:source "Clean Sheets" .
+
+wc:isStarter a owl:DatatypeProperty ;
+    rdfs:domain wc:Appearance ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Vero se titolare."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "player_appearances.starter" .
+
+wc:isSubstitute a owl:DatatypeProperty ;
+    rdfs:domain wc:Appearance ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Vero se entrato dalla panchina."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "player_appearances.substitute" .
+
+wc:minuteRegulation a owl:DatatypeProperty ;
+    rdfs:domain wc:MatchEvent ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Minuto regolamentare (45, 90, 105, 120 nei recuperi)."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "minute_regulation" .
+
+wc:minuteStoppage a owl:DatatypeProperty ;
+    rdfs:domain wc:MatchEvent ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Minuto di recupero (0 se nel tempo regolamentare)."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "minute_stoppage" .
+
+wc:matchPeriod a owl:DatatypeProperty ;
+    rdfs:domain wc:MatchEvent ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Periodo (primo tempo, secondo tempo, ...)."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "match_period" .
+
+wc:isOwnGoal a owl:DatatypeProperty ;
+    rdfs:domain wc:Goal ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Vero per gli autogol."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "goals.own_goal" .
+
+wc:isPenalty a owl:DatatypeProperty ;
+    rdfs:domain wc:Goal ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Vero per i gol su rigore in partita."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "goals.penalty" .
+
+wc:isYellowCard a owl:DatatypeProperty ;
+    rdfs:domain wc:Booking ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Cartellino giallo."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "bookings.yellow_card" .
+
+wc:isRedCard a owl:DatatypeProperty ;
+    rdfs:domain wc:Booking ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Cartellino rosso."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "bookings.red_card" .
+
+wc:isSecondYellow a owl:DatatypeProperty ;
+    rdfs:domain wc:Booking ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Secondo giallo."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "bookings.second_yellow_card" .
+
+wc:isSendingOff a owl:DatatypeProperty ;
+    rdfs:domain wc:Booking ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Espulsione."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "bookings.sending_off" .
+
+wc:isGoingOff a owl:DatatypeProperty ;
+    rdfs:domain wc:Substitution ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Vero per il giocatore che esce."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "substitutions.going_off" .
+
+wc:isComingOn a owl:DatatypeProperty ;
+    rdfs:domain wc:Substitution ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Vero per il giocatore che entra."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "substitutions.coming_on" .
+
+wc:isConverted a owl:DatatypeProperty ;
+    rdfs:domain wc:PenaltyKick ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Vero se il rigore è segnato."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "penalty_kicks.converted" .
+
+wc:groupPosition a owl:DatatypeProperty ;
+    rdfs:domain wc:GroupStanding ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Posizione finale nel girone."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "group_standings.position" .
+
+wc:points a owl:DatatypeProperty ;
+    rdfs:domain wc:GroupStanding ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Punti nel girone (sistema dell'epoca)."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "group_standings.points" .
+
+wc:advanced a owl:DatatypeProperty ;
+    rdfs:domain wc:GroupStanding ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Vero se qualificata alla fase successiva."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "group_standings.advanced" .
+
+wc:awardDescription a owl:DatatypeProperty ;
+    rdfs:domain wc:Award ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Descrizione del premio."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "awards.award_description" .
+
+wc:yearIntroduced a owl:DatatypeProperty ;
+    rdfs:domain wc:Award ;
+    rdfs:range xsd:gYear ;
+    rdfs:comment "Anno di introduzione."@it ;
+    wc:sourceDataset "1" ;
+    dcterms:source "awards.year_introduced" .
+
+wc:filePath a owl:DatatypeProperty ;
+    rdfs:domain wc:Image ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Percorso relativo del file."@it ;
+    wc:sourceDataset "4" ;
+    dcterms:source "images_index.path" .
+
+wc:md5 a owl:DatatypeProperty ;
+    rdfs:domain wc:Image ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Impronta del contenuto (rileva i duplicati)."@it ;
+    wc:sourceDataset "4" ;
+    dcterms:source "images_index.md5" .
+
+wc:fileFormat a owl:DatatypeProperty ;
+    rdfs:domain wc:Image ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Formato reale (JPEG o PNG)."@it ;
+    wc:sourceDataset "4" ;
+    dcterms:source "images_index.format" .
+
+wc:fileSize a owl:DatatypeProperty ;
+    rdfs:domain wc:Image ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Dimensione in byte."@it ;
+    wc:sourceDataset "4" ;
+    dcterms:source "images_index.bytes" .
+
+wc:hasDuplicateContent a owl:DatatypeProperty ;
+    rdfs:domain wc:Image ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Vero se lo stesso contenuto compare per giocatori diversi."@it ;
+    wc:sourceDataset "D" ;
+    dcterms:source "md5 ripetuto in più cartelle" .
+
+wc:labelConfidence a owl:DatatypeProperty ;
+    rdfs:domain wc:Image ;
+    rdfs:range xsd:decimal ;
+    rdfs:comment "Affidabilità dell'etichetta depicts (0-1)."@it ;
+    wc:sourceDataset "D" ;
+    dcterms:source "similarità CLIP (da calcolare)" .
+
+wc:isVerified a owl:DatatypeProperty ;
+    rdfs:domain wc:Image ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Vero se l'etichetta è stata controllata a mano."@it ;
+    wc:sourceDataset "D" ;
+    dcterms:source "revisione manuale" .
+
+
+# ---------------------------------------------------------------------
+#  Ruoli di gioco (codici e nomi del dataset 1)
+# ---------------------------------------------------------------------
+
+wc:position_GK a wc:Position , skos:Concept ;
+    skos:notation "GK" ;
+    skos:prefLabel "goal keeper"@en .
+
+wc:position_DF a wc:Position , skos:Concept ;
+    skos:notation "DF" ;
+    skos:prefLabel "defender"@en .
+
+wc:position_MF a wc:Position , skos:Concept ;
+    skos:notation "MF" ;
+    skos:prefLabel "midfielder"@en .
+
+wc:position_FW a wc:Position , skos:Concept ;
+    skos:notation "FW" ;
+    skos:prefLabel "forward"@en .
+
+wc:position_CB a wc:Position , skos:Concept ;
+    skos:notation "CB" ;
+    skos:prefLabel "center back"@en .
+
+wc:position_LB a wc:Position , skos:Concept ;
+    skos:notation "LB" ;
+    skos:prefLabel "left back"@en .
+
+wc:position_RB a wc:Position , skos:Concept ;
+    skos:notation "RB" ;
+    skos:prefLabel "right back"@en .
+
+wc:position_LWB a wc:Position , skos:Concept ;
+    skos:notation "LWB" ;
+    skos:prefLabel "left wing back"@en .
+
+wc:position_RWB a wc:Position , skos:Concept ;
+    skos:notation "RWB" ;
+    skos:prefLabel "right wing back"@en .
+
+wc:position_SW a wc:Position , skos:Concept ;
+    skos:notation "SW" ;
+    skos:prefLabel "sweeper"@en .
+
+wc:position_DM a wc:Position , skos:Concept ;
+    skos:notation "DM" ;
+    skos:prefLabel "defensive midfielder"@en .
+
+wc:position_CM a wc:Position , skos:Concept ;
+    skos:notation "CM" ;
+    skos:prefLabel "center midfielder"@en .
+
+wc:position_AM a wc:Position , skos:Concept ;
+    skos:notation "AM" ;
+    skos:prefLabel "attacking midfielder"@en .
+
+wc:position_LM a wc:Position , skos:Concept ;
+    skos:notation "LM" ;
+    skos:prefLabel "left midfielder"@en .
+
+wc:position_RM a wc:Position , skos:Concept ;
+    skos:notation "RM" ;
+    skos:prefLabel "right midfielder"@en .
+
+wc:position_CF a wc:Position , skos:Concept ;
+    skos:notation "CF" ;
+    skos:prefLabel "center forward"@en .
+
+wc:position_LF a wc:Position , skos:Concept ;
+    skos:notation "LF" ;
+    skos:prefLabel "left forward"@en .
+
+wc:position_RF a wc:Position , skos:Concept ;
+    skos:notation "RF" ;
+    skos:prefLabel "right forward"@en .
+
+wc:position_LW a wc:Position , skos:Concept ;
+    skos:notation "LW" ;
+    skos:prefLabel "left winger"@en .
+
+wc:position_RW a wc:Position , skos:Concept ;
+    skos:notation "RW" ;
+    skos:prefLabel "right winger"@en .
+
+wc:position_SS a wc:Position , skos:Concept ;
+    skos:notation "SS" ;
+    skos:prefLabel "second striker"@en .

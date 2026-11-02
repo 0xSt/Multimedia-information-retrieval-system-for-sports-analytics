@@ -1,0 +1,1554 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wc: <http://example.org/worldcup/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/worldcup/resource/stage/WC-1930/1> a wc:Stage ;
+    rdfs:label "1930 FIFA Men's World Cup, group stage" ;
+    wc:endDate "1930-07-22"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1930> ;
+    wc:startDate "1930-07-13"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1930/2> a wc:Stage ;
+    rdfs:label "1930 FIFA Men's World Cup, semi-finals" ;
+    wc:endDate "1930-07-27"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "semi-finals" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1930> ;
+    wc:startDate "1930-07-26"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1930/3> a wc:Stage ;
+    rdfs:label "1930 FIFA Men's World Cup, final" ;
+    wc:endDate "1930-07-30"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1930> ;
+    wc:startDate "1930-07-30"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1934/1> a wc:Stage ;
+    rdfs:label "1934 FIFA Men's World Cup, round of 16" ;
+    wc:endDate "1934-05-27"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "round of 16" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1934> ;
+    wc:startDate "1934-05-27"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1934/2> a wc:Stage ;
+    rdfs:label "1934 FIFA Men's World Cup, quarter-finals" ;
+    wc:endDate "1934-06-01"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "quarter-finals" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1934> ;
+    wc:startDate "1934-05-31"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1934/3> a wc:Stage ;
+    rdfs:label "1934 FIFA Men's World Cup, semi-finals" ;
+    wc:endDate "1934-06-03"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "semi-finals" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1934> ;
+    wc:startDate "1934-06-03"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1934/4> a wc:Stage ;
+    rdfs:label "1934 FIFA Men's World Cup, third-place match" ;
+    wc:endDate "1934-06-07"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1934> ;
+    wc:startDate "1934-06-07"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1934/5> a wc:Stage ;
+    rdfs:label "1934 FIFA Men's World Cup, final" ;
+    wc:endDate "1934-06-10"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 5 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1934> ;
+    wc:startDate "1934-06-10"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1938/1> a wc:Stage ;
+    rdfs:label "1938 FIFA Men's World Cup, round of 16" ;
+    wc:endDate "1938-06-09"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "round of 16" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1938> ;
+    wc:startDate "1938-06-04"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1938/2> a wc:Stage ;
+    rdfs:label "1938 FIFA Men's World Cup, quarter-finals" ;
+    wc:endDate "1938-06-14"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "quarter-finals" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1938> ;
+    wc:startDate "1938-06-12"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1938/3> a wc:Stage ;
+    rdfs:label "1938 FIFA Men's World Cup, semi-finals" ;
+    wc:endDate "1938-06-16"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "semi-finals" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1938> ;
+    wc:startDate "1938-06-16"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1938/4> a wc:Stage ;
+    rdfs:label "1938 FIFA Men's World Cup, third-place match" ;
+    wc:endDate "1938-06-19"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1938> ;
+    wc:startDate "1938-06-19"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1938/5> a wc:Stage ;
+    rdfs:label "1938 FIFA Men's World Cup, final" ;
+    wc:endDate "1938-06-19"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 5 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1938> ;
+    wc:startDate "1938-06-19"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1950/1> a wc:Stage ;
+    rdfs:label "1950 FIFA Men's World Cup, group stage" ;
+    wc:endDate "1950-07-02"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1950> ;
+    wc:startDate "1950-06-24"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1950/2> a wc:Stage ;
+    rdfs:label "1950 FIFA Men's World Cup, final round" ;
+    wc:endDate "1950-07-16"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "final round" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1950> ;
+    wc:startDate "1950-07-09"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1954/1> a wc:Stage ;
+    rdfs:label "1954 FIFA Men's World Cup, group stage" ;
+    wc:endDate "1954-06-23"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1954> ;
+    wc:startDate "1954-06-16"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1954/2> a wc:Stage ;
+    rdfs:label "1954 FIFA Men's World Cup, quarter-finals" ;
+    wc:endDate "1954-06-27"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "quarter-finals" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1954> ;
+    wc:startDate "1954-06-26"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1954/3> a wc:Stage ;
+    rdfs:label "1954 FIFA Men's World Cup, semi-finals" ;
+    wc:endDate "1954-06-30"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "semi-finals" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1954> ;
+    wc:startDate "1954-06-30"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1954/4> a wc:Stage ;
+    rdfs:label "1954 FIFA Men's World Cup, third-place match" ;
+    wc:endDate "1954-07-03"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1954> ;
+    wc:startDate "1954-07-03"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1954/5> a wc:Stage ;
+    rdfs:label "1954 FIFA Men's World Cup, final" ;
+    wc:endDate "1954-07-04"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 5 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1954> ;
+    wc:startDate "1954-07-04"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1958/1> a wc:Stage ;
+    rdfs:label "1958 FIFA Men's World Cup, group stage" ;
+    wc:endDate "1958-06-17"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1958> ;
+    wc:startDate "1958-06-08"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1958/2> a wc:Stage ;
+    rdfs:label "1958 FIFA Men's World Cup, quarter-finals" ;
+    wc:endDate "1958-06-19"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "quarter-finals" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1958> ;
+    wc:startDate "1958-06-19"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1958/3> a wc:Stage ;
+    rdfs:label "1958 FIFA Men's World Cup, semi-finals" ;
+    wc:endDate "1958-06-24"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "semi-finals" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1958> ;
+    wc:startDate "1958-06-24"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1958/4> a wc:Stage ;
+    rdfs:label "1958 FIFA Men's World Cup, third-place match" ;
+    wc:endDate "1958-06-28"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1958> ;
+    wc:startDate "1958-06-28"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1958/5> a wc:Stage ;
+    rdfs:label "1958 FIFA Men's World Cup, final" ;
+    wc:endDate "1958-06-29"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 5 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1958> ;
+    wc:startDate "1958-06-29"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1962/1> a wc:Stage ;
+    rdfs:label "1962 FIFA Men's World Cup, group stage" ;
+    wc:endDate "1962-06-07"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1962> ;
+    wc:startDate "1962-05-30"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1962/2> a wc:Stage ;
+    rdfs:label "1962 FIFA Men's World Cup, quarter-finals" ;
+    wc:endDate "1962-06-10"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "quarter-finals" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1962> ;
+    wc:startDate "1962-06-10"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1962/3> a wc:Stage ;
+    rdfs:label "1962 FIFA Men's World Cup, semi-finals" ;
+    wc:endDate "1962-06-13"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "semi-finals" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1962> ;
+    wc:startDate "1962-06-13"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1962/4> a wc:Stage ;
+    rdfs:label "1962 FIFA Men's World Cup, third-place match" ;
+    wc:endDate "1962-06-16"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1962> ;
+    wc:startDate "1962-06-16"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1962/5> a wc:Stage ;
+    rdfs:label "1962 FIFA Men's World Cup, final" ;
+    wc:endDate "1962-06-17"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 5 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1962> ;
+    wc:startDate "1962-06-17"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1966/1> a wc:Stage ;
+    rdfs:label "1966 FIFA Men's World Cup, group stage" ;
+    wc:endDate "1966-07-20"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1966> ;
+    wc:startDate "1966-07-11"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1966/2> a wc:Stage ;
+    rdfs:label "1966 FIFA Men's World Cup, quarter-finals" ;
+    wc:endDate "1966-07-23"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "quarter-finals" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1966> ;
+    wc:startDate "1966-07-23"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1966/3> a wc:Stage ;
+    rdfs:label "1966 FIFA Men's World Cup, semi-finals" ;
+    wc:endDate "1966-07-26"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "semi-finals" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1966> ;
+    wc:startDate "1966-07-25"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1966/4> a wc:Stage ;
+    rdfs:label "1966 FIFA Men's World Cup, third-place match" ;
+    wc:endDate "1966-07-28"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1966> ;
+    wc:startDate "1966-07-28"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1966/5> a wc:Stage ;
+    rdfs:label "1966 FIFA Men's World Cup, final" ;
+    wc:endDate "1966-07-30"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 5 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1966> ;
+    wc:startDate "1966-07-30"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1970/1> a wc:Stage ;
+    rdfs:label "1970 FIFA Men's World Cup, group stage" ;
+    wc:endDate "1970-06-11"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1970> ;
+    wc:startDate "1970-05-31"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1970/2> a wc:Stage ;
+    rdfs:label "1970 FIFA Men's World Cup, quarter-finals" ;
+    wc:endDate "1970-06-14"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "quarter-finals" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1970> ;
+    wc:startDate "1970-06-14"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1970/3> a wc:Stage ;
+    rdfs:label "1970 FIFA Men's World Cup, semi-finals" ;
+    wc:endDate "1970-06-17"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "semi-finals" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1970> ;
+    wc:startDate "1970-06-17"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1970/4> a wc:Stage ;
+    rdfs:label "1970 FIFA Men's World Cup, third-place match" ;
+    wc:endDate "1970-06-20"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1970> ;
+    wc:startDate "1970-06-20"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1970/5> a wc:Stage ;
+    rdfs:label "1970 FIFA Men's World Cup, final" ;
+    wc:endDate "1970-06-21"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 5 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1970> ;
+    wc:startDate "1970-06-21"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1974/1> a wc:Stage ;
+    rdfs:label "1974 FIFA Men's World Cup, group stage" ;
+    wc:endDate "1974-06-23"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1974> ;
+    wc:startDate "1974-06-13"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1974/2> a wc:Stage ;
+    rdfs:label "1974 FIFA Men's World Cup, second group stage" ;
+    wc:endDate "1974-07-03"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "second group stage" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1974> ;
+    wc:startDate "1974-06-26"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1974/3> a wc:Stage ;
+    rdfs:label "1974 FIFA Men's World Cup, third-place match" ;
+    wc:endDate "1974-07-06"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1974> ;
+    wc:startDate "1974-07-06"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1974/4> a wc:Stage ;
+    rdfs:label "1974 FIFA Men's World Cup, final" ;
+    wc:endDate "1974-07-07"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1974> ;
+    wc:startDate "1974-07-07"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1978/1> a wc:Stage ;
+    rdfs:label "1978 FIFA Men's World Cup, group stage" ;
+    wc:endDate "1978-06-11"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1978> ;
+    wc:startDate "1978-06-01"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1978/2> a wc:Stage ;
+    rdfs:label "1978 FIFA Men's World Cup, second group stage" ;
+    wc:endDate "1978-06-21"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "second group stage" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1978> ;
+    wc:startDate "1978-06-14"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1978/3> a wc:Stage ;
+    rdfs:label "1978 FIFA Men's World Cup, third-place match" ;
+    wc:endDate "1978-06-24"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1978> ;
+    wc:startDate "1978-06-24"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1978/4> a wc:Stage ;
+    rdfs:label "1978 FIFA Men's World Cup, final" ;
+    wc:endDate "1978-06-25"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1978> ;
+    wc:startDate "1978-06-25"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1982/1> a wc:Stage ;
+    rdfs:label "1982 FIFA Men's World Cup, group stage" ;
+    wc:endDate "1982-06-25"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1982> ;
+    wc:startDate "1982-06-13"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1982/2> a wc:Stage ;
+    rdfs:label "1982 FIFA Men's World Cup, second group stage" ;
+    wc:endDate "1982-07-05"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "second group stage" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1982> ;
+    wc:startDate "1982-06-28"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1982/3> a wc:Stage ;
+    rdfs:label "1982 FIFA Men's World Cup, semi-finals" ;
+    wc:endDate "1982-07-08"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "semi-finals" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1982> ;
+    wc:startDate "1982-07-08"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1982/4> a wc:Stage ;
+    rdfs:label "1982 FIFA Men's World Cup, third-place match" ;
+    wc:endDate "1982-07-10"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1982> ;
+    wc:startDate "1982-07-10"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1982/5> a wc:Stage ;
+    rdfs:label "1982 FIFA Men's World Cup, final" ;
+    wc:endDate "1982-07-11"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 5 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1982> ;
+    wc:startDate "1982-07-11"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1986/1> a wc:Stage ;
+    rdfs:label "1986 FIFA Men's World Cup, group stage" ;
+    wc:endDate "1986-06-13"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1986> ;
+    wc:startDate "1986-05-31"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1986/2> a wc:Stage ;
+    rdfs:label "1986 FIFA Men's World Cup, round of 16" ;
+    wc:endDate "1986-06-18"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "round of 16" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1986> ;
+    wc:startDate "1986-06-15"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1986/3> a wc:Stage ;
+    rdfs:label "1986 FIFA Men's World Cup, quarter-finals" ;
+    wc:endDate "1986-06-22"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "quarter-finals" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1986> ;
+    wc:startDate "1986-06-21"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1986/4> a wc:Stage ;
+    rdfs:label "1986 FIFA Men's World Cup, semi-finals" ;
+    wc:endDate "1986-06-25"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "semi-finals" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1986> ;
+    wc:startDate "1986-06-25"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1986/5> a wc:Stage ;
+    rdfs:label "1986 FIFA Men's World Cup, third-place match" ;
+    wc:endDate "1986-06-28"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 5 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1986> ;
+    wc:startDate "1986-06-28"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1986/6> a wc:Stage ;
+    rdfs:label "1986 FIFA Men's World Cup, final" ;
+    wc:endDate "1986-06-29"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 6 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1986> ;
+    wc:startDate "1986-06-29"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1990/1> a wc:Stage ;
+    rdfs:label "1990 FIFA Men's World Cup, group stage" ;
+    wc:endDate "1990-06-21"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1990> ;
+    wc:startDate "1990-06-08"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1990/2> a wc:Stage ;
+    rdfs:label "1990 FIFA Men's World Cup, round of 16" ;
+    wc:endDate "1990-06-26"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "round of 16" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1990> ;
+    wc:startDate "1990-06-23"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1990/3> a wc:Stage ;
+    rdfs:label "1990 FIFA Men's World Cup, quarter-finals" ;
+    wc:endDate "1990-07-01"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "quarter-finals" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1990> ;
+    wc:startDate "1990-06-30"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1990/4> a wc:Stage ;
+    rdfs:label "1990 FIFA Men's World Cup, semi-finals" ;
+    wc:endDate "1990-07-04"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "semi-finals" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1990> ;
+    wc:startDate "1990-07-03"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1990/5> a wc:Stage ;
+    rdfs:label "1990 FIFA Men's World Cup, third-place match" ;
+    wc:endDate "1990-07-07"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 5 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1990> ;
+    wc:startDate "1990-07-07"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1990/6> a wc:Stage ;
+    rdfs:label "1990 FIFA Men's World Cup, final" ;
+    wc:endDate "1990-07-08"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 6 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1990> ;
+    wc:startDate "1990-07-08"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1991/1> a wc:Stage ;
+    rdfs:label "1991 FIFA Women's World Cup, group stage" ;
+    wc:endDate "1991-11-21"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1991> ;
+    wc:startDate "1991-11-16"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1991/2> a wc:Stage ;
+    rdfs:label "1991 FIFA Women's World Cup, quarter-finals" ;
+    wc:endDate "1991-11-24"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "quarter-finals" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1991> ;
+    wc:startDate "1991-11-24"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1991/3> a wc:Stage ;
+    rdfs:label "1991 FIFA Women's World Cup, semi-finals" ;
+    wc:endDate "1991-11-27"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "semi-finals" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1991> ;
+    wc:startDate "1991-11-27"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1991/4> a wc:Stage ;
+    rdfs:label "1991 FIFA Women's World Cup, third-place match" ;
+    wc:endDate "1991-11-29"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1991> ;
+    wc:startDate "1991-11-29"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1991/5> a wc:Stage ;
+    rdfs:label "1991 FIFA Women's World Cup, final" ;
+    wc:endDate "1991-11-30"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 5 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1991> ;
+    wc:startDate "1991-11-30"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1994/1> a wc:Stage ;
+    rdfs:label "1994 FIFA Men's World Cup, group stage" ;
+    wc:endDate "1994-06-30"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1994> ;
+    wc:startDate "1994-06-17"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1994/2> a wc:Stage ;
+    rdfs:label "1994 FIFA Men's World Cup, round of 16" ;
+    wc:endDate "1994-07-05"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "round of 16" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1994> ;
+    wc:startDate "1994-07-02"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1994/3> a wc:Stage ;
+    rdfs:label "1994 FIFA Men's World Cup, quarter-finals" ;
+    wc:endDate "1994-07-10"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "quarter-finals" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1994> ;
+    wc:startDate "1994-07-09"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1994/4> a wc:Stage ;
+    rdfs:label "1994 FIFA Men's World Cup, semi-finals" ;
+    wc:endDate "1994-07-13"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "semi-finals" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1994> ;
+    wc:startDate "1994-07-13"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1994/5> a wc:Stage ;
+    rdfs:label "1994 FIFA Men's World Cup, third-place match" ;
+    wc:endDate "1994-07-16"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 5 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1994> ;
+    wc:startDate "1994-07-16"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1994/6> a wc:Stage ;
+    rdfs:label "1994 FIFA Men's World Cup, final" ;
+    wc:endDate "1994-07-17"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 6 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1994> ;
+    wc:startDate "1994-07-17"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1995/1> a wc:Stage ;
+    rdfs:label "1995 FIFA Women's World Cup, group stage" ;
+    wc:endDate "1995-06-10"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1995> ;
+    wc:startDate "1995-06-05"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1995/2> a wc:Stage ;
+    rdfs:label "1995 FIFA Women's World Cup, quarter-finals" ;
+    wc:endDate "1995-06-13"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "quarter-finals" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1995> ;
+    wc:startDate "1995-06-13"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1995/3> a wc:Stage ;
+    rdfs:label "1995 FIFA Women's World Cup, semi-finals" ;
+    wc:endDate "1995-06-15"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "semi-finals" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1995> ;
+    wc:startDate "1995-06-15"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1995/4> a wc:Stage ;
+    rdfs:label "1995 FIFA Women's World Cup, third-place match" ;
+    wc:endDate "1995-06-17"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1995> ;
+    wc:startDate "1995-06-17"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1995/5> a wc:Stage ;
+    rdfs:label "1995 FIFA Women's World Cup, final" ;
+    wc:endDate "1995-06-18"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 5 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1995> ;
+    wc:startDate "1995-06-18"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1998/1> a wc:Stage ;
+    rdfs:label "1998 FIFA Men's World Cup, group stage" ;
+    wc:endDate "1998-06-26"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1998> ;
+    wc:startDate "1998-06-10"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1998/2> a wc:Stage ;
+    rdfs:label "1998 FIFA Men's World Cup, round of 16" ;
+    wc:endDate "1998-06-30"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "round of 16" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1998> ;
+    wc:startDate "1998-06-27"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1998/3> a wc:Stage ;
+    rdfs:label "1998 FIFA Men's World Cup, quarter-finals" ;
+    wc:endDate "1998-07-04"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "quarter-finals" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1998> ;
+    wc:startDate "1998-07-03"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1998/4> a wc:Stage ;
+    rdfs:label "1998 FIFA Men's World Cup, semi-finals" ;
+    wc:endDate "1998-07-08"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "semi-finals" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1998> ;
+    wc:startDate "1998-07-07"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1998/5> a wc:Stage ;
+    rdfs:label "1998 FIFA Men's World Cup, third-place match" ;
+    wc:endDate "1998-07-11"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 5 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1998> ;
+    wc:startDate "1998-07-11"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1998/6> a wc:Stage ;
+    rdfs:label "1998 FIFA Men's World Cup, final" ;
+    wc:endDate "1998-07-12"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 6 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1998> ;
+    wc:startDate "1998-07-12"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1999/1> a wc:Stage ;
+    rdfs:label "1999 FIFA Women's World Cup, group stage" ;
+    wc:endDate "1999-06-27"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1999> ;
+    wc:startDate "1999-06-19"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1999/2> a wc:Stage ;
+    rdfs:label "1999 FIFA Women's World Cup, quarter-finals" ;
+    wc:endDate "1999-07-01"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "quarter-finals" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1999> ;
+    wc:startDate "1999-06-30"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1999/3> a wc:Stage ;
+    rdfs:label "1999 FIFA Women's World Cup, semi-finals" ;
+    wc:endDate "1999-07-04"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "semi-finals" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1999> ;
+    wc:startDate "1999-07-04"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1999/4> a wc:Stage ;
+    rdfs:label "1999 FIFA Women's World Cup, third-place match" ;
+    wc:endDate "1999-07-10"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1999> ;
+    wc:startDate "1999-07-10"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-1999/5> a wc:Stage ;
+    rdfs:label "1999 FIFA Women's World Cup, final" ;
+    wc:endDate "1999-07-10"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 5 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-1999> ;
+    wc:startDate "1999-07-10"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2002/1> a wc:Stage ;
+    rdfs:label "2002 FIFA Men's World Cup, group stage" ;
+    wc:endDate "2002-06-14"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2002> ;
+    wc:startDate "2002-05-31"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2002/2> a wc:Stage ;
+    rdfs:label "2002 FIFA Men's World Cup, round of 16" ;
+    wc:endDate "2002-06-18"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "round of 16" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2002> ;
+    wc:startDate "2002-06-15"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2002/3> a wc:Stage ;
+    rdfs:label "2002 FIFA Men's World Cup, quarter-finals" ;
+    wc:endDate "2002-06-22"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "quarter-finals" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2002> ;
+    wc:startDate "2002-06-21"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2002/4> a wc:Stage ;
+    rdfs:label "2002 FIFA Men's World Cup, semi-finals" ;
+    wc:endDate "2002-06-26"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "semi-finals" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2002> ;
+    wc:startDate "2002-06-25"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2002/5> a wc:Stage ;
+    rdfs:label "2002 FIFA Men's World Cup, third-place match" ;
+    wc:endDate "2002-06-29"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 5 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2002> ;
+    wc:startDate "2002-06-29"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2002/6> a wc:Stage ;
+    rdfs:label "2002 FIFA Men's World Cup, final" ;
+    wc:endDate "2002-06-30"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 6 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2002> ;
+    wc:startDate "2002-06-30"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2003/1> a wc:Stage ;
+    rdfs:label "2003 FIFA Women's World Cup, group stage" ;
+    wc:endDate "2003-09-28"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2003> ;
+    wc:startDate "2003-09-20"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2003/2> a wc:Stage ;
+    rdfs:label "2003 FIFA Women's World Cup, quarter-finals" ;
+    wc:endDate "2003-10-02"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "quarter-finals" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2003> ;
+    wc:startDate "2003-10-01"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2003/3> a wc:Stage ;
+    rdfs:label "2003 FIFA Women's World Cup, semi-finals" ;
+    wc:endDate "2003-10-05"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "semi-finals" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2003> ;
+    wc:startDate "2003-10-05"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2003/4> a wc:Stage ;
+    rdfs:label "2003 FIFA Women's World Cup, third-place match" ;
+    wc:endDate "2003-10-11"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2003> ;
+    wc:startDate "2003-10-11"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2003/5> a wc:Stage ;
+    rdfs:label "2003 FIFA Women's World Cup, final" ;
+    wc:endDate "2003-10-12"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 5 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2003> ;
+    wc:startDate "2003-10-12"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2006/1> a wc:Stage ;
+    rdfs:label "2006 FIFA Men's World Cup, group stage" ;
+    wc:endDate "2006-06-23"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2006> ;
+    wc:startDate "2006-06-09"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2006/2> a wc:Stage ;
+    rdfs:label "2006 FIFA Men's World Cup, round of 16" ;
+    wc:endDate "2006-06-27"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "round of 16" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2006> ;
+    wc:startDate "2006-06-24"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2006/3> a wc:Stage ;
+    rdfs:label "2006 FIFA Men's World Cup, quarter-finals" ;
+    wc:endDate "2006-07-01"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "quarter-finals" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2006> ;
+    wc:startDate "2006-06-30"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2006/4> a wc:Stage ;
+    rdfs:label "2006 FIFA Men's World Cup, semi-finals" ;
+    wc:endDate "2006-07-05"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "semi-finals" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2006> ;
+    wc:startDate "2006-07-04"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2006/5> a wc:Stage ;
+    rdfs:label "2006 FIFA Men's World Cup, third-place match" ;
+    wc:endDate "2006-07-08"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 5 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2006> ;
+    wc:startDate "2006-07-08"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2006/6> a wc:Stage ;
+    rdfs:label "2006 FIFA Men's World Cup, final" ;
+    wc:endDate "2006-07-09"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 6 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2006> ;
+    wc:startDate "2006-07-09"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2007/1> a wc:Stage ;
+    rdfs:label "2007 FIFA Women's World Cup, group stage" ;
+    wc:endDate "2007-09-20"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2007> ;
+    wc:startDate "2007-09-10"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2007/2> a wc:Stage ;
+    rdfs:label "2007 FIFA Women's World Cup, quarter-finals" ;
+    wc:endDate "2007-09-23"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "quarter-finals" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2007> ;
+    wc:startDate "2007-09-22"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2007/3> a wc:Stage ;
+    rdfs:label "2007 FIFA Women's World Cup, semi-finals" ;
+    wc:endDate "2007-09-27"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "semi-finals" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2007> ;
+    wc:startDate "2007-09-26"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2007/4> a wc:Stage ;
+    rdfs:label "2007 FIFA Women's World Cup, third-place match" ;
+    wc:endDate "2007-09-30"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2007> ;
+    wc:startDate "2007-09-30"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2007/5> a wc:Stage ;
+    rdfs:label "2007 FIFA Women's World Cup, final" ;
+    wc:endDate "2007-09-30"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 5 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2007> ;
+    wc:startDate "2007-09-30"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2010/1> a wc:Stage ;
+    rdfs:label "2010 FIFA Men's World Cup, group stage" ;
+    wc:endDate "2010-06-25"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2010> ;
+    wc:startDate "2010-06-11"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2010/2> a wc:Stage ;
+    rdfs:label "2010 FIFA Men's World Cup, round of 16" ;
+    wc:endDate "2010-06-29"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "round of 16" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2010> ;
+    wc:startDate "2010-06-26"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2010/3> a wc:Stage ;
+    rdfs:label "2010 FIFA Men's World Cup, quarter-finals" ;
+    wc:endDate "2010-07-03"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "quarter-finals" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2010> ;
+    wc:startDate "2010-07-02"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2010/4> a wc:Stage ;
+    rdfs:label "2010 FIFA Men's World Cup, semi-finals" ;
+    wc:endDate "2010-07-07"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "semi-finals" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2010> ;
+    wc:startDate "2010-07-06"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2010/5> a wc:Stage ;
+    rdfs:label "2010 FIFA Men's World Cup, third-place match" ;
+    wc:endDate "2010-07-10"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 5 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2010> ;
+    wc:startDate "2010-07-10"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2010/6> a wc:Stage ;
+    rdfs:label "2010 FIFA Men's World Cup, final" ;
+    wc:endDate "2010-07-11"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 6 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2010> ;
+    wc:startDate "2010-07-11"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2011/1> a wc:Stage ;
+    rdfs:label "2011 FIFA Women's World Cup, group stage" ;
+    wc:endDate "2011-07-06"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2011> ;
+    wc:startDate "2011-06-26"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2011/2> a wc:Stage ;
+    rdfs:label "2011 FIFA Women's World Cup, quarter-finals" ;
+    wc:endDate "2011-07-10"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "quarter-finals" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2011> ;
+    wc:startDate "2011-07-09"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2011/3> a wc:Stage ;
+    rdfs:label "2011 FIFA Women's World Cup, semi-finals" ;
+    wc:endDate "2011-07-13"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "semi-finals" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2011> ;
+    wc:startDate "2011-07-13"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2011/4> a wc:Stage ;
+    rdfs:label "2011 FIFA Women's World Cup, third-place match" ;
+    wc:endDate "2011-07-16"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2011> ;
+    wc:startDate "2011-07-16"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2011/5> a wc:Stage ;
+    rdfs:label "2011 FIFA Women's World Cup, final" ;
+    wc:endDate "2011-07-17"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 5 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2011> ;
+    wc:startDate "2011-07-17"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2014/1> a wc:Stage ;
+    rdfs:label "2014 FIFA Men's World Cup, group stage" ;
+    wc:endDate "2014-06-26"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2014> ;
+    wc:startDate "2014-06-12"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2014/2> a wc:Stage ;
+    rdfs:label "2014 FIFA Men's World Cup, round of 16" ;
+    wc:endDate "2014-07-01"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "round of 16" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2014> ;
+    wc:startDate "2014-06-28"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2014/3> a wc:Stage ;
+    rdfs:label "2014 FIFA Men's World Cup, quarter-finals" ;
+    wc:endDate "2014-07-05"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "quarter-finals" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2014> ;
+    wc:startDate "2014-07-04"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2014/4> a wc:Stage ;
+    rdfs:label "2014 FIFA Men's World Cup, semi-finals" ;
+    wc:endDate "2014-07-09"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "semi-finals" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2014> ;
+    wc:startDate "2014-07-08"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2014/5> a wc:Stage ;
+    rdfs:label "2014 FIFA Men's World Cup, third-place match" ;
+    wc:endDate "2014-07-12"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 5 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2014> ;
+    wc:startDate "2014-07-12"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2014/6> a wc:Stage ;
+    rdfs:label "2014 FIFA Men's World Cup, final" ;
+    wc:endDate "2014-07-13"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 6 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2014> ;
+    wc:startDate "2014-07-13"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2015/1> a wc:Stage ;
+    rdfs:label "2015 FIFA Women's World Cup, group stage" ;
+    wc:endDate "2015-06-17"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2015> ;
+    wc:startDate "2015-06-06"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2015/2> a wc:Stage ;
+    rdfs:label "2015 FIFA Women's World Cup, round of 16" ;
+    wc:endDate "2015-06-23"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "round of 16" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2015> ;
+    wc:startDate "2015-06-20"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2015/3> a wc:Stage ;
+    rdfs:label "2015 FIFA Women's World Cup, quarter-finals" ;
+    wc:endDate "2015-06-27"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "quarter-finals" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2015> ;
+    wc:startDate "2015-06-26"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2015/4> a wc:Stage ;
+    rdfs:label "2015 FIFA Women's World Cup, semi-finals" ;
+    wc:endDate "2015-07-01"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "semi-finals" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2015> ;
+    wc:startDate "2015-06-30"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2015/5> a wc:Stage ;
+    rdfs:label "2015 FIFA Women's World Cup, third-place match" ;
+    wc:endDate "2015-07-04"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 5 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2015> ;
+    wc:startDate "2015-07-04"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2015/6> a wc:Stage ;
+    rdfs:label "2015 FIFA Women's World Cup, final" ;
+    wc:endDate "2015-07-05"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 6 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2015> ;
+    wc:startDate "2015-07-05"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2018/1> a wc:Stage ;
+    rdfs:label "2018 FIFA Men's World Cup, group stage" ;
+    wc:endDate "2018-06-28"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2018> ;
+    wc:startDate "2018-06-14"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2018/2> a wc:Stage ;
+    rdfs:label "2018 FIFA Men's World Cup, round of 16" ;
+    wc:endDate "2018-07-03"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "round of 16" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2018> ;
+    wc:startDate "2018-06-30"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2018/3> a wc:Stage ;
+    rdfs:label "2018 FIFA Men's World Cup, quarter-finals" ;
+    wc:endDate "2018-07-07"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "quarter-finals" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2018> ;
+    wc:startDate "2018-07-06"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2018/4> a wc:Stage ;
+    rdfs:label "2018 FIFA Men's World Cup, semi-finals" ;
+    wc:endDate "2018-07-11"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "semi-finals" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2018> ;
+    wc:startDate "2018-07-10"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2018/5> a wc:Stage ;
+    rdfs:label "2018 FIFA Men's World Cup, third-place match" ;
+    wc:endDate "2018-07-14"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 5 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2018> ;
+    wc:startDate "2018-07-14"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2018/6> a wc:Stage ;
+    rdfs:label "2018 FIFA Men's World Cup, final" ;
+    wc:endDate "2018-07-15"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 6 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2018> ;
+    wc:startDate "2018-07-15"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2019/1> a wc:Stage ;
+    rdfs:label "2019 FIFA Women's World Cup, group stage" ;
+    wc:endDate "2019-06-20"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2019> ;
+    wc:startDate "2019-06-07"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2019/2> a wc:Stage ;
+    rdfs:label "2019 FIFA Women's World Cup, round of 16" ;
+    wc:endDate "2019-06-25"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "round of 16" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2019> ;
+    wc:startDate "2019-06-22"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2019/3> a wc:Stage ;
+    rdfs:label "2019 FIFA Women's World Cup, quarter-finals" ;
+    wc:endDate "2019-06-29"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "quarter-finals" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2019> ;
+    wc:startDate "2019-06-27"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2019/4> a wc:Stage ;
+    rdfs:label "2019 FIFA Women's World Cup, semi-finals" ;
+    wc:endDate "2019-07-03"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "semi-finals" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2019> ;
+    wc:startDate "2019-07-02"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2019/5> a wc:Stage ;
+    rdfs:label "2019 FIFA Women's World Cup, third-place match" ;
+    wc:endDate "2019-07-06"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 5 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2019> ;
+    wc:startDate "2019-07-06"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2019/6> a wc:Stage ;
+    rdfs:label "2019 FIFA Women's World Cup, final" ;
+    wc:endDate "2019-07-07"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 6 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2019> ;
+    wc:startDate "2019-07-07"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2022/1> a wc:Stage ;
+    rdfs:label "2022 FIFA Men's World Cup, group stage" ;
+    wc:endDate "2022-12-02"^^xsd:date ;
+    wc:isGroupStage true ;
+    wc:isKnockoutStage false ;
+    wc:stageName "group stage" ;
+    wc:stageNumber 1 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2022> ;
+    wc:startDate "2022-11-20"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2022/2> a wc:Stage ;
+    rdfs:label "2022 FIFA Men's World Cup, round of 16" ;
+    wc:endDate "2022-12-07"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "round of 16" ;
+    wc:stageNumber 2 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2022> ;
+    wc:startDate "2022-12-03"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2022/3> a wc:Stage ;
+    rdfs:label "2022 FIFA Men's World Cup, quarter-finals" ;
+    wc:endDate "2022-12-10"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "quarter-finals" ;
+    wc:stageNumber 3 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2022> ;
+    wc:startDate "2022-12-09"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2022/4> a wc:Stage ;
+    rdfs:label "2022 FIFA Men's World Cup, semi-finals" ;
+    wc:endDate "2022-12-14"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "semi-finals" ;
+    wc:stageNumber 4 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2022> ;
+    wc:startDate "2022-12-13"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2022/5> a wc:Stage ;
+    rdfs:label "2022 FIFA Men's World Cup, third-place match" ;
+    wc:endDate "2022-12-17"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "third-place match" ;
+    wc:stageNumber 5 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2022> ;
+    wc:startDate "2022-12-17"^^xsd:date .
+
+<http://example.org/worldcup/resource/stage/WC-2022/6> a wc:Stage ;
+    rdfs:label "2022 FIFA Men's World Cup, final" ;
+    wc:endDate "2022-12-18"^^xsd:date ;
+    wc:isGroupStage false ;
+    wc:isKnockoutStage true ;
+    wc:stageName "final" ;
+    wc:stageNumber 6 ;
+    wc:stageOf <http://example.org/worldcup/resource/tournament/WC-2022> ;
+    wc:startDate "2022-12-18"^^xsd:date .
+

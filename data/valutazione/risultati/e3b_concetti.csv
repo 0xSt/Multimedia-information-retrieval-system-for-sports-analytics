@@ -1,0 +1,6 @@
+id,testo,modo,partenza,pertinenti,base casuale,P@10,volte la base
+B1,a photo of a goalkeeper,tutte le immagini,41460,4950,0.119,1.0,8.4
+B2,a football player wearing the yellow shirt of Brazil,tutte le immagini,41460,1300,0.031,0.7,22.3
+B3,a football player wearing the orange shirt of the Netherlands,tutte le immagini,41460,1300,0.031,0.9,28.7
+B4,a football player in the light blue and white striped shirt of Argentina,tutte le immagini,41460,1300,0.031,0.9,28.7
+B5,a photo of a goalkeeper,squadra:Brazil,1300,150,0.115,0.9,7.8

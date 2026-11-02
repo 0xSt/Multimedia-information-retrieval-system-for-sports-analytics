@@ -1,0 +1,876 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wc: <http://example.org/worldcup/ontology#> .
+
+<http://example.org/worldcup/resource/club/abha> a wc:Club ;
+    rdfs:label "Abha" .
+
+<http://example.org/worldcup/resource/club/ac-milan> a wc:Club ;
+    rdfs:label "AC Milan" .
+
+<http://example.org/worldcup/resource/club/adelaide-united> a wc:Club ;
+    rdfs:label "Adelaide United" .
+
+<http://example.org/worldcup/resource/club/aek-athens> a wc:Club ;
+    rdfs:label "AEK Athens" .
+
+<http://example.org/worldcup/resource/club/afc-wimbledon> a wc:Club ;
+    rdfs:label "AFC Wimbledon" .
+
+<http://example.org/worldcup/resource/club/ajax> a wc:Club ;
+    rdfs:label "Ajax" .
+
+<http://example.org/worldcup/resource/club/al-ahli> a wc:Club ;
+    rdfs:label "Al-Ahli" .
+
+<http://example.org/worldcup/resource/club/al-ahly> a wc:Club ;
+    rdfs:label "Al Ahly" .
+
+<http://example.org/worldcup/resource/club/al-arabi> a wc:Club ;
+    rdfs:label "Al-Arabi" .
+
+<http://example.org/worldcup/resource/club/al-duhail> a wc:Club ;
+    rdfs:label "Al-Duhail" .
+
+<http://example.org/worldcup/resource/club/al-ettifaq> a wc:Club ;
+    rdfs:label "Al-Ettifaq" .
+
+<http://example.org/worldcup/resource/club/al-fateh> a wc:Club ;
+    rdfs:label "Al-Fateh" .
+
+<http://example.org/worldcup/resource/club/al-gharafa> a wc:Club ;
+    rdfs:label "Al-Gharafa" .
+
+<http://example.org/worldcup/resource/club/al-hilal> a wc:Club ;
+    rdfs:label "Al-Hilal" .
+
+<http://example.org/worldcup/resource/club/al-ittihad> a wc:Club ;
+    rdfs:label "Al-Ittihad" .
+
+<http://example.org/worldcup/resource/club/al-nassr> a wc:Club ;
+    rdfs:label "Al-Nassr" .
+
+<http://example.org/worldcup/resource/club/al-rayyan> a wc:Club ;
+    rdfs:label "Al-Rayyan" .
+
+<http://example.org/worldcup/resource/club/al-sadd> a wc:Club ;
+    rdfs:label "Al-Sadd" .
+
+<http://example.org/worldcup/resource/club/al-shabab> a wc:Club ;
+    rdfs:label "Al-Shabab" .
+
+<http://example.org/worldcup/resource/club/al-tai> a wc:Club ;
+    rdfs:label "Al-Tai" .
+
+<http://example.org/worldcup/resource/club/al-wakrah> a wc:Club ;
+    rdfs:label "Al-Wakrah" .
+
+<http://example.org/worldcup/resource/club/al-wehda> a wc:Club ;
+    rdfs:label "Al Wehda" .
+
+<http://example.org/worldcup/resource/club/alajuelense> a wc:Club ;
+    rdfs:label "Alajuelense" .
+
+<http://example.org/worldcup/resource/club/alanyaspor> a wc:Club ;
+    rdfs:label "Alanyaspor" .
+
+<http://example.org/worldcup/resource/club/albirex-niigata> a wc:Club ;
+    rdfs:label "Albirex Niigata" .
+
+<http://example.org/worldcup/resource/club/almeria> a wc:Club ;
+    rdfs:label "Almeria" .
+
+<http://example.org/worldcup/resource/club/america> a wc:Club ;
+    rdfs:label "America" .
+
+<http://example.org/worldcup/resource/club/amiens> a wc:Club ;
+    rdfs:label "Amiens" .
+
+<http://example.org/worldcup/resource/club/anderlecht> a wc:Club ;
+    rdfs:label "Anderlecht" .
+
+<http://example.org/worldcup/resource/club/angers> a wc:Club ;
+    rdfs:label "Angers" .
+
+<http://example.org/worldcup/resource/club/antalyaspor> a wc:Club ;
+    rdfs:label "Antalyaspor" .
+
+<http://example.org/worldcup/resource/club/antwerp> a wc:Club ;
+    rdfs:label "Antwerp" .
+
+<http://example.org/worldcup/resource/club/arsenal> a wc:Club ;
+    rdfs:label "Arsenal" .
+
+<http://example.org/worldcup/resource/club/asante-kotoko> a wc:Club ;
+    rdfs:label "Asante Kotoko" .
+
+<http://example.org/worldcup/resource/club/aston-villa> a wc:Club ;
+    rdfs:label "Aston Villa" .
+
+<http://example.org/worldcup/resource/club/atalanta> a wc:Club ;
+    rdfs:label "Atalanta" .
+
+<http://example.org/worldcup/resource/club/athletic-club> a wc:Club ;
+    rdfs:label "Athletic Club" .
+
+<http://example.org/worldcup/resource/club/athletico-paranaense> a wc:Club ;
+    rdfs:label "Athletico Paranaense" .
+
+<http://example.org/worldcup/resource/club/atlanta-united> a wc:Club ;
+    rdfs:label "Atlanta United" .
+
+<http://example.org/worldcup/resource/club/atletico-madrid> a wc:Club ;
+    rdfs:label "Atletico Madrid" .
+
+<http://example.org/worldcup/resource/club/atromitos> a wc:Club ;
+    rdfs:label "Atromitos" .
+
+<http://example.org/worldcup/resource/club/aucas> a wc:Club ;
+    rdfs:label "Aucas" .
+
+<http://example.org/worldcup/resource/club/augsburg> a wc:Club ;
+    rdfs:label "Augsburg" .
+
+<http://example.org/worldcup/resource/club/auxerre> a wc:Club ;
+    rdfs:label "Auxerre" .
+
+<http://example.org/worldcup/resource/club/barcelona> a wc:Club ;
+    rdfs:label "Barcelona" .
+
+<http://example.org/worldcup/resource/club/bari> a wc:Club ;
+    rdfs:label "Bari" .
+
+<http://example.org/worldcup/resource/club/basel> a wc:Club ;
+    rdfs:label "Basel" .
+
+<http://example.org/worldcup/resource/club/bayer-leverkusen> a wc:Club ;
+    rdfs:label "Bayer Leverkusen" .
+
+<http://example.org/worldcup/resource/club/bayern-munich> a wc:Club ;
+    rdfs:label "Bayern Munich" .
+
+<http://example.org/worldcup/resource/club/benevento> a wc:Club ;
+    rdfs:label "Benevento" .
+
+<http://example.org/worldcup/resource/club/benfica> a wc:Club ;
+    rdfs:label "Benfica" .
+
+<http://example.org/worldcup/resource/club/besiktas> a wc:Club ;
+    rdfs:label "Besiktas" .
+
+<http://example.org/worldcup/resource/club/birmingham-city> a wc:Club ;
+    rdfs:label "Birmingham City" .
+
+<http://example.org/worldcup/resource/club/bochum> a wc:Club ;
+    rdfs:label "Bochum" .
+
+<http://example.org/worldcup/resource/club/bologna> a wc:Club ;
+    rdfs:label "Bologna" .
+
+<http://example.org/worldcup/resource/club/borussia-dortmund> a wc:Club ;
+    rdfs:label "Borussia Dortmund" .
+
+<http://example.org/worldcup/resource/club/borussia-monchengladbach> a wc:Club ;
+    rdfs:label "Borussia Monchengladbach" .
+
+<http://example.org/worldcup/resource/club/bournemouth> a wc:Club ;
+    rdfs:label "Bournemouth" .
+
+<http://example.org/worldcup/resource/club/brentford> a wc:Club ;
+    rdfs:label "Brentford" .
+
+<http://example.org/worldcup/resource/club/brescia> a wc:Club ;
+    rdfs:label "Brescia" .
+
+<http://example.org/worldcup/resource/club/brest> a wc:Club ;
+    rdfs:label "Brest" .
+
+<http://example.org/worldcup/resource/club/brighton> a wc:Club ;
+    rdfs:label "Brighton" .
+
+<http://example.org/worldcup/resource/club/bristol-city> a wc:Club ;
+    rdfs:label "Bristol City" .
+
+<http://example.org/worldcup/resource/club/brondby> a wc:Club ;
+    rdfs:label "Brondby" .
+
+<http://example.org/worldcup/resource/club/burnley> a wc:Club ;
+    rdfs:label "Burnley" .
+
+<http://example.org/worldcup/resource/club/cadiz> a wc:Club ;
+    rdfs:label "Cadiz" .
+
+<http://example.org/worldcup/resource/club/caen> a wc:Club ;
+    rdfs:label "Caen" .
+
+<http://example.org/worldcup/resource/club/cardiff-city> a wc:Club ;
+    rdfs:label "Cardiff City" .
+
+<http://example.org/worldcup/resource/club/celta-vigo> a wc:Club ;
+    rdfs:label "Celta Vigo" .
+
+<http://example.org/worldcup/resource/club/celtic> a wc:Club ;
+    rdfs:label "Celtic" .
+
+<http://example.org/worldcup/resource/club/central-coast-mariners> a wc:Club ;
+    rdfs:label "Central Coast Mariners" .
+
+<http://example.org/worldcup/resource/club/cercle-brugge> a wc:Club ;
+    rdfs:label "Cercle Brugge" .
+
+<http://example.org/worldcup/resource/club/cf-montreal> a wc:Club ;
+    rdfs:label "CF Montreal" .
+
+<http://example.org/worldcup/resource/club/charleroi> a wc:Club ;
+    rdfs:label "Charleroi" .
+
+<http://example.org/worldcup/resource/club/charlotte-fc> a wc:Club ;
+    rdfs:label "Charlotte FC" .
+
+<http://example.org/worldcup/resource/club/chelsea> a wc:Club ;
+    rdfs:label "Chelsea" .
+
+<http://example.org/worldcup/resource/club/chicago-fire> a wc:Club ;
+    rdfs:label "Chicago Fire" .
+
+<http://example.org/worldcup/resource/club/cincinnati> a wc:Club ;
+    rdfs:label "Cincinnati" .
+
+<http://example.org/worldcup/resource/club/clermont> a wc:Club ;
+    rdfs:label "Clermont" .
+
+<http://example.org/worldcup/resource/club/club-africain> a wc:Club ;
+    rdfs:label "Club Africain" .
+
+<http://example.org/worldcup/resource/club/club-brugge> a wc:Club ;
+    rdfs:label "Club Brugge" .
+
+<http://example.org/worldcup/resource/club/colorado-rapids> a wc:Club ;
+    rdfs:label "Colorado Rapids" .
+
+<http://example.org/worldcup/resource/club/columbus-crew> a wc:Club ;
+    rdfs:label "Columbus Crew" .
+
+<http://example.org/worldcup/resource/club/copenhagen> a wc:Club ;
+    rdfs:label "Copenhagen" .
+
+<http://example.org/worldcup/resource/club/coton-sport-de-garoua> a wc:Club ;
+    rdfs:label "Coton Sport de Garoua" .
+
+<http://example.org/worldcup/resource/club/cremonese> a wc:Club ;
+    rdfs:label "Cremonese" .
+
+<http://example.org/worldcup/resource/club/cruz-azul> a wc:Club ;
+    rdfs:label "Cruz Azul" .
+
+<http://example.org/worldcup/resource/club/crystal-palace> a wc:Club ;
+    rdfs:label "Crystal Palace" .
+
+<http://example.org/worldcup/resource/club/cs-sfaxien> a wc:Club ;
+    rdfs:label "CS Sfaxien" .
+
+<http://example.org/worldcup/resource/club/daegu-fc> a wc:Club ;
+    rdfs:label "Daegu FC" .
+
+<http://example.org/worldcup/resource/club/daejon-citizen> a wc:Club ;
+    rdfs:label "Daejon Citizen" .
+
+<http://example.org/worldcup/resource/club/dinamo-zagreb> a wc:Club ;
+    rdfs:label "Dinamo Zagreb" .
+
+<http://example.org/worldcup/resource/club/dundee-united> a wc:Club ;
+    rdfs:label "Dundee United" .
+
+<http://example.org/worldcup/resource/club/dynamo-moscow> a wc:Club ;
+    rdfs:label "Dynamo Moscow" .
+
+<http://example.org/worldcup/resource/club/eintracht-frankfurt> a wc:Club ;
+    rdfs:label "Eintracht Frankfurt" .
+
+<http://example.org/worldcup/resource/club/espanyol> a wc:Club ;
+    rdfs:label "Espanyol" .
+
+<http://example.org/worldcup/resource/club/esperalace> a wc:Club ;
+    rdfs:label "Esperalace" .
+
+<http://example.org/worldcup/resource/club/esperance-de-tunis> a wc:Club ;
+    rdfs:label "Esperance de Tunis" .
+
+<http://example.org/worldcup/resource/club/esteghlal> a wc:Club ;
+    rdfs:label "Esteghlal" .
+
+<http://example.org/worldcup/resource/club/etoile-du-sahel> a wc:Club ;
+    rdfs:label "Etoile du Sahel" .
+
+<http://example.org/worldcup/resource/club/eupen> a wc:Club ;
+    rdfs:label "Eupen" .
+
+<http://example.org/worldcup/resource/club/everton> a wc:Club ;
+    rdfs:label "Everton" .
+
+<http://example.org/worldcup/resource/club/fagiano-okayama> a wc:Club ;
+    rdfs:label "Fagiano Okayama" .
+
+<http://example.org/worldcup/resource/club/fc-koln> a wc:Club ;
+    rdfs:label "FC Koln" .
+
+<http://example.org/worldcup/resource/club/fc-seoul> a wc:Club ;
+    rdfs:label "FC Seoul" .
+
+<http://example.org/worldcup/resource/club/fenerbahce> a wc:Club ;
+    rdfs:label "Fenerbahce" .
+
+<http://example.org/worldcup/resource/club/ferencvaros> a wc:Club ;
+    rdfs:label "Ferencvaros" .
+
+<http://example.org/worldcup/resource/club/feyenoord> a wc:Club ;
+    rdfs:label "Feyenoord" .
+
+<http://example.org/worldcup/resource/club/fiorentina> a wc:Club ;
+    rdfs:label "Fiorentina" .
+
+<http://example.org/worldcup/resource/club/flamengo> a wc:Club ;
+    rdfs:label "Flamengo" .
+
+<http://example.org/worldcup/resource/club/fortuna-dusseldorf> a wc:Club ;
+    rdfs:label "Fortuna Dusseldorf" .
+
+<http://example.org/worldcup/resource/club/freiburg> a wc:Club ;
+    rdfs:label "Freiburg" .
+
+<http://example.org/worldcup/resource/club/fulham> a wc:Club ;
+    rdfs:label "Fulham" .
+
+<http://example.org/worldcup/resource/club/galatasaray> a wc:Club ;
+    rdfs:label "Galatasaray" .
+
+<http://example.org/worldcup/resource/club/gamba-osaka> a wc:Club ;
+    rdfs:label "Gamba Osaka" .
+
+<http://example.org/worldcup/resource/club/gd-chaves> a wc:Club ;
+    rdfs:label "GD Chaves" .
+
+<http://example.org/worldcup/resource/club/genk> a wc:Club ;
+    rdfs:label "Genk" .
+
+<http://example.org/worldcup/resource/club/gent> a wc:Club ;
+    rdfs:label "Gent" .
+
+<http://example.org/worldcup/resource/club/getafe> a wc:Club ;
+    rdfs:label "Getafe" .
+
+<http://example.org/worldcup/resource/club/gimcheon-sangmu> a wc:Club ;
+    rdfs:label "Gimcheon Sangmu" .
+
+<http://example.org/worldcup/resource/club/guadalajara> a wc:Club ;
+    rdfs:label "Guadalajara" .
+
+<http://example.org/worldcup/resource/club/hajduk-split> a wc:Club ;
+    rdfs:label "Hajduk Split" .
+
+<http://example.org/worldcup/resource/club/hannover> a wc:Club ;
+    rdfs:label "Hannover" .
+
+<http://example.org/worldcup/resource/club/hatayspor> a wc:Club ;
+    rdfs:label "Hatayspor" .
+
+<http://example.org/worldcup/resource/club/hearts> a wc:Club ;
+    rdfs:label "Hearts" .
+
+<http://example.org/worldcup/resource/club/hearts-of-oak> a wc:Club ;
+    rdfs:label "Hearts of Oak" .
+
+<http://example.org/worldcup/resource/club/heerenveen> a wc:Club ;
+    rdfs:label "Heerenveen" .
+
+<http://example.org/worldcup/resource/club/hellas-verona> a wc:Club ;
+    rdfs:label "Hellas Verona" .
+
+<http://example.org/worldcup/resource/club/herediano> a wc:Club ;
+    rdfs:label "Herediano" .
+
+<http://example.org/worldcup/resource/club/hertha-berlin> a wc:Club ;
+    rdfs:label "Hertha Berlin" .
+
+<http://example.org/worldcup/resource/club/hibernian> a wc:Club ;
+    rdfs:label "Hibernian" .
+
+<http://example.org/worldcup/resource/club/hoffenheim> a wc:Club ;
+    rdfs:label "Hoffenheim" .
+
+<http://example.org/worldcup/resource/club/houston-dynamo> a wc:Club ;
+    rdfs:label "Houston Dynamo" .
+
+<http://example.org/worldcup/resource/club/huddersfield-town> a wc:Club ;
+    rdfs:label "Huddersfield Town" .
+
+<http://example.org/worldcup/resource/club/imbabura> a wc:Club ;
+    rdfs:label "Imbabura" .
+
+<http://example.org/worldcup/resource/club/independiente> a wc:Club ;
+    rdfs:label "Independiente" .
+
+<http://example.org/worldcup/resource/club/independiente-del-valle> a wc:Club ;
+    rdfs:label "Independiente del Valle" .
+
+<http://example.org/worldcup/resource/club/inter> a wc:Club ;
+    rdfs:label "Inter" .
+
+<http://example.org/worldcup/resource/club/inter-miami> a wc:Club ;
+    rdfs:label "Inter Miami" .
+
+<http://example.org/worldcup/resource/club/jeonbuk-hyundai-motors> a wc:Club ;
+    rdfs:label "Jeonbuk Hyundai Motors" .
+
+<http://example.org/worldcup/resource/club/juarez> a wc:Club ;
+    rdfs:label "Juarez" .
+
+<http://example.org/worldcup/resource/club/juventus> a wc:Club ;
+    rdfs:label "Juventus" .
+
+<http://example.org/worldcup/resource/club/kawasaki-frontale> a wc:Club ;
+    rdfs:label "Kawasaki Frontale" .
+
+<http://example.org/worldcup/resource/club/kayserispor> a wc:Club ;
+    rdfs:label "Kayserispor" .
+
+<http://example.org/worldcup/resource/club/kmsk-deinze> a wc:Club ;
+    rdfs:label "KMSK Deinze" .
+
+<http://example.org/worldcup/resource/club/kuwait-sc> a wc:Club ;
+    rdfs:label "Kuwait SC" .
+
+<http://example.org/worldcup/resource/club/la-galaxy> a wc:Club ;
+    rdfs:label "La Galaxy" .
+
+<http://example.org/worldcup/resource/club/lazio> a wc:Club ;
+    rdfs:label "Lazio" .
+
+<http://example.org/worldcup/resource/club/ldu-quito> a wc:Club ;
+    rdfs:label "LDU Quito" .
+
+<http://example.org/worldcup/resource/club/lech-poznan> a wc:Club ;
+    rdfs:label "Lech Poznan" .
+
+<http://example.org/worldcup/resource/club/leeds-united> a wc:Club ;
+    rdfs:label "Leeds United" .
+
+<http://example.org/worldcup/resource/club/leganes> a wc:Club ;
+    rdfs:label "Leganes" .
+
+<http://example.org/worldcup/resource/club/legia-warsaw> a wc:Club ;
+    rdfs:label "Legia Warsaw" .
+
+<http://example.org/worldcup/resource/club/leicester-city> a wc:Club ;
+    rdfs:label "Leicester City" .
+
+<http://example.org/worldcup/resource/club/lens> a wc:Club ;
+    rdfs:label "Lens" .
+
+<http://example.org/worldcup/resource/club/leon> a wc:Club ;
+    rdfs:label "Leon" .
+
+<http://example.org/worldcup/resource/club/lille> a wc:Club ;
+    rdfs:label "Lille" .
+
+<http://example.org/worldcup/resource/club/liverpool> a wc:Club ;
+    rdfs:label "Liverpool" .
+
+<http://example.org/worldcup/resource/club/lorient> a wc:Club ;
+    rdfs:label "Lorient" .
+
+<http://example.org/worldcup/resource/club/los-angeles-fc> a wc:Club ;
+    rdfs:label "Los Angeles FC" .
+
+<http://example.org/worldcup/resource/club/lugano> a wc:Club ;
+    rdfs:label "Lugano" .
+
+<http://example.org/worldcup/resource/club/lugo> a wc:Club ;
+    rdfs:label "Lugo" .
+
+<http://example.org/worldcup/resource/club/luton-town> a wc:Club ;
+    rdfs:label "Luton Town" .
+
+<http://example.org/worldcup/resource/club/luzern> a wc:Club ;
+    rdfs:label "Luzern" .
+
+<http://example.org/worldcup/resource/club/lyon> a wc:Club ;
+    rdfs:label "Lyon" .
+
+<http://example.org/worldcup/resource/club/mainz> a wc:Club ;
+    rdfs:label "Mainz" .
+
+<http://example.org/worldcup/resource/club/mallorca> a wc:Club ;
+    rdfs:label "Mallorca" .
+
+<http://example.org/worldcup/resource/club/manchester-city> a wc:Club ;
+    rdfs:label "Manchester City" .
+
+<http://example.org/worldcup/resource/club/manchester-united> a wc:Club ;
+    rdfs:label "Manchester United" .
+
+<http://example.org/worldcup/resource/club/marseille> a wc:Club ;
+    rdfs:label "Marseille" .
+
+<http://example.org/worldcup/resource/club/mechelen> a wc:Club ;
+    rdfs:label "Mechelen" .
+
+<http://example.org/worldcup/resource/club/melbourne-city> a wc:Club ;
+    rdfs:label "Melbourne City" .
+
+<http://example.org/worldcup/resource/club/middlesbrough> a wc:Club ;
+    rdfs:label "Middlesbrough" .
+
+<http://example.org/worldcup/resource/club/millonarios> a wc:Club ;
+    rdfs:label "Millonarios" .
+
+<http://example.org/worldcup/resource/club/minnesota-united> a wc:Club ;
+    rdfs:label "Minnesota United" .
+
+<http://example.org/worldcup/resource/club/mk-dons> a wc:Club ;
+    rdfs:label "MK Dons" .
+
+<http://example.org/worldcup/resource/club/monaco> a wc:Club ;
+    rdfs:label "Monaco" .
+
+<http://example.org/worldcup/resource/club/monterrey> a wc:Club ;
+    rdfs:label "Monterrey" .
+
+<http://example.org/worldcup/resource/club/montpellier> a wc:Club ;
+    rdfs:label "Montpellier" .
+
+<http://example.org/worldcup/resource/club/municipal-grecia> a wc:Club ;
+    rdfs:label "Municipal Grecia" .
+
+<http://example.org/worldcup/resource/club/nacional> a wc:Club ;
+    rdfs:label "Nacional" .
+
+<http://example.org/worldcup/resource/club/nagoya-grampus> a wc:Club ;
+    rdfs:label "Nagoya Grampus" .
+
+<http://example.org/worldcup/resource/club/nantes> a wc:Club ;
+    rdfs:label "Nantes" .
+
+<http://example.org/worldcup/resource/club/napoli> a wc:Club ;
+    rdfs:label "Napoli" .
+
+<http://example.org/worldcup/resource/club/nashville-sc> a wc:Club ;
+    rdfs:label "Nashville SC" .
+
+<http://example.org/worldcup/resource/club/new-york-city-fc> a wc:Club ;
+    rdfs:label "New York City FC" .
+
+<http://example.org/worldcup/resource/club/new-york-red-bills> a wc:Club ;
+    rdfs:label "New York Red Bills" .
+
+<http://example.org/worldcup/resource/club/newcastle-united> a wc:Club ;
+    rdfs:label "Newcastle United" .
+
+<http://example.org/worldcup/resource/club/newell-s-old-boys> a wc:Club ;
+    rdfs:label "Newell's Old Boys" .
+
+<http://example.org/worldcup/resource/club/nice> a wc:Club ;
+    rdfs:label "Nice" .
+
+<http://example.org/worldcup/resource/club/nottingham-forest> a wc:Club ;
+    rdfs:label "Nottingham Forest" .
+
+<http://example.org/worldcup/resource/club/ob> a wc:Club ;
+    rdfs:label "OB" .
+
+<http://example.org/worldcup/resource/club/olympiacos> a wc:Club ;
+    rdfs:label "Olympiacos" .
+
+<http://example.org/worldcup/resource/club/omonia> a wc:Club ;
+    rdfs:label "Omonia" .
+
+<http://example.org/worldcup/resource/club/orlando-city> a wc:Club ;
+    rdfs:label "Orlando City" .
+
+<http://example.org/worldcup/resource/club/osasuna> a wc:Club ;
+    rdfs:label "Osasuna" .
+
+<http://example.org/worldcup/resource/club/osijek> a wc:Club ;
+    rdfs:label "Osijek" .
+
+<http://example.org/worldcup/resource/club/pachuca> a wc:Club ;
+    rdfs:label "Pachuca" .
+
+<http://example.org/worldcup/resource/club/pafos> a wc:Club ;
+    rdfs:label "Pafos" .
+
+<http://example.org/worldcup/resource/club/palmeiras> a wc:Club ;
+    rdfs:label "Palmeiras" .
+
+<http://example.org/worldcup/resource/club/panaitolikos> a wc:Club ;
+    rdfs:label "Panaitolikos" .
+
+<http://example.org/worldcup/resource/club/paok> a wc:Club ;
+    rdfs:label "PAOK" .
+
+<http://example.org/worldcup/resource/club/persepolis> a wc:Club ;
+    rdfs:label "Persepolis" .
+
+<http://example.org/worldcup/resource/club/philadelphia-union> a wc:Club ;
+    rdfs:label "Philadelphia Union" .
+
+<http://example.org/worldcup/resource/club/pogon-szczecin> a wc:Club ;
+    rdfs:label "Pogon Szczecin" .
+
+<http://example.org/worldcup/resource/club/ponferradina> a wc:Club ;
+    rdfs:label "Ponferradina" .
+
+<http://example.org/worldcup/resource/club/porto> a wc:Club ;
+    rdfs:label "Porto" .
+
+<http://example.org/worldcup/resource/club/portsmouth> a wc:Club ;
+    rdfs:label "Portsmouth" .
+
+<http://example.org/worldcup/resource/club/psg> a wc:Club ;
+    rdfs:label "PSG" .
+
+<http://example.org/worldcup/resource/club/psv> a wc:Club ;
+    rdfs:label "PSV" .
+
+<http://example.org/worldcup/resource/club/puntarenas> a wc:Club ;
+    rdfs:label "Puntarenas" .
+
+<http://example.org/worldcup/resource/club/qatar-sc> a wc:Club ;
+    rdfs:label "Qatar SC" .
+
+<http://example.org/worldcup/resource/club/qpr> a wc:Club ;
+    rdfs:label "QPR" .
+
+<http://example.org/worldcup/resource/club/rangers> a wc:Club ;
+    rdfs:label "Rangers" .
+
+<http://example.org/worldcup/resource/club/rayo-vallecano> a wc:Club ;
+    rdfs:label "Rayo Vallecano" .
+
+<http://example.org/worldcup/resource/club/rb-leipzig> a wc:Club ;
+    rdfs:label "RB Leipzig" .
+
+<http://example.org/worldcup/resource/club/reading> a wc:Club ;
+    rdfs:label "Reading" .
+
+<http://example.org/worldcup/resource/club/real-betis> a wc:Club ;
+    rdfs:label "Real Betis" .
+
+<http://example.org/worldcup/resource/club/real-madrid> a wc:Club ;
+    rdfs:label "Real Madrid" .
+
+<http://example.org/worldcup/resource/club/real-salt-lake> a wc:Club ;
+    rdfs:label "Real Salt Lake" .
+
+<http://example.org/worldcup/resource/club/real-valladolid> a wc:Club ;
+    rdfs:label "Real Valladolid" .
+
+<http://example.org/worldcup/resource/club/red-bull-salzburg> a wc:Club ;
+    rdfs:label "Red Bull Salzburg" .
+
+<http://example.org/worldcup/resource/club/red-star-belgrade> a wc:Club ;
+    rdfs:label "Red Star Belgrade" .
+
+<http://example.org/worldcup/resource/club/reims> a wc:Club ;
+    rdfs:label "Reims" .
+
+<http://example.org/worldcup/resource/club/rennes> a wc:Club ;
+    rdfs:label "Rennes" .
+
+<http://example.org/worldcup/resource/club/river-plate> a wc:Club ;
+    rdfs:label "River Plate" .
+
+<http://example.org/worldcup/resource/club/roma> a wc:Club ;
+    rdfs:label "Roma" .
+
+<http://example.org/worldcup/resource/club/salernitana> a wc:Club ;
+    rdfs:label "Salernitana" .
+
+<http://example.org/worldcup/resource/club/sampdoria> a wc:Club ;
+    rdfs:label "Sampdoria" .
+
+<http://example.org/worldcup/resource/club/san-carlos> a wc:Club ;
+    rdfs:label "San Carlos" .
+
+<http://example.org/worldcup/resource/club/san-diego-loyal-sc> a wc:Club ;
+    rdfs:label "San Diego Loyal SC" .
+
+<http://example.org/worldcup/resource/club/santos-laguna> a wc:Club ;
+    rdfs:label "Santos Laguna" .
+
+<http://example.org/worldcup/resource/club/sao-paulo> a wc:Club ;
+    rdfs:label "Sao Paulo" .
+
+<http://example.org/worldcup/resource/club/saprissa> a wc:Club ;
+    rdfs:label "Saprissa" .
+
+<http://example.org/worldcup/resource/club/sassuolo> a wc:Club ;
+    rdfs:label "Sassuolo" .
+
+<http://example.org/worldcup/resource/club/sc-braga> a wc:Club ;
+    rdfs:label "SC Braga" .
+
+<http://example.org/worldcup/resource/club/schalke> a wc:Club ;
+    rdfs:label "Schalke" .
+
+<http://example.org/worldcup/resource/club/seattle-sounders> a wc:Club ;
+    rdfs:label "Seattle Sounders" .
+
+<http://example.org/worldcup/resource/club/sepahan> a wc:Club ;
+    rdfs:label "Sepahan" .
+
+<http://example.org/worldcup/resource/club/sevilla> a wc:Club ;
+    rdfs:label "Sevilla" .
+
+<http://example.org/worldcup/resource/club/shabab-al-ahli> a wc:Club ;
+    rdfs:label "Shabab Al-Ahli" .
+
+<http://example.org/worldcup/resource/club/shandong-taishan> a wc:Club ;
+    rdfs:label "Shandong Taishan" .
+
+<http://example.org/worldcup/resource/club/shanghai-shenhua> a wc:Club ;
+    rdfs:label "Shanghai Shenhua" .
+
+<http://example.org/worldcup/resource/club/sheffield-united> a wc:Club ;
+    rdfs:label "Sheffield United" .
+
+<http://example.org/worldcup/resource/club/shimizu-s-pulse> a wc:Club ;
+    rdfs:label "Shimizu S-Pulse" .
+
+<http://example.org/worldcup/resource/club/shonan-bellmare> a wc:Club ;
+    rdfs:label "Shonan Bellmare" .
+
+<http://example.org/worldcup/resource/club/sint-truiden> a wc:Club ;
+    rdfs:label "Sint-Truiden" .
+
+<http://example.org/worldcup/resource/club/southampton> a wc:Club ;
+    rdfs:label "Southampton" .
+
+<http://example.org/worldcup/resource/club/spezia> a wc:Club ;
+    rdfs:label "Spezia" .
+
+<http://example.org/worldcup/resource/club/sporting-cp> a wc:Club ;
+    rdfs:label "Sporting CP" .
+
+<http://example.org/worldcup/resource/club/st-gellen> a wc:Club ;
+    rdfs:label "St. Gellen" .
+
+<http://example.org/worldcup/resource/club/st-johnstone> a wc:Club ;
+    rdfs:label "St. Johnstone" .
+
+<http://example.org/worldcup/resource/club/st-mirren> a wc:Club ;
+    rdfs:label "St Mirren" .
+
+<http://example.org/worldcup/resource/club/st-pauli> a wc:Club ;
+    rdfs:label "St Pauli" .
+
+<http://example.org/worldcup/resource/club/standard-liege> a wc:Club ;
+    rdfs:label "Standard Liege" .
+
+<http://example.org/worldcup/resource/club/stoke-city> a wc:Club ;
+    rdfs:label "Stoke City" .
+
+<http://example.org/worldcup/resource/club/strasbourg> a wc:Club ;
+    rdfs:label "Strasbourg" .
+
+<http://example.org/worldcup/resource/club/stuttgart> a wc:Club ;
+    rdfs:label "Stuttgart" .
+
+<http://example.org/worldcup/resource/club/sunderland> a wc:Club ;
+    rdfs:label "Sunderland" .
+
+<http://example.org/worldcup/resource/club/swansea-city> a wc:Club ;
+    rdfs:label "Swansea City" .
+
+<http://example.org/worldcup/resource/club/swindon-town> a wc:Club ;
+    rdfs:label "Swindon Town" .
+
+<http://example.org/worldcup/resource/club/sydney> a wc:Club ;
+    rdfs:label "Sydney" .
+
+<http://example.org/worldcup/resource/club/talleres> a wc:Club ;
+    rdfs:label "Talleres" .
+
+<http://example.org/worldcup/resource/club/tokyo> a wc:Club ;
+    rdfs:label "Tokyo" .
+
+<http://example.org/worldcup/resource/club/torino> a wc:Club ;
+    rdfs:label "Torino" .
+
+<http://example.org/worldcup/resource/club/toronto> a wc:Club ;
+    rdfs:label "Toronto" .
+
+<http://example.org/worldcup/resource/club/tottenham-hotspur> a wc:Club ;
+    rdfs:label "Tottenham Hotspur" .
+
+<http://example.org/worldcup/resource/club/toulouse> a wc:Club ;
+    rdfs:label "Toulouse" .
+
+<http://example.org/worldcup/resource/club/trabzonspor> a wc:Club ;
+    rdfs:label "Trabzonspor" .
+
+<http://example.org/worldcup/resource/club/troyes> a wc:Club ;
+    rdfs:label "Troyes" .
+
+<http://example.org/worldcup/resource/club/tulsa-roughnecks> a wc:Club ;
+    rdfs:label "Tulsa Roughnecks" .
+
+<http://example.org/worldcup/resource/club/udinese> a wc:Club ;
+    rdfs:label "Udinese" .
+
+<http://example.org/worldcup/resource/club/ulsan-hyundai> a wc:Club ;
+    rdfs:label "Ulsan Hyundai" .
+
+<http://example.org/worldcup/resource/club/unam> a wc:Club ;
+    rdfs:label "UNAM" .
+
+<http://example.org/worldcup/resource/club/union-berlin> a wc:Club ;
+    rdfs:label "Union Berlin" .
+
+<http://example.org/worldcup/resource/club/urawa-red-diamonds> a wc:Club ;
+    rdfs:label "Urawa Red Diamonds" .
+
+<http://example.org/worldcup/resource/club/us-monastir> a wc:Club ;
+    rdfs:label "US Monastir" .
+
+<http://example.org/worldcup/resource/club/valencia> a wc:Club ;
+    rdfs:label "Valencia" .
+
+<http://example.org/worldcup/resource/club/vancouver-whitecaps> a wc:Club ;
+    rdfs:label "Vancouver Whitecaps" .
+
+<http://example.org/worldcup/resource/club/vejle> a wc:Club ;
+    rdfs:label "Vejle" .
+
+<http://example.org/worldcup/resource/club/velez-sarsfield> a wc:Club ;
+    rdfs:label "Velez Sarsfield" .
+
+<http://example.org/worldcup/resource/club/villarreal> a wc:Club ;
+    rdfs:label "Villarreal" .
+
+<http://example.org/worldcup/resource/club/watford> a wc:Club ;
+    rdfs:label "Watford" .
+
+<http://example.org/worldcup/resource/club/werder-bremen> a wc:Club ;
+    rdfs:label "Werder Bremen" .
+
+<http://example.org/worldcup/resource/club/west-ham-united> a wc:Club ;
+    rdfs:label "West Ham United" .
+
+<http://example.org/worldcup/resource/club/wolfsburg> a wc:Club ;
+    rdfs:label "Wolfsburg" .
+
+<http://example.org/worldcup/resource/club/wolverhampton-wanderers> a wc:Club ;
+    rdfs:label "Wolverhampton Wanderers" .
+
+<http://example.org/worldcup/resource/club/wydad-ac> a wc:Club ;
+    rdfs:label "Wydad AC" .
+
+<http://example.org/worldcup/resource/club/young-boys> a wc:Club ;
+    rdfs:label "Young Boys" .
+
+<http://example.org/worldcup/resource/club/zamalek> a wc:Club ;
+    rdfs:label "Zamalek" .
+
+<http://example.org/worldcup/resource/club/zenit> a wc:Club ;
+    rdfs:label "Zenit" .
+

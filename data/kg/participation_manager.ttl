@@ -1,0 +1,1264 @@
+@prefix wc: <http://example.org/worldcup/ontology#> .
+
+<http://example.org/worldcup/resource/participation/WC-1930/T-03> wc:hasManager <http://example.org/worldcup/resource/manager/M-296>,
+        <http://example.org/worldcup/resource/manager/M-432> .
+
+<http://example.org/worldcup/resource/participation/WC-1930/T-06> wc:hasManager <http://example.org/worldcup/resource/manager/M-140> .
+
+<http://example.org/worldcup/resource/participation/WC-1930/T-07> wc:hasManager <http://example.org/worldcup/resource/manager/M-381> .
+
+<http://example.org/worldcup/resource/participation/WC-1930/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-091> .
+
+<http://example.org/worldcup/resource/participation/WC-1930/T-13> wc:hasManager <http://example.org/worldcup/resource/manager/M-302> .
+
+<http://example.org/worldcup/resource/participation/WC-1930/T-30> wc:hasManager <http://example.org/worldcup/resource/manager/M-075> .
+
+<http://example.org/worldcup/resource/participation/WC-1930/T-46> wc:hasManager <http://example.org/worldcup/resource/manager/M-235> .
+
+<http://example.org/worldcup/resource/participation/WC-1930/T-55> wc:hasManager <http://example.org/worldcup/resource/manager/M-109> .
+
+<http://example.org/worldcup/resource/participation/WC-1930/T-56> wc:hasManager <http://example.org/worldcup/resource/manager/M-061> .
+
+<http://example.org/worldcup/resource/participation/WC-1930/T-61> wc:hasManager <http://example.org/worldcup/resource/manager/M-341> .
+
+<http://example.org/worldcup/resource/participation/WC-1930/T-83> wc:hasManager <http://example.org/worldcup/resource/manager/M-265> .
+
+<http://example.org/worldcup/resource/participation/WC-1930/T-84> wc:hasManager <http://example.org/worldcup/resource/manager/M-415> .
+
+<http://example.org/worldcup/resource/participation/WC-1930/T-87> wc:hasManager <http://example.org/worldcup/resource/manager/M-397> .
+
+<http://example.org/worldcup/resource/participation/WC-1934/T-03> wc:hasManager <http://example.org/worldcup/resource/manager/M-312> .
+
+<http://example.org/worldcup/resource/participation/WC-1934/T-05> wc:hasManager <http://example.org/worldcup/resource/manager/M-250> .
+
+<http://example.org/worldcup/resource/participation/WC-1934/T-06> wc:hasManager <http://example.org/worldcup/resource/manager/M-140> .
+
+<http://example.org/worldcup/resource/participation/WC-1934/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-456> .
+
+<http://example.org/worldcup/resource/participation/WC-1934/T-21> wc:hasManager <http://example.org/worldcup/resource/manager/M-320> .
+
+<http://example.org/worldcup/resource/participation/WC-1934/T-26> wc:hasManager <http://example.org/worldcup/resource/manager/M-249> .
+
+<http://example.org/worldcup/resource/participation/WC-1934/T-30> wc:hasManager <http://example.org/worldcup/resource/manager/M-203> .
+
+<http://example.org/worldcup/resource/participation/WC-1934/T-31> wc:hasManager <http://example.org/worldcup/resource/manager/M-286> .
+
+<http://example.org/worldcup/resource/participation/WC-1934/T-36> wc:hasManager <http://example.org/worldcup/resource/manager/M-280> .
+
+<http://example.org/worldcup/resource/participation/WC-1934/T-41> wc:hasManager <http://example.org/worldcup/resource/manager/M-333> .
+
+<http://example.org/worldcup/resource/participation/WC-1934/T-48> wc:hasManager <http://example.org/worldcup/resource/manager/M-136> .
+
+<http://example.org/worldcup/resource/participation/WC-1934/T-61> wc:hasManager <http://example.org/worldcup/resource/manager/M-341>,
+        <http://example.org/worldcup/resource/manager/M-439> .
+
+<http://example.org/worldcup/resource/participation/WC-1934/T-73> wc:hasManager <http://example.org/worldcup/resource/manager/M-133> .
+
+<http://example.org/worldcup/resource/participation/WC-1934/T-74> wc:hasManager <http://example.org/worldcup/resource/manager/M-321> .
+
+<http://example.org/worldcup/resource/participation/WC-1934/T-75> wc:hasManager <http://example.org/worldcup/resource/manager/M-275> .
+
+<http://example.org/worldcup/resource/participation/WC-1934/T-83> wc:hasManager <http://example.org/worldcup/resource/manager/M-146> .
+
+<http://example.org/worldcup/resource/participation/WC-1938/T-06> wc:hasManager <http://example.org/worldcup/resource/manager/M-066> .
+
+<http://example.org/worldcup/resource/participation/WC-1938/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-325> .
+
+<http://example.org/worldcup/resource/participation/WC-1938/T-19> wc:hasManager <http://example.org/worldcup/resource/manager/M-423> .
+
+<http://example.org/worldcup/resource/participation/WC-1938/T-21> wc:hasManager <http://example.org/worldcup/resource/manager/M-251> .
+
+<http://example.org/worldcup/resource/participation/WC-1938/T-23> wc:hasManager <http://example.org/worldcup/resource/manager/M-245> .
+
+<http://example.org/worldcup/resource/participation/WC-1938/T-30> wc:hasManager <http://example.org/worldcup/resource/manager/M-028> .
+
+<http://example.org/worldcup/resource/participation/WC-1938/T-31> wc:hasManager <http://example.org/worldcup/resource/manager/M-161> .
+
+<http://example.org/worldcup/resource/participation/WC-1938/T-36> wc:hasManager <http://example.org/worldcup/resource/manager/M-101>,
+        <http://example.org/worldcup/resource/manager/M-385> .
+
+<http://example.org/worldcup/resource/participation/WC-1938/T-41> wc:hasManager <http://example.org/worldcup/resource/manager/M-333> .
+
+<http://example.org/worldcup/resource/participation/WC-1938/T-48> wc:hasManager <http://example.org/worldcup/resource/manager/M-136> .
+
+<http://example.org/worldcup/resource/participation/WC-1938/T-53> wc:hasManager <http://example.org/worldcup/resource/manager/M-154> .
+
+<http://example.org/worldcup/resource/participation/WC-1938/T-57> wc:hasManager <http://example.org/worldcup/resource/manager/M-191> .
+
+<http://example.org/worldcup/resource/participation/WC-1938/T-61> wc:hasManager <http://example.org/worldcup/resource/manager/M-341>,
+        <http://example.org/worldcup/resource/manager/M-382> .
+
+<http://example.org/worldcup/resource/participation/WC-1938/T-74> wc:hasManager <http://example.org/worldcup/resource/manager/M-281> .
+
+<http://example.org/worldcup/resource/participation/WC-1938/T-75> wc:hasManager <http://example.org/worldcup/resource/manager/M-345> .
+
+<http://example.org/worldcup/resource/participation/WC-1950/T-07> wc:hasManager <http://example.org/worldcup/resource/manager/M-335> .
+
+<http://example.org/worldcup/resource/participation/WC-1950/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-085> .
+
+<http://example.org/worldcup/resource/participation/WC-1950/T-13> wc:hasManager <http://example.org/worldcup/resource/manager/M-063> .
+
+<http://example.org/worldcup/resource/participation/WC-1950/T-28> wc:hasManager <http://example.org/worldcup/resource/manager/M-470> .
+
+<http://example.org/worldcup/resource/participation/WC-1950/T-41> wc:hasManager <http://example.org/worldcup/resource/manager/M-291> .
+
+<http://example.org/worldcup/resource/participation/WC-1950/T-46> wc:hasManager <http://example.org/worldcup/resource/manager/M-449> .
+
+<http://example.org/worldcup/resource/participation/WC-1950/T-55> wc:hasManager <http://example.org/worldcup/resource/manager/M-126> .
+
+<http://example.org/worldcup/resource/participation/WC-1950/T-73> wc:hasManager <http://example.org/worldcup/resource/manager/M-111> .
+
+<http://example.org/worldcup/resource/participation/WC-1950/T-74> wc:hasManager <http://example.org/worldcup/resource/manager/M-347> .
+
+<http://example.org/worldcup/resource/participation/WC-1950/T-75> wc:hasManager <http://example.org/worldcup/resource/manager/M-015> .
+
+<http://example.org/worldcup/resource/participation/WC-1950/T-83> wc:hasManager <http://example.org/worldcup/resource/manager/M-184> .
+
+<http://example.org/worldcup/resource/participation/WC-1950/T-84> wc:hasManager <http://example.org/worldcup/resource/manager/M-230> .
+
+<http://example.org/worldcup/resource/participation/WC-1950/T-87> wc:hasManager <http://example.org/worldcup/resource/manager/M-023> .
+
+<http://example.org/worldcup/resource/participation/WC-1954/T-05> wc:hasManager <http://example.org/worldcup/resource/manager/M-282> .
+
+<http://example.org/worldcup/resource/participation/WC-1954/T-06> wc:hasManager <http://example.org/worldcup/resource/manager/M-226> .
+
+<http://example.org/worldcup/resource/participation/WC-1954/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-272> .
+
+<http://example.org/worldcup/resource/participation/WC-1954/T-21> wc:hasManager <http://example.org/worldcup/resource/manager/M-054> .
+
+<http://example.org/worldcup/resource/participation/WC-1954/T-28> wc:hasManager <http://example.org/worldcup/resource/manager/M-470> .
+
+<http://example.org/worldcup/resource/participation/WC-1954/T-30> wc:hasManager <http://example.org/worldcup/resource/manager/M-323> .
+
+<http://example.org/worldcup/resource/participation/WC-1954/T-36> wc:hasManager <http://example.org/worldcup/resource/manager/M-390> .
+
+<http://example.org/worldcup/resource/participation/WC-1954/T-41> wc:hasManager <http://example.org/worldcup/resource/manager/M-089> .
+
+<http://example.org/worldcup/resource/participation/WC-1954/T-46> wc:hasManager <http://example.org/worldcup/resource/manager/M-231> .
+
+<http://example.org/worldcup/resource/participation/WC-1954/T-64> wc:hasManager <http://example.org/worldcup/resource/manager/M-032> .
+
+<http://example.org/worldcup/resource/participation/WC-1954/T-71> wc:hasManager <http://example.org/worldcup/resource/manager/M-202> .
+
+<http://example.org/worldcup/resource/participation/WC-1954/T-75> wc:hasManager <http://example.org/worldcup/resource/manager/M-345> .
+
+<http://example.org/worldcup/resource/participation/WC-1954/T-80> wc:hasManager <http://example.org/worldcup/resource/manager/M-338> .
+
+<http://example.org/worldcup/resource/participation/WC-1954/T-84> wc:hasManager <http://example.org/worldcup/resource/manager/M-230> .
+
+<http://example.org/worldcup/resource/participation/WC-1954/T-86> wc:hasManager <http://example.org/worldcup/resource/manager/M-161> .
+
+<http://example.org/worldcup/resource/participation/WC-1954/T-87> wc:hasManager <http://example.org/worldcup/resource/manager/M-428> .
+
+<http://example.org/worldcup/resource/participation/WC-1958/T-03> wc:hasManager <http://example.org/worldcup/resource/manager/M-407> .
+
+<http://example.org/worldcup/resource/participation/WC-1958/T-05> wc:hasManager <http://example.org/worldcup/resource/manager/M-021> .
+
+<http://example.org/worldcup/resource/participation/WC-1958/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-122> .
+
+<http://example.org/worldcup/resource/participation/WC-1958/T-21> wc:hasManager <http://example.org/worldcup/resource/manager/M-205> .
+
+<http://example.org/worldcup/resource/participation/WC-1958/T-28> wc:hasManager <http://example.org/worldcup/resource/manager/M-470> .
+
+<http://example.org/worldcup/resource/participation/WC-1958/T-30> wc:hasManager <http://example.org/worldcup/resource/manager/M-030> .
+
+<http://example.org/worldcup/resource/participation/WC-1958/T-36> wc:hasManager <http://example.org/worldcup/resource/manager/M-027> .
+
+<http://example.org/worldcup/resource/participation/WC-1958/T-46> wc:hasManager <http://example.org/worldcup/resource/manager/M-231> .
+
+<http://example.org/worldcup/resource/participation/WC-1958/T-52> wc:hasManager <http://example.org/worldcup/resource/manager/M-103> .
+
+<http://example.org/worldcup/resource/participation/WC-1958/T-55> wc:hasManager <http://example.org/worldcup/resource/manager/M-144> .
+
+<http://example.org/worldcup/resource/participation/WC-1958/T-64> wc:hasManager <http://example.org/worldcup/resource/manager/M-064>,
+        <http://example.org/worldcup/resource/manager/M-463> .
+
+<http://example.org/worldcup/resource/participation/WC-1958/T-72> wc:hasManager <http://example.org/worldcup/resource/manager/M-189> .
+
+<http://example.org/worldcup/resource/participation/WC-1958/T-74> wc:hasManager <http://example.org/worldcup/resource/manager/M-347> .
+
+<http://example.org/worldcup/resource/participation/WC-1958/T-85> wc:hasManager <http://example.org/worldcup/resource/manager/M-277> .
+
+<http://example.org/worldcup/resource/participation/WC-1958/T-86> wc:hasManager <http://example.org/worldcup/resource/manager/M-161> .
+
+<http://example.org/worldcup/resource/participation/WC-1958/T-87> wc:hasManager <http://example.org/worldcup/resource/manager/M-428> .
+
+<http://example.org/worldcup/resource/participation/WC-1962/T-03> wc:hasManager <http://example.org/worldcup/resource/manager/M-232> .
+
+<http://example.org/worldcup/resource/participation/WC-1962/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-271> .
+
+<http://example.org/worldcup/resource/participation/WC-1962/T-10> wc:hasManager <http://example.org/worldcup/resource/manager/M-305> .
+
+<http://example.org/worldcup/resource/participation/WC-1962/T-13> wc:hasManager <http://example.org/worldcup/resource/manager/M-355> .
+
+<http://example.org/worldcup/resource/participation/WC-1962/T-16> wc:hasManager <http://example.org/worldcup/resource/manager/M-314> .
+
+<http://example.org/worldcup/resource/participation/WC-1962/T-21> wc:hasManager <http://example.org/worldcup/resource/manager/M-461> .
+
+<http://example.org/worldcup/resource/participation/WC-1962/T-28> wc:hasManager <http://example.org/worldcup/resource/manager/M-470> .
+
+<http://example.org/worldcup/resource/participation/WC-1962/T-36> wc:hasManager <http://example.org/worldcup/resource/manager/M-027> .
+
+<http://example.org/worldcup/resource/participation/WC-1962/T-41> wc:hasManager <http://example.org/worldcup/resource/manager/M-124>,
+        <http://example.org/worldcup/resource/manager/M-247> .
+
+<http://example.org/worldcup/resource/participation/WC-1962/T-46> wc:hasManager <http://example.org/worldcup/resource/manager/M-434> .
+
+<http://example.org/worldcup/resource/participation/WC-1962/T-72> wc:hasManager <http://example.org/worldcup/resource/manager/M-189> .
+
+<http://example.org/worldcup/resource/participation/WC-1962/T-73> wc:hasManager <http://example.org/worldcup/resource/manager/M-164> .
+
+<http://example.org/worldcup/resource/participation/WC-1962/T-75> wc:hasManager <http://example.org/worldcup/resource/manager/M-345> .
+
+<http://example.org/worldcup/resource/participation/WC-1962/T-84> wc:hasManager <http://example.org/worldcup/resource/manager/M-084> .
+
+<http://example.org/worldcup/resource/participation/WC-1962/T-86> wc:hasManager <http://example.org/worldcup/resource/manager/M-161> .
+
+<http://example.org/worldcup/resource/participation/WC-1962/T-87> wc:hasManager <http://example.org/worldcup/resource/manager/M-233>,
+        <http://example.org/worldcup/resource/manager/M-262> .
+
+<http://example.org/worldcup/resource/participation/WC-1966/T-03> wc:hasManager <http://example.org/worldcup/resource/manager/M-232> .
+
+<http://example.org/worldcup/resource/participation/WC-1966/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-122> .
+
+<http://example.org/worldcup/resource/participation/WC-1966/T-10> wc:hasManager <http://example.org/worldcup/resource/manager/M-461> .
+
+<http://example.org/worldcup/resource/participation/WC-1966/T-13> wc:hasManager <http://example.org/worldcup/resource/manager/M-010> .
+
+<http://example.org/worldcup/resource/participation/WC-1966/T-28> wc:hasManager <http://example.org/worldcup/resource/manager/M-344> .
+
+<http://example.org/worldcup/resource/participation/WC-1966/T-30> wc:hasManager <http://example.org/worldcup/resource/manager/M-149> .
+
+<http://example.org/worldcup/resource/participation/WC-1966/T-36> wc:hasManager <http://example.org/worldcup/resource/manager/M-027> .
+
+<http://example.org/worldcup/resource/participation/WC-1966/T-41> wc:hasManager <http://example.org/worldcup/resource/manager/M-119> .
+
+<http://example.org/worldcup/resource/participation/WC-1966/T-46> wc:hasManager <http://example.org/worldcup/resource/manager/M-434> .
+
+<http://example.org/worldcup/resource/participation/WC-1966/T-51> wc:hasManager <http://example.org/worldcup/resource/manager/M-279> .
+
+<http://example.org/worldcup/resource/participation/WC-1966/T-58> wc:hasManager <http://example.org/worldcup/resource/manager/M-137> .
+
+<http://example.org/worldcup/resource/participation/WC-1966/T-72> wc:hasManager <http://example.org/worldcup/resource/manager/M-274> .
+
+<http://example.org/worldcup/resource/participation/WC-1966/T-73> wc:hasManager <http://example.org/worldcup/resource/manager/M-454> .
+
+<http://example.org/worldcup/resource/participation/WC-1966/T-75> wc:hasManager <http://example.org/worldcup/resource/manager/M-128> .
+
+<http://example.org/worldcup/resource/participation/WC-1966/T-84> wc:hasManager <http://example.org/worldcup/resource/manager/M-452> .
+
+<http://example.org/worldcup/resource/participation/WC-1966/T-86> wc:hasManager <http://example.org/worldcup/resource/manager/M-388> .
+
+<http://example.org/worldcup/resource/participation/WC-1970/T-06> wc:hasManager <http://example.org/worldcup/resource/manager/M-139> .
+
+<http://example.org/worldcup/resource/participation/WC-1970/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-474> .
+
+<http://example.org/worldcup/resource/participation/WC-1970/T-10> wc:hasManager <http://example.org/worldcup/resource/manager/M-057> .
+
+<http://example.org/worldcup/resource/participation/WC-1970/T-21> wc:hasManager <http://example.org/worldcup/resource/manager/M-242> .
+
+<http://example.org/worldcup/resource/participation/WC-1970/T-27> wc:hasManager <http://example.org/worldcup/resource/manager/M-074> .
+
+<http://example.org/worldcup/resource/participation/WC-1970/T-28> wc:hasManager <http://example.org/worldcup/resource/manager/M-344> .
+
+<http://example.org/worldcup/resource/participation/WC-1970/T-40> wc:hasManager <http://example.org/worldcup/resource/manager/M-386> .
+
+<http://example.org/worldcup/resource/participation/WC-1970/T-41> wc:hasManager <http://example.org/worldcup/resource/manager/M-441> .
+
+<http://example.org/worldcup/resource/participation/WC-1970/T-46> wc:hasManager <http://example.org/worldcup/resource/manager/M-072> .
+
+<http://example.org/worldcup/resource/participation/WC-1970/T-47> wc:hasManager <http://example.org/worldcup/resource/manager/M-451> .
+
+<http://example.org/worldcup/resource/participation/WC-1970/T-56> wc:hasManager <http://example.org/worldcup/resource/manager/M-100> .
+
+<http://example.org/worldcup/resource/participation/WC-1970/T-61> wc:hasManager <http://example.org/worldcup/resource/manager/M-288> .
+
+<http://example.org/worldcup/resource/participation/WC-1970/T-72> wc:hasManager <http://example.org/worldcup/resource/manager/M-189> .
+
+<http://example.org/worldcup/resource/participation/WC-1970/T-74> wc:hasManager <http://example.org/worldcup/resource/manager/M-038> .
+
+<http://example.org/worldcup/resource/participation/WC-1970/T-84> wc:hasManager <http://example.org/worldcup/resource/manager/M-175> .
+
+<http://example.org/worldcup/resource/participation/WC-1970/T-86> wc:hasManager <http://example.org/worldcup/resource/manager/M-388> .
+
+<http://example.org/worldcup/resource/participation/WC-1974/T-03> wc:hasManager <http://example.org/worldcup/resource/manager/M-070> .
+
+<http://example.org/worldcup/resource/participation/WC-1974/T-04> wc:hasManager <http://example.org/worldcup/resource/manager/M-346> .
+
+<http://example.org/worldcup/resource/participation/WC-1974/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-474> .
+
+<http://example.org/worldcup/resource/participation/WC-1974/T-10> wc:hasManager <http://example.org/worldcup/resource/manager/M-268> .
+
+<http://example.org/worldcup/resource/participation/WC-1974/T-13> wc:hasManager <http://example.org/worldcup/resource/manager/M-010> .
+
+<http://example.org/worldcup/resource/participation/WC-1974/T-24> wc:hasManager <http://example.org/worldcup/resource/manager/M-065> .
+
+<http://example.org/worldcup/resource/participation/WC-1974/T-34> wc:hasManager <http://example.org/worldcup/resource/manager/M-424> .
+
+<http://example.org/worldcup/resource/participation/WC-1974/T-41> wc:hasManager <http://example.org/worldcup/resource/manager/M-441> .
+
+<http://example.org/worldcup/resource/participation/WC-1974/T-48> wc:hasManager <http://example.org/worldcup/resource/manager/M-260> .
+
+<http://example.org/worldcup/resource/participation/WC-1974/T-57> wc:hasManager <http://example.org/worldcup/resource/manager/M-145> .
+
+<http://example.org/worldcup/resource/participation/WC-1974/T-64> wc:hasManager <http://example.org/worldcup/resource/manager/M-301> .
+
+<http://example.org/worldcup/resource/participation/WC-1974/T-74> wc:hasManager <http://example.org/worldcup/resource/manager/M-117> .
+
+<http://example.org/worldcup/resource/participation/WC-1974/T-84> wc:hasManager <http://example.org/worldcup/resource/manager/M-330> .
+
+<http://example.org/worldcup/resource/participation/WC-1974/T-86> wc:hasManager <http://example.org/worldcup/resource/manager/M-388> .
+
+<http://example.org/worldcup/resource/participation/WC-1974/T-87> wc:hasManager <http://example.org/worldcup/resource/manager/M-264> .
+
+<http://example.org/worldcup/resource/participation/WC-1974/T-88> wc:hasManager <http://example.org/worldcup/resource/manager/M-451> .
+
+<http://example.org/worldcup/resource/participation/WC-1978/T-03> wc:hasManager <http://example.org/worldcup/resource/manager/M-254> .
+
+<http://example.org/worldcup/resource/participation/WC-1978/T-05> wc:hasManager <http://example.org/worldcup/resource/manager/M-392> .
+
+<http://example.org/worldcup/resource/participation/WC-1978/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-086> .
+
+<http://example.org/worldcup/resource/participation/WC-1978/T-30> wc:hasManager <http://example.org/worldcup/resource/manager/M-167> .
+
+<http://example.org/worldcup/resource/participation/WC-1978/T-36> wc:hasManager <http://example.org/worldcup/resource/manager/M-027> .
+
+<http://example.org/worldcup/resource/participation/WC-1978/T-38> wc:hasManager <http://example.org/worldcup/resource/manager/M-269> .
+
+<http://example.org/worldcup/resource/participation/WC-1978/T-41> wc:hasManager <http://example.org/worldcup/resource/manager/M-031> .
+
+<http://example.org/worldcup/resource/participation/WC-1978/T-46> wc:hasManager <http://example.org/worldcup/resource/manager/M-357> .
+
+<http://example.org/worldcup/resource/participation/WC-1978/T-48> wc:hasManager <http://example.org/worldcup/resource/manager/M-157> .
+
+<http://example.org/worldcup/resource/participation/WC-1978/T-56> wc:hasManager <http://example.org/worldcup/resource/manager/M-068> .
+
+<http://example.org/worldcup/resource/participation/WC-1978/T-57> wc:hasManager <http://example.org/worldcup/resource/manager/M-138> .
+
+<http://example.org/worldcup/resource/participation/WC-1978/T-64> wc:hasManager <http://example.org/worldcup/resource/manager/M-239> .
+
+<http://example.org/worldcup/resource/participation/WC-1978/T-73> wc:hasManager <http://example.org/worldcup/resource/manager/M-209> .
+
+<http://example.org/worldcup/resource/participation/WC-1978/T-74> wc:hasManager <http://example.org/worldcup/resource/manager/M-117> .
+
+<http://example.org/worldcup/resource/participation/WC-1978/T-79> wc:hasManager <http://example.org/worldcup/resource/manager/M-079> .
+
+<http://example.org/worldcup/resource/participation/WC-1978/T-86> wc:hasManager <http://example.org/worldcup/resource/manager/M-388> .
+
+<http://example.org/worldcup/resource/participation/WC-1982/T-01> wc:hasManager <http://example.org/worldcup/resource/manager/M-197>,
+        <http://example.org/worldcup/resource/manager/M-253> .
+
+<http://example.org/worldcup/resource/participation/WC-1982/T-03> wc:hasManager <http://example.org/worldcup/resource/manager/M-254> .
+
+<http://example.org/worldcup/resource/participation/WC-1982/T-05> wc:hasManager <http://example.org/worldcup/resource/manager/M-216>,
+        <http://example.org/worldcup/resource/manager/M-387> .
+
+<http://example.org/worldcup/resource/participation/WC-1982/T-06> wc:hasManager <http://example.org/worldcup/resource/manager/M-426> .
+
+<http://example.org/worldcup/resource/participation/WC-1982/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-375> .
+
+<http://example.org/worldcup/resource/participation/WC-1982/T-11> wc:hasManager <http://example.org/worldcup/resource/manager/M-455> .
+
+<http://example.org/worldcup/resource/participation/WC-1982/T-13> wc:hasManager <http://example.org/worldcup/resource/manager/M-376> .
+
+<http://example.org/worldcup/resource/participation/WC-1982/T-21> wc:hasManager <http://example.org/worldcup/resource/manager/M-447> .
+
+<http://example.org/worldcup/resource/participation/WC-1982/T-27> wc:hasManager <http://example.org/worldcup/resource/manager/M-358> .
+
+<http://example.org/worldcup/resource/participation/WC-1982/T-28> wc:hasManager <http://example.org/worldcup/resource/manager/M-147> .
+
+<http://example.org/worldcup/resource/participation/WC-1982/T-30> wc:hasManager <http://example.org/worldcup/resource/manager/M-167> .
+
+<http://example.org/worldcup/resource/participation/WC-1982/T-35> wc:hasManager <http://example.org/worldcup/resource/manager/M-092> .
+
+<http://example.org/worldcup/resource/participation/WC-1982/T-36> wc:hasManager <http://example.org/worldcup/resource/manager/M-256> .
+
+<http://example.org/worldcup/resource/participation/WC-1982/T-41> wc:hasManager <http://example.org/worldcup/resource/manager/M-031> .
+
+<http://example.org/worldcup/resource/participation/WC-1982/T-45> wc:hasManager <http://example.org/worldcup/resource/manager/M-311> .
+
+<http://example.org/worldcup/resource/participation/WC-1982/T-49> wc:hasManager <http://example.org/worldcup/resource/manager/M-003> .
+
+<http://example.org/worldcup/resource/participation/WC-1982/T-52> wc:hasManager <http://example.org/worldcup/resource/manager/M-045> .
+
+<http://example.org/worldcup/resource/participation/WC-1982/T-56> wc:hasManager <http://example.org/worldcup/resource/manager/M-427> .
+
+<http://example.org/worldcup/resource/participation/WC-1982/T-57> wc:hasManager <http://example.org/worldcup/resource/manager/M-324> .
+
+<http://example.org/worldcup/resource/participation/WC-1982/T-64> wc:hasManager <http://example.org/worldcup/resource/manager/M-410> .
+
+<http://example.org/worldcup/resource/participation/WC-1982/T-72> wc:hasManager <http://example.org/worldcup/resource/manager/M-042> .
+
+<http://example.org/worldcup/resource/participation/WC-1982/T-73> wc:hasManager <http://example.org/worldcup/resource/manager/M-374> .
+
+<http://example.org/worldcup/resource/participation/WC-1982/T-86> wc:hasManager <http://example.org/worldcup/resource/manager/M-096> .
+
+<http://example.org/worldcup/resource/participation/WC-1982/T-87> wc:hasManager <http://example.org/worldcup/resource/manager/M-264> .
+
+<http://example.org/worldcup/resource/participation/WC-1986/T-01> wc:hasManager <http://example.org/worldcup/resource/manager/M-366> .
+
+<http://example.org/worldcup/resource/participation/WC-1986/T-03> wc:hasManager <http://example.org/worldcup/resource/manager/M-044> .
+
+<http://example.org/worldcup/resource/participation/WC-1986/T-06> wc:hasManager <http://example.org/worldcup/resource/manager/M-426> .
+
+<http://example.org/worldcup/resource/participation/WC-1986/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-375> .
+
+<http://example.org/worldcup/resource/participation/WC-1986/T-10> wc:hasManager <http://example.org/worldcup/resource/manager/M-460> .
+
+<http://example.org/worldcup/resource/participation/WC-1986/T-12> wc:hasManager <http://example.org/worldcup/resource/manager/M-462> .
+
+<http://example.org/worldcup/resource/participation/WC-1986/T-22> wc:hasManager <http://example.org/worldcup/resource/manager/M-327> .
+
+<http://example.org/worldcup/resource/participation/WC-1986/T-28> wc:hasManager <http://example.org/worldcup/resource/manager/M-356> .
+
+<http://example.org/worldcup/resource/participation/WC-1986/T-30> wc:hasManager <http://example.org/worldcup/resource/manager/M-259> .
+
+<http://example.org/worldcup/resource/participation/WC-1986/T-36> wc:hasManager <http://example.org/worldcup/resource/manager/M-258> .
+
+<http://example.org/worldcup/resource/participation/WC-1986/T-39> wc:hasManager <http://example.org/worldcup/resource/manager/M-093> .
+
+<http://example.org/worldcup/resource/participation/WC-1986/T-41> wc:hasManager <http://example.org/worldcup/resource/manager/M-031> .
+
+<http://example.org/worldcup/resource/participation/WC-1986/T-46> wc:hasManager <http://example.org/worldcup/resource/manager/M-266> .
+
+<http://example.org/worldcup/resource/participation/WC-1986/T-47> wc:hasManager <http://example.org/worldcup/resource/manager/M-121> .
+
+<http://example.org/worldcup/resource/participation/WC-1986/T-52> wc:hasManager <http://example.org/worldcup/resource/manager/M-045> .
+
+<http://example.org/worldcup/resource/participation/WC-1986/T-55> wc:hasManager <http://example.org/worldcup/resource/manager/M-348> .
+
+<http://example.org/worldcup/resource/participation/WC-1986/T-57> wc:hasManager <http://example.org/worldcup/resource/manager/M-324> .
+
+<http://example.org/worldcup/resource/participation/WC-1986/T-58> wc:hasManager <http://example.org/worldcup/resource/manager/M-430> .
+
+<http://example.org/worldcup/resource/participation/WC-1986/T-64> wc:hasManager <http://example.org/worldcup/resource/manager/M-123> .
+
+<http://example.org/worldcup/resource/participation/WC-1986/T-71> wc:hasManager <http://example.org/worldcup/resource/manager/M-200> .
+
+<http://example.org/worldcup/resource/participation/WC-1986/T-72> wc:hasManager <http://example.org/worldcup/resource/manager/M-227> .
+
+<http://example.org/worldcup/resource/participation/WC-1986/T-73> wc:hasManager <http://example.org/worldcup/resource/manager/M-276> .
+
+<http://example.org/worldcup/resource/participation/WC-1986/T-84> wc:hasManager <http://example.org/worldcup/resource/manager/M-055> .
+
+<http://example.org/worldcup/resource/participation/WC-1986/T-86> wc:hasManager <http://example.org/worldcup/resource/manager/M-033> .
+
+<http://example.org/worldcup/resource/participation/WC-1990/T-03> wc:hasManager <http://example.org/worldcup/resource/manager/M-044> .
+
+<http://example.org/worldcup/resource/participation/WC-1990/T-05> wc:hasManager <http://example.org/worldcup/resource/manager/M-166> .
+
+<http://example.org/worldcup/resource/participation/WC-1990/T-06> wc:hasManager <http://example.org/worldcup/resource/manager/M-426> .
+
+<http://example.org/worldcup/resource/participation/WC-1990/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-217> .
+
+<http://example.org/worldcup/resource/participation/WC-1990/T-11> wc:hasManager <http://example.org/worldcup/resource/manager/M-285> .
+
+<http://example.org/worldcup/resource/participation/WC-1990/T-16> wc:hasManager <http://example.org/worldcup/resource/manager/M-246> .
+
+<http://example.org/worldcup/resource/participation/WC-1990/T-17> wc:hasManager <http://example.org/worldcup/resource/manager/M-266> .
+
+<http://example.org/worldcup/resource/participation/WC-1990/T-21> wc:hasManager <http://example.org/worldcup/resource/manager/M-447> .
+
+<http://example.org/worldcup/resource/participation/WC-1990/T-26> wc:hasManager <http://example.org/worldcup/resource/manager/M-007> .
+
+<http://example.org/worldcup/resource/participation/WC-1990/T-28> wc:hasManager <http://example.org/worldcup/resource/manager/M-356> .
+
+<http://example.org/worldcup/resource/participation/WC-1990/T-41> wc:hasManager <http://example.org/worldcup/resource/manager/M-450> .
+
+<http://example.org/worldcup/resource/participation/WC-1990/T-48> wc:hasManager <http://example.org/worldcup/resource/manager/M-034> .
+
+<http://example.org/worldcup/resource/participation/WC-1990/T-60> wc:hasManager <http://example.org/worldcup/resource/manager/M-077> .
+
+<http://example.org/worldcup/resource/participation/WC-1990/T-61> wc:hasManager <http://example.org/worldcup/resource/manager/M-185> .
+
+<http://example.org/worldcup/resource/participation/WC-1990/T-64> wc:hasManager <http://example.org/worldcup/resource/manager/M-361> .
+
+<http://example.org/worldcup/resource/participation/WC-1990/T-71> wc:hasManager <http://example.org/worldcup/resource/manager/M-220> .
+
+<http://example.org/worldcup/resource/participation/WC-1990/T-72> wc:hasManager <http://example.org/worldcup/resource/manager/M-228> .
+
+<http://example.org/worldcup/resource/participation/WC-1990/T-73> wc:hasManager <http://example.org/worldcup/resource/manager/M-412> .
+
+<http://example.org/worldcup/resource/participation/WC-1990/T-74> wc:hasManager <http://example.org/worldcup/resource/manager/M-290> .
+
+<http://example.org/worldcup/resource/participation/WC-1990/T-82> wc:hasManager <http://example.org/worldcup/resource/manager/M-311> .
+
+<http://example.org/worldcup/resource/participation/WC-1990/T-83> wc:hasManager <http://example.org/worldcup/resource/manager/M-131> .
+
+<http://example.org/worldcup/resource/participation/WC-1990/T-84> wc:hasManager <http://example.org/worldcup/resource/manager/M-419> .
+
+<http://example.org/worldcup/resource/participation/WC-1990/T-86> wc:hasManager <http://example.org/worldcup/resource/manager/M-033> .
+
+<http://example.org/worldcup/resource/participation/WC-1990/T-87> wc:hasManager <http://example.org/worldcup/resource/manager/M-303> .
+
+<http://example.org/worldcup/resource/participation/WC-1991/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-328> .
+
+<http://example.org/worldcup/resource/participation/WC-1991/T-14> wc:hasManager <http://example.org/worldcup/resource/manager/M-394> .
+
+<http://example.org/worldcup/resource/participation/WC-1991/T-15> wc:hasManager <http://example.org/worldcup/resource/manager/M-080> .
+
+<http://example.org/worldcup/resource/participation/WC-1991/T-22> wc:hasManager <http://example.org/worldcup/resource/manager/M-132> .
+
+<http://example.org/worldcup/resource/participation/WC-1991/T-31> wc:hasManager <http://example.org/worldcup/resource/manager/M-047> .
+
+<http://example.org/worldcup/resource/participation/WC-1991/T-41> wc:hasManager <http://example.org/worldcup/resource/manager/M-148> .
+
+<http://example.org/worldcup/resource/participation/WC-1991/T-44> wc:hasManager <http://example.org/worldcup/resource/manager/M-417> .
+
+<http://example.org/worldcup/resource/participation/WC-1991/T-49> wc:hasManager <http://example.org/worldcup/resource/manager/M-051> .
+
+<http://example.org/worldcup/resource/participation/WC-1991/T-50> wc:hasManager <http://example.org/worldcup/resource/manager/M-053> .
+
+<http://example.org/worldcup/resource/participation/WC-1991/T-53> wc:hasManager <http://example.org/worldcup/resource/manager/M-316> .
+
+<http://example.org/worldcup/resource/participation/WC-1991/T-74> wc:hasManager <http://example.org/worldcup/resource/manager/M-308> .
+
+<http://example.org/worldcup/resource/participation/WC-1991/T-83> wc:hasManager <http://example.org/worldcup/resource/manager/M-106> .
+
+<http://example.org/worldcup/resource/participation/WC-1994/T-03> wc:hasManager <http://example.org/worldcup/resource/manager/M-029> .
+
+<http://example.org/worldcup/resource/participation/WC-1994/T-06> wc:hasManager <http://example.org/worldcup/resource/manager/M-445> .
+
+<http://example.org/worldcup/resource/participation/WC-1994/T-07> wc:hasManager <http://example.org/worldcup/resource/manager/M-025> .
+
+<http://example.org/worldcup/resource/participation/WC-1994/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-311> .
+
+<http://example.org/worldcup/resource/participation/WC-1994/T-10> wc:hasManager <http://example.org/worldcup/resource/manager/M-317> .
+
+<http://example.org/worldcup/resource/participation/WC-1994/T-11> wc:hasManager <http://example.org/worldcup/resource/manager/M-259> .
+
+<http://example.org/worldcup/resource/participation/WC-1994/T-16> wc:hasManager <http://example.org/worldcup/resource/manager/M-246> .
+
+<http://example.org/worldcup/resource/participation/WC-1994/T-31> wc:hasManager <http://example.org/worldcup/resource/manager/M-457> .
+
+<http://example.org/worldcup/resource/participation/WC-1994/T-33> wc:hasManager <http://example.org/worldcup/resource/manager/M-309> .
+
+<http://example.org/worldcup/resource/participation/WC-1994/T-41> wc:hasManager <http://example.org/worldcup/resource/manager/M-368> .
+
+<http://example.org/worldcup/resource/participation/WC-1994/T-46> wc:hasManager <http://example.org/worldcup/resource/manager/M-252> .
+
+<http://example.org/worldcup/resource/participation/WC-1994/T-47> wc:hasManager <http://example.org/worldcup/resource/manager/M-049> .
+
+<http://example.org/worldcup/resource/participation/WC-1994/T-48> wc:hasManager <http://example.org/worldcup/resource/manager/M-004> .
+
+<http://example.org/worldcup/resource/participation/WC-1994/T-50> wc:hasManager <http://example.org/worldcup/resource/manager/M-466> .
+
+<http://example.org/worldcup/resource/participation/WC-1994/T-53> wc:hasManager <http://example.org/worldcup/resource/manager/M-298> .
+
+<http://example.org/worldcup/resource/participation/WC-1994/T-60> wc:hasManager <http://example.org/worldcup/resource/manager/M-077> .
+
+<http://example.org/worldcup/resource/participation/WC-1994/T-61> wc:hasManager <http://example.org/worldcup/resource/manager/M-179> .
+
+<http://example.org/worldcup/resource/participation/WC-1994/T-62> wc:hasManager <http://example.org/worldcup/resource/manager/M-369> .
+
+<http://example.org/worldcup/resource/participation/WC-1994/T-63> wc:hasManager <http://example.org/worldcup/resource/manager/M-401> .
+
+<http://example.org/worldcup/resource/participation/WC-1994/T-71> wc:hasManager <http://example.org/worldcup/resource/manager/M-198> .
+
+<http://example.org/worldcup/resource/participation/WC-1994/T-73> wc:hasManager <http://example.org/worldcup/resource/manager/M-082> .
+
+<http://example.org/worldcup/resource/participation/WC-1994/T-74> wc:hasManager <http://example.org/worldcup/resource/manager/M-418> .
+
+<http://example.org/worldcup/resource/participation/WC-1994/T-75> wc:hasManager <http://example.org/worldcup/resource/manager/M-173> .
+
+<http://example.org/worldcup/resource/participation/WC-1994/T-83> wc:hasManager <http://example.org/worldcup/resource/manager/M-266> .
+
+<http://example.org/worldcup/resource/participation/WC-1995/T-04> wc:hasManager <http://example.org/worldcup/resource/manager/M-393> .
+
+<http://example.org/worldcup/resource/participation/WC-1995/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-129> .
+
+<http://example.org/worldcup/resource/participation/WC-1995/T-12> wc:hasManager <http://example.org/worldcup/resource/manager/M-035> .
+
+<http://example.org/worldcup/resource/participation/WC-1995/T-14> wc:hasManager <http://example.org/worldcup/resource/manager/M-237> .
+
+<http://example.org/worldcup/resource/participation/WC-1995/T-22> wc:hasManager <http://example.org/worldcup/resource/manager/M-132> .
+
+<http://example.org/worldcup/resource/participation/WC-1995/T-28> wc:hasManager <http://example.org/worldcup/resource/manager/M-083> .
+
+<http://example.org/worldcup/resource/participation/WC-1995/T-31> wc:hasManager <http://example.org/worldcup/resource/manager/M-047> .
+
+<http://example.org/worldcup/resource/participation/WC-1995/T-44> wc:hasManager <http://example.org/worldcup/resource/manager/M-417> .
+
+<http://example.org/worldcup/resource/participation/WC-1995/T-50> wc:hasManager <http://example.org/worldcup/resource/manager/M-155> .
+
+<http://example.org/worldcup/resource/participation/WC-1995/T-53> wc:hasManager <http://example.org/worldcup/resource/manager/M-316> .
+
+<http://example.org/worldcup/resource/participation/WC-1995/T-74> wc:hasManager <http://example.org/worldcup/resource/manager/M-398> .
+
+<http://example.org/worldcup/resource/participation/WC-1995/T-83> wc:hasManager <http://example.org/worldcup/resource/manager/M-099> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-03> wc:hasManager <http://example.org/worldcup/resource/manager/M-313> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-05> wc:hasManager <http://example.org/worldcup/resource/manager/M-336> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-06> wc:hasManager <http://example.org/worldcup/resource/manager/M-221> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-474> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-10> wc:hasManager <http://example.org/worldcup/resource/manager/M-052> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-11> wc:hasManager <http://example.org/worldcup/resource/manager/M-219> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-13> wc:hasManager <http://example.org/worldcup/resource/manager/M-001> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-16> wc:hasManager <http://example.org/worldcup/resource/manager/M-141> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-18> wc:hasManager <http://example.org/worldcup/resource/manager/M-048> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-22> wc:hasManager <http://example.org/worldcup/resource/manager/M-187> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-28> wc:hasManager <http://example.org/worldcup/resource/manager/M-172> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-30> wc:hasManager <http://example.org/worldcup/resource/manager/M-182> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-31> wc:hasManager <http://example.org/worldcup/resource/manager/M-457> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-38> wc:hasManager <http://example.org/worldcup/resource/manager/M-422> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-41> wc:hasManager <http://example.org/worldcup/resource/manager/M-240> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-43> wc:hasManager <http://example.org/worldcup/resource/manager/M-396> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-44> wc:hasManager <http://example.org/worldcup/resource/manager/M-293> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-46> wc:hasManager <http://example.org/worldcup/resource/manager/M-215> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-47> wc:hasManager <http://example.org/worldcup/resource/manager/M-259> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-48> wc:hasManager <http://example.org/worldcup/resource/manager/M-168> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-50> wc:hasManager <http://example.org/worldcup/resource/manager/M-266> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-53> wc:hasManager <http://example.org/worldcup/resource/manager/M-298> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-55> wc:hasManager <http://example.org/worldcup/resource/manager/M-073> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-61> wc:hasManager <http://example.org/worldcup/resource/manager/M-179> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-63> wc:hasManager <http://example.org/worldcup/resource/manager/M-009>,
+        <http://example.org/worldcup/resource/manager/M-311> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-64> wc:hasManager <http://example.org/worldcup/resource/manager/M-059> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-70> wc:hasManager <http://example.org/worldcup/resource/manager/M-435> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-71> wc:hasManager <http://example.org/worldcup/resource/manager/M-076> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-73> wc:hasManager <http://example.org/worldcup/resource/manager/M-082> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-79> wc:hasManager <http://example.org/worldcup/resource/manager/M-192>,
+        <http://example.org/worldcup/resource/manager/M-391> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-83> wc:hasManager <http://example.org/worldcup/resource/manager/M-372> .
+
+<http://example.org/worldcup/resource/participation/WC-1998/T-87> wc:hasManager <http://example.org/worldcup/resource/manager/M-379> .
+
+<http://example.org/worldcup/resource/participation/WC-1999/T-04> wc:hasManager <http://example.org/worldcup/resource/manager/M-060> .
+
+<http://example.org/worldcup/resource/participation/WC-1999/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-469> .
+
+<http://example.org/worldcup/resource/participation/WC-1999/T-12> wc:hasManager <http://example.org/worldcup/resource/manager/M-436> .
+
+<http://example.org/worldcup/resource/participation/WC-1999/T-14> wc:hasManager <http://example.org/worldcup/resource/manager/M-237> .
+
+<http://example.org/worldcup/resource/participation/WC-1999/T-22> wc:hasManager <http://example.org/worldcup/resource/manager/M-178> .
+
+<http://example.org/worldcup/resource/participation/WC-1999/T-31> wc:hasManager <http://example.org/worldcup/resource/manager/M-425> .
+
+<http://example.org/worldcup/resource/participation/WC-1999/T-32> wc:hasManager <http://example.org/worldcup/resource/manager/M-005> .
+
+<http://example.org/worldcup/resource/participation/WC-1999/T-41> wc:hasManager <http://example.org/worldcup/resource/manager/M-120> .
+
+<http://example.org/worldcup/resource/participation/WC-1999/T-44> wc:hasManager <http://example.org/worldcup/resource/manager/M-267> .
+
+<http://example.org/worldcup/resource/participation/WC-1999/T-46> wc:hasManager <http://example.org/worldcup/resource/manager/M-087> .
+
+<http://example.org/worldcup/resource/participation/WC-1999/T-50> wc:hasManager <http://example.org/worldcup/resource/manager/M-180> .
+
+<http://example.org/worldcup/resource/participation/WC-1999/T-51> wc:hasManager <http://example.org/worldcup/resource/manager/M-278> .
+
+<http://example.org/worldcup/resource/participation/WC-1999/T-53> wc:hasManager <http://example.org/worldcup/resource/manager/M-174> .
+
+<http://example.org/worldcup/resource/participation/WC-1999/T-62> wc:hasManager <http://example.org/worldcup/resource/manager/M-067> .
+
+<http://example.org/worldcup/resource/participation/WC-1999/T-74> wc:hasManager <http://example.org/worldcup/resource/manager/M-104> .
+
+<http://example.org/worldcup/resource/participation/WC-1999/T-83> wc:hasManager <http://example.org/worldcup/resource/manager/M-099> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-03> wc:hasManager <http://example.org/worldcup/resource/manager/M-043> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-06> wc:hasManager <http://example.org/worldcup/resource/manager/M-464> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-389> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-11> wc:hasManager <http://example.org/worldcup/resource/manager/M-384> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-14> wc:hasManager <http://example.org/worldcup/resource/manager/M-266> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-17> wc:hasManager <http://example.org/worldcup/resource/manager/M-150> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-18> wc:hasManager <http://example.org/worldcup/resource/manager/M-188> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-22> wc:hasManager <http://example.org/worldcup/resource/manager/M-299> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-25> wc:hasManager <http://example.org/worldcup/resource/manager/M-141> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-28> wc:hasManager <http://example.org/worldcup/resource/manager/M-118> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-30> wc:hasManager <http://example.org/worldcup/resource/manager/M-222> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-31> wc:hasManager <http://example.org/worldcup/resource/manager/M-458> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-41> wc:hasManager <http://example.org/worldcup/resource/manager/M-433> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-44> wc:hasManager <http://example.org/worldcup/resource/manager/M-435> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-46> wc:hasManager <http://example.org/worldcup/resource/manager/M-006> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-50> wc:hasManager <http://example.org/worldcup/resource/manager/M-300> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-55> wc:hasManager <http://example.org/worldcup/resource/manager/M-240> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-57> wc:hasManager <http://example.org/worldcup/resource/manager/M-114> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-58> wc:hasManager <http://example.org/worldcup/resource/manager/M-297> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-60> wc:hasManager <http://example.org/worldcup/resource/manager/M-248> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-62> wc:hasManager <http://example.org/worldcup/resource/manager/M-360> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-63> wc:hasManager <http://example.org/worldcup/resource/manager/M-008> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-65> wc:hasManager <http://example.org/worldcup/resource/manager/M-257> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-69> wc:hasManager <http://example.org/worldcup/resource/manager/M-193> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-70> wc:hasManager <http://example.org/worldcup/resource/manager/M-403> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-71> wc:hasManager <http://example.org/worldcup/resource/manager/M-168> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-73> wc:hasManager <http://example.org/worldcup/resource/manager/M-069> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-74> wc:hasManager <http://example.org/worldcup/resource/manager/M-212>,
+        <http://example.org/worldcup/resource/manager/M-400> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-79> wc:hasManager <http://example.org/worldcup/resource/manager/M-404> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-80> wc:hasManager <http://example.org/worldcup/resource/manager/M-151> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-83> wc:hasManager <http://example.org/worldcup/resource/manager/M-020> .
+
+<http://example.org/worldcup/resource/participation/WC-2002/T-84> wc:hasManager <http://example.org/worldcup/resource/manager/M-337> .
+
+<http://example.org/worldcup/resource/participation/WC-2003/T-03> wc:hasManager <http://example.org/worldcup/resource/manager/M-056> .
+
+<http://example.org/worldcup/resource/participation/WC-2003/T-04> wc:hasManager <http://example.org/worldcup/resource/manager/M-378> .
+
+<http://example.org/worldcup/resource/participation/WC-2003/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-143> .
+
+<http://example.org/worldcup/resource/participation/WC-2003/T-12> wc:hasManager <http://example.org/worldcup/resource/manager/M-316> .
+
+<http://example.org/worldcup/resource/participation/WC-2003/T-14> wc:hasManager <http://example.org/worldcup/resource/manager/M-236> .
+
+<http://example.org/worldcup/resource/participation/WC-2003/T-30> wc:hasManager <http://example.org/worldcup/resource/manager/M-229> .
+
+<http://example.org/worldcup/resource/participation/WC-2003/T-31> wc:hasManager <http://example.org/worldcup/resource/manager/M-425> .
+
+<http://example.org/worldcup/resource/participation/WC-2003/T-32> wc:hasManager <http://example.org/worldcup/resource/manager/M-024> .
+
+<http://example.org/worldcup/resource/participation/WC-2003/T-44> wc:hasManager <http://example.org/worldcup/resource/manager/M-438> .
+
+<http://example.org/worldcup/resource/participation/WC-2003/T-50> wc:hasManager <http://example.org/worldcup/resource/manager/M-295> .
+
+<http://example.org/worldcup/resource/participation/WC-2003/T-51> wc:hasManager <http://example.org/worldcup/resource/manager/M-354> .
+
+<http://example.org/worldcup/resource/participation/WC-2003/T-53> wc:hasManager <http://example.org/worldcup/resource/manager/M-409> .
+
+<http://example.org/worldcup/resource/participation/WC-2003/T-62> wc:hasManager <http://example.org/worldcup/resource/manager/M-067> .
+
+<http://example.org/worldcup/resource/participation/WC-2003/T-71> wc:hasManager <http://example.org/worldcup/resource/manager/M-013> .
+
+<http://example.org/worldcup/resource/participation/WC-2003/T-74> wc:hasManager <http://example.org/worldcup/resource/manager/M-104> .
+
+<http://example.org/worldcup/resource/participation/WC-2003/T-83> wc:hasManager <http://example.org/worldcup/resource/manager/M-160> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-02> wc:hasManager <http://example.org/worldcup/resource/manager/M-142> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-03> wc:hasManager <http://example.org/worldcup/resource/manager/M-315> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-04> wc:hasManager <http://example.org/worldcup/resource/manager/M-168> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-311> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-17> wc:hasManager <http://example.org/worldcup/resource/manager/M-150> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-18> wc:hasManager <http://example.org/worldcup/resource/manager/M-207> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-20> wc:hasManager <http://example.org/worldcup/resource/manager/M-062> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-25> wc:hasManager <http://example.org/worldcup/resource/manager/M-413> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-28> wc:hasManager <http://example.org/worldcup/resource/manager/M-118> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-30> wc:hasManager <http://example.org/worldcup/resource/manager/M-105> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-31> wc:hasManager <http://example.org/worldcup/resource/manager/M-204> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-32> wc:hasManager <http://example.org/worldcup/resource/manager/M-107> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-38> wc:hasManager <http://example.org/worldcup/resource/manager/M-181> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-41> wc:hasManager <http://example.org/worldcup/resource/manager/M-225> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-42> wc:hasManager <http://example.org/worldcup/resource/manager/M-259> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-44> wc:hasManager <http://example.org/worldcup/resource/manager/M-475> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-46> wc:hasManager <http://example.org/worldcup/resource/manager/M-211> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-48> wc:hasManager <http://example.org/worldcup/resource/manager/M-443> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-55> wc:hasManager <http://example.org/worldcup/resource/manager/M-364> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-57> wc:hasManager <http://example.org/worldcup/resource/manager/M-183> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-58> wc:hasManager <http://example.org/worldcup/resource/manager/M-389> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-63> wc:hasManager <http://example.org/worldcup/resource/manager/M-310> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-67> wc:hasManager <http://example.org/worldcup/resource/manager/M-318> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-71> wc:hasManager <http://example.org/worldcup/resource/manager/M-004> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-73> wc:hasManager <http://example.org/worldcup/resource/manager/M-018> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-74> wc:hasManager <http://example.org/worldcup/resource/manager/M-212> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-75> wc:hasManager <http://example.org/worldcup/resource/manager/M-210> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-77> wc:hasManager <http://example.org/worldcup/resource/manager/M-322> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-78> wc:hasManager <http://example.org/worldcup/resource/manager/M-034> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-79> wc:hasManager <http://example.org/worldcup/resource/manager/M-222> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-81> wc:hasManager <http://example.org/worldcup/resource/manager/M-050> .
+
+<http://example.org/worldcup/resource/participation/WC-2006/T-83> wc:hasManager <http://example.org/worldcup/resource/manager/M-020> .
+
+<http://example.org/worldcup/resource/participation/WC-2007/T-03> wc:hasManager <http://example.org/worldcup/resource/manager/M-056> .
+
+<http://example.org/worldcup/resource/participation/WC-2007/T-04> wc:hasManager <http://example.org/worldcup/resource/manager/M-393> .
+
+<http://example.org/worldcup/resource/participation/WC-2007/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-026> .
+
+<http://example.org/worldcup/resource/participation/WC-2007/T-12> wc:hasManager <http://example.org/worldcup/resource/manager/M-316> .
+
+<http://example.org/worldcup/resource/participation/WC-2007/T-14> wc:hasManager <http://example.org/worldcup/resource/manager/M-104> .
+
+<http://example.org/worldcup/resource/participation/WC-2007/T-22> wc:hasManager <http://example.org/worldcup/resource/manager/M-159> .
+
+<http://example.org/worldcup/resource/participation/WC-2007/T-28> wc:hasManager <http://example.org/worldcup/resource/manager/M-332> .
+
+<http://example.org/worldcup/resource/participation/WC-2007/T-31> wc:hasManager <http://example.org/worldcup/resource/manager/M-284> .
+
+<http://example.org/worldcup/resource/participation/WC-2007/T-32> wc:hasManager <http://example.org/worldcup/resource/manager/M-307> .
+
+<http://example.org/worldcup/resource/participation/WC-2007/T-44> wc:hasManager <http://example.org/worldcup/resource/manager/M-292> .
+
+<http://example.org/worldcup/resource/participation/WC-2007/T-49> wc:hasManager <http://example.org/worldcup/resource/manager/M-163> .
+
+<http://example.org/worldcup/resource/participation/WC-2007/T-50> wc:hasManager <http://example.org/worldcup/resource/manager/M-110> .
+
+<http://example.org/worldcup/resource/participation/WC-2007/T-51> wc:hasManager <http://example.org/worldcup/resource/manager/M-201> .
+
+<http://example.org/worldcup/resource/participation/WC-2007/T-53> wc:hasManager <http://example.org/worldcup/resource/manager/M-040> .
+
+<http://example.org/worldcup/resource/participation/WC-2007/T-74> wc:hasManager <http://example.org/worldcup/resource/manager/M-095> .
+
+<http://example.org/worldcup/resource/participation/WC-2007/T-83> wc:hasManager <http://example.org/worldcup/resource/manager/M-365> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-01> wc:hasManager <http://example.org/worldcup/resource/manager/M-366> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-03> wc:hasManager <http://example.org/worldcup/resource/manager/M-241> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-04> wc:hasManager <http://example.org/worldcup/resource/manager/M-448> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-108> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-11> wc:hasManager <http://example.org/worldcup/resource/manager/M-218> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-13> wc:hasManager <http://example.org/worldcup/resource/manager/M-043> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-22> wc:hasManager <http://example.org/worldcup/resource/manager/M-299> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-28> wc:hasManager <http://example.org/worldcup/resource/manager/M-071> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-30> wc:hasManager <http://example.org/worldcup/resource/manager/M-105> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-31> wc:hasManager <http://example.org/worldcup/resource/manager/M-234> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-32> wc:hasManager <http://example.org/worldcup/resource/manager/M-342> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-33> wc:hasManager <http://example.org/worldcup/resource/manager/M-351> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-35> wc:hasManager <http://example.org/worldcup/resource/manager/M-363> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-41> wc:hasManager <http://example.org/worldcup/resource/manager/M-225> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-42> wc:hasManager <http://example.org/worldcup/resource/manager/M-118> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-44> wc:hasManager <http://example.org/worldcup/resource/manager/M-293> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-46> wc:hasManager <http://example.org/worldcup/resource/manager/M-006> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-48> wc:hasManager <http://example.org/worldcup/resource/manager/M-446> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-49> wc:hasManager <http://example.org/worldcup/resource/manager/M-162> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-50> wc:hasManager <http://example.org/worldcup/resource/manager/M-212> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-51> wc:hasManager <http://example.org/worldcup/resource/manager/M-199> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-55> wc:hasManager <http://example.org/worldcup/resource/manager/M-244> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-58> wc:hasManager <http://example.org/worldcup/resource/manager/M-339> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-66> wc:hasManager <http://example.org/worldcup/resource/manager/M-016> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-68> wc:hasManager <http://example.org/worldcup/resource/manager/M-465> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-69> wc:hasManager <http://example.org/worldcup/resource/manager/M-194> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-70> wc:hasManager <http://example.org/worldcup/resource/manager/M-311> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-71> wc:hasManager <http://example.org/worldcup/resource/manager/M-177> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-73> wc:hasManager <http://example.org/worldcup/resource/manager/M-094> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-75> wc:hasManager <http://example.org/worldcup/resource/manager/M-170> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-83> wc:hasManager <http://example.org/worldcup/resource/manager/M-058> .
+
+<http://example.org/worldcup/resource/participation/WC-2010/T-84> wc:hasManager <http://example.org/worldcup/resource/manager/M-419> .
+
+<http://example.org/worldcup/resource/participation/WC-2011/T-04> wc:hasManager <http://example.org/worldcup/resource/manager/M-393> .
+
+<http://example.org/worldcup/resource/participation/WC-2011/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-224> .
+
+<http://example.org/worldcup/resource/participation/WC-2011/T-12> wc:hasManager <http://example.org/worldcup/resource/manager/M-270> .
+
+<http://example.org/worldcup/resource/participation/WC-2011/T-16> wc:hasManager <http://example.org/worldcup/resource/manager/M-362> .
+
+<http://example.org/worldcup/resource/participation/WC-2011/T-28> wc:hasManager <http://example.org/worldcup/resource/manager/M-332> .
+
+<http://example.org/worldcup/resource/participation/WC-2011/T-29> wc:hasManager <http://example.org/worldcup/resource/manager/M-130> .
+
+<http://example.org/worldcup/resource/participation/WC-2011/T-30> wc:hasManager <http://example.org/worldcup/resource/manager/M-046> .
+
+<http://example.org/worldcup/resource/participation/WC-2011/T-31> wc:hasManager <http://example.org/worldcup/resource/manager/M-284> .
+
+<http://example.org/worldcup/resource/participation/WC-2011/T-44> wc:hasManager <http://example.org/worldcup/resource/manager/M-380> .
+
+<http://example.org/worldcup/resource/participation/WC-2011/T-46> wc:hasManager <http://example.org/worldcup/resource/manager/M-087> .
+
+<http://example.org/worldcup/resource/participation/WC-2011/T-49> wc:hasManager <http://example.org/worldcup/resource/manager/M-163> .
+
+<http://example.org/worldcup/resource/participation/WC-2011/T-50> wc:hasManager <http://example.org/worldcup/resource/manager/M-437> .
+
+<http://example.org/worldcup/resource/participation/WC-2011/T-51> wc:hasManager <http://example.org/worldcup/resource/manager/M-201> .
+
+<http://example.org/worldcup/resource/participation/WC-2011/T-53> wc:hasManager <http://example.org/worldcup/resource/manager/M-214> .
+
+<http://example.org/worldcup/resource/participation/WC-2011/T-74> wc:hasManager <http://example.org/worldcup/resource/manager/M-095> .
+
+<http://example.org/worldcup/resource/participation/WC-2011/T-83> wc:hasManager <http://example.org/worldcup/resource/manager/M-414> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-01> wc:hasManager <http://example.org/worldcup/resource/manager/M-152> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-03> wc:hasManager <http://example.org/worldcup/resource/manager/M-367> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-04> wc:hasManager <http://example.org/worldcup/resource/manager/M-331> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-06> wc:hasManager <http://example.org/worldcup/resource/manager/M-468> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-08> wc:hasManager <http://example.org/worldcup/resource/manager/M-416> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-389> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-11> wc:hasManager <http://example.org/worldcup/resource/manager/M-125> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-13> wc:hasManager <http://example.org/worldcup/resource/manager/M-370> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-16> wc:hasManager <http://example.org/worldcup/resource/manager/M-315> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-17> wc:hasManager <http://example.org/worldcup/resource/manager/M-326> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-18> wc:hasManager <http://example.org/worldcup/resource/manager/M-206> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-25> wc:hasManager <http://example.org/worldcup/resource/manager/M-363> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-28> wc:hasManager <http://example.org/worldcup/resource/manager/M-173> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-30> wc:hasManager <http://example.org/worldcup/resource/manager/M-097> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-31> wc:hasManager <http://example.org/worldcup/resource/manager/M-234> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-32> wc:hasManager <http://example.org/worldcup/resource/manager/M-017> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-33> wc:hasManager <http://example.org/worldcup/resource/manager/M-377> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-35> wc:hasManager <http://example.org/worldcup/resource/manager/M-413> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-38> wc:hasManager <http://example.org/worldcup/resource/manager/M-339> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-41> wc:hasManager <http://example.org/worldcup/resource/manager/M-334> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-42> wc:hasManager <http://example.org/worldcup/resource/manager/M-213> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-44> wc:hasManager <http://example.org/worldcup/resource/manager/M-473> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-46> wc:hasManager <http://example.org/worldcup/resource/manager/M-165> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-48> wc:hasManager <http://example.org/worldcup/resource/manager/M-444> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-50> wc:hasManager <http://example.org/worldcup/resource/manager/M-196> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-58> wc:hasManager <http://example.org/worldcup/resource/manager/M-036> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-62> wc:hasManager <http://example.org/worldcup/resource/manager/M-071> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-71> wc:hasManager <http://example.org/worldcup/resource/manager/M-176> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-73> wc:hasManager <http://example.org/worldcup/resource/manager/M-094> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-75> wc:hasManager <http://example.org/worldcup/resource/manager/M-170> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-83> wc:hasManager <http://example.org/worldcup/resource/manager/M-204> .
+
+<http://example.org/worldcup/resource/participation/WC-2014/T-84> wc:hasManager <http://example.org/worldcup/resource/manager/M-419> .
+
+<http://example.org/worldcup/resource/participation/WC-2015/T-04> wc:hasManager <http://example.org/worldcup/resource/manager/M-408> .
+
+<http://example.org/worldcup/resource/participation/WC-2015/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-440> .
+
+<http://example.org/worldcup/resource/participation/WC-2015/T-11> wc:hasManager <http://example.org/worldcup/resource/manager/M-115> .
+
+<http://example.org/worldcup/resource/participation/WC-2015/T-12> wc:hasManager <http://example.org/worldcup/resource/manager/M-163> .
+
+<http://example.org/worldcup/resource/participation/WC-2015/T-14> wc:hasManager <http://example.org/worldcup/resource/manager/M-156> .
+
+<http://example.org/worldcup/resource/participation/WC-2015/T-16> wc:hasManager <http://example.org/worldcup/resource/manager/M-420> .
+
+<http://example.org/worldcup/resource/participation/WC-2015/T-17> wc:hasManager <http://example.org/worldcup/resource/manager/M-442> .
+
+<http://example.org/worldcup/resource/participation/WC-2015/T-25> wc:hasManager <http://example.org/worldcup/resource/manager/M-019> .
+
+<http://example.org/worldcup/resource/participation/WC-2015/T-28> wc:hasManager <http://example.org/worldcup/resource/manager/M-371> .
+
+<http://example.org/worldcup/resource/participation/WC-2015/T-30> wc:hasManager <http://example.org/worldcup/resource/manager/M-037> .
+
+<http://example.org/worldcup/resource/participation/WC-2015/T-31> wc:hasManager <http://example.org/worldcup/resource/manager/M-284> .
+
+<http://example.org/worldcup/resource/participation/WC-2015/T-42> wc:hasManager <http://example.org/worldcup/resource/manager/M-431> .
+
+<http://example.org/worldcup/resource/participation/WC-2015/T-44> wc:hasManager <http://example.org/worldcup/resource/manager/M-380> .
+
+<http://example.org/worldcup/resource/participation/WC-2015/T-46> wc:hasManager <http://example.org/worldcup/resource/manager/M-087> .
+
+<http://example.org/worldcup/resource/participation/WC-2015/T-48> wc:hasManager <http://example.org/worldcup/resource/manager/M-352> .
+
+<http://example.org/worldcup/resource/participation/WC-2015/T-49> wc:hasManager <http://example.org/worldcup/resource/manager/M-349> .
+
+<http://example.org/worldcup/resource/participation/WC-2015/T-50> wc:hasManager <http://example.org/worldcup/resource/manager/M-294> .
+
+<http://example.org/worldcup/resource/participation/WC-2015/T-53> wc:hasManager <http://example.org/worldcup/resource/manager/M-316> .
+
+<http://example.org/worldcup/resource/participation/WC-2015/T-71> wc:hasManager <http://example.org/worldcup/resource/manager/M-472> .
+
+<http://example.org/worldcup/resource/participation/WC-2015/T-73> wc:hasManager <http://example.org/worldcup/resource/manager/M-340> .
+
+<http://example.org/worldcup/resource/participation/WC-2015/T-74> wc:hasManager <http://example.org/worldcup/resource/manager/M-414> .
+
+<http://example.org/worldcup/resource/participation/WC-2015/T-75> wc:hasManager <http://example.org/worldcup/resource/manager/M-459> .
+
+<http://example.org/worldcup/resource/participation/WC-2015/T-76> wc:hasManager <http://example.org/worldcup/resource/manager/M-406> .
+
+<http://example.org/worldcup/resource/participation/WC-2015/T-83> wc:hasManager <http://example.org/worldcup/resource/manager/M-113> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-03> wc:hasManager <http://example.org/worldcup/resource/manager/M-370> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-04> wc:hasManager <http://example.org/worldcup/resource/manager/M-446> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-06> wc:hasManager <http://example.org/worldcup/resource/manager/M-243> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-429> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-16> wc:hasManager <http://example.org/worldcup/resource/manager/M-315> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-17> wc:hasManager <http://example.org/worldcup/resource/manager/M-343> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-18> wc:hasManager <http://example.org/worldcup/resource/manager/M-090> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-22> wc:hasManager <http://example.org/worldcup/resource/manager/M-158> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-26> wc:hasManager <http://example.org/worldcup/resource/manager/M-088> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-28> wc:hasManager <http://example.org/worldcup/resource/manager/M-405> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-30> wc:hasManager <http://example.org/worldcup/resource/manager/M-097> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-31> wc:hasManager <http://example.org/worldcup/resource/manager/M-234> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-37> wc:hasManager <http://example.org/worldcup/resource/manager/M-153> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-38> wc:hasManager <http://example.org/worldcup/resource/manager/M-339> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-44> wc:hasManager <http://example.org/worldcup/resource/manager/M-289> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-46> wc:hasManager <http://example.org/worldcup/resource/manager/M-304> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-47> wc:hasManager <http://example.org/worldcup/resource/manager/M-353> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-50> wc:hasManager <http://example.org/worldcup/resource/manager/M-359> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-54> wc:hasManager <http://example.org/worldcup/resource/manager/M-141> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-56> wc:hasManager <http://example.org/worldcup/resource/manager/M-134> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-57> wc:hasManager <http://example.org/worldcup/resource/manager/M-283> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-58> wc:hasManager <http://example.org/worldcup/resource/manager/M-377> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-62> wc:hasManager <http://example.org/worldcup/resource/manager/M-078> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-63> wc:hasManager <http://example.org/worldcup/resource/manager/M-329> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-65> wc:hasManager <http://example.org/worldcup/resource/manager/M-081> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-66> wc:hasManager <http://example.org/worldcup/resource/manager/M-208> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-71> wc:hasManager <http://example.org/worldcup/resource/manager/M-395> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-73> wc:hasManager <http://example.org/worldcup/resource/manager/M-169> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-74> wc:hasManager <http://example.org/worldcup/resource/manager/M-014> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-75> wc:hasManager <http://example.org/worldcup/resource/manager/M-319> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-79> wc:hasManager <http://example.org/worldcup/resource/manager/M-238> .
+
+<http://example.org/worldcup/resource/participation/WC-2018/T-84> wc:hasManager <http://example.org/worldcup/resource/manager/M-419> .
+
+<http://example.org/worldcup/resource/participation/WC-2019/T-03> wc:hasManager <http://example.org/worldcup/resource/manager/M-056> .
+
+<http://example.org/worldcup/resource/participation/WC-2019/T-04> wc:hasManager <http://example.org/worldcup/resource/manager/M-263> .
+
+<http://example.org/worldcup/resource/participation/WC-2019/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-440> .
+
+<http://example.org/worldcup/resource/participation/WC-2019/T-11> wc:hasManager <http://example.org/worldcup/resource/manager/M-102> .
+
+<http://example.org/worldcup/resource/participation/WC-2019/T-12> wc:hasManager <http://example.org/worldcup/resource/manager/M-159> .
+
+<http://example.org/worldcup/resource/participation/WC-2019/T-13> wc:hasManager <http://example.org/worldcup/resource/manager/M-223> .
+
+<http://example.org/worldcup/resource/participation/WC-2019/T-14> wc:hasManager <http://example.org/worldcup/resource/manager/M-186> .
+
+<http://example.org/worldcup/resource/participation/WC-2019/T-28> wc:hasManager <http://example.org/worldcup/resource/manager/M-287> .
+
+<http://example.org/worldcup/resource/participation/WC-2019/T-30> wc:hasManager <http://example.org/worldcup/resource/manager/M-098> .
+
+<http://example.org/worldcup/resource/participation/WC-2019/T-31> wc:hasManager <http://example.org/worldcup/resource/manager/M-459> .
+
+<http://example.org/worldcup/resource/participation/WC-2019/T-41> wc:hasManager <http://example.org/worldcup/resource/manager/M-041> .
+
+<http://example.org/worldcup/resource/participation/WC-2019/T-43> wc:hasManager <http://example.org/worldcup/resource/manager/M-255> .
+
+<http://example.org/worldcup/resource/participation/WC-2019/T-44> wc:hasManager <http://example.org/worldcup/resource/manager/M-421> .
+
+<http://example.org/worldcup/resource/participation/WC-2019/T-48> wc:hasManager <http://example.org/worldcup/resource/manager/M-467> .
+
+<http://example.org/worldcup/resource/participation/WC-2019/T-49> wc:hasManager <http://example.org/worldcup/resource/manager/M-393> .
+
+<http://example.org/worldcup/resource/participation/WC-2019/T-50> wc:hasManager <http://example.org/worldcup/resource/manager/M-095> .
+
+<http://example.org/worldcup/resource/participation/WC-2019/T-53> wc:hasManager <http://example.org/worldcup/resource/manager/M-399> .
+
+<http://example.org/worldcup/resource/participation/WC-2019/T-64> wc:hasManager <http://example.org/worldcup/resource/manager/M-195> .
+
+<http://example.org/worldcup/resource/participation/WC-2019/T-70> wc:hasManager <http://example.org/worldcup/resource/manager/M-112> .
+
+<http://example.org/worldcup/resource/participation/WC-2019/T-71> wc:hasManager <http://example.org/worldcup/resource/manager/M-472> .
+
+<http://example.org/worldcup/resource/participation/WC-2019/T-73> wc:hasManager <http://example.org/worldcup/resource/manager/M-453> .
+
+<http://example.org/worldcup/resource/participation/WC-2019/T-74> wc:hasManager <http://example.org/worldcup/resource/manager/M-135> .
+
+<http://example.org/worldcup/resource/participation/WC-2019/T-76> wc:hasManager <http://example.org/worldcup/resource/manager/M-406> .
+
+<http://example.org/worldcup/resource/participation/WC-2019/T-83> wc:hasManager <http://example.org/worldcup/resource/manager/M-113> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-03> wc:hasManager <http://example.org/worldcup/resource/manager/M-383> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-04> wc:hasManager <http://example.org/worldcup/resource/manager/M-022> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-06> wc:hasManager <http://example.org/worldcup/resource/manager/M-243> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-09> wc:hasManager <http://example.org/worldcup/resource/manager/M-429> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-11> wc:hasManager <http://example.org/worldcup/resource/manager/M-402> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-12> wc:hasManager <http://example.org/worldcup/resource/manager/M-163> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-17> wc:hasManager <http://example.org/worldcup/resource/manager/M-413> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-18> wc:hasManager <http://example.org/worldcup/resource/manager/M-090> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-22> wc:hasManager <http://example.org/worldcup/resource/manager/M-171> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-25> wc:hasManager <http://example.org/worldcup/resource/manager/M-011> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-28> wc:hasManager <http://example.org/worldcup/resource/manager/M-405> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-30> wc:hasManager <http://example.org/worldcup/resource/manager/M-097> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-31> wc:hasManager <http://example.org/worldcup/resource/manager/M-127> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-32> wc:hasManager <http://example.org/worldcup/resource/manager/M-002> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-38> wc:hasManager <http://example.org/worldcup/resource/manager/M-339> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-44> wc:hasManager <http://example.org/worldcup/resource/manager/M-273> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-46> wc:hasManager <http://example.org/worldcup/resource/manager/M-244> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-47> wc:hasManager <http://example.org/worldcup/resource/manager/M-350> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-48> wc:hasManager <http://example.org/worldcup/resource/manager/M-444> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-57> wc:hasManager <http://example.org/worldcup/resource/manager/M-261> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-58> wc:hasManager <http://example.org/worldcup/resource/manager/M-377> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-59> wc:hasManager <http://example.org/worldcup/resource/manager/M-373> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-63> wc:hasManager <http://example.org/worldcup/resource/manager/M-353> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-65> wc:hasManager <http://example.org/worldcup/resource/manager/M-081> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-66> wc:hasManager <http://example.org/worldcup/resource/manager/M-411> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-71> wc:hasManager <http://example.org/worldcup/resource/manager/M-036> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-73> wc:hasManager <http://example.org/worldcup/resource/manager/M-116> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-75> wc:hasManager <http://example.org/worldcup/resource/manager/M-471> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-79> wc:hasManager <http://example.org/worldcup/resource/manager/M-190> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-83> wc:hasManager <http://example.org/worldcup/resource/manager/M-039> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-84> wc:hasManager <http://example.org/worldcup/resource/manager/M-012> .
+
+<http://example.org/worldcup/resource/participation/WC-2022/T-85> wc:hasManager <http://example.org/worldcup/resource/manager/M-306> .
+

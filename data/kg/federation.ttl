@@ -1,0 +1,796 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wc: <http://example.org/worldcup/ontology#> .
+
+<http://example.org/worldcup/resource/federation/T-01> a wc:Federation ;
+    rdfs:label "Algeria" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-2> ;
+    wc:regionName "Africa" ;
+    wc:teamCode "DZA" ;
+    owl:sameAs <http://dbpedia.org/resource/Algerian_Football_Federation> ;
+    skos:altLabel "Algerian Football Federation" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Algerian_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-02> a wc:Federation ;
+    rdfs:label "Angola" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-2> ;
+    wc:regionName "Africa" ;
+    wc:teamCode "AGO" ;
+    owl:sameAs <http://dbpedia.org/resource/Angolan_Football_Federation> ;
+    skos:altLabel "Angolan Football Federation" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Angolan_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-03> a wc:Federation ;
+    rdfs:label "Argentina" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-4> ;
+    wc:regionName "South America" ;
+    wc:teamCode "ARG" ;
+    owl:sameAs <http://dbpedia.org/resource/Argentine_Football_Association> ;
+    skos:altLabel "Argentine Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Argentine_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-04> a wc:Federation ;
+    rdfs:label "Australia" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-1> ;
+    wc:regionName "Oceania" ;
+    wc:teamCode "AUS" ;
+    owl:sameAs <http://dbpedia.org/resource/Football_Australia> ;
+    skos:altLabel "Football Australia" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Football_Australia> .
+
+<http://example.org/worldcup/resource/federation/T-05> a wc:Federation ;
+    rdfs:label "Austria" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "AUT" ;
+    owl:sameAs <http://dbpedia.org/resource/Austrian_Football_Association> ;
+    skos:altLabel "Austrian Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Austrian_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-06> a wc:Federation ;
+    rdfs:label "Belgium" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "BEL" ;
+    owl:sameAs <http://dbpedia.org/resource/Royal_Belgian_Football_Association> ;
+    skos:altLabel "Royal Belgian Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Royal_Belgian_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-07> a wc:Federation ;
+    rdfs:label "Bolivia" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-4> ;
+    wc:regionName "South America" ;
+    wc:teamCode "BOL" ;
+    owl:sameAs <http://dbpedia.org/resource/Bolivian_Football_Federation> ;
+    skos:altLabel "Bolivian Football Federation" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Bolivian_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-08> a wc:Federation ;
+    rdfs:label "Bosnia and Herzegovina" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "BIH" ;
+    owl:sameAs <http://dbpedia.org/resource/Football_Association_of_Bosnia_and_Herzegovina> ;
+    skos:altLabel "Football Association of Bosnia and Herzegovina" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Football_Association_of_Bosnia_and_Herzegovina> .
+
+<http://example.org/worldcup/resource/federation/T-09> a wc:Federation ;
+    rdfs:label "Brazil" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-4> ;
+    wc:regionName "South America" ;
+    wc:teamCode "BRA" ;
+    owl:sameAs <http://dbpedia.org/resource/Brazilian_Football_Confederation> ;
+    skos:altLabel "Brazilian Football Confederation" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Brazilian_Football_Confederation> .
+
+<http://example.org/worldcup/resource/federation/T-10> a wc:Federation ;
+    rdfs:label "Bulgaria" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "BGR" ;
+    owl:sameAs <http://dbpedia.org/resource/Bulgarian_Football_Union> ;
+    skos:altLabel "Bulgarian Football Union" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Bulgarian_Football_Union> .
+
+<http://example.org/worldcup/resource/federation/T-11> a wc:Federation ;
+    rdfs:label "Cameroon" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-2> ;
+    wc:regionName "Africa" ;
+    wc:teamCode "CMR" ;
+    owl:sameAs <http://dbpedia.org/resource/Cameroonian_Football_Federation> ;
+    skos:altLabel "Cameroonian Football Federation" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Cameroonian_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-12> a wc:Federation ;
+    rdfs:label "Canada" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-3> ;
+    wc:regionName "North America" ;
+    wc:teamCode "CAN" ;
+    owl:sameAs <http://dbpedia.org/resource/Canadian_Soccer_Association> ;
+    skos:altLabel "Canadian Soccer Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Canadian_Soccer_Association> .
+
+<http://example.org/worldcup/resource/federation/T-13> a wc:Federation ;
+    rdfs:label "Chile" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-4> ;
+    wc:regionName "South America" ;
+    wc:teamCode "CHL" ;
+    owl:sameAs <http://dbpedia.org/resource/Football_Federation_of_Chile> ;
+    skos:altLabel "Football Federation of Chile" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Football_Federation_of_Chile> .
+
+<http://example.org/worldcup/resource/federation/T-14> a wc:Federation ;
+    rdfs:label "China" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-1> ;
+    wc:regionName "East Asia" ;
+    wc:teamCode "CHN" ;
+    owl:sameAs <http://dbpedia.org/resource/Chinese_Football_Association> ;
+    skos:altLabel "Chinese Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Chinese_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-15> a wc:Federation ;
+    rdfs:label "Chinese Taipei" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-1> ;
+    wc:regionName "East Asia" ;
+    wc:teamCode "TWN" ;
+    owl:sameAs <http://dbpedia.org/resource/Chinese_Taipei_Football_Association> ;
+    skos:altLabel "Chinese Taipei Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Chinese_Taipei_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-16> a wc:Federation ;
+    rdfs:label "Colombia" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-4> ;
+    wc:regionName "South America" ;
+    wc:teamCode "COL" ;
+    owl:sameAs <http://dbpedia.org/resource/Colombian_Football_Federation> ;
+    skos:altLabel "Colombia Football Federation" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Colombian_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-17> a wc:Federation ;
+    rdfs:label "Costa Rica" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-3> ;
+    wc:regionName "Central America" ;
+    wc:teamCode "CRI" ;
+    owl:sameAs <http://dbpedia.org/resource/Costa_Rican_Football_Federation> ;
+    skos:altLabel "Costa Rican Football Federation" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Costa_Rican_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-18> a wc:Federation ;
+    rdfs:label "Croatia" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "HRV" ;
+    owl:sameAs <http://dbpedia.org/resource/Croatian_Football_Federation> ;
+    skos:altLabel "Croatian Football Federation" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Croatian_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-19> a wc:Federation ;
+    rdfs:label "Cuba" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-3> ;
+    wc:regionName "Caribbean" ;
+    wc:teamCode "CUB" ;
+    owl:sameAs <http://dbpedia.org/resource/Football_Association_of_Cuba> ;
+    skos:altLabel "Football Association of Cuba" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Football_Association_of_Cuba> .
+
+<http://example.org/worldcup/resource/federation/T-20> a wc:Federation ;
+    rdfs:label "Czech Republic" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "CZE" ;
+    owl:sameAs <http://dbpedia.org/resource/Football_Association_of_the_Czech_Republic> ;
+    skos:altLabel "Football Association of the Czech Republic" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Football_Association_of_the_Czech_Republic> .
+
+<http://example.org/worldcup/resource/federation/T-21> a wc:Federation ;
+    rdfs:label "Czechoslovakia" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "CSK" ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Football_Association_of_the_Czech_Republic> ;
+    skos:altLabel "Football Association of the Czechoslovakia" .
+
+<http://example.org/worldcup/resource/federation/T-22> a wc:Federation ;
+    rdfs:label "Denmark" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "DNK" ;
+    owl:sameAs <http://dbpedia.org/resource/Danish_Football_Association> ;
+    skos:altLabel "Danish Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Danish_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-23> a wc:Federation ;
+    rdfs:label "Dutch East Indies" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-1> ;
+    wc:regionName "South East Asia" ;
+    wc:teamCode "IDN" ;
+    owl:sameAs <http://dbpedia.org/resource/Football_Association_of_Indonesia> ;
+    skos:altLabel "Football Association of Indonesia" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Football_Association_of_Indonesia> .
+
+<http://example.org/worldcup/resource/federation/T-24> a wc:Federation ;
+    rdfs:label "East Germany" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "DDR" ;
+    owl:sameAs <http://dbpedia.org/resource/Deutscher_Fußball-Verband_der_DDR> ;
+    skos:altLabel "Football Association of East Germany" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Deutscher_Fußball-Verband_der_DDR> .
+
+<http://example.org/worldcup/resource/federation/T-25> a wc:Federation ;
+    rdfs:label "Ecuador" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-4> ;
+    wc:regionName "South America" ;
+    wc:teamCode "ECU" ;
+    owl:sameAs <http://dbpedia.org/resource/Ecuadorian_Football_Federation> ;
+    skos:altLabel "Ecuadorian Football Federation" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ecuadorian_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-26> a wc:Federation ;
+    rdfs:label "Egypt" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-2> ;
+    wc:regionName "Africa" ;
+    wc:teamCode "EGY" ;
+    owl:sameAs <http://dbpedia.org/resource/Egyptian_Football_Association> ;
+    skos:altLabel "Egyptian Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Egyptian_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-27> a wc:Federation ;
+    rdfs:label "El Salvador" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-3> ;
+    wc:regionName "Central America" ;
+    wc:teamCode "SLV" ;
+    owl:sameAs <http://dbpedia.org/resource/Salvadoran_Football_Federation> ;
+    skos:altLabel "Salvadorian Football Federation" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Salvadoran_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-28> a wc:Federation ;
+    rdfs:label "England" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "ENG" ;
+    owl:sameAs <http://dbpedia.org/resource/The_Football_Association> ;
+    skos:altLabel "The Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/The_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-29> a wc:Federation ;
+    rdfs:label "Equatorial Guinea" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-2> ;
+    wc:regionName "Africa" ;
+    wc:teamCode "GNQ" ;
+    owl:sameAs <http://dbpedia.org/resource/Equatoguinean_Football_Federation> ;
+    skos:altLabel "Equatoguinean Football Federation" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Equatoguinean_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-30> a wc:Federation ;
+    rdfs:label "France" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "FRA" ;
+    owl:sameAs <http://dbpedia.org/resource/French_Football_Federation> ;
+    skos:altLabel "French Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/French_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-31> a wc:Federation ;
+    rdfs:label "Germany" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "DEU" ;
+    owl:sameAs <http://dbpedia.org/resource/German_Football_Association> ;
+    skos:altLabel "Germany Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/German_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-32> a wc:Federation ;
+    rdfs:label "Ghana" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-2> ;
+    wc:regionName "Africa" ;
+    wc:teamCode "GHA" ;
+    owl:sameAs <http://dbpedia.org/resource/Ghana_Football_Association> ;
+    skos:altLabel "Ghana Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ghana_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-33> a wc:Federation ;
+    rdfs:label "Greece" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "GRC" ;
+    owl:sameAs <http://dbpedia.org/resource/Hellenic_Football_Federation> ;
+    skos:altLabel "Hellenic Football Associaiton" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Hellenic_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-34> a wc:Federation ;
+    rdfs:label "Haiti" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-3> ;
+    wc:regionName "Caribbean" ;
+    wc:teamCode "HTI" ;
+    owl:sameAs <http://dbpedia.org/resource/Haitian_Football_Federation> ;
+    skos:altLabel "Haitian Football Federation" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Haitian_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-35> a wc:Federation ;
+    rdfs:label "Honduras" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-3> ;
+    wc:regionName "Central America" ;
+    wc:teamCode "HND" ;
+    owl:sameAs <http://dbpedia.org/resource/National_Autonomous_Federation_of_Football_of_Honduras> ;
+    skos:altLabel "National Autonomous Federation of Football of Honduras" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/National_Autonomous_Federation_of_Football_of_Honduras> .
+
+<http://example.org/worldcup/resource/federation/T-36> a wc:Federation ;
+    rdfs:label "Hungary" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "HUN" ;
+    owl:sameAs <http://dbpedia.org/resource/Hungarian_Football_Federation> ;
+    skos:altLabel "Hungary Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Hungarian_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-37> a wc:Federation ;
+    rdfs:label "Iceland" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "ISL" ;
+    owl:sameAs <http://dbpedia.org/resource/Football_Association_of_Iceland> ;
+    skos:altLabel "Football Association of Iceland" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Football_Association_of_Iceland> .
+
+<http://example.org/worldcup/resource/federation/T-38> a wc:Federation ;
+    rdfs:label "Iran" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-1> ;
+    wc:regionName "Middle East" ;
+    wc:teamCode "IRN" ;
+    owl:sameAs <http://dbpedia.org/resource/Football_Federation_Islamic_Republic_of_Iran> ;
+    skos:altLabel "Football Federation Islamic Republic of Iran" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Football_Federation_Islamic_Republic_of_Iran> .
+
+<http://example.org/worldcup/resource/federation/T-39> a wc:Federation ;
+    rdfs:label "Iraq" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-1> ;
+    wc:regionName "Middle East" ;
+    wc:teamCode "IRQ" ;
+    owl:sameAs <http://dbpedia.org/resource/Iraq_Football_Association> ;
+    skos:altLabel "Iraq Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Iraq_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-40> a wc:Federation ;
+    rdfs:label "Israel" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Middle East" ;
+    wc:teamCode "ISR" ;
+    owl:sameAs <http://dbpedia.org/resource/Israel_Football_Association> ;
+    skos:altLabel "Israel Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Israel_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-41> a wc:Federation ;
+    rdfs:label "Italy" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "ITA" ;
+    owl:sameAs <http://dbpedia.org/resource/Italian_Football_Federation> ;
+    skos:altLabel "Italian Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Italian_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-42> a wc:Federation ;
+    rdfs:label "Ivory Coast" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-2> ;
+    wc:regionName "Africa" ;
+    wc:teamCode "CIV" ;
+    owl:sameAs <http://dbpedia.org/resource/Ivorian_Football_Federation> ;
+    skos:altLabel "Ivorian Football Federation" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ivorian_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-43> a wc:Federation ;
+    rdfs:label "Jamaica" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-3> ;
+    wc:regionName "Caribbean" ;
+    wc:teamCode "JAM" ;
+    owl:sameAs <http://dbpedia.org/resource/Jamaica_Football_Federation> ;
+    skos:altLabel "Jamaica Football Federation" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jamaica_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-44> a wc:Federation ;
+    rdfs:label "Japan" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-1> ;
+    wc:regionName "East Asia" ;
+    wc:teamCode "JPN" ;
+    owl:sameAs <http://dbpedia.org/resource/Japan_Football_Association> ;
+    skos:altLabel "Japan Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Japan_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-45> a wc:Federation ;
+    rdfs:label "Kuwait" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-1> ;
+    wc:regionName "Middle East" ;
+    wc:teamCode "KWT" ;
+    owl:sameAs <http://dbpedia.org/resource/Kuwait_Football_Association> ;
+    skos:altLabel "Kuwait Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Kuwait_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-46> a wc:Federation ;
+    rdfs:label "Mexico" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-3> ;
+    wc:regionName "North America" ;
+    wc:teamCode "MEX" ;
+    owl:sameAs <http://dbpedia.org/resource/Mexican_Football_Federation> ;
+    skos:altLabel "Mexican Football Federation" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Mexican_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-47> a wc:Federation ;
+    rdfs:label "Morocco" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-2> ;
+    wc:regionName "Africa" ;
+    wc:teamCode "MAR" ;
+    owl:sameAs <http://dbpedia.org/resource/Royal_Moroccan_Football_Federation> ;
+    skos:altLabel "Royal Moroccan Football Federation" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Royal_Moroccan_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-48> a wc:Federation ;
+    rdfs:label "Netherlands" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "NLD" ;
+    owl:sameAs <http://dbpedia.org/resource/Royal_Dutch_Football_Association> ;
+    skos:altLabel "Royal Dutch Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Royal_Dutch_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-49> a wc:Federation ;
+    rdfs:label "New Zealand" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-5> ;
+    wc:regionName "Oceania" ;
+    wc:teamCode "NZL" ;
+    owl:sameAs <http://dbpedia.org/resource/New_Zealand_Football> ;
+    skos:altLabel "New Zealand Football" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/New_Zealand_Football> .
+
+<http://example.org/worldcup/resource/federation/T-50> a wc:Federation ;
+    rdfs:label "Nigeria" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-2> ;
+    wc:regionName "Africa" ;
+    wc:teamCode "NGA" ;
+    owl:sameAs <http://dbpedia.org/resource/Nigeria_Football_Federation> ;
+    skos:altLabel "Nigeria Football Federation" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Nigeria_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-51> a wc:Federation ;
+    rdfs:label "North Korea" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-1> ;
+    wc:regionName "East Asia" ;
+    wc:teamCode "PRK" ;
+    owl:sameAs <http://dbpedia.org/resource/DPR_Korea_Football_Association> ;
+    skos:altLabel "Democratic People's Republic of Korea Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/DPR_Korea_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-52> a wc:Federation ;
+    rdfs:label "Northern Ireland" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "NIR" ;
+    owl:sameAs <http://dbpedia.org/resource/Irish_Football_Association> ;
+    skos:altLabel "Irish Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Irish_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-53> a wc:Federation ;
+    rdfs:label "Norway" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "NOR" ;
+    owl:sameAs <http://dbpedia.org/resource/Norwegian_Football_Federation> ;
+    skos:altLabel "Norwegian Football Federation" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Norwegian_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-54> a wc:Federation ;
+    rdfs:label "Panama" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-3> ;
+    wc:regionName "Central America" ;
+    wc:teamCode "PAN" ;
+    owl:sameAs <http://dbpedia.org/resource/Panamanian_Football_Federation> ;
+    skos:altLabel "Panamanian Football Federation" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Panamanian_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-55> a wc:Federation ;
+    rdfs:label "Paraguay" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-4> ;
+    wc:regionName "South America" ;
+    wc:teamCode "PRY" ;
+    owl:sameAs <http://dbpedia.org/resource/Paraguayan_Football_Association> ;
+    skos:altLabel "Paraguayan Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Paraguayan_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-56> a wc:Federation ;
+    rdfs:label "Peru" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-4> ;
+    wc:regionName "South America" ;
+    wc:teamCode "PER" ;
+    owl:sameAs <http://dbpedia.org/resource/Peruvian_Football_Federation> ;
+    skos:altLabel "Peruvian Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Peruvian_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-57> a wc:Federation ;
+    rdfs:label "Poland" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "POL" ;
+    owl:sameAs <http://dbpedia.org/resource/Polish_Football_Association> ;
+    skos:altLabel "Polish Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Polish_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-58> a wc:Federation ;
+    rdfs:label "Portugal" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "PRT" ;
+    owl:sameAs <http://dbpedia.org/resource/Portuguese_Football_Federation> ;
+    skos:altLabel "Portuguese Football Federation" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Portuguese_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-59> a wc:Federation ;
+    rdfs:label "Qatar" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-1> ;
+    wc:regionName "Middle East" ;
+    wc:teamCode "QAT" ;
+    owl:sameAs <http://dbpedia.org/resource/Qatar_Football_Association> ;
+    skos:altLabel "Qatar Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Qatar_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-60> a wc:Federation ;
+    rdfs:label "Republic of Ireland" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "IRL" ;
+    owl:sameAs <http://dbpedia.org/resource/Football_Association_of_Ireland> ;
+    skos:altLabel "Football Association of Ireland" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Football_Association_of_Ireland> .
+
+<http://example.org/worldcup/resource/federation/T-61> a wc:Federation ;
+    rdfs:label "Romania" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "ROU" ;
+    owl:sameAs <http://dbpedia.org/resource/Romanian_Football_Federation> ;
+    skos:altLabel "Romanian Football Federation" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Romanian_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-62> a wc:Federation ;
+    rdfs:label "Russia" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe, Asia" ;
+    wc:teamCode "RUS" ;
+    owl:sameAs <http://dbpedia.org/resource/Russian_Football_Union> ;
+    skos:altLabel "Russian Football Union" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Russian_Football_Union> .
+
+<http://example.org/worldcup/resource/federation/T-63> a wc:Federation ;
+    rdfs:label "Saudi Arabia" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-1> ;
+    wc:regionName "Middle East" ;
+    wc:teamCode "SAU" ;
+    owl:sameAs <http://dbpedia.org/resource/Saudi_Arabian_Football_Federation> ;
+    skos:altLabel "Saudi Arabian Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Saudi_Arabian_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-64> a wc:Federation ;
+    rdfs:label "Scotland" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "SCO" ;
+    owl:sameAs <http://dbpedia.org/resource/Scottish_Football_Association> ;
+    skos:altLabel "Scottish Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Scottish_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-65> a wc:Federation ;
+    rdfs:label "Senegal" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-2> ;
+    wc:regionName "Africa" ;
+    wc:teamCode "SEN" ;
+    owl:sameAs <http://dbpedia.org/resource/Senegalese_Football_Federation> ;
+    skos:altLabel "Senegalese Football Federation" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Senegalese_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-66> a wc:Federation ;
+    rdfs:label "Serbia" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "SRB" ;
+    owl:sameAs <http://dbpedia.org/resource/Football_Association_of_Serbia> ;
+    skos:altLabel "Football Association of Serbia" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Football_Association_of_Serbia> .
+
+<http://example.org/worldcup/resource/federation/T-67> a wc:Federation ;
+    rdfs:label "Serbia and Montenegro" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "SCG" ;
+    owl:sameAs <http://dbpedia.org/resource/Football_Association_of_Serbia_and_Montenegro> ;
+    skos:altLabel "Football Association of Serbia and Montenegro" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Football_Association_of_Serbia_and_Montenegro> .
+
+<http://example.org/worldcup/resource/federation/T-68> a wc:Federation ;
+    rdfs:label "Slovakia" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "SVK" ;
+    owl:sameAs <http://dbpedia.org/resource/Slovak_Football_Association> ;
+    skos:altLabel "Slovak Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Slovak_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-69> a wc:Federation ;
+    rdfs:label "Slovenia" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "SVN" ;
+    owl:sameAs <http://dbpedia.org/resource/Football_Association_of_Slovenia> ;
+    skos:altLabel "Football Association of Slovenia" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Football_Association_of_Slovenia> .
+
+<http://example.org/worldcup/resource/federation/T-70> a wc:Federation ;
+    rdfs:label "South Africa" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-2> ;
+    wc:regionName "Africa" ;
+    wc:teamCode "ZAF" ;
+    owl:sameAs <http://dbpedia.org/resource/South_African_Football_Association> ;
+    skos:altLabel "South African Football Associaiton" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/South_African_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-71> a wc:Federation ;
+    rdfs:label "South Korea" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-1> ;
+    wc:regionName "East Asia" ;
+    wc:teamCode "KOR" ;
+    owl:sameAs <http://dbpedia.org/resource/Korea_Football_Association> ;
+    skos:altLabel "Korea Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Korea_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-72> a wc:Federation ;
+    rdfs:label "Soviet Union" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe, Asia" ;
+    wc:teamCode "SUN" ;
+    owl:sameAs <http://dbpedia.org/resource/Football_Federation_of_the_Soviet_Union> ;
+    skos:altLabel "Football Federation of the Soviet Union" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Football_Federation_of_the_Soviet_Union> .
+
+<http://example.org/worldcup/resource/federation/T-73> a wc:Federation ;
+    rdfs:label "Spain" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "ESP" ;
+    owl:sameAs <http://dbpedia.org/resource/Royal_Spanish_Football_Federation> ;
+    skos:altLabel "Royal Spanish Football Federation" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Royal_Spanish_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-74> a wc:Federation ;
+    rdfs:label "Sweden" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "SWE" ;
+    owl:sameAs <http://dbpedia.org/resource/Swedish_Football_Association> ;
+    skos:altLabel "Swedish Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Swedish_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-75> a wc:Federation ;
+    rdfs:label "Switzerland" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "CHE" ;
+    owl:sameAs <http://dbpedia.org/resource/Swiss_Football_Association> ;
+    skos:altLabel "Swiss Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Swiss_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-76> a wc:Federation ;
+    rdfs:label "Thailand" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-1> ;
+    wc:regionName "South East Asia" ;
+    wc:teamCode "THA" ;
+    owl:sameAs <http://dbpedia.org/resource/Football_Association_of_Thailand> ;
+    skos:altLabel "Football Association of Thailand" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Football_Association_of_Thailand> .
+
+<http://example.org/worldcup/resource/federation/T-77> a wc:Federation ;
+    rdfs:label "Togo" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-2> ;
+    wc:regionName "Africa" ;
+    wc:teamCode "TGO" ;
+    owl:sameAs <http://dbpedia.org/resource/Togolese_Football_Federation> ;
+    skos:altLabel "Togolese Football Federation" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Togolese_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-78> a wc:Federation ;
+    rdfs:label "Trinidad and Tobago" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-3> ;
+    wc:regionName "Caribbean" ;
+    wc:teamCode "TTO" ;
+    owl:sameAs <http://dbpedia.org/resource/Trinidad_and_Tobago_Football_Association> ;
+    skos:altLabel "Trinidad and Tobago Football Assocaition" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Trinidad_and_Tobago_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-79> a wc:Federation ;
+    rdfs:label "Tunisia" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-2> ;
+    wc:regionName "Africa" ;
+    wc:teamCode "TUN" ;
+    owl:sameAs <http://dbpedia.org/resource/Tunisian_Football_Federation> ;
+    skos:altLabel "Tunisian Football Federation" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Tunisian_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-80> a wc:Federation ;
+    rdfs:label "Turkey" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe, Asia" ;
+    wc:teamCode "TUR" ;
+    owl:sameAs <http://dbpedia.org/resource/Turkish_Football_Federation> ;
+    skos:altLabel "Turkish Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Turkish_Football_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-81> a wc:Federation ;
+    rdfs:label "Ukraine" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "UKR" ;
+    owl:sameAs <http://dbpedia.org/resource/Ukrainian_Association_of_Football> ;
+    skos:altLabel "Ukrainian Association of Football" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ukrainian_Association_of_Football> .
+
+<http://example.org/worldcup/resource/federation/T-82> a wc:Federation ;
+    rdfs:label "United Arab Emirates" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-1> ;
+    wc:regionName "Middle East" ;
+    wc:teamCode "ARE" ;
+    owl:sameAs <http://dbpedia.org/resource/United_Arab_Emirates_Football_Association> ;
+    skos:altLabel "United Arab Emirates Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/United_Arab_Emirates_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-83> a wc:Federation ;
+    rdfs:label "United States" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-3> ;
+    wc:regionName "North America" ;
+    wc:teamCode "USA" ;
+    owl:sameAs <http://dbpedia.org/resource/United_States_Soccer_Federation> ;
+    skos:altLabel "United States Soccer Federation" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/United_States_Soccer_Federation> .
+
+<http://example.org/worldcup/resource/federation/T-84> a wc:Federation ;
+    rdfs:label "Uruguay" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-4> ;
+    wc:regionName "South America" ;
+    wc:teamCode "URY" ;
+    owl:sameAs <http://dbpedia.org/resource/Uruguayan_Football_Association> ;
+    skos:altLabel "Uruguayan Football Association" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Uruguayan_Football_Association> .
+
+<http://example.org/worldcup/resource/federation/T-85> a wc:Federation ;
+    rdfs:label "Wales" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "WAL" ;
+    owl:sameAs <http://dbpedia.org/resource/Football_Association_of_Wales> ;
+    skos:altLabel "Football Association of Wales" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Football_Association_of_Wales> .
+
+<http://example.org/worldcup/resource/federation/T-86> a wc:Federation ;
+    rdfs:label "West Germany" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "DEU" ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/German_Football_Association> ;
+    skos:altLabel "Germany Football Association" .
+
+<http://example.org/worldcup/resource/federation/T-87> a wc:Federation ;
+    rdfs:label "Yugoslavia" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-6> ;
+    wc:regionName "Europe" ;
+    wc:teamCode "YUG" ;
+    owl:sameAs <http://dbpedia.org/resource/Football_Association_of_Yugoslavia> ;
+    skos:altLabel "Football Association of Yugoslavia" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Football_Association_of_Yugoslavia> .
+
+<http://example.org/worldcup/resource/federation/T-88> a wc:Federation ;
+    rdfs:label "Zaire" ;
+    wc:memberOf <http://example.org/worldcup/resource/confederation/CF-2> ;
+    wc:regionName "Africa" ;
+    wc:teamCode "COD" ;
+    owl:sameAs <http://dbpedia.org/resource/Congolese_Association_Football_Federation> ;
+    skos:altLabel "Congolese Association Football Federation" ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Congolese_Association_Football_Federation> .
+

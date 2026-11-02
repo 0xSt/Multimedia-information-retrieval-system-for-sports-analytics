@@ -1,0 +1,4275 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wc: <http://example.org/worldcup/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/worldcup/resource/manager/M-001> a wc:Manager ;
+    rdfs:label "Nelson Acosta" ;
+    wc:countryName "Uruguay" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Nelson_Acosta> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Nelson_Acosta> ;
+    schema:familyName "Acosta" ;
+    schema:givenName "Nelson" .
+
+<http://example.org/worldcup/resource/manager/M-002> a wc:Manager ;
+    rdfs:label "Otto Addo" ;
+    wc:countryName "Ghana" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Otto_Addo> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Otto_Addo> ;
+    schema:familyName "Addo" ;
+    schema:givenName "Otto" .
+
+<http://example.org/worldcup/resource/manager/M-003> a wc:Manager ;
+    rdfs:label "John Adshead" ;
+    wc:countryName "England" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/John_Adshead> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/John_Adshead> ;
+    schema:familyName "Adshead" ;
+    schema:givenName "John" .
+
+<http://example.org/worldcup/resource/manager/M-004> a wc:Manager ;
+    rdfs:label "Dick Advocaat" ;
+    wc:countryName "Netherlands" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Dick_Advocaat> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Dick_Advocaat> ;
+    schema:familyName "Advocaat" ;
+    schema:givenName "Dick" .
+
+<http://example.org/worldcup/resource/manager/M-005> a wc:Manager ;
+    rdfs:label "Emmanual Kwasi Afranie" ;
+    wc:countryName "Ghana" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Emmanuel_Kwasi_Afranie> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Emmanuel_Kwasi_Afranie> ;
+    schema:familyName "Afranie" ;
+    schema:givenName "Emmanual Kwasi" .
+
+<http://example.org/worldcup/resource/manager/M-006> a wc:Manager ;
+    rdfs:label "Javier Aguirre" ;
+    wc:countryName "Mexico" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Javier_Aguirre> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Javier_Aguirre> ;
+    schema:familyName "Aguirre" ;
+    schema:givenName "Javier" .
+
+<http://example.org/worldcup/resource/manager/M-007> a wc:Manager ;
+    rdfs:label "Mahmoud Al-Gohari" ;
+    wc:countryName "Egypt" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Mahmoud_Al-Gohari> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Mahmoud_Al-Gohari> ;
+    schema:familyName "Al-Gohari" ;
+    schema:givenName "Mahmoud" .
+
+<http://example.org/worldcup/resource/manager/M-008> a wc:Manager ;
+    rdfs:label "Nasser Al-Johar" ;
+    wc:countryName "Saudi Arabia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Nasser_Al-Johar> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Nasser_Al-Johar> ;
+    schema:familyName "Al-Johar" ;
+    schema:givenName "Nasser" .
+
+<http://example.org/worldcup/resource/manager/M-009> a wc:Manager ;
+    rdfs:label "Mohammed Al-Kharashy" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Mohammed_Al-Kharashy> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Mohammed_Al-Kharashy> ;
+    schema:familyName "Al-Kharashy" ;
+    schema:givenName "Mohammed" .
+
+<http://example.org/worldcup/resource/manager/M-010> a wc:Manager ;
+    rdfs:label "Luis Álamos" ;
+    wc:countryName "Chile" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Luis_Álamos> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Luis_%C3%81lamos> ;
+    schema:familyName "Álamos" ;
+    schema:givenName "Luis" .
+
+<http://example.org/worldcup/resource/manager/M-011> a wc:Manager ;
+    rdfs:label "Gustavo Alfaro" ;
+    wc:countryName "Argentina" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Gustavo_Alfaro> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Gustavo_Alfaro> ;
+    schema:familyName "Alfaro" ;
+    schema:givenName "Gustavo" .
+
+<http://example.org/worldcup/resource/manager/M-012> a wc:Manager ;
+    rdfs:label "Diego Alonso" ;
+    wc:countryName "Uruguay" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Diego_Alonso> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Diego_Alonso> ;
+    schema:familyName "Alonso" ;
+    schema:givenName "Diego" .
+
+<http://example.org/worldcup/resource/manager/M-013> a wc:Manager ;
+    rdfs:label "Jong-goan An" ;
+    wc:countryName "South Korea" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/An_Jong-goan> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/An_Jong-goan> ;
+    schema:familyName "An" ;
+    schema:givenName "Jong-goan" .
+
+<http://example.org/worldcup/resource/manager/M-014> a wc:Manager ;
+    rdfs:label "Janne Andersson" ;
+    wc:countryName "Sweden" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Janne_Andersson> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Janne_Andersson> ;
+    schema:familyName "Andersson" ;
+    schema:givenName "Janne" .
+
+<http://example.org/worldcup/resource/manager/M-015> a wc:Manager ;
+    rdfs:label "Franco Andreoli" ;
+    wc:countryName "Switzerland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Franco_Andreoli> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Franco_Andreoli> ;
+    schema:familyName "Andreoli" ;
+    schema:givenName "Franco" .
+
+<http://example.org/worldcup/resource/manager/M-016> a wc:Manager ;
+    rdfs:label "Radomir Antić" ;
+    wc:countryName "Serbia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Radomir_Antić> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Radomir_Anti%C4%87> ;
+    schema:familyName "Antić" ;
+    schema:givenName "Radomir" .
+
+<http://example.org/worldcup/resource/manager/M-017> a wc:Manager ;
+    rdfs:label "James Kwesi Appiah" ;
+    wc:countryName "Ghana" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/James_Kwesi_Appiah> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/James_Kwesi_Appiah> ;
+    schema:familyName "Appiah" ;
+    schema:givenName "James Kwesi" .
+
+<http://example.org/worldcup/resource/manager/M-018> a wc:Manager ;
+    rdfs:label "Luis Aragonés" ;
+    wc:countryName "Spain" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Luis_Aragonés> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Luis_Aragon%C3%A9s> ;
+    schema:familyName "Aragonés" ;
+    schema:givenName "Luis" .
+
+<http://example.org/worldcup/resource/manager/M-019> a wc:Manager ;
+    rdfs:label "Vanessa Arauz" ;
+    wc:countryName "Ecuador" ;
+    wc:isFemale true ;
+    owl:sameAs <http://dbpedia.org/resource/Vanessa_Arauz> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Vanessa_Arauz> ;
+    schema:familyName "Arauz" ;
+    schema:givenName "Vanessa" .
+
+<http://example.org/worldcup/resource/manager/M-020> a wc:Manager ;
+    rdfs:label "Bruce Arena" ;
+    wc:countryName "United States" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Bruce_Arena> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Bruce_Arena> ;
+    schema:familyName "Arena" ;
+    schema:givenName "Bruce" .
+
+<http://example.org/worldcup/resource/manager/M-021> a wc:Manager ;
+    rdfs:label "Karl Argauer" ;
+    wc:countryName "Austria" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Karl_Argauer> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Karl_Argauer> ;
+    schema:familyName "Argauer" ;
+    schema:givenName "Karl" .
+
+<http://example.org/worldcup/resource/manager/M-022> a wc:Manager ;
+    rdfs:label "Graham Arnold" ;
+    wc:countryName "Australia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Graham_Arnold> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Graham_Arnold> ;
+    schema:familyName "Arnold" ;
+    schema:givenName "Graham" .
+
+<http://example.org/worldcup/resource/manager/M-023> a wc:Manager ;
+    rdfs:label "Milorad Arsenijević" ;
+    wc:countryName "Yugoslavia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Milorad_Arsenijević> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Milorad_Arsenijevi%C4%87> ;
+    schema:familyName "Arsenijević" ;
+    schema:givenName "Milorad" .
+
+<http://example.org/worldcup/resource/manager/M-024> a wc:Manager ;
+    rdfs:label "Oko Aryee" ;
+    wc:countryName "Ghana" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Oko_Aryee> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Oko_Aryee> ;
+    schema:familyName "Aryee" ;
+    schema:givenName "Oko" .
+
+<http://example.org/worldcup/resource/manager/M-025> a wc:Manager ;
+    rdfs:label "Xabier Azkargorta" ;
+    wc:countryName "Spain" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Xabier_Azkargorta> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Xabier_Azkargorta> ;
+    schema:familyName "Azkargorta" ;
+    schema:givenName "Xabier" .
+
+<http://example.org/worldcup/resource/manager/M-026> a wc:Manager ;
+    rdfs:label "Jorge Barcellos" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Jorge_Barcellos> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jorge_Barcellos> ;
+    schema:familyName "Barcellos" ;
+    schema:givenName "Jorge" .
+
+<http://example.org/worldcup/resource/manager/M-027> a wc:Manager ;
+    rdfs:label "Lajos Baróti" ;
+    wc:countryName "Hungary" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Lajos_Baróti> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Lajos_Bar%C3%B3ti> ;
+    schema:familyName "Baróti" ;
+    schema:givenName "Lajos" .
+
+<http://example.org/worldcup/resource/manager/M-028> a wc:Manager ;
+    rdfs:label "Gaston Barreau" ;
+    wc:countryName "France" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Gaston_Barreau> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Gaston_Barreau> ;
+    schema:familyName "Barreau" ;
+    schema:givenName "Gaston" .
+
+<http://example.org/worldcup/resource/manager/M-029> a wc:Manager ;
+    rdfs:label "Alfio Basile" ;
+    wc:countryName "Argentina" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Alfio_Basile> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Alfio_Basile> ;
+    schema:familyName "Basile" ;
+    schema:givenName "Alfio" .
+
+<http://example.org/worldcup/resource/manager/M-030> a wc:Manager ;
+    rdfs:label "Albert Batteux" ;
+    wc:countryName "France" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Albert_Batteux> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Albert_Batteux> ;
+    schema:familyName "Batteux" ;
+    schema:givenName "Albert" .
+
+<http://example.org/worldcup/resource/manager/M-031> a wc:Manager ;
+    rdfs:label "Enzo Bearzot" ;
+    wc:countryName "Italy" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Enzo_Bearzot> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Enzo_Bearzot> ;
+    schema:familyName "Bearzot" ;
+    schema:givenName "Enzo" .
+
+<http://example.org/worldcup/resource/manager/M-032> a wc:Manager ;
+    rdfs:label "Andy Beattie" ;
+    wc:countryName "Scotland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Andy_Beattie> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Andy_Beattie> ;
+    schema:familyName "Beattie" ;
+    schema:givenName "Andy" .
+
+<http://example.org/worldcup/resource/manager/M-033> a wc:Manager ;
+    rdfs:label "Franz Beckenbauer" ;
+    wc:countryName "Germany" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Franz_Beckenbauer> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Franz_Beckenbauer> ;
+    schema:familyName "Beckenbauer" ;
+    schema:givenName "Franz" .
+
+<http://example.org/worldcup/resource/manager/M-034> a wc:Manager ;
+    rdfs:label "Leo Beenhakker" ;
+    wc:countryName "Netherlands" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Leo_Beenhakker> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Leo_Beenhakker> ;
+    schema:familyName "Beenhakker" ;
+    schema:givenName "Leo" .
+
+<http://example.org/worldcup/resource/manager/M-035> a wc:Manager ;
+    rdfs:label "Sylvie Béliveau" ;
+    wc:countryName "Canada" ;
+    wc:isFemale true ;
+    owl:sameAs <http://dbpedia.org/resource/Sylvie_Béliveau> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Sylvie_B%C3%A9liveau> ;
+    schema:familyName "Béliveau" ;
+    schema:givenName "Sylvie" .
+
+<http://example.org/worldcup/resource/manager/M-036> a wc:Manager ;
+    rdfs:label "Paulo Bento" ;
+    wc:countryName "Portugal" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Paulo_Bento> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Paulo_Bento> ;
+    schema:familyName "Bento" ;
+    schema:givenName "Paulo" .
+
+<http://example.org/worldcup/resource/manager/M-037> a wc:Manager ;
+    rdfs:label "Philippe Bergeroo" ;
+    wc:countryName "France" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Philippe_Bergeroo> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Philippe_Bergeroo> ;
+    schema:familyName "Bergeroo" ;
+    schema:givenName "Philippe" .
+
+<http://example.org/worldcup/resource/manager/M-038> a wc:Manager ;
+    rdfs:label "Orvar Bergmark" ;
+    wc:countryName "Sweden" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Orvar_Bergmark> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Orvar_Bergmark> ;
+    schema:familyName "Bergmark" ;
+    schema:givenName "Orvar" .
+
+<http://example.org/worldcup/resource/manager/M-039> a wc:Manager ;
+    rdfs:label "Gregg Berhalter" ;
+    wc:countryName "United States" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Gregg_Berhalter> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Gregg_Berhalter> ;
+    schema:familyName "Berhalter" ;
+    schema:givenName "Gregg" .
+
+<http://example.org/worldcup/resource/manager/M-040> a wc:Manager ;
+    rdfs:label "Bjarne Berntsen" ;
+    wc:countryName "Norway" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Bjarne_Berntsen> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Bjarne_Berntsen> ;
+    schema:familyName "Berntsen" ;
+    schema:givenName "Bjarne" .
+
+<http://example.org/worldcup/resource/manager/M-041> a wc:Manager ;
+    rdfs:label "Milena Bertolini" ;
+    wc:countryName "Italy" ;
+    wc:isFemale true ;
+    owl:sameAs <http://dbpedia.org/resource/Milena_Bertolini> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Milena_Bertolini> ;
+    schema:familyName "Bertolini" ;
+    schema:givenName "Milena" .
+
+<http://example.org/worldcup/resource/manager/M-042> a wc:Manager ;
+    rdfs:label "Konstantin Beskov" ;
+    wc:countryName "Soviet Union" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Konstantin_Beskov> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Konstantin_Beskov> ;
+    schema:familyName "Beskov" ;
+    schema:givenName "Konstantin" .
+
+<http://example.org/worldcup/resource/manager/M-043> a wc:Manager ;
+    rdfs:label "Marcelo Bielsa" ;
+    wc:countryName "Argentina" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Marcelo_Bielsa> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Marcelo_Bielsa> ;
+    schema:familyName "Bielsa" ;
+    schema:givenName "Marcelo" .
+
+<http://example.org/worldcup/resource/manager/M-044> a wc:Manager ;
+    rdfs:label "Carlos Bilardo" ;
+    wc:countryName "Argentina" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Carlos_Bilardo> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Carlos_Bilardo> ;
+    schema:familyName "Bilardo" ;
+    schema:givenName "Carlos" .
+
+<http://example.org/worldcup/resource/manager/M-045> a wc:Manager ;
+    rdfs:label "Billy Bingham" ;
+    wc:countryName "Northern Ireland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Billy_Bingham> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Billy_Bingham> ;
+    schema:familyName "Bingham" ;
+    schema:givenName "Billy" .
+
+<http://example.org/worldcup/resource/manager/M-046> a wc:Manager ;
+    rdfs:label "Bruno Bini" ;
+    wc:countryName "France" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Bruno_Bini> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Bruno_Bini> ;
+    schema:familyName "Bini" ;
+    schema:givenName "Bruno" .
+
+<http://example.org/worldcup/resource/manager/M-047> a wc:Manager ;
+    rdfs:label "Gero Bisanz" ;
+    wc:countryName "Germany" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Gero_Bisanz> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Gero_Bisanz> ;
+    schema:familyName "Bisanz" ;
+    schema:givenName "Gero" .
+
+<http://example.org/worldcup/resource/manager/M-048> a wc:Manager ;
+    rdfs:label "Miroslav Blažević" ;
+    wc:countryName "Croatia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Miroslav_Blažević> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Miroslav_Bla%C5%BEevi%C4%87> ;
+    schema:familyName "Blažević" ;
+    schema:givenName "Miroslav" .
+
+<http://example.org/worldcup/resource/manager/M-049> a wc:Manager ;
+    rdfs:label "Abdellah Blinda" ;
+    wc:countryName "Morocco" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Abdellah_Blinda> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Abdellah_Blinda> ;
+    schema:familyName "Blinda" ;
+    schema:givenName "Abdellah" .
+
+<http://example.org/worldcup/resource/manager/M-050> a wc:Manager ;
+    rdfs:label "Oleg Blokhin" ;
+    wc:countryName "Ukraine" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Oleg_Blokhin> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Oleg_Blokhin> ;
+    schema:familyName "Blokhin" ;
+    schema:givenName "Oleg" .
+
+<http://example.org/worldcup/resource/manager/M-051> a wc:Manager ;
+    rdfs:label "Dave Boardman" ;
+    wc:countryName "England" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Dave_Boardman> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Dave_Boardman> ;
+    schema:familyName "Boardman" ;
+    schema:givenName "Dave" .
+
+<http://example.org/worldcup/resource/manager/M-052> a wc:Manager ;
+    rdfs:label "Hristo Bonev" ;
+    wc:countryName "Bulgaria" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Hristo_Bonev> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Hristo_Bonev> ;
+    schema:familyName "Bonev" ;
+    schema:givenName "Hristo" .
+
+<http://example.org/worldcup/resource/manager/M-053> a wc:Manager ;
+    rdfs:label "Jo Bonfrère" ;
+    wc:countryName "Netherlands" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Jo_Bonfrère> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jo_Bonfr%C3%A8re> ;
+    schema:familyName "Bonfrère" ;
+    schema:givenName "Jo" .
+
+<http://example.org/worldcup/resource/manager/M-054> a wc:Manager ;
+    rdfs:label "Karol Borhy" ;
+    wc:countryName "Czechoslovakia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Karol_Borhy> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Karol_Borhy> ;
+    schema:familyName "Borhy" ;
+    schema:givenName "Karol" .
+
+<http://example.org/worldcup/resource/manager/M-055> a wc:Manager ;
+    rdfs:label "Omar Borrás" ;
+    wc:countryName "Uruguay" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Omar_Borrás> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Omar_Borr%C3%A1s> ;
+    schema:familyName "Borrás" ;
+    schema:givenName "Omar" .
+
+<http://example.org/worldcup/resource/manager/M-056> a wc:Manager ;
+    rdfs:label "Carlos Borrello" ;
+    wc:countryName "Argentina" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Carlos_Borrello> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Carlos_Borrello> ;
+    schema:familyName "Borrello" ;
+    schema:givenName "Carlos" .
+
+<http://example.org/worldcup/resource/manager/M-057> a wc:Manager ;
+    rdfs:label "Stefan Bozhkov" ;
+    wc:countryName "Bulgaria" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Stefan_Bozhkov> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stefan_Bozhkov> ;
+    schema:familyName "Bozhkov" ;
+    schema:givenName "Stefan" .
+
+<http://example.org/worldcup/resource/manager/M-058> a wc:Manager ;
+    rdfs:label "Bob Bradley" ;
+    wc:countryName "United States" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Bob_Bradley> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Bob_Bradley> ;
+    schema:familyName "Bradley" ;
+    schema:givenName "Bob" .
+
+<http://example.org/worldcup/resource/manager/M-059> a wc:Manager ;
+    rdfs:label "Craig Brown" ;
+    wc:countryName "Scotland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Craig_Brown_(footballer_born_1940)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Craig_Brown_(footballer_born_1940)> ;
+    schema:familyName "Brown" ;
+    schema:givenName "Craig" .
+
+<http://example.org/worldcup/resource/manager/M-060> a wc:Manager ;
+    rdfs:label "Greg Brown" ;
+    wc:countryName "Australia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Greg_Brown_(footballer,_born_1962)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Greg_Brown_(footballer,_born_1962)> ;
+    schema:familyName "Brown" ;
+    schema:givenName "Greg" .
+
+<http://example.org/worldcup/resource/manager/M-061> a wc:Manager ;
+    rdfs:label "Francisco Bru" ;
+    wc:countryName "Spain" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Francisco_Bru> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Francisco_Bru> ;
+    schema:familyName "Bru" ;
+    schema:givenName "Francisco" .
+
+<http://example.org/worldcup/resource/manager/M-062> a wc:Manager ;
+    rdfs:label "Karel Brückner" ;
+    wc:countryName "Czech Republic" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Karel_Brückner> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Karel_Br%C3%BCckner> ;
+    schema:familyName "Brückner" ;
+    schema:givenName "Karel" .
+
+<http://example.org/worldcup/resource/manager/M-063> a wc:Manager ;
+    rdfs:label "Alberto Buccicardi" ;
+    wc:countryName "Chile" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Alberto_Buccicardi> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Alberto_Buccicardi> ;
+    schema:familyName "Buccicardi" ;
+    schema:givenName "Alberto" .
+
+<http://example.org/worldcup/resource/manager/M-064> a wc:Manager ;
+    rdfs:label "Matt Busby" ;
+    wc:countryName "Scotland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Matt_Busby> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Matt_Busby> ;
+    schema:familyName "Busby" ;
+    schema:givenName "Matt" .
+
+<http://example.org/worldcup/resource/manager/M-065> a wc:Manager ;
+    rdfs:label "Georg Buschner" ;
+    wc:countryName "East Germany" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Georg_Buschner> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Georg_Buschner> ;
+    schema:familyName "Buschner" ;
+    schema:givenName "Georg" .
+
+<http://example.org/worldcup/resource/manager/M-066> a wc:Manager ;
+    rdfs:label "Jack Butler" ;
+    wc:countryName "England" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Jack_Butler_(footballer,_born_1894)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jack_Butler_(footballer,_born_1894)> ;
+    schema:familyName "Butler" ;
+    schema:givenName "Jack" .
+
+<http://example.org/worldcup/resource/manager/M-067> a wc:Manager ;
+    rdfs:label "Yuri Bystritsky" ;
+    wc:countryName "Russia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Yuri_Bystritsky> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Yuri_Bystritsky> ;
+    schema:familyName "Bystritsky" ;
+    schema:givenName "Yuri" .
+
+<http://example.org/worldcup/resource/manager/M-068> a wc:Manager ;
+    rdfs:label "Marcos Calderón" ;
+    wc:countryName "Peru" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Marcos_Calderón> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Marcos_Calder%C3%B3n> ;
+    schema:familyName "Calderón" ;
+    schema:givenName "Marcos" .
+
+<http://example.org/worldcup/resource/manager/M-069> a wc:Manager ;
+    rdfs:label "José Antonio Camacho" ;
+    wc:countryName "Spain" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/José_Antonio_Camacho> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jos%C3%A9_Antonio_Camacho> ;
+    schema:familyName "Camacho" ;
+    schema:givenName "José Antonio" .
+
+<http://example.org/worldcup/resource/manager/M-070> a wc:Manager ;
+    rdfs:label "Vladislao Cap" ;
+    wc:countryName "Argentina" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Vladislao_Cap> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Vladislao_Cap> ;
+    schema:familyName "Cap" ;
+    schema:givenName "Vladislao" .
+
+<http://example.org/worldcup/resource/manager/M-071> a wc:Manager ;
+    rdfs:label "Fabio Capello" ;
+    wc:countryName "Italy" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Fabio_Capello> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Fabio_Capello> ;
+    schema:familyName "Capello" ;
+    schema:givenName "Fabio" .
+
+<http://example.org/worldcup/resource/manager/M-072> a wc:Manager ;
+    rdfs:label "Raúl Cárdenas" ;
+    wc:countryName "Mexico" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Raúl_Cárdenas> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ra%C3%BAl_C%C3%A1rdenas> ;
+    schema:familyName "Cárdenas" ;
+    schema:givenName "Raúl" .
+
+<http://example.org/worldcup/resource/manager/M-073> a wc:Manager ;
+    rdfs:label "Paulo César Carpegiani" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Paulo_César_Carpegiani> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Paulo_C%C3%A9sar_Carpegiani> ;
+    schema:familyName "Carpegiani" ;
+    schema:givenName "Paulo César" .
+
+<http://example.org/worldcup/resource/manager/M-074> a wc:Manager ;
+    rdfs:label "Hernán Carrasco" ;
+    wc:countryName "Chile" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Hernán_Carrasco> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Hern%C3%A1n_Carrasco> ;
+    schema:familyName "Carrasco" ;
+    schema:givenName "Hernán" .
+
+<http://example.org/worldcup/resource/manager/M-075> a wc:Manager ;
+    rdfs:label "Raoul Caudron" ;
+    wc:countryName "France" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Raoul_Caudron> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Raoul_Caudron> ;
+    schema:familyName "Caudron" ;
+    schema:givenName "Raoul" .
+
+<http://example.org/worldcup/resource/manager/M-076> a wc:Manager ;
+    rdfs:label "Bum-kun Cha" ;
+    wc:countryName "South Korea" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Cha_Bum-kun> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Cha_Bum-kun> ;
+    schema:familyName "Cha" ;
+    schema:givenName "Bum-kun" .
+
+<http://example.org/worldcup/resource/manager/M-077> a wc:Manager ;
+    rdfs:label "Jack Charlton" ;
+    wc:countryName "England" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Jack_Charlton> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jack_Charlton> ;
+    schema:familyName "Charlton" ;
+    schema:givenName "Jack" .
+
+<http://example.org/worldcup/resource/manager/M-078> a wc:Manager ;
+    rdfs:label "Stanislav Cherchesov" ;
+    wc:countryName "Russia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Stanislav_Cherchesov> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stanislav_Cherchesov> ;
+    schema:familyName "Cherchesov" ;
+    schema:givenName "Stanislav" .
+
+<http://example.org/worldcup/resource/manager/M-079> a wc:Manager ;
+    rdfs:label "Abdelmajid Chetali" ;
+    wc:countryName "Tunisia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Abdelmajid_Chetali> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Abdelmajid_Chetali> ;
+    schema:familyName "Chetali" ;
+    schema:givenName "Abdelmajid" .
+
+<http://example.org/worldcup/resource/manager/M-080> a wc:Manager ;
+    rdfs:label "Tsu-pin Chong" ;
+    wc:countryName "Chinese Taipei" ;
+    wc:isFemale true ;
+    owl:sameAs <http://dbpedia.org/resource/Chong_Tsu-pin> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Chong_Tsu-pin> ;
+    schema:familyName "Chong" ;
+    schema:givenName "Tsu-pin" .
+
+<http://example.org/worldcup/resource/manager/M-081> a wc:Manager ;
+    rdfs:label "Aliou Cissé" ;
+    wc:countryName "Senegal" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Aliou_Cissé> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Aliou_Ciss%C3%A9> ;
+    schema:familyName "Cissé" ;
+    schema:givenName "Aliou" .
+
+<http://example.org/worldcup/resource/manager/M-082> a wc:Manager ;
+    rdfs:label "Javier Clemente" ;
+    wc:countryName "Spain" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Javier_Clemente> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Javier_Clemente> ;
+    schema:familyName "Clemente" ;
+    schema:givenName "Javier" .
+
+<http://example.org/worldcup/resource/manager/M-083> a wc:Manager ;
+    rdfs:label "Ted Copeland" ;
+    wc:countryName "England" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ted_Copeland> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ted_Copeland> ;
+    schema:familyName "Copeland" ;
+    schema:givenName "Ted" .
+
+<http://example.org/worldcup/resource/manager/M-084> a wc:Manager ;
+    rdfs:label "Juan Carlos Corazzo" ;
+    wc:countryName "Uruguay" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Juan_Carlos_Corazzo> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Juan_Carlos_Corazzo> ;
+    schema:familyName "Corazzo" ;
+    schema:givenName "Juan Carlos" .
+
+<http://example.org/worldcup/resource/manager/M-085> a wc:Manager ;
+    rdfs:label "Flávio Costa" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Flávio_Costa> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Fl%C3%A1vio_Costa> ;
+    schema:familyName "Costa" ;
+    schema:givenName "Flávio" .
+
+<http://example.org/worldcup/resource/manager/M-086> a wc:Manager ;
+    rdfs:label "Cláudio Coutinho" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Cláudio_Coutinho> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Cl%C3%A1udio_Coutinho> ;
+    schema:familyName "Coutinho" ;
+    schema:givenName "Cláudio" .
+
+<http://example.org/worldcup/resource/manager/M-087> a wc:Manager ;
+    rdfs:label "Leonardo Cuéllar" ;
+    wc:countryName "Mexico" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Leonardo_Cuéllar> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Leonardo_Cu%C3%A9llar> ;
+    schema:familyName "Cuéllar" ;
+    schema:givenName "Leonardo" .
+
+<http://example.org/worldcup/resource/manager/M-088> a wc:Manager ;
+    rdfs:label "Héctor Cúper" ;
+    wc:countryName "Argentina" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Héctor_Cúper> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/H%C3%A9ctor_C%C3%BAper> ;
+    schema:familyName "Cúper" ;
+    schema:givenName "Héctor" .
+
+<http://example.org/worldcup/resource/manager/M-089> a wc:Manager ;
+    rdfs:label "Lajos Czeizler" ;
+    wc:countryName "Hungary" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Lajos_Czeizler> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Lajos_Czeizler> ;
+    schema:familyName "Czeizler" ;
+    schema:givenName "Lajos" .
+
+<http://example.org/worldcup/resource/manager/M-090> a wc:Manager ;
+    rdfs:label "Zlatko Dalić" ;
+    wc:countryName "Croatia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Zlatko_Dalić> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Zlatko_Dali%C4%87> ;
+    schema:familyName "Dalić" ;
+    schema:givenName "Zlatko" .
+
+<http://example.org/worldcup/resource/manager/M-091> a wc:Manager ;
+    rdfs:label "Píndaro de Carvalho Rodrigues" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Píndaro_de_Carvalho_Rodrigues> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/P%C3%ADndaro_de_Carvalho_Rodrigues> ;
+    schema:familyName "de Carvalho Rodrigues" ;
+    schema:givenName "Píndaro" .
+
+<http://example.org/worldcup/resource/manager/M-092> a wc:Manager ;
+    rdfs:label "José de la Paz Herrera" ;
+    wc:countryName "Honduras" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/José_de_la_Paz_Herrera> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jos%C3%A9_de_la_Paz_Herrera> ;
+    schema:familyName "de la Paz Herrera" ;
+    schema:givenName "José" .
+
+<http://example.org/worldcup/resource/manager/M-093> a wc:Manager ;
+    rdfs:label "Evaristo de Macedo" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Evaristo_de_Macedo> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Evaristo_de_Macedo> ;
+    schema:familyName "de Macedo" ;
+    schema:givenName "Evaristo" .
+
+<http://example.org/worldcup/resource/manager/M-094> a wc:Manager ;
+    rdfs:label "Vicente del Bosque" ;
+    wc:countryName "Spain" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Vicente_del_Bosque> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Vicente_del_Bosque> ;
+    schema:familyName "del Bosque" ;
+    schema:givenName "Vicente" .
+
+<http://example.org/worldcup/resource/manager/M-095> a wc:Manager ;
+    rdfs:label "Thomas Dennerby" ;
+    wc:countryName "Sweden" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Thomas_Dennerby> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Thomas_Dennerby> ;
+    schema:familyName "Dennerby" ;
+    schema:givenName "Thomas" .
+
+<http://example.org/worldcup/resource/manager/M-096> a wc:Manager ;
+    rdfs:label "Jupp Derwall" ;
+    wc:countryName "Germany" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Jupp_Derwall> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jupp_Derwall> ;
+    schema:familyName "Derwall" ;
+    schema:givenName "Jupp" .
+
+<http://example.org/worldcup/resource/manager/M-097> a wc:Manager ;
+    rdfs:label "Didier Deschamps" ;
+    wc:countryName "France" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Didier_Deschamps> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Didier_Deschamps> ;
+    schema:familyName "Deschamps" ;
+    schema:givenName "Didier" .
+
+<http://example.org/worldcup/resource/manager/M-098> a wc:Manager ;
+    rdfs:label "Corinne Diacre" ;
+    wc:countryName "France" ;
+    wc:isFemale true ;
+    owl:sameAs <http://dbpedia.org/resource/Corinne_Diacre> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Corinne_Diacre> ;
+    schema:familyName "Diacre" ;
+    schema:givenName "Corinne" .
+
+<http://example.org/worldcup/resource/manager/M-099> a wc:Manager ;
+    rdfs:label "Tony DiCicco" ;
+    wc:countryName "United States" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Tony_DiCicco> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Tony_DiCicco> ;
+    schema:familyName "DiCicco" ;
+    schema:givenName "Tony" .
+
+<http://example.org/worldcup/resource/manager/M-100> a wc:Manager ;
+    rdfs:label "Didi" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Didi_(footballer,_born_1928)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Didi_(footballer,_born_1928)> ;
+    schema:familyName "Didi" .
+
+<http://example.org/worldcup/resource/manager/M-101> a wc:Manager ;
+    rdfs:label "Károly Dietz" ;
+    wc:countryName "Hungary" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Károly_Dietz> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/K%C3%A1roly_Dietz> ;
+    schema:familyName "Dietz" ;
+    schema:givenName "Károly" .
+
+<http://example.org/worldcup/resource/manager/M-102> a wc:Manager ;
+    rdfs:label "Alain Djeumfa" ;
+    wc:countryName "Cameroon" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Alain_Djeumfa> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Alain_Djeumfa> ;
+    schema:familyName "Djeumfa" ;
+    schema:givenName "Alain" .
+
+<http://example.org/worldcup/resource/manager/M-103> a wc:Manager ;
+    rdfs:label "Peter Doherty" ;
+    wc:countryName "Northern Ireland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Peter_Doherty_(footballer)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Peter_Doherty_(footballer)> ;
+    schema:familyName "Doherty" ;
+    schema:givenName "Peter" .
+
+<http://example.org/worldcup/resource/manager/M-104> a wc:Manager ;
+    rdfs:label "Marika Domanski-Lyfors" ;
+    wc:countryName "Sweden" ;
+    wc:isFemale true ;
+    owl:sameAs <http://dbpedia.org/resource/Marika_Domanski-Lyfors> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Marika_Domanski-Lyfors> ;
+    schema:familyName "Domanski-Lyfors" ;
+    schema:givenName "Marika" .
+
+<http://example.org/worldcup/resource/manager/M-105> a wc:Manager ;
+    rdfs:label "Raymond Domenech" ;
+    wc:countryName "France" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Raymond_Domenech> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Raymond_Domenech> ;
+    schema:familyName "Domenech" ;
+    schema:givenName "Raymond" .
+
+<http://example.org/worldcup/resource/manager/M-106> a wc:Manager ;
+    rdfs:label "Anson Dorrance" ;
+    wc:countryName "United States" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Anson_Dorrance> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Anson_Dorrance> ;
+    schema:familyName "Dorrance" ;
+    schema:givenName "Anson" .
+
+<http://example.org/worldcup/resource/manager/M-107> a wc:Manager ;
+    rdfs:label "Ratomir Dujković" ;
+    wc:countryName "Serbia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ratomir_Dujković> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ratomir_Dujkovi%C4%87> ;
+    schema:familyName "Dujković" ;
+    schema:givenName "Ratomir" .
+
+<http://example.org/worldcup/resource/manager/M-108> a wc:Manager ;
+    rdfs:label "Dunga" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Dunga> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Dunga> ;
+    schema:familyName "Dunga" .
+
+<http://example.org/worldcup/resource/manager/M-109> a wc:Manager ;
+    rdfs:label "José Durand Laguna" ;
+    wc:countryName "Argentina" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/José_Durand_Laguna> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jos%C3%A9_Durand_Laguna> ;
+    schema:familyName "Durand Laguna" ;
+    schema:givenName "José" .
+
+<http://example.org/worldcup/resource/manager/M-110> a wc:Manager ;
+    rdfs:label "Ntiero Effiom" ;
+    wc:countryName "Nigeria" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ntiero_Effiom> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ntiero_Effiom> ;
+    schema:familyName "Effiom" ;
+    schema:givenName "Ntiero" .
+
+<http://example.org/worldcup/resource/manager/M-111> a wc:Manager ;
+    rdfs:label "Guillermo Eizaguirre" ;
+    wc:countryName "Spain" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Guillermo_Eizaguirre> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Guillermo_Eizaguirre> ;
+    schema:familyName "Eizaguirre" ;
+    schema:givenName "Guillermo" .
+
+<http://example.org/worldcup/resource/manager/M-112> a wc:Manager ;
+    rdfs:label "Desiree Ellis" ;
+    wc:countryName "South Africa" ;
+    wc:isFemale true ;
+    owl:sameAs <http://dbpedia.org/resource/Desiree_Ellis> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Desiree_Ellis> ;
+    schema:familyName "Ellis" ;
+    schema:givenName "Desiree" .
+
+<http://example.org/worldcup/resource/manager/M-113> a wc:Manager ;
+    rdfs:label "Jill Ellis" ;
+    wc:countryName "United States" ;
+    wc:isFemale true ;
+    owl:sameAs <http://dbpedia.org/resource/Jill_Ellis> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jill_Ellis> ;
+    schema:familyName "Ellis" ;
+    schema:givenName "Jill" .
+
+<http://example.org/worldcup/resource/manager/M-114> a wc:Manager ;
+    rdfs:label "Jerzy Engel" ;
+    wc:countryName "Poland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Jerzy_Engel> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jerzy_Engel> ;
+    schema:familyName "Engel" ;
+    schema:givenName "Jerzy" .
+
+<http://example.org/worldcup/resource/manager/M-115> a wc:Manager ;
+    rdfs:label "Carl Enow" ;
+    wc:countryName "Cameroon" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Carl_Enow> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Carl_Enow> ;
+    schema:familyName "Enow" ;
+    schema:givenName "Carl" .
+
+<http://example.org/worldcup/resource/manager/M-116> a wc:Manager ;
+    rdfs:label "Luis Enrique" ;
+    wc:countryName "Spain" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Luis_Enrique> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Luis_Enrique> ;
+    schema:familyName "Enrique" ;
+    schema:givenName "Luis" .
+
+<http://example.org/worldcup/resource/manager/M-117> a wc:Manager ;
+    rdfs:label "Georg Ericson" ;
+    wc:countryName "Sweden" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Georg_Ericson> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Georg_Ericson> ;
+    schema:familyName "Ericson" ;
+    schema:givenName "Georg" .
+
+<http://example.org/worldcup/resource/manager/M-118> a wc:Manager ;
+    rdfs:label "Sven-Göran Eriksson" ;
+    wc:countryName "Sweden" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Sven-Göran_Eriksson> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Sven-G%C3%B6ran_Eriksson> ;
+    schema:familyName "Eriksson" ;
+    schema:givenName "Sven-Göran" .
+
+<http://example.org/worldcup/resource/manager/M-119> a wc:Manager ;
+    rdfs:label "Edmondo Fabbri" ;
+    wc:countryName "Italy" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Edmondo_Fabbri> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Edmondo_Fabbri> ;
+    schema:familyName "Fabbri" ;
+    schema:givenName "Edmondo" .
+
+<http://example.org/worldcup/resource/manager/M-120> a wc:Manager ;
+    rdfs:label "Carlo Facchin" ;
+    wc:countryName "Italy" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Carlo_Facchin> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Carlo_Facchin> ;
+    schema:familyName "Facchin" ;
+    schema:givenName "Carlo" .
+
+<http://example.org/worldcup/resource/manager/M-121> a wc:Manager ;
+    rdfs:label "José Faria" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/José_Faria> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jos%C3%A9_Faria> ;
+    schema:familyName "Faria" ;
+    schema:givenName "José" .
+
+<http://example.org/worldcup/resource/manager/M-122> a wc:Manager ;
+    rdfs:label "Vicente Feola" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Vicente_Feola> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Vicente_Feola> ;
+    schema:familyName "Feola" ;
+    schema:givenName "Vicente" .
+
+<http://example.org/worldcup/resource/manager/M-123> a wc:Manager ;
+    rdfs:label "Alex Ferguson" ;
+    wc:countryName "Scotland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Alex_Ferguson> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Alex_Ferguson> ;
+    schema:familyName "Ferguson" ;
+    schema:givenName "Alex" .
+
+<http://example.org/worldcup/resource/manager/M-124> a wc:Manager ;
+    rdfs:label "Giovanni Ferrari" ;
+    wc:countryName "Italy" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Giovanni_Ferrari> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Giovanni_Ferrari> ;
+    schema:familyName "Ferrari" ;
+    schema:givenName "Giovanni" .
+
+<http://example.org/worldcup/resource/manager/M-125> a wc:Manager ;
+    rdfs:label "Volker Finke" ;
+    wc:countryName "Germany" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Volker_Finke> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Volker_Finke> ;
+    schema:familyName "Finke" ;
+    schema:givenName "Volker" .
+
+<http://example.org/worldcup/resource/manager/M-126> a wc:Manager ;
+    rdfs:label "Manuel Fleitas Solich" ;
+    wc:countryName "Paraguay" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Manuel_Fleitas_Solich> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Manuel_Fleitas_Solich> ;
+    schema:familyName "Fleitas Solich" ;
+    schema:givenName "Manuel" .
+
+<http://example.org/worldcup/resource/manager/M-127> a wc:Manager ;
+    rdfs:label "Hansi Flick" ;
+    wc:countryName "Germany" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Hansi_Flick> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Hansi_Flick> ;
+    schema:familyName "Flick" ;
+    schema:givenName "Hansi" .
+
+<http://example.org/worldcup/resource/manager/M-128> a wc:Manager ;
+    rdfs:label "Alfredo Foni" ;
+    wc:countryName "Italy" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Alfredo_Foni> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Alfredo_Foni> ;
+    schema:familyName "Foni" ;
+    schema:givenName "Alfredo" .
+
+<http://example.org/worldcup/resource/manager/M-129> a wc:Manager ;
+    rdfs:label "Ademar Fonseca" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ademar_Fonseca> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ademar_Fonseca> ;
+    schema:familyName "Fonseca" ;
+    schema:givenName "Ademar" .
+
+<http://example.org/worldcup/resource/manager/M-130> a wc:Manager ;
+    rdfs:label "Marcello Frigério" ;
+    wc:countryName "Italy" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Marcello_Frigério> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Marcello_Frig%C3%A9rio> ;
+    schema:familyName "Frigério" ;
+    schema:givenName "Marcello" .
+
+<http://example.org/worldcup/resource/manager/M-131> a wc:Manager ;
+    rdfs:label "Bob Gansler" ;
+    wc:countryName "United States" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Bob_Gansler> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Bob_Gansler> ;
+    schema:familyName "Gansler" ;
+    schema:givenName "Bob" .
+
+<http://example.org/worldcup/resource/manager/M-132> a wc:Manager ;
+    rdfs:label "Keld Gantzhorn" ;
+    wc:countryName "Denmark" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Keld_Gantzhorn> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Keld_Gantzhorn> ;
+    schema:familyName "Gantzhorn" ;
+    schema:givenName "Keld" .
+
+<http://example.org/worldcup/resource/manager/M-133> a wc:Manager ;
+    rdfs:label "Amadeo García" ;
+    wc:countryName "Spain" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Amadeo_García> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Amadeo_Garc%C3%ADa> ;
+    schema:familyName "García" ;
+    schema:givenName "Amadeo" .
+
+<http://example.org/worldcup/resource/manager/M-134> a wc:Manager ;
+    rdfs:label "Ricardo Gareca" ;
+    wc:countryName "Argentina" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ricardo_Gareca> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ricardo_Gareca> ;
+    schema:familyName "Gareca" ;
+    schema:givenName "Ricardo" .
+
+<http://example.org/worldcup/resource/manager/M-135> a wc:Manager ;
+    rdfs:label "Peter Gerhardsson" ;
+    wc:countryName "Sweden" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Peter_Gerhardsson> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Peter_Gerhardsson> ;
+    schema:familyName "Gerhardsson" ;
+    schema:givenName "Peter" .
+
+<http://example.org/worldcup/resource/manager/M-136> a wc:Manager ;
+    rdfs:label "Bob Glendenning" ;
+    wc:countryName "England" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Bob_Glendenning> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Bob_Glendenning> ;
+    schema:familyName "Glendenning" ;
+    schema:givenName "Bob" .
+
+<http://example.org/worldcup/resource/manager/M-137> a wc:Manager ;
+    rdfs:label "Otto Glória" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Otto_Glória> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Otto_Gl%C3%B3ria> ;
+    schema:familyName "Glória" ;
+    schema:givenName "Otto" .
+
+<http://example.org/worldcup/resource/manager/M-138> a wc:Manager ;
+    rdfs:label "Jacek Gmoch" ;
+    wc:countryName "Poland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Jacek_Gmoch> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jacek_Gmoch> ;
+    schema:familyName "Gmoch" ;
+    schema:givenName "Jacek" .
+
+<http://example.org/worldcup/resource/manager/M-139> a wc:Manager ;
+    rdfs:label "Raymond Goethals" ;
+    wc:countryName "Belgium" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Raymond_Goethals> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Raymond_Goethals> ;
+    schema:familyName "Goethals" ;
+    schema:givenName "Raymond" .
+
+<http://example.org/worldcup/resource/manager/M-140> a wc:Manager ;
+    rdfs:label "Hector Goetinck" ;
+    wc:countryName "Belgium" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Hector_Goetinck> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Hector_Goetinck> ;
+    schema:familyName "Goetinck" ;
+    schema:givenName "Hector" .
+
+<http://example.org/worldcup/resource/manager/M-141> a wc:Manager ;
+    rdfs:label "Hernán Darío Gómez" ;
+    wc:countryName "Colombia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Hernán_Darío_Gómez> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Hern%C3%A1n_Dar%C3%ADo_G%C3%B3mez> ;
+    schema:familyName "Gómez" ;
+    schema:givenName "Hernán Darío" .
+
+<http://example.org/worldcup/resource/manager/M-142> a wc:Manager ;
+    rdfs:label "Oliveira Gonçalves" ;
+    wc:countryName "Angola" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Oliveira_Gonçalves> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Oliveira_Gon%C3%A7alves> ;
+    schema:familyName "Gonçalves" ;
+    schema:givenName "Oliveira" .
+
+<http://example.org/worldcup/resource/manager/M-143> a wc:Manager ;
+    rdfs:label "Paulo Gonçalves" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Paulo_Gonçalves_(football_manager)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Paulo_Gon%C3%A7alves_(football_manager)> ;
+    schema:familyName "Gonçalves" ;
+    schema:givenName "Paulo" .
+
+<http://example.org/worldcup/resource/manager/M-144> a wc:Manager ;
+    rdfs:label "Aurelio González" ;
+    wc:countryName "Paraguay" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Aurelio_González_(footballer)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Aurelio_Gonz%C3%A1lez_(footballer)> ;
+    schema:familyName "González" ;
+    schema:givenName "Aurelio" .
+
+<http://example.org/worldcup/resource/manager/M-145> a wc:Manager ;
+    rdfs:label "Kazimierz Górski" ;
+    wc:countryName "Poland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Kazimierz_Górski> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Kazimierz_G%C3%B3rski> ;
+    schema:familyName "Górski" ;
+    schema:givenName "Kazimierz" .
+
+<http://example.org/worldcup/resource/manager/M-146> a wc:Manager ;
+    rdfs:label "David Gould" ;
+    wc:countryName "United States" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/David_Gould> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/David_Gould> ;
+    schema:familyName "Gould" ;
+    schema:givenName "David" .
+
+<http://example.org/worldcup/resource/manager/M-147> a wc:Manager ;
+    rdfs:label "Ron Greenwood" ;
+    wc:countryName "England" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ron_Greenwood> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ron_Greenwood> ;
+    schema:familyName "Greenwood" ;
+    schema:givenName "Ron" .
+
+<http://example.org/worldcup/resource/manager/M-148> a wc:Manager ;
+    rdfs:label "Sergio Guenza" ;
+    wc:countryName "Italy" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Sergio_Guenza> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Sergio_Guenza> ;
+    schema:familyName "Guenza" ;
+    schema:givenName "Sergio" .
+
+<http://example.org/worldcup/resource/manager/M-149> a wc:Manager ;
+    rdfs:label "Henri Guérin" ;
+    wc:countryName "France" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Henri_Guérin_(footballer)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Henri_Gu%C3%A9rin_(footballer)> ;
+    schema:familyName "Guérin" ;
+    schema:givenName "Henri" .
+
+<http://example.org/worldcup/resource/manager/M-150> a wc:Manager ;
+    rdfs:label "Alexandre Guimarães" ;
+    wc:countryName "Costa Rica" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Alexandre_Guimarães> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Alexandre_Guimar%C3%A3es> ;
+    schema:familyName "Guimarães" ;
+    schema:givenName "Alexandre" .
+
+<http://example.org/worldcup/resource/manager/M-151> a wc:Manager ;
+    rdfs:label "Şenol Güneş" ;
+    wc:countryName "Turkey" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Şenol_Güneş> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/%C5%9Eenol_G%C3%BCne%C5%9F> ;
+    schema:familyName "Güneş" ;
+    schema:givenName "Şenol" .
+
+<http://example.org/worldcup/resource/manager/M-152> a wc:Manager ;
+    rdfs:label "Vahid Halilhodžić" ;
+    wc:countryName "Bosnia and Herzegovina" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Vahid_Halilhodžić> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Vahid_Halilhod%C5%BEi%C4%87> ;
+    schema:familyName "Halilhodžić" ;
+    schema:givenName "Vahid" .
+
+<http://example.org/worldcup/resource/manager/M-153> a wc:Manager ;
+    rdfs:label "Heimir Hallgrímsson" ;
+    wc:countryName "Iceland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Heimir_Hallgrímsson> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Heimir_Hallgr%C3%ADmsson> ;
+    schema:familyName "Hallgrímsson" ;
+    schema:givenName "Heimir" .
+
+<http://example.org/worldcup/resource/manager/M-154> a wc:Manager ;
+    rdfs:label "Asbjørn Halvorsen" ;
+    wc:countryName "Norway" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Asbjørn_Halvorsen> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Asbj%C3%B8rn_Halvorsen> ;
+    schema:familyName "Halvorsen" ;
+    schema:givenName "Asbjørn" .
+
+<http://example.org/worldcup/resource/manager/M-155> a wc:Manager ;
+    rdfs:label "Paul Hamilton" ;
+    wc:countryName "Nigeria" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Paul_Hamilton_(footballer,_born_1941)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Paul_Hamilton_(footballer,_born_1941)> ;
+    schema:familyName "Hamilton" ;
+    schema:givenName "Paul" .
+
+<http://example.org/worldcup/resource/manager/M-156> a wc:Manager ;
+    rdfs:label "Wei Hao" ;
+    wc:countryName "China" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Hao_Wei> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Hao_Wei> ;
+    schema:familyName "Hao" ;
+    schema:givenName "Wei" .
+
+<http://example.org/worldcup/resource/manager/M-157> a wc:Manager ;
+    rdfs:label "Ernst Happel" ;
+    wc:countryName "Austria" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ernst_Happel> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ernst_Happel> ;
+    schema:familyName "Happel" ;
+    schema:givenName "Ernst" .
+
+<http://example.org/worldcup/resource/manager/M-158> a wc:Manager ;
+    rdfs:label "Åge Hareide" ;
+    wc:countryName "Norway" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Åge_Hareide> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/%C3%85ge_Hareide> ;
+    schema:familyName "Hareide" ;
+    schema:givenName "Åge" .
+
+<http://example.org/worldcup/resource/manager/M-159> a wc:Manager ;
+    rdfs:label "Kenneth Heiner-Møller" ;
+    wc:countryName "Denmark" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Kenneth_Heiner-Møller> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Kenneth_Heiner-M%C3%B8ller> ;
+    schema:familyName "Heiner-Møller" ;
+    schema:givenName "Kenneth" .
+
+<http://example.org/worldcup/resource/manager/M-160> a wc:Manager ;
+    rdfs:label "April Heinrichs" ;
+    wc:countryName "United States" ;
+    wc:isFemale true ;
+    owl:sameAs <http://dbpedia.org/resource/April_Heinrichs> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/April_Heinrichs> ;
+    schema:familyName "Heinrichs" ;
+    schema:givenName "April" .
+
+<http://example.org/worldcup/resource/manager/M-161> a wc:Manager ;
+    rdfs:label "Sepp Herberger" ;
+    wc:countryName "Germany" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Sepp_Herberger> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Sepp_Herberger> ;
+    schema:familyName "Herberger" ;
+    schema:givenName "Sepp" .
+
+<http://example.org/worldcup/resource/manager/M-162> a wc:Manager ;
+    rdfs:label "Ricki Herbert" ;
+    wc:countryName "New Zealand" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ricki_Herbert> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ricki_Herbert> ;
+    schema:familyName "Herbert" ;
+    schema:givenName "Ricki" .
+
+<http://example.org/worldcup/resource/manager/M-163> a wc:Manager ;
+    rdfs:label "John Herdman" ;
+    wc:countryName "England" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/John_Herdman> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/John_Herdman> ;
+    schema:familyName "Herdman" ;
+    schema:givenName "John" .
+
+<http://example.org/worldcup/resource/manager/M-164> a wc:Manager ;
+    rdfs:label "Helenio Herrera" ;
+    wc:countryName "Argentina" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Helenio_Herrera> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Helenio_Herrera> ;
+    schema:familyName "Herrera" ;
+    schema:givenName "Helenio" .
+
+<http://example.org/worldcup/resource/manager/M-165> a wc:Manager ;
+    rdfs:label "Miguel Herrera" ;
+    wc:countryName "Mexico" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Miguel_Herrera> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Miguel_Herrera> ;
+    schema:familyName "Herrera" ;
+    schema:givenName "Miguel" .
+
+<http://example.org/worldcup/resource/manager/M-166> a wc:Manager ;
+    rdfs:label "Josef Hickersberger" ;
+    wc:countryName "Austria" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Josef_Hickersberger> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Josef_Hickersberger> ;
+    schema:familyName "Hickersberger" ;
+    schema:givenName "Josef" .
+
+<http://example.org/worldcup/resource/manager/M-167> a wc:Manager ;
+    rdfs:label "Michel Hidalgo" ;
+    wc:countryName "France" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Michel_Hidalgo> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Michel_Hidalgo> ;
+    schema:familyName "Hidalgo" ;
+    schema:givenName "Michel" .
+
+<http://example.org/worldcup/resource/manager/M-168> a wc:Manager ;
+    rdfs:label "Guus Hiddink" ;
+    wc:countryName "Netherlands" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Guus_Hiddink> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Guus_Hiddink> ;
+    schema:familyName "Hiddink" ;
+    schema:givenName "Guus" .
+
+<http://example.org/worldcup/resource/manager/M-169> a wc:Manager ;
+    rdfs:label "Fernando Hierro" ;
+    wc:countryName "Spain" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Fernando_Hierro> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Fernando_Hierro> ;
+    schema:familyName "Hierro" ;
+    schema:givenName "Fernando" .
+
+<http://example.org/worldcup/resource/manager/M-170> a wc:Manager ;
+    rdfs:label "Ottmar Hitzfeld" ;
+    wc:countryName "Germany" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ottmar_Hitzfeld> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ottmar_Hitzfeld> ;
+    schema:familyName "Hitzfeld" ;
+    schema:givenName "Ottmar" .
+
+<http://example.org/worldcup/resource/manager/M-171> a wc:Manager ;
+    rdfs:label "Kasper Hjulmand" ;
+    wc:countryName "Denmark" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Kasper_Hjulmand> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Kasper_Hjulmand> ;
+    schema:familyName "Hjulmand" ;
+    schema:givenName "Kasper" .
+
+<http://example.org/worldcup/resource/manager/M-172> a wc:Manager ;
+    rdfs:label "Glenn Hoddle" ;
+    wc:countryName "England" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Glenn_Hoddle> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Glenn_Hoddle> ;
+    schema:familyName "Hoddle" ;
+    schema:givenName "Glenn" .
+
+<http://example.org/worldcup/resource/manager/M-173> a wc:Manager ;
+    rdfs:label "Roy Hodgson" ;
+    wc:countryName "England" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Roy_Hodgson> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Roy_Hodgson> ;
+    schema:familyName "Hodgson" ;
+    schema:givenName "Roy" .
+
+<http://example.org/worldcup/resource/manager/M-174> a wc:Manager ;
+    rdfs:label "Per-Mathias Høgmo" ;
+    wc:countryName "Norway" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Per-Mathias_Høgmo> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Per-Mathias_H%C3%B8gmo> ;
+    schema:familyName "Høgmo" ;
+    schema:givenName "Per-Mathias" .
+
+<http://example.org/worldcup/resource/manager/M-175> a wc:Manager ;
+    rdfs:label "Juan Hohberg" ;
+    wc:countryName "Uruguay" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Juan_Hohberg> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Juan_Hohberg> ;
+    schema:familyName "Hohberg" ;
+    schema:givenName "Juan" .
+
+<http://example.org/worldcup/resource/manager/M-176> a wc:Manager ;
+    rdfs:label "Myung-bo Hong" ;
+    wc:countryName "South Korea" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Hong_Myung-bo> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Hong_Myung-bo> ;
+    schema:familyName "Hong" ;
+    schema:givenName "Myung-bo" .
+
+<http://example.org/worldcup/resource/manager/M-177> a wc:Manager ;
+    rdfs:label "Jung-moo Huh" ;
+    wc:countryName "South Korea" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Huh_Jung-moo> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Huh_Jung-moo> ;
+    schema:familyName "Huh" ;
+    schema:givenName "Jung-moo" .
+
+<http://example.org/worldcup/resource/manager/M-178> a wc:Manager ;
+    rdfs:label "Jørgen Hvidemose" ;
+    wc:countryName "Denmark" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Jørgen_Hvidemose> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/J%C3%B8rgen_Hvidemose> ;
+    schema:familyName "Hvidemose" ;
+    schema:givenName "Jørgen" .
+
+<http://example.org/worldcup/resource/manager/M-179> a wc:Manager ;
+    rdfs:label "Anghel Iordănescu" ;
+    wc:countryName "Romania" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Anghel_Iordănescu> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Anghel_Iord%C4%83nescu> ;
+    schema:familyName "Iordănescu" ;
+    schema:givenName "Anghel" .
+
+<http://example.org/worldcup/resource/manager/M-180> a wc:Manager ;
+    rdfs:label "Mabo Ismaila" ;
+    wc:countryName "Nigeria" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Mabo_Ismaila> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Mabo_Ismaila> ;
+    schema:familyName "Ismaila" ;
+    schema:givenName "Mabo" .
+
+<http://example.org/worldcup/resource/manager/M-181> a wc:Manager ;
+    rdfs:label "Branko Ivanković" ;
+    wc:countryName "Croatia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Branko_Ivanković> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Branko_Ivankovi%C4%87> ;
+    schema:familyName "Ivanković" ;
+    schema:givenName "Branko" .
+
+<http://example.org/worldcup/resource/manager/M-182> a wc:Manager ;
+    rdfs:label "Aimé Jacquet" ;
+    wc:countryName "France" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Aimé_Jacquet> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Aim%C3%A9_Jacquet> ;
+    schema:familyName "Jacquet" ;
+    schema:givenName "Aimé" .
+
+<http://example.org/worldcup/resource/manager/M-183> a wc:Manager ;
+    rdfs:label "Paweł Janas" ;
+    wc:countryName "Poland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Paweł_Janas> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Pawe%C5%82_Janas> ;
+    schema:familyName "Janas" ;
+    schema:givenName "Paweł" .
+
+<http://example.org/worldcup/resource/manager/M-184> a wc:Manager ;
+    rdfs:label "William Jeffrey" ;
+    wc:countryName "United States" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/William_Jeffrey_(American_soccer)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/William_Jeffrey_(American_soccer)> ;
+    schema:familyName "Jeffrey" ;
+    schema:givenName "William" .
+
+<http://example.org/worldcup/resource/manager/M-185> a wc:Manager ;
+    rdfs:label "Emerich Jenei" ;
+    wc:countryName "Romania" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Emerich_Jenei> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Emerich_Jenei> ;
+    schema:familyName "Jenei" ;
+    schema:givenName "Emerich" .
+
+<http://example.org/worldcup/resource/manager/M-186> a wc:Manager ;
+    rdfs:label "Xiuquan Jia" ;
+    wc:countryName "China" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Jia_Xiuquan> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jia_Xiuquan> ;
+    schema:familyName "Jia" ;
+    schema:givenName "Xiuquan" .
+
+<http://example.org/worldcup/resource/manager/M-187> a wc:Manager ;
+    rdfs:label "Bo Johansson" ;
+    wc:countryName "Sweden" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Bo_Johansson> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Bo_Johansson> ;
+    schema:familyName "Johansson" ;
+    schema:givenName "Bo" .
+
+<http://example.org/worldcup/resource/manager/M-188> a wc:Manager ;
+    rdfs:label "Mirko Jozić" ;
+    wc:countryName "Croatia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Mirko_Jozić> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Mirko_Jozi%C4%87> ;
+    schema:familyName "Jozić" ;
+    schema:givenName "Mirko" .
+
+<http://example.org/worldcup/resource/manager/M-189> a wc:Manager ;
+    rdfs:label "Gavriil Kachalin" ;
+    wc:countryName "Soviet Union" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Gavriil_Kachalin> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Gavriil_Kachalin> ;
+    schema:familyName "Kachalin" ;
+    schema:givenName "Gavriil" .
+
+<http://example.org/worldcup/resource/manager/M-190> a wc:Manager ;
+    rdfs:label "Jalel Kadri" ;
+    wc:countryName "Tunisia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Jalel_Kadri> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jalel_Kadri> ;
+    schema:familyName "Kadri" ;
+    schema:givenName "Jalel" .
+
+<http://example.org/worldcup/resource/manager/M-191> a wc:Manager ;
+    rdfs:label "Józef Kałuża" ;
+    wc:countryName "Poland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Józef_Kałuża> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/J%C3%B3zef_Ka%C5%82u%C5%BCa> ;
+    schema:familyName "Kałuża" ;
+    schema:givenName "Józef" .
+
+<http://example.org/worldcup/resource/manager/M-192> a wc:Manager ;
+    rdfs:label "Henryk Kasperczak" ;
+    wc:countryName "Poland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Henryk_Kasperczak> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Henryk_Kasperczak> ;
+    schema:familyName "Kasperczak" ;
+    schema:givenName "Henryk" .
+
+<http://example.org/worldcup/resource/manager/M-193> a wc:Manager ;
+    rdfs:label "Srečko Katanec" ;
+    wc:countryName "Slovenia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Srečko_Katanec> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Sre%C4%8Dko_Katanec> ;
+    schema:familyName "Katanec" ;
+    schema:givenName "Srečko" .
+
+<http://example.org/worldcup/resource/manager/M-194> a wc:Manager ;
+    rdfs:label "Matjaž Kek" ;
+    wc:countryName "Slovenia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Matjaž_Kek> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Matja%C5%BE_Kek> ;
+    schema:familyName "Kek" ;
+    schema:givenName "Matjaž" .
+
+<http://example.org/worldcup/resource/manager/M-195> a wc:Manager ;
+    rdfs:label "Shelley Kerr" ;
+    wc:countryName "Scotland" ;
+    wc:isFemale true ;
+    owl:sameAs <http://dbpedia.org/resource/Shelley_Kerr> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Shelley_Kerr> ;
+    schema:familyName "Kerr" ;
+    schema:givenName "Shelley" .
+
+<http://example.org/worldcup/resource/manager/M-196> a wc:Manager ;
+    rdfs:label "Stephen Keshi" ;
+    wc:countryName "Nigeria" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Stephen_Keshi> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Stephen_Keshi> ;
+    schema:familyName "Keshi" ;
+    schema:givenName "Stephen" .
+
+<http://example.org/worldcup/resource/manager/M-197> a wc:Manager ;
+    rdfs:label "Mahieddine Khalef" ;
+    wc:countryName "Algeria" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Mahieddine_Khalef> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Mahieddine_Khalef> ;
+    schema:familyName "Khalef" ;
+    schema:givenName "Mahieddine" .
+
+<http://example.org/worldcup/resource/manager/M-198> a wc:Manager ;
+    rdfs:label "Ho Kim" ;
+    wc:countryName "South Korea" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Kim_Ho> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Kim_Ho> ;
+    schema:familyName "Kim" ;
+    schema:givenName "Ho" .
+
+<http://example.org/worldcup/resource/manager/M-199> a wc:Manager ;
+    rdfs:label "Jong-hun Kim" ;
+    wc:countryName "North Korea" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Kim_Jong-hun_(footballer,_born_1956)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Kim_Jong-hun_(footballer,_born_1956)> ;
+    schema:familyName "Kim" ;
+    schema:givenName "Jong-hun" .
+
+<http://example.org/worldcup/resource/manager/M-200> a wc:Manager ;
+    rdfs:label "Jung-nam Kim" ;
+    wc:countryName "South Korea" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Kim_Jung-nam> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Kim_Jung-nam> ;
+    schema:familyName "Kim" ;
+    schema:givenName "Jung-nam" .
+
+<http://example.org/worldcup/resource/manager/M-201> a wc:Manager ;
+    rdfs:label "Kwang-min Kim" ;
+    wc:countryName "North Korea" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Kim_Kwang-min_(footballer,_born_1962)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Kim_Kwang-min_(footballer,_born_1962)> ;
+    schema:familyName "Kim" ;
+    schema:givenName "Kwang-min" .
+
+<http://example.org/worldcup/resource/manager/M-202> a wc:Manager ;
+    rdfs:label "Yong-sik Kim" ;
+    wc:countryName "South Korea" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Kim_Yong-sik> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Kim_Yong-sik> ;
+    schema:familyName "Kim" ;
+    schema:givenName "Yong-sik" .
+
+<http://example.org/worldcup/resource/manager/M-203> a wc:Manager ;
+    rdfs:label "George Kimpton" ;
+    wc:countryName "England" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Sid_Kimpton> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Sid_Kimpton> ;
+    schema:familyName "Kimpton" ;
+    schema:givenName "George" .
+
+<http://example.org/worldcup/resource/manager/M-204> a wc:Manager ;
+    rdfs:label "Jürgen Klinsmann" ;
+    wc:countryName "Germany" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Jürgen_Klinsmann> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/J%C3%BCrgen_Klinsmann> ;
+    schema:familyName "Klinsmann" ;
+    schema:givenName "Jürgen" .
+
+<http://example.org/worldcup/resource/manager/M-205> a wc:Manager ;
+    rdfs:label "Karel Kolský" ;
+    wc:countryName "Czechoslovakia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Karel_Kolský> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Karel_Kolsk%C3%BD> ;
+    schema:familyName "Kolský" ;
+    schema:givenName "Karel" .
+
+<http://example.org/worldcup/resource/manager/M-206> a wc:Manager ;
+    rdfs:label "Niko Kovač" ;
+    wc:countryName "Croatia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Niko_Kovač> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Niko_Kova%C4%8D> ;
+    schema:familyName "Kovač" ;
+    schema:givenName "Niko" .
+
+<http://example.org/worldcup/resource/manager/M-207> a wc:Manager ;
+    rdfs:label "Zlatko Kranjčar" ;
+    wc:countryName "Croatia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Zlatko_Kranjčar> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Zlatko_Kranj%C4%8Dar> ;
+    schema:familyName "Kranjčar" ;
+    schema:givenName "Zlatko" .
+
+<http://example.org/worldcup/resource/manager/M-208> a wc:Manager ;
+    rdfs:label "Mladen Krstajić" ;
+    wc:countryName "Serbia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Mladen_Krstajić> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Mladen_Krstaji%C4%87> ;
+    schema:familyName "Krstajić" ;
+    schema:givenName "Mladen" .
+
+<http://example.org/worldcup/resource/manager/M-209> a wc:Manager ;
+    rdfs:label "Ladislao Kubala" ;
+    wc:countryName "Spain" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ladislao_Kubala> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ladislao_Kubala> ;
+    schema:familyName "Kubala" ;
+    schema:givenName "Ladislao" .
+
+<http://example.org/worldcup/resource/manager/M-210> a wc:Manager ;
+    rdfs:label "Köbi Kuhn" ;
+    wc:countryName "Switzerland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Köbi_Kuhn> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/K%C3%B6bi_Kuhn> ;
+    schema:familyName "Kuhn" ;
+    schema:givenName "Köbi" .
+
+<http://example.org/worldcup/resource/manager/M-211> a wc:Manager ;
+    rdfs:label "Ricardo La Volpe" ;
+    wc:countryName "Argentina" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ricardo_La_Volpe> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ricardo_La_Volpe> ;
+    schema:familyName "La Volpe" ;
+    schema:givenName "Ricardo" .
+
+<http://example.org/worldcup/resource/manager/M-212> a wc:Manager ;
+    rdfs:label "Lars Lagerbäck" ;
+    wc:countryName "Sweden" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Lars_Lagerbäck> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Lars_Lagerb%C3%A4ck> ;
+    schema:familyName "Lagerbäck" ;
+    schema:givenName "Lars" .
+
+<http://example.org/worldcup/resource/manager/M-213> a wc:Manager ;
+    rdfs:label "Sabri Lamouchi" ;
+    wc:countryName "France" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Sabri_Lamouchi> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Sabri_Lamouchi> ;
+    schema:familyName "Lamouchi" ;
+    schema:givenName "Sabri" .
+
+<http://example.org/worldcup/resource/manager/M-214> a wc:Manager ;
+    rdfs:label "Eli Landsem" ;
+    wc:countryName "Norway" ;
+    wc:isFemale true ;
+    owl:sameAs <http://dbpedia.org/resource/Eli_Landsem> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Eli_Landsem> ;
+    schema:familyName "Landsem" ;
+    schema:givenName "Eli" .
+
+<http://example.org/worldcup/resource/manager/M-215> a wc:Manager ;
+    rdfs:label "Manuel Lapuente" ;
+    wc:countryName "Mexico" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Manuel_Lapuente> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Manuel_Lapuente> ;
+    schema:familyName "Lapuente" ;
+    schema:givenName "Manuel" .
+
+<http://example.org/worldcup/resource/manager/M-216> a wc:Manager ;
+    rdfs:label "Felix Latzke" ;
+    wc:countryName "Austria" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Felix_Latzke> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Felix_Latzke> ;
+    schema:familyName "Latzke" ;
+    schema:givenName "Felix" .
+
+<http://example.org/worldcup/resource/manager/M-217> a wc:Manager ;
+    rdfs:label "Sebastião Lazaroni" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Sebastião_Lazaroni> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Sebasti%C3%A3o_Lazaroni> ;
+    schema:familyName "Lazaroni" ;
+    schema:givenName "Sebastião" .
+
+<http://example.org/worldcup/resource/manager/M-218> a wc:Manager ;
+    rdfs:label "Paul Le Guen" ;
+    wc:countryName "France" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Paul_Le_Guen> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Paul_Le_Guen> ;
+    schema:familyName "Le Guen" ;
+    schema:givenName "Paul" .
+
+<http://example.org/worldcup/resource/manager/M-219> a wc:Manager ;
+    rdfs:label "Claude Le Roy" ;
+    wc:countryName "France" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Claude_Le_Roy> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Claude_Le_Roy> ;
+    schema:familyName "Le Roy" ;
+    schema:givenName "Claude" .
+
+<http://example.org/worldcup/resource/manager/M-220> a wc:Manager ;
+    rdfs:label "Hoe-taik Lee" ;
+    wc:countryName "South Korea" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Lee_Hoe-taik> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Lee_Hoe-taik> ;
+    schema:familyName "Lee" ;
+    schema:givenName "Hoe-taik" .
+
+<http://example.org/worldcup/resource/manager/M-221> a wc:Manager ;
+    rdfs:label "Georges Leekens" ;
+    wc:countryName "Belgium" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Georges_Leekens> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Georges_Leekens> ;
+    schema:familyName "Leekens" ;
+    schema:givenName "Georges" .
+
+<http://example.org/worldcup/resource/manager/M-222> a wc:Manager ;
+    rdfs:label "Roger Lemerre" ;
+    wc:countryName "France" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Roger_Lemerre> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Roger_Lemerre> ;
+    schema:familyName "Lemerre" ;
+    schema:givenName "Roger" .
+
+<http://example.org/worldcup/resource/manager/M-223> a wc:Manager ;
+    rdfs:label "José Letelier" ;
+    wc:countryName "Chile" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/José_Letelier> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jos%C3%A9_Letelier> ;
+    schema:familyName "Letelier" ;
+    schema:givenName "José" .
+
+<http://example.org/worldcup/resource/manager/M-224> a wc:Manager ;
+    rdfs:label "Kleiton lima" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Kleiton_Lima> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Kleiton_Lima> ;
+    schema:familyName "lima" ;
+    schema:givenName "Kleiton" .
+
+<http://example.org/worldcup/resource/manager/M-225> a wc:Manager ;
+    rdfs:label "Marcello Lippi" ;
+    wc:countryName "Italy" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Marcello_Lippi> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Marcello_Lippi> ;
+    schema:familyName "Lippi" ;
+    schema:givenName "Marcello" .
+
+<http://example.org/worldcup/resource/manager/M-226> a wc:Manager ;
+    rdfs:label "Doug Livingstone" ;
+    wc:countryName "Scotland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Doug_Livingstone> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Doug_Livingstone> ;
+    schema:familyName "Livingstone" ;
+    schema:givenName "Doug" .
+
+<http://example.org/worldcup/resource/manager/M-227> a wc:Manager ;
+    rdfs:label "Valeri Lobanovsky" ;
+    wc:countryName "Soviet Union" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Valeri_Lobanovsky> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Valeri_Lobanovsky> ;
+    schema:familyName "Lobanovsky" ;
+    schema:givenName "Valeri" .
+
+<http://example.org/worldcup/resource/manager/M-228> a wc:Manager ;
+    rdfs:label "Valeriy Lobanovskyi" ;
+    wc:countryName "Soviet Union" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Valeriy_Lobanovskyi> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Valeriy_Lobanovskyi> ;
+    schema:familyName "Lobanovskyi" ;
+    schema:givenName "Valeriy" .
+
+<http://example.org/worldcup/resource/manager/M-229> a wc:Manager ;
+    rdfs:label "Élisabeth Loisel" ;
+    wc:countryName "France" ;
+    wc:isFemale true ;
+    owl:sameAs <http://dbpedia.org/resource/Élisabeth_Loisel> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/%C3%89lisabeth_Loisel> ;
+    schema:familyName "Loisel" ;
+    schema:givenName "Élisabeth" .
+
+<http://example.org/worldcup/resource/manager/M-230> a wc:Manager ;
+    rdfs:label "Juan López" ;
+    wc:countryName "Uruguay" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Juan_López_Fontana> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Juan_L%C3%B3pez_Fontana> ;
+    schema:familyName "López" ;
+    schema:givenName "Juan" .
+
+<http://example.org/worldcup/resource/manager/M-231> a wc:Manager ;
+    rdfs:label "Antonio López Herranz" ;
+    wc:countryName "Spain" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Antonio_López_Herranz> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Antonio_L%C3%B3pez_Herranz> ;
+    schema:familyName "López Herranz" ;
+    schema:givenName "Antonio" .
+
+<http://example.org/worldcup/resource/manager/M-232> a wc:Manager ;
+    rdfs:label "Juan Carlos Lorenzo" ;
+    wc:countryName "Argentina" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Juan_Carlos_Lorenzo> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Juan_Carlos_Lorenzo> ;
+    schema:familyName "Lorenzo" ;
+    schema:givenName "Juan Carlos" .
+
+<http://example.org/worldcup/resource/manager/M-233> a wc:Manager ;
+    rdfs:label "Ljubomir Lovrić" ;
+    wc:countryName "Yugoslavia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ljubomir_Lovrić> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ljubomir_Lovri%C4%87> ;
+    schema:familyName "Lovrić" ;
+    schema:givenName "Ljubomir" .
+
+<http://example.org/worldcup/resource/manager/M-234> a wc:Manager ;
+    rdfs:label "Joachim Löw" ;
+    wc:countryName "Germany" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Joachim_Löw> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Joachim_L%C3%B6w> ;
+    schema:familyName "Löw" ;
+    schema:givenName "Joachim" .
+
+<http://example.org/worldcup/resource/manager/M-235> a wc:Manager ;
+    rdfs:label "Juan Luque de Serrallonga" ;
+    wc:countryName "Mexico" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Juan_Luque_de_Serrallonga> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Juan_Luque_de_Serrallonga> ;
+    schema:familyName "Luque de Serrallonga" ;
+    schema:givenName "Juan" .
+
+<http://example.org/worldcup/resource/manager/M-236> a wc:Manager ;
+    rdfs:label "Liangxing Ma" ;
+    wc:countryName "China" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ma_Liangxing> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ma_Liangxing> ;
+    schema:familyName "Ma" ;
+    schema:givenName "Liangxing" .
+
+<http://example.org/worldcup/resource/manager/M-237> a wc:Manager ;
+    rdfs:label "Yuanan Ma" ;
+    wc:countryName "China" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ma_Yuanan> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ma_Yuanan> ;
+    schema:familyName "Ma" ;
+    schema:givenName "Yuanan" .
+
+<http://example.org/worldcup/resource/manager/M-238> a wc:Manager ;
+    rdfs:label "Nabil Maâloul" ;
+    wc:countryName "Tunisia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Nabil_Maâloul> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Nabil_Ma%C3%A2loul> ;
+    schema:familyName "Maâloul" ;
+    schema:givenName "Nabil" .
+
+<http://example.org/worldcup/resource/manager/M-239> a wc:Manager ;
+    rdfs:label "Ally MacLeod" ;
+    wc:countryName "Scotland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ally_MacLeod> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ally_MacLeod> ;
+    schema:familyName "MacLeod" ;
+    schema:givenName "Ally" .
+
+<http://example.org/worldcup/resource/manager/M-240> a wc:Manager ;
+    rdfs:label "Cesare Maldini" ;
+    wc:countryName "Italy" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Cesare_Maldini> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Cesare_Maldini> ;
+    schema:familyName "Maldini" ;
+    schema:givenName "Cesare" .
+
+<http://example.org/worldcup/resource/manager/M-241> a wc:Manager ;
+    rdfs:label "Diego Maradona" ;
+    wc:countryName "Argentina" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Diego_Maradona> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Diego_Maradona> ;
+    schema:familyName "Maradona" ;
+    schema:givenName "Diego" .
+
+<http://example.org/worldcup/resource/manager/M-242> a wc:Manager ;
+    rdfs:label "Jozef Marko" ;
+    wc:countryName "Czechoslovakia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Jozef_Marko> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jozef_Marko> ;
+    schema:familyName "Marko" ;
+    schema:givenName "Jozef" .
+
+<http://example.org/worldcup/resource/manager/M-243> a wc:Manager ;
+    rdfs:label "Roberto Martínez" ;
+    wc:countryName "Spain" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Roberto_Martínez> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Roberto_Mart%C3%ADnez> ;
+    schema:familyName "Martínez" ;
+    schema:givenName "Roberto" .
+
+<http://example.org/worldcup/resource/manager/M-244> a wc:Manager ;
+    rdfs:label "Gerardo Martino" ;
+    wc:countryName "Argentina" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Gerardo_Martino> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Gerardo_Martino> ;
+    schema:familyName "Martino" ;
+    schema:givenName "Gerardo" .
+
+<http://example.org/worldcup/resource/manager/M-245> a wc:Manager ;
+    rdfs:label "Johan Mastenbroek" ;
+    wc:countryName "Netherlands" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Johannes_Christoffel_Jan_Mastenbroek> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Johannes_Christoffel_Jan_Mastenbroek> ;
+    schema:familyName "Mastenbroek" ;
+    schema:givenName "Johan" .
+
+<http://example.org/worldcup/resource/manager/M-246> a wc:Manager ;
+    rdfs:label "Francisco Maturana" ;
+    wc:countryName "Colombia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Francisco_Maturana> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Francisco_Maturana> ;
+    schema:familyName "Maturana" ;
+    schema:givenName "Francisco" .
+
+<http://example.org/worldcup/resource/manager/M-247> a wc:Manager ;
+    rdfs:label "Paolo Mazza" ;
+    wc:countryName "Italy" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Paolo_Mazza> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Paolo_Mazza> ;
+    schema:familyName "Mazza" ;
+    schema:givenName "Paolo" .
+
+<http://example.org/worldcup/resource/manager/M-248> a wc:Manager ;
+    rdfs:label "Mick McCarthy" ;
+    wc:countryName "Republic of Ireland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Mick_McCarthy> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Mick_McCarthy> ;
+    schema:familyName "McCarthy" ;
+    schema:givenName "Mick" .
+
+<http://example.org/worldcup/resource/manager/M-249> a wc:Manager ;
+    rdfs:label "James McCrae" ;
+    wc:countryName "Scotland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/James_McCrae_(footballer)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/James_McCrae_(footballer)> ;
+    schema:familyName "McCrae" ;
+    schema:givenName "James" .
+
+<http://example.org/worldcup/resource/manager/M-250> a wc:Manager ;
+    rdfs:label "Hugo Meisl" ;
+    wc:countryName "Austria" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Hugo_Meisl> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Hugo_Meisl> ;
+    schema:familyName "Meisl" ;
+    schema:givenName "Hugo" .
+
+<http://example.org/worldcup/resource/manager/M-251> a wc:Manager ;
+    rdfs:label "Josef Meissner" ;
+    wc:countryName "Czechoslovakia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Josef_Meissner> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Josef_Meissner> ;
+    schema:familyName "Meissner" ;
+    schema:givenName "Josef" .
+
+<http://example.org/worldcup/resource/manager/M-252> a wc:Manager ;
+    rdfs:label "Miguel Mejía Barón" ;
+    wc:countryName "Mexico" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Miguel_Mejía_Barón> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Miguel_Mej%C3%ADa_Bar%C3%B3n> ;
+    schema:familyName "Mejía Barón" ;
+    schema:givenName "Miguel" .
+
+<http://example.org/worldcup/resource/manager/M-253> a wc:Manager ;
+    rdfs:label "Rachid Mekhloufi" ;
+    wc:countryName "Algeria" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Rachid_Mekhloufi> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Rachid_Mekhloufi> ;
+    schema:familyName "Mekhloufi" ;
+    schema:givenName "Rachid" .
+
+<http://example.org/worldcup/resource/manager/M-254> a wc:Manager ;
+    rdfs:label "César Luis Menotti" ;
+    wc:countryName "Argentina" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/César_Luis_Menotti> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/C%C3%A9sar_Luis_Menotti> ;
+    schema:familyName "Menotti" ;
+    schema:givenName "César Luis" .
+
+<http://example.org/worldcup/resource/manager/M-255> a wc:Manager ;
+    rdfs:label "Hue Menzies" ;
+    wc:countryName "Jamaica" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Hue_Menzies> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Hue_Menzies> ;
+    schema:familyName "Menzies" ;
+    schema:givenName "Hue" .
+
+<http://example.org/worldcup/resource/manager/M-256> a wc:Manager ;
+    rdfs:label "Kálmán Mészöly" ;
+    wc:countryName "Hungary" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Kálmán_Mészöly> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/K%C3%A1lm%C3%A1n_M%C3%A9sz%C3%B6ly> ;
+    schema:familyName "Mészöly" ;
+    schema:givenName "Kálmán" .
+
+<http://example.org/worldcup/resource/manager/M-257> a wc:Manager ;
+    rdfs:label "Bruno Metsu" ;
+    wc:countryName "France" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Bruno_Metsu> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Bruno_Metsu> ;
+    schema:familyName "Metsu" ;
+    schema:givenName "Bruno" .
+
+<http://example.org/worldcup/resource/manager/M-258> a wc:Manager ;
+    rdfs:label "György Mezey" ;
+    wc:countryName "Hungary" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/György_Mezey> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Gy%C3%B6rgy_Mezey> ;
+    schema:familyName "Mezey" ;
+    schema:givenName "György" .
+
+<http://example.org/worldcup/resource/manager/M-259> a wc:Manager ;
+    rdfs:label "Henri Michel" ;
+    wc:countryName "France" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Henri_Michel> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Henri_Michel> ;
+    schema:familyName "Michel" ;
+    schema:givenName "Henri" .
+
+<http://example.org/worldcup/resource/manager/M-260> a wc:Manager ;
+    rdfs:label "Rinus Michels" ;
+    wc:countryName "Netherlands" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Rinus_Michels> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Rinus_Michels> ;
+    schema:familyName "Michels" ;
+    schema:givenName "Rinus" .
+
+<http://example.org/worldcup/resource/manager/M-261> a wc:Manager ;
+    rdfs:label "Czesław Michniewicz" ;
+    wc:countryName "Poland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Czesław_Michniewicz> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Czes%C5%82aw_Michniewicz> ;
+    schema:familyName "Michniewicz" ;
+    schema:givenName "Czesław" .
+
+<http://example.org/worldcup/resource/manager/M-262> a wc:Manager ;
+    rdfs:label "Prvoslav Mihajlović" ;
+    wc:countryName "Yugoslavia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Prvoslav_Mihajlović> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Prvoslav_Mihajlovi%C4%87> ;
+    schema:familyName "Mihajlović" ;
+    schema:givenName "Prvoslav" .
+
+<http://example.org/worldcup/resource/manager/M-263> a wc:Manager ;
+    rdfs:label "Ante Milicic" ;
+    wc:countryName "Australia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ante_Milicic> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ante_Milicic> ;
+    schema:familyName "Milicic" ;
+    schema:givenName "Ante" .
+
+<http://example.org/worldcup/resource/manager/M-264> a wc:Manager ;
+    rdfs:label "Miljan Miljanić" ;
+    wc:countryName "Yugoslavia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Miljan_Miljanić> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Miljan_Miljani%C4%87> ;
+    schema:familyName "Miljanić" ;
+    schema:givenName "Miljan" .
+
+<http://example.org/worldcup/resource/manager/M-265> a wc:Manager ;
+    rdfs:label "Robert Millar" ;
+    wc:countryName "Scotland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Robert_Millar_(soccer)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Robert_Millar_(soccer)> ;
+    schema:familyName "Millar" ;
+    schema:givenName "Robert" .
+
+<http://example.org/worldcup/resource/manager/M-266> a wc:Manager ;
+    rdfs:label "Bora Milutinović" ;
+    wc:countryName "Yugoslavia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Bora_Milutinović> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Bora_Milutinovi%C4%87> ;
+    schema:familyName "Milutinović" ;
+    schema:givenName "Bora" .
+
+<http://example.org/worldcup/resource/manager/M-267> a wc:Manager ;
+    rdfs:label "Satoshi Miyauchi" ;
+    wc:countryName "Japan" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Satoshi_Miyauchi> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Satoshi_Miyauchi> ;
+    schema:familyName "Miyauchi" ;
+    schema:givenName "Satoshi" .
+
+<http://example.org/worldcup/resource/manager/M-268> a wc:Manager ;
+    rdfs:label "Hristo Mladenov" ;
+    wc:countryName "Bulgaria" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Hristo_Mladenov> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Hristo_Mladenov> ;
+    schema:familyName "Mladenov" ;
+    schema:givenName "Hristo" .
+
+<http://example.org/worldcup/resource/manager/M-269> a wc:Manager ;
+    rdfs:label "Heshmat Mohajerani" ;
+    wc:countryName "Iran" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Heshmat_Mohajerani> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Heshmat_Mohajerani> ;
+    schema:familyName "Mohajerani" ;
+    schema:givenName "Heshmat" .
+
+<http://example.org/worldcup/resource/manager/M-270> a wc:Manager ;
+    rdfs:label "Carolina Morace" ;
+    wc:countryName "Italy" ;
+    wc:isFemale true ;
+    owl:sameAs <http://dbpedia.org/resource/Carolina_Morace> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Carolina_Morace> ;
+    schema:familyName "Morace" ;
+    schema:givenName "Carolina" .
+
+<http://example.org/worldcup/resource/manager/M-271> a wc:Manager ;
+    rdfs:label "Aymoré Moreira" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Aymoré_Moreira> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Aymor%C3%A9_Moreira> ;
+    schema:familyName "Moreira" ;
+    schema:givenName "Aymoré" .
+
+<http://example.org/worldcup/resource/manager/M-272> a wc:Manager ;
+    rdfs:label "Zezé Moreira" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Zezé_Moreira> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Zez%C3%A9_Moreira> ;
+    schema:familyName "Moreira" ;
+    schema:givenName "Zezé" .
+
+<http://example.org/worldcup/resource/manager/M-273> a wc:Manager ;
+    rdfs:label "Hajime Moriyasu" ;
+    wc:countryName "Japan" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Hajime_Moriyasu> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Hajime_Moriyasu> ;
+    schema:familyName "Moriyasu" ;
+    schema:givenName "Hajime" .
+
+<http://example.org/worldcup/resource/manager/M-274> a wc:Manager ;
+    rdfs:label "Nikolai Morozov" ;
+    wc:countryName "Soviet Union" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Nikolai_Petrovich_Morozov> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Nikolai_Petrovich_Morozov> ;
+    schema:familyName "Morozov" ;
+    schema:givenName "Nikolai" .
+
+<http://example.org/worldcup/resource/manager/M-275> a wc:Manager ;
+    rdfs:label "Heinrich Müller" ;
+    wc:countryName "Switzerland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Heinrich_Müller_(footballer,_born_1888)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Heinrich_M%C3%BCller_(footballer,_born_1888)> ;
+    schema:familyName "Müller" ;
+    schema:givenName "Heinrich" .
+
+<http://example.org/worldcup/resource/manager/M-276> a wc:Manager ;
+    rdfs:label "Miguel Muñoz" ;
+    wc:countryName "Spain" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Miguel_Muñoz> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Miguel_Mu%C3%B1oz> ;
+    schema:familyName "Muñoz" ;
+    schema:givenName "Miguel" .
+
+<http://example.org/worldcup/resource/manager/M-277> a wc:Manager ;
+    rdfs:label "Jimmy Murphy" ;
+    wc:countryName "Wales" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Jimmy_Murphy_(footballer)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jimmy_Murphy_(footballer)> ;
+    schema:familyName "Murphy" ;
+    schema:givenName "Jimmy" .
+
+<http://example.org/worldcup/resource/manager/M-278> a wc:Manager ;
+    rdfs:label "Dong-chan Myong" ;
+    wc:countryName "North Korea" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Myong_Dong-chan> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Myong_Dong-chan> ;
+    schema:familyName "Myong" ;
+    schema:givenName "Dong-chan" .
+
+<http://example.org/worldcup/resource/manager/M-279> a wc:Manager ;
+    rdfs:label "Rye-hyun Myung" ;
+    wc:countryName "North Korea" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Myung_Rye-hyun> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Myung_Rye-hyun> ;
+    schema:familyName "Myung" ;
+    schema:givenName "Rye-hyun" .
+
+<http://example.org/worldcup/resource/manager/M-280> a wc:Manager ;
+    rdfs:label "Ödön Nádas" ;
+    wc:countryName "Hungary" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ödön_Nádas> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/%C3%96d%C3%B6n_N%C3%A1das> ;
+    schema:familyName "Nádas" ;
+    schema:givenName "Ödön" .
+
+<http://example.org/worldcup/resource/manager/M-281> a wc:Manager ;
+    rdfs:label "József Nagy" ;
+    wc:countryName "Hungary" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/József_Nagy_(footballer,_born_1892)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/J%C3%B3zsef_Nagy_(footballer,_born_1892)> ;
+    schema:familyName "Nagy" ;
+    schema:givenName "József" .
+
+<http://example.org/worldcup/resource/manager/M-282> a wc:Manager ;
+    rdfs:label "Walter Nausch" ;
+    wc:countryName "Austria" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Walter_Nausch> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Walter_Nausch> ;
+    schema:familyName "Nausch" ;
+    schema:givenName "Walter" .
+
+<http://example.org/worldcup/resource/manager/M-283> a wc:Manager ;
+    rdfs:label "Adam Nawałka" ;
+    wc:countryName "Poland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Adam_Nawałka> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Adam_Nawa%C5%82ka> ;
+    schema:familyName "Nawałka" ;
+    schema:givenName "Adam" .
+
+<http://example.org/worldcup/resource/manager/M-284> a wc:Manager ;
+    rdfs:label "Silvia Neid" ;
+    wc:countryName "Germany" ;
+    wc:isFemale true ;
+    owl:sameAs <http://dbpedia.org/resource/Silvia_Neid> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Silvia_Neid> ;
+    schema:familyName "Neid" ;
+    schema:givenName "Silvia" .
+
+<http://example.org/worldcup/resource/manager/M-285> a wc:Manager ;
+    rdfs:label "Valery Nepomnyashchy" ;
+    wc:countryName "Soviet Union" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Valery_Nepomnyashchy> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Valery_Nepomnyashchy> ;
+    schema:familyName "Nepomnyashchy" ;
+    schema:givenName "Valery" .
+
+<http://example.org/worldcup/resource/manager/M-286> a wc:Manager ;
+    rdfs:label "Otto Nerz" ;
+    wc:countryName "Germany" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Otto_Nerz> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Otto_Nerz> ;
+    schema:familyName "Nerz" ;
+    schema:givenName "Otto" .
+
+<http://example.org/worldcup/resource/manager/M-287> a wc:Manager ;
+    rdfs:label "Phil Neville" ;
+    wc:countryName "England" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Phil_Neville> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Phil_Neville> ;
+    schema:familyName "Neville" ;
+    schema:givenName "Phil" .
+
+<http://example.org/worldcup/resource/manager/M-288> a wc:Manager ;
+    rdfs:label "Angelo Niculescu" ;
+    wc:countryName "Romania" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Angelo_Niculescu> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Angelo_Niculescu> ;
+    schema:familyName "Niculescu" ;
+    schema:givenName "Angelo" .
+
+<http://example.org/worldcup/resource/manager/M-289> a wc:Manager ;
+    rdfs:label "Akira Nishino" ;
+    wc:countryName "Japan" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Akira_Nishino_(footballer)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Akira_Nishino_(footballer)> ;
+    schema:familyName "Nishino" ;
+    schema:givenName "Akira" .
+
+<http://example.org/worldcup/resource/manager/M-290> a wc:Manager ;
+    rdfs:label "Olle Nordin" ;
+    wc:countryName "Sweden" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Olle_Nordin> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Olle_Nordin> ;
+    schema:familyName "Nordin" ;
+    schema:givenName "Olle" .
+
+<http://example.org/worldcup/resource/manager/M-291> a wc:Manager ;
+    rdfs:label "Ferruccio Novo" ;
+    wc:countryName "Italy" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ferruccio_Novo> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ferruccio_Novo> ;
+    schema:familyName "Novo" ;
+    schema:givenName "Ferruccio" .
+
+<http://example.org/worldcup/resource/manager/M-292> a wc:Manager ;
+    rdfs:label "Hiroshi Ohashi" ;
+    wc:countryName "Japan" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Hiroshi_Ohashi> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Hiroshi_Ohashi> ;
+    schema:familyName "Ohashi" ;
+    schema:givenName "Hiroshi" .
+
+<http://example.org/worldcup/resource/manager/M-293> a wc:Manager ;
+    rdfs:label "Takeshi Okada" ;
+    wc:countryName "Japan" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Takeshi_Okada> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Takeshi_Okada> ;
+    schema:familyName "Okada" ;
+    schema:givenName "Takeshi" .
+
+<http://example.org/worldcup/resource/manager/M-294> a wc:Manager ;
+    rdfs:label "Edwin Okon" ;
+    wc:countryName "Nigeria" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Edwin_Okon> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Edwin_Okon> ;
+    schema:familyName "Okon" ;
+    schema:givenName "Edwin" .
+
+<http://example.org/worldcup/resource/manager/M-295> a wc:Manager ;
+    rdfs:label "Samuel Okpodu" ;
+    wc:countryName "Nigeria" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Samuel_Okpodu> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Samuel_Okpodu> ;
+    schema:familyName "Okpodu" ;
+    schema:givenName "Samuel" .
+
+<http://example.org/worldcup/resource/manager/M-296> a wc:Manager ;
+    rdfs:label "Francisco Olazar" ;
+    wc:countryName "Argentina" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Francisco_Olazar> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Francisco_Olazar> ;
+    schema:familyName "Olazar" ;
+    schema:givenName "Francisco" .
+
+<http://example.org/worldcup/resource/manager/M-297> a wc:Manager ;
+    rdfs:label "António Oliveira" ;
+    wc:countryName "Portugal" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/António_Oliveira_(footballer,_born_1952)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ant%C3%B3nio_Oliveira_(footballer,_born_1952)> ;
+    schema:familyName "Oliveira" ;
+    schema:givenName "António" .
+
+<http://example.org/worldcup/resource/manager/M-298> a wc:Manager ;
+    rdfs:label "Egil Olsen" ;
+    wc:countryName "Norway" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Egil_Olsen> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Egil_Olsen> ;
+    schema:familyName "Olsen" ;
+    schema:givenName "Egil" .
+
+<http://example.org/worldcup/resource/manager/M-299> a wc:Manager ;
+    rdfs:label "Morten Olsen" ;
+    wc:countryName "Denmark" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Morten_Olsen> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Morten_Olsen> ;
+    schema:familyName "Olsen" ;
+    schema:givenName "Morten" .
+
+<http://example.org/worldcup/resource/manager/M-300> a wc:Manager ;
+    rdfs:label "Festus Onigbinde" ;
+    wc:countryName "Nigeria" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Festus_Onigbinde> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Festus_Onigbinde> ;
+    schema:familyName "Onigbinde" ;
+    schema:givenName "Festus" .
+
+<http://example.org/worldcup/resource/manager/M-301> a wc:Manager ;
+    rdfs:label "Willie Ormond" ;
+    wc:countryName "Scotland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Willie_Ormond> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Willie_Ormond> ;
+    schema:familyName "Ormond" ;
+    schema:givenName "Willie" .
+
+<http://example.org/worldcup/resource/manager/M-302> a wc:Manager ;
+    rdfs:label "György Orth" ;
+    wc:countryName "Hungary" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/György_Orth> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Gy%C3%B6rgy_Orth> ;
+    schema:familyName "Orth" ;
+    schema:givenName "György" .
+
+<http://example.org/worldcup/resource/manager/M-303> a wc:Manager ;
+    rdfs:label "Ivica Osim" ;
+    wc:countryName "Yugoslavia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ivica_Osim> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ivica_Osim> ;
+    schema:familyName "Osim" ;
+    schema:givenName "Ivica" .
+
+<http://example.org/worldcup/resource/manager/M-304> a wc:Manager ;
+    rdfs:label "Juan Carlos Osorio" ;
+    wc:countryName "Colombia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Juan_Carlos_Osorio> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Juan_Carlos_Osorio> ;
+    schema:familyName "Osorio" ;
+    schema:givenName "Juan Carlos" .
+
+<http://example.org/worldcup/resource/manager/M-305> a wc:Manager ;
+    rdfs:label "Georgi Pachedzhiev" ;
+    wc:countryName "Bulgaria" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Georgi_Pachedzhiev> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Georgi_Pachedzhiev> ;
+    schema:familyName "Pachedzhiev" ;
+    schema:givenName "Georgi" .
+
+<http://example.org/worldcup/resource/manager/M-306> a wc:Manager ;
+    rdfs:label "Rob Page" ;
+    wc:countryName "Wales" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Rob_Page> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Rob_Page> ;
+    schema:familyName "Page" ;
+    schema:givenName "Rob" .
+
+<http://example.org/worldcup/resource/manager/M-307> a wc:Manager ;
+    rdfs:label "Isaac Paha" ;
+    wc:countryName "Ghana" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Isaac_Paha> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Isaac_Paha> ;
+    schema:familyName "Paha" ;
+    schema:givenName "Isaac" .
+
+<http://example.org/worldcup/resource/manager/M-308> a wc:Manager ;
+    rdfs:label "Gunilla Paijkull" ;
+    wc:countryName "Sweden" ;
+    wc:isFemale true ;
+    owl:sameAs <http://dbpedia.org/resource/Gunilla_Paijkull> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Gunilla_Paijkull> ;
+    schema:familyName "Paijkull" ;
+    schema:givenName "Gunilla" .
+
+<http://example.org/worldcup/resource/manager/M-309> a wc:Manager ;
+    rdfs:label "Alketas Panagoulias" ;
+    wc:countryName "Greece" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Alketas_Panagoulias> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Alketas_Panagoulias> ;
+    schema:familyName "Panagoulias" ;
+    schema:givenName "Alketas" .
+
+<http://example.org/worldcup/resource/manager/M-310> a wc:Manager ;
+    rdfs:label "Marcos Paquetá" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Marcos_Paquetá> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Marcos_Paquet%C3%A1> ;
+    schema:familyName "Paquetá" ;
+    schema:givenName "Marcos" .
+
+<http://example.org/worldcup/resource/manager/M-311> a wc:Manager ;
+    rdfs:label "Carlos Alberto Parreira" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Carlos_Alberto_Parreira> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Carlos_Alberto_Parreira> ;
+    schema:familyName "Parreira" ;
+    schema:givenName "Carlos Alberto" .
+
+<http://example.org/worldcup/resource/manager/M-312> a wc:Manager ;
+    rdfs:label "Felipe Pascucci" ;
+    wc:countryName "Italy" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Felipe_Pascucci> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Felipe_Pascucci> ;
+    schema:familyName "Pascucci" ;
+    schema:givenName "Felipe" .
+
+<http://example.org/worldcup/resource/manager/M-313> a wc:Manager ;
+    rdfs:label "Daniel Passarella" ;
+    wc:countryName "Argentina" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Daniel_Passarella> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Daniel_Passarella> ;
+    schema:familyName "Passarella" ;
+    schema:givenName "Daniel" .
+
+<http://example.org/worldcup/resource/manager/M-314> a wc:Manager ;
+    rdfs:label "Adolfo Pedernera" ;
+    wc:countryName "Argentina" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Adolfo_Pedernera> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Adolfo_Pedernera> ;
+    schema:familyName "Pedernera" ;
+    schema:givenName "Adolfo" .
+
+<http://example.org/worldcup/resource/manager/M-315> a wc:Manager ;
+    rdfs:label "José Pékerman" ;
+    wc:countryName "Argentina" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/José_Pékerman> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jos%C3%A9_P%C3%A9kerman> ;
+    schema:familyName "Pékerman" ;
+    schema:givenName "José" .
+
+<http://example.org/worldcup/resource/manager/M-316> a wc:Manager ;
+    rdfs:label "Even Pellerud" ;
+    wc:countryName "Norway" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Even_Pellerud> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Even_Pellerud> ;
+    schema:familyName "Pellerud" ;
+    schema:givenName "Even" .
+
+<http://example.org/worldcup/resource/manager/M-317> a wc:Manager ;
+    rdfs:label "Dimitar Penev" ;
+    wc:countryName "Bulgaria" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Dimitar_Penev> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Dimitar_Penev> ;
+    schema:familyName "Penev" ;
+    schema:givenName "Dimitar" .
+
+<http://example.org/worldcup/resource/manager/M-318> a wc:Manager ;
+    rdfs:label "Ilija Petković" ;
+    wc:countryName "Serbia and Montenegro" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ilija_Petković> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ilija_Petkovi%C4%87> ;
+    schema:familyName "Petković" ;
+    schema:givenName "Ilija" .
+
+<http://example.org/worldcup/resource/manager/M-319> a wc:Manager ;
+    rdfs:label "Vladimir Petković" ;
+    wc:countryName "Switzerland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Vladimir_Petković> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Vladimir_Petkovi%C4%87> ;
+    schema:familyName "Petković" ;
+    schema:givenName "Vladimir" .
+
+<http://example.org/worldcup/resource/manager/M-320> a wc:Manager ;
+    rdfs:label "Karel Petrů" ;
+    wc:countryName "Czechoslovakia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Karel_Petrů> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Karel_Petr%C5%AF> ;
+    schema:familyName "Petrů" ;
+    schema:givenName "Karel" .
+
+<http://example.org/worldcup/resource/manager/M-321> a wc:Manager ;
+    rdfs:label "John Pettersson" ;
+    wc:countryName "Sweden" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/John_Pettersson_(football_manager)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/John_Pettersson_(football_manager)> ;
+    schema:familyName "Pettersson" ;
+    schema:givenName "John" .
+
+<http://example.org/worldcup/resource/manager/M-322> a wc:Manager ;
+    rdfs:label "Otto Pfister" ;
+    wc:countryName "Germany" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Otto_Pfister> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Otto_Pfister> ;
+    schema:familyName "Pfister" ;
+    schema:givenName "Otto" .
+
+<http://example.org/worldcup/resource/manager/M-323> a wc:Manager ;
+    rdfs:label "Pierre Pibarot" ;
+    wc:countryName "France" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Pierre_Pibarot> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Pierre_Pibarot> ;
+    schema:familyName "Pibarot" ;
+    schema:givenName "Pierre" .
+
+<http://example.org/worldcup/resource/manager/M-324> a wc:Manager ;
+    rdfs:label "Antoni Piechniczek" ;
+    wc:countryName "Poland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Antoni_Piechniczek> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Antoni_Piechniczek> ;
+    schema:familyName "Piechniczek" ;
+    schema:givenName "Antoni" .
+
+<http://example.org/worldcup/resource/manager/M-325> a wc:Manager ;
+    rdfs:label "Adhemar Pimenta" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Adhemar_Pimenta> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Adhemar_Pimenta> ;
+    schema:familyName "Pimenta" ;
+    schema:givenName "Adhemar" .
+
+<http://example.org/worldcup/resource/manager/M-326> a wc:Manager ;
+    rdfs:label "Jorge Luis Pinto" ;
+    wc:countryName "Colombia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Jorge_Luis_Pinto> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jorge_Luis_Pinto> ;
+    schema:familyName "Pinto" ;
+    schema:givenName "Jorge Luis" .
+
+<http://example.org/worldcup/resource/manager/M-327> a wc:Manager ;
+    rdfs:label "Sepp Piontek" ;
+    wc:countryName "Germany" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Sepp_Piontek> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Sepp_Piontek> ;
+    schema:familyName "Piontek" ;
+    schema:givenName "Sepp" .
+
+<http://example.org/worldcup/resource/manager/M-328> a wc:Manager ;
+    rdfs:label "Fernando Pires" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Fernando_Pires_(footballer,_born_1951)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Fernando_Pires_(footballer,_born_1951)> ;
+    schema:familyName "Pires" ;
+    schema:givenName "Fernando" .
+
+<http://example.org/worldcup/resource/manager/M-329> a wc:Manager ;
+    rdfs:label "Juan Antonio Pizzi" ;
+    wc:countryName "Spain" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Juan_Antonio_Pizzi> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Juan_Antonio_Pizzi> ;
+    schema:familyName "Pizzi" ;
+    schema:givenName "Juan Antonio" .
+
+<http://example.org/worldcup/resource/manager/M-330> a wc:Manager ;
+    rdfs:label "Roberto Porta" ;
+    wc:countryName "Uruguay" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Roberto_Porta> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Roberto_Porta> ;
+    schema:familyName "Porta" ;
+    schema:givenName "Roberto" .
+
+<http://example.org/worldcup/resource/manager/M-331> a wc:Manager ;
+    rdfs:label "Ange Postecoglou" ;
+    wc:countryName "Australia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ange_Postecoglou> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ange_Postecoglou> ;
+    schema:familyName "Postecoglou" ;
+    schema:givenName "Ange" .
+
+<http://example.org/worldcup/resource/manager/M-332> a wc:Manager ;
+    rdfs:label "Hope Powell" ;
+    wc:countryName "England" ;
+    wc:isFemale true ;
+    owl:sameAs <http://dbpedia.org/resource/Hope_Powell> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Hope_Powell> ;
+    schema:familyName "Powell" ;
+    schema:givenName "Hope" .
+
+<http://example.org/worldcup/resource/manager/M-333> a wc:Manager ;
+    rdfs:label "Vittorio Pozzo" ;
+    wc:countryName "Italy" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Vittorio_Pozzo> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Vittorio_Pozzo> ;
+    schema:familyName "Pozzo" ;
+    schema:givenName "Vittorio" .
+
+<http://example.org/worldcup/resource/manager/M-334> a wc:Manager ;
+    rdfs:label "Cesare Prandelli" ;
+    wc:countryName "Italy" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Cesare_Prandelli> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Cesare_Prandelli> ;
+    schema:familyName "Prandelli" ;
+    schema:givenName "Cesare" .
+
+<http://example.org/worldcup/resource/manager/M-335> a wc:Manager ;
+    rdfs:label "Mario Pretto" ;
+    wc:countryName "Italy" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Mario_Pretto> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Mario_Pretto> ;
+    schema:familyName "Pretto" ;
+    schema:givenName "Mario" .
+
+<http://example.org/worldcup/resource/manager/M-336> a wc:Manager ;
+    rdfs:label "Herbert Prohaska" ;
+    wc:countryName "Austria" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Herbert_Prohaska> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Herbert_Prohaska> ;
+    schema:familyName "Prohaska" ;
+    schema:givenName "Herbert" .
+
+<http://example.org/worldcup/resource/manager/M-337> a wc:Manager ;
+    rdfs:label "Víctor Púa" ;
+    wc:countryName "Uruguay" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Víctor_Púa> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/V%C3%ADctor_P%C3%BAa> ;
+    schema:familyName "Púa" ;
+    schema:givenName "Víctor" .
+
+<http://example.org/worldcup/resource/manager/M-338> a wc:Manager ;
+    rdfs:label "Sandro Puppo" ;
+    wc:countryName "Italy" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Sandro_Puppo> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Sandro_Puppo> ;
+    schema:familyName "Puppo" ;
+    schema:givenName "Sandro" .
+
+<http://example.org/worldcup/resource/manager/M-339> a wc:Manager ;
+    rdfs:label "Carlos Queiroz" ;
+    wc:countryName "Portugal" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Carlos_Queiroz> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Carlos_Queiroz> ;
+    schema:familyName "Queiroz" ;
+    schema:givenName "Carlos" .
+
+<http://example.org/worldcup/resource/manager/M-340> a wc:Manager ;
+    rdfs:label "Ignacio Quereda" ;
+    wc:countryName "Spain" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ignacio_Quereda> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ignacio_Quereda> ;
+    schema:familyName "Quereda" ;
+    schema:givenName "Ignacio" .
+
+<http://example.org/worldcup/resource/manager/M-341> a wc:Manager ;
+    rdfs:label "Costel Rădulescu" ;
+    wc:countryName "Romania" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Constantin_Rădulescu_(footballer,_born_1896)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Constantin_R%C4%83dulescu_(footballer,_born_1896)> ;
+    schema:familyName "Rădulescu" ;
+    schema:givenName "Costel" .
+
+<http://example.org/worldcup/resource/manager/M-342> a wc:Manager ;
+    rdfs:label "Milovan Rajevac" ;
+    wc:countryName "Serbia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Milovan_Rajevac> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Milovan_Rajevac> ;
+    schema:familyName "Rajevac" ;
+    schema:givenName "Milovan" .
+
+<http://example.org/worldcup/resource/manager/M-343> a wc:Manager ;
+    rdfs:label "Óscar Ramírez" ;
+    wc:countryName "Costa Rica" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Óscar_Ramírez_(footballer,_born_1964)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/%C3%93scar_Ram%C3%ADrez_(footballer,_born_1964)> ;
+    schema:familyName "Ramírez" ;
+    schema:givenName "Óscar" .
+
+<http://example.org/worldcup/resource/manager/M-344> a wc:Manager ;
+    rdfs:label "Alf Ramsey" ;
+    wc:countryName "England" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Alf_Ramsey> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Alf_Ramsey> ;
+    schema:familyName "Ramsey" ;
+    schema:givenName "Alf" .
+
+<http://example.org/worldcup/resource/manager/M-345> a wc:Manager ;
+    rdfs:label "Karl Rappan" ;
+    wc:countryName "Austria" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Karl_Rappan> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Karl_Rappan> ;
+    schema:familyName "Rappan" ;
+    schema:givenName "Karl" .
+
+<http://example.org/worldcup/resource/manager/M-346> a wc:Manager ;
+    rdfs:label "Rale Rasic" ;
+    wc:countryName "Yugoslavia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Rale_Rasic> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Rale_Rasic> ;
+    schema:familyName "Rasic" ;
+    schema:givenName "Rale" .
+
+<http://example.org/worldcup/resource/manager/M-347> a wc:Manager ;
+    rdfs:label "George Raynor" ;
+    wc:countryName "England" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/George_Raynor> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/George_Raynor> ;
+    schema:familyName "Raynor" ;
+    schema:givenName "George" .
+
+<http://example.org/worldcup/resource/manager/M-348> a wc:Manager ;
+    rdfs:label "Cayetano Ré" ;
+    wc:countryName "Paraguay" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Cayetano_Ré> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Cayetano_R%C3%A9> ;
+    schema:familyName "Ré" ;
+    schema:givenName "Cayetano" .
+
+<http://example.org/worldcup/resource/manager/M-349> a wc:Manager ;
+    rdfs:label "Tony Readings" ;
+    wc:countryName "England" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Tony_Readings> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Tony_Readings> ;
+    schema:familyName "Readings" ;
+    schema:givenName "Tony" .
+
+<http://example.org/worldcup/resource/manager/M-350> a wc:Manager ;
+    rdfs:label "Walid Regragui" ;
+    wc:countryName "Morocco" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Walid_Regragui> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Walid_Regragui> ;
+    schema:familyName "Regragui" ;
+    schema:givenName "Walid" .
+
+<http://example.org/worldcup/resource/manager/M-351> a wc:Manager ;
+    rdfs:label "Otto Rehhagel" ;
+    wc:countryName "Germany" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Otto_Rehhagel> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Otto_Rehhagel> ;
+    schema:familyName "Rehhagel" ;
+    schema:givenName "Otto" .
+
+<http://example.org/worldcup/resource/manager/M-352> a wc:Manager ;
+    rdfs:label "Roger Reijners" ;
+    wc:countryName "Netherlands" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Roger_Reijners> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Roger_Reijners> ;
+    schema:familyName "Reijners" ;
+    schema:givenName "Roger" .
+
+<http://example.org/worldcup/resource/manager/M-353> a wc:Manager ;
+    rdfs:label "Hervé Renard" ;
+    wc:countryName "France" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Hervé_Renard> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Herv%C3%A9_Renard> ;
+    schema:familyName "Renard" ;
+    schema:givenName "Hervé" .
+
+<http://example.org/worldcup/resource/manager/M-354> a wc:Manager ;
+    rdfs:label "Song-gun Ri" ;
+    wc:countryName "North Korea" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ri_Song-gun> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ri_Song-gun> ;
+    schema:familyName "Ri" ;
+    schema:givenName "Song-gun" .
+
+<http://example.org/worldcup/resource/manager/M-355> a wc:Manager ;
+    rdfs:label "Fernando Riera" ;
+    wc:countryName "Chile" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Fernando_Riera> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Fernando_Riera> ;
+    schema:familyName "Riera" ;
+    schema:givenName "Fernando" .
+
+<http://example.org/worldcup/resource/manager/M-356> a wc:Manager ;
+    rdfs:label "Bobby Robson" ;
+    wc:countryName "England" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Bobby_Robson> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Bobby_Robson> ;
+    schema:familyName "Robson" ;
+    schema:givenName "Bobby" .
+
+<http://example.org/worldcup/resource/manager/M-357> a wc:Manager ;
+    rdfs:label "José Antonio Roca" ;
+    wc:countryName "Mexico" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/José_Antonio_Roca> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jos%C3%A9_Antonio_Roca> ;
+    schema:familyName "Roca" ;
+    schema:givenName "José Antonio" .
+
+<http://example.org/worldcup/resource/manager/M-358> a wc:Manager ;
+    rdfs:label "Mauricio Rodríguez" ;
+    wc:countryName "El Salvador" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Mauricio_Alonso_Rodríguez> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Mauricio_Alonso_Rodr%C3%ADguez> ;
+    schema:familyName "Rodríguez" ;
+    schema:givenName "Mauricio" .
+
+<http://example.org/worldcup/resource/manager/M-359> a wc:Manager ;
+    rdfs:label "Gernot Rohr" ;
+    wc:countryName "Germany" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Gernot_Rohr> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Gernot_Rohr> ;
+    schema:familyName "Rohr" ;
+    schema:givenName "Gernot" .
+
+<http://example.org/worldcup/resource/manager/M-360> a wc:Manager ;
+    rdfs:label "Oleg Romantsev" ;
+    wc:countryName "Russia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Oleg_Romantsev> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Oleg_Romantsev> ;
+    schema:familyName "Romantsev" ;
+    schema:givenName "Oleg" .
+
+<http://example.org/worldcup/resource/manager/M-361> a wc:Manager ;
+    rdfs:label "Andy Roxburgh" ;
+    wc:countryName "Scotland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Andy_Roxburgh> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Andy_Roxburgh> ;
+    schema:familyName "Roxburgh" ;
+    schema:givenName "Andy" .
+
+<http://example.org/worldcup/resource/manager/M-362> a wc:Manager ;
+    rdfs:label "Ricardo Rozo" ;
+    wc:countryName "Colombia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ricardo_Rozo> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ricardo_Rozo> ;
+    schema:familyName "Rozo" ;
+    schema:givenName "Ricardo" .
+
+<http://example.org/worldcup/resource/manager/M-363> a wc:Manager ;
+    rdfs:label "Reinaldo Rueda" ;
+    wc:countryName "Colombia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Reinaldo_Rueda> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Reinaldo_Rueda> ;
+    schema:familyName "Rueda" ;
+    schema:givenName "Reinaldo" .
+
+<http://example.org/worldcup/resource/manager/M-364> a wc:Manager ;
+    rdfs:label "Aníbal Ruiz" ;
+    wc:countryName "Uruguay" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Aníbal_Ruiz> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/An%C3%ADbal_Ruiz> ;
+    schema:familyName "Ruiz" ;
+    schema:givenName "Aníbal" .
+
+<http://example.org/worldcup/resource/manager/M-365> a wc:Manager ;
+    rdfs:label "Greg Ryan" ;
+    wc:countryName "United States" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Greg_Ryan> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Greg_Ryan> ;
+    schema:familyName "Ryan" ;
+    schema:givenName "Greg" .
+
+<http://example.org/worldcup/resource/manager/M-366> a wc:Manager ;
+    rdfs:label "Rabah Saâdane" ;
+    wc:countryName "Algeria" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Rabah_Saâdane> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Rabah_Sa%C3%A2dane> ;
+    schema:familyName "Saâdane" ;
+    schema:givenName "Rabah" .
+
+<http://example.org/worldcup/resource/manager/M-367> a wc:Manager ;
+    rdfs:label "Alejandro Sabella" ;
+    wc:countryName "Argentina" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Alejandro_Sabella> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Alejandro_Sabella> ;
+    schema:familyName "Sabella" ;
+    schema:givenName "Alejandro" .
+
+<http://example.org/worldcup/resource/manager/M-368> a wc:Manager ;
+    rdfs:label "Arrigo Sacchi" ;
+    wc:countryName "Italy" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Arrigo_Sacchi> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Arrigo_Sacchi> ;
+    schema:familyName "Sacchi" ;
+    schema:givenName "Arrigo" .
+
+<http://example.org/worldcup/resource/manager/M-369> a wc:Manager ;
+    rdfs:label "Pavel Sadyrin" ;
+    wc:countryName "Russia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Pavel_Sadyrin> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Pavel_Sadyrin> ;
+    schema:familyName "Sadyrin" ;
+    schema:givenName "Pavel" .
+
+<http://example.org/worldcup/resource/manager/M-370> a wc:Manager ;
+    rdfs:label "Jorge Sampaoli" ;
+    wc:countryName "Argentina" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Jorge_Sampaoli> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jorge_Sampaoli> ;
+    schema:familyName "Sampaoli" ;
+    schema:givenName "Jorge" .
+
+<http://example.org/worldcup/resource/manager/M-371> a wc:Manager ;
+    rdfs:label "Mark Sampson" ;
+    wc:countryName "Wales" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Mark_Sampson> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Mark_Sampson> ;
+    schema:familyName "Sampson" ;
+    schema:givenName "Mark" .
+
+<http://example.org/worldcup/resource/manager/M-372> a wc:Manager ;
+    rdfs:label "Steve Sampson" ;
+    wc:countryName "United States" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Steve_Sampson> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Steve_Sampson> ;
+    schema:familyName "Sampson" ;
+    schema:givenName "Steve" .
+
+<http://example.org/worldcup/resource/manager/M-373> a wc:Manager ;
+    rdfs:label "Félix Sánchez" ;
+    wc:countryName "Spain" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Félix_Sánchez_(football_manager)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/F%C3%A9lix_S%C3%A1nchez_(football_manager)> ;
+    schema:familyName "Sánchez" ;
+    schema:givenName "Félix" .
+
+<http://example.org/worldcup/resource/manager/M-374> a wc:Manager ;
+    rdfs:label "José Santamaría" ;
+    wc:countryName "Uruguay" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/José_Santamaría> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jos%C3%A9_Santamar%C3%ADa> ;
+    schema:familyName "Santamaría" ;
+    schema:givenName "José" .
+
+<http://example.org/worldcup/resource/manager/M-375> a wc:Manager ;
+    rdfs:label "Telê Santana" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Telê_Santana> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Tel%C3%AA_Santana> ;
+    schema:familyName "Santana" ;
+    schema:givenName "Telê" .
+
+<http://example.org/worldcup/resource/manager/M-376> a wc:Manager ;
+    rdfs:label "Luis Santibáñez" ;
+    wc:countryName "Chile" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Luis_Santibáñez> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Luis_Santib%C3%A1%C3%B1ez> ;
+    schema:familyName "Santibáñez" ;
+    schema:givenName "Luis" .
+
+<http://example.org/worldcup/resource/manager/M-377> a wc:Manager ;
+    rdfs:label "Fernando Santos" ;
+    wc:countryName "Portugal" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Fernando_Santos_(footballer,_born_1954)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Fernando_Santos_(footballer,_born_1954)> ;
+    schema:familyName "Santos" ;
+    schema:givenName "Fernando" .
+
+<http://example.org/worldcup/resource/manager/M-378> a wc:Manager ;
+    rdfs:label "Adrian Santrac" ;
+    wc:countryName "Australia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Adrian_Santrac> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Adrian_Santrac> ;
+    schema:familyName "Santrac" ;
+    schema:givenName "Adrian" .
+
+<http://example.org/worldcup/resource/manager/M-379> a wc:Manager ;
+    rdfs:label "Slobodan Santrač" ;
+    wc:countryName "Yugoslavia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Slobodan_Santrač> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Slobodan_Santra%C4%8D> ;
+    schema:familyName "Santrač" ;
+    schema:givenName "Slobodan" .
+
+<http://example.org/worldcup/resource/manager/M-380> a wc:Manager ;
+    rdfs:label "Norio Sasaki" ;
+    wc:countryName "Japan" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Norio_Sasaki> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Norio_Sasaki> ;
+    schema:familyName "Sasaki" ;
+    schema:givenName "Norio" .
+
+<http://example.org/worldcup/resource/manager/M-381> a wc:Manager ;
+    rdfs:label "Ulises Saucedo" ;
+    wc:countryName "Bolivia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ulises_Saucedo> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ulises_Saucedo> ;
+    schema:familyName "Saucedo" ;
+    schema:givenName "Ulises" .
+
+<http://example.org/worldcup/resource/manager/M-382> a wc:Manager ;
+    rdfs:label "Alexandru Săvulescu" ;
+    wc:countryName "Romania" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Alexandru_Săvulescu_(footballer)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Alexandru_S%C4%83vulescu_(footballer)> ;
+    schema:familyName "Săvulescu" ;
+    schema:givenName "Alexandru" .
+
+<http://example.org/worldcup/resource/manager/M-383> a wc:Manager ;
+    rdfs:label "Lionel Scaloni" ;
+    wc:countryName "Argentina" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Lionel_Scaloni> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Lionel_Scaloni> ;
+    schema:familyName "Scaloni" ;
+    schema:givenName "Lionel" .
+
+<http://example.org/worldcup/resource/manager/M-384> a wc:Manager ;
+    rdfs:label "Winfried Schäfer" ;
+    wc:countryName "Germany" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Winfried_Schäfer> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Winfried_Sch%C3%A4fer> ;
+    schema:familyName "Schäfer" ;
+    schema:givenName "Winfried" .
+
+<http://example.org/worldcup/resource/manager/M-385> a wc:Manager ;
+    rdfs:label "Alfréd Schaffer" ;
+    wc:countryName "Hungary" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Alfréd_Schaffer> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Alfr%C3%A9d_Schaffer> ;
+    schema:familyName "Schaffer" ;
+    schema:givenName "Alfréd" .
+
+<http://example.org/worldcup/resource/manager/M-386> a wc:Manager ;
+    rdfs:label "Emmanuel Scheffer" ;
+    wc:countryName "Israel" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Emmanuel_Scheffer> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Emmanuel_Scheffer> ;
+    schema:familyName "Scheffer" ;
+    schema:givenName "Emmanuel" .
+
+<http://example.org/worldcup/resource/manager/M-387> a wc:Manager ;
+    rdfs:label "Georg Schmidt" ;
+    wc:countryName "Austria" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Georg_Schmidt_(football_coach)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Georg_Schmidt_(football_coach)> ;
+    schema:familyName "Schmidt" ;
+    schema:givenName "Georg" .
+
+<http://example.org/worldcup/resource/manager/M-388> a wc:Manager ;
+    rdfs:label "Helmut Schön" ;
+    wc:countryName "Germany" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Helmut_Schön> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Helmut_Sch%C3%B6n> ;
+    schema:familyName "Schön" ;
+    schema:givenName "Helmut" .
+
+<http://example.org/worldcup/resource/manager/M-389> a wc:Manager ;
+    rdfs:label "Luiz Felipe Scolari" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Luiz_Felipe_Scolari> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Luiz_Felipe_Scolari> ;
+    schema:familyName "Scolari" ;
+    schema:givenName "Luiz Felipe" .
+
+<http://example.org/worldcup/resource/manager/M-390> a wc:Manager ;
+    rdfs:label "Gusztáv Sebes" ;
+    wc:countryName "Hungary" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Gusztáv_Sebes> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Guszt%C3%A1v_Sebes> ;
+    schema:familyName "Sebes" ;
+    schema:givenName "Gusztáv" .
+
+<http://example.org/worldcup/resource/manager/M-391> a wc:Manager ;
+    rdfs:label "Ali Selmi" ;
+    wc:countryName "Poland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ali_Selmi> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ali_Selmi> ;
+    schema:familyName "Selmi" ;
+    schema:givenName "Ali" .
+
+<http://example.org/worldcup/resource/manager/M-392> a wc:Manager ;
+    rdfs:label "Helmut Senekowitsch" ;
+    wc:countryName "Austria" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Helmut_Senekowitsch> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Helmut_Senekowitsch> ;
+    schema:familyName "Senekowitsch" ;
+    schema:givenName "Helmut" .
+
+<http://example.org/worldcup/resource/manager/M-393> a wc:Manager ;
+    rdfs:label "Tom Sermanni" ;
+    wc:countryName "Scotland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Tom_Sermanni> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Tom_Sermanni> ;
+    schema:familyName "Sermanni" ;
+    schema:givenName "Tom" .
+
+<http://example.org/worldcup/resource/manager/M-394> a wc:Manager ;
+    rdfs:label "Ruihua Shang" ;
+    wc:countryName "China" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Shang_Ruihua> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Shang_Ruihua> ;
+    schema:familyName "Shang" ;
+    schema:givenName "Ruihua" .
+
+<http://example.org/worldcup/resource/manager/M-395> a wc:Manager ;
+    rdfs:label "Tae-yong Shin" ;
+    wc:countryName "South Korea" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Shin_Tae-yong> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Shin_Tae-yong> ;
+    schema:familyName "Shin" ;
+    schema:givenName "Tae-yong" .
+
+<http://example.org/worldcup/resource/manager/M-396> a wc:Manager ;
+    rdfs:label "Renê Simões" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Renê_Simões> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ren%C3%AA_Sim%C3%B5es> ;
+    schema:familyName "Simões" ;
+    schema:givenName "Renê" .
+
+<http://example.org/worldcup/resource/manager/M-397> a wc:Manager ;
+    rdfs:label "Boško Simonović" ;
+    wc:countryName "Yugoslavia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Boško_Simonović> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Bo%C5%A1ko_Simonovi%C4%87> ;
+    schema:familyName "Simonović" ;
+    schema:givenName "Boško" .
+
+<http://example.org/worldcup/resource/manager/M-398> a wc:Manager ;
+    rdfs:label "Bengt Simonsson" ;
+    wc:countryName "Sweden" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Bengt_Simonsson> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Bengt_Simonsson> ;
+    schema:familyName "Simonsson" ;
+    schema:givenName "Bengt" .
+
+<http://example.org/worldcup/resource/manager/M-399> a wc:Manager ;
+    rdfs:label "Martin Sjögren" ;
+    wc:countryName "Sweden" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Martin_Sjögren> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Martin_Sj%C3%B6gren> ;
+    schema:familyName "Sjögren" ;
+    schema:givenName "Martin" .
+
+<http://example.org/worldcup/resource/manager/M-400> a wc:Manager ;
+    rdfs:label "Tommy Söderberg" ;
+    wc:countryName "Sweden" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Tommy_Söderberg> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Tommy_S%C3%B6derberg> ;
+    schema:familyName "Söderberg" ;
+    schema:givenName "Tommy" .
+
+<http://example.org/worldcup/resource/manager/M-401> a wc:Manager ;
+    rdfs:label "Jorge Solari" ;
+    wc:countryName "Argentina" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Jorge_Solari> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jorge_Solari> ;
+    schema:familyName "Solari" ;
+    schema:givenName "Jorge" .
+
+<http://example.org/worldcup/resource/manager/M-402> a wc:Manager ;
+    rdfs:label "Rigobert Song" ;
+    wc:countryName "Cameroon" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Rigobert_Song> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Rigobert_Song> ;
+    schema:familyName "Song" ;
+    schema:givenName "Rigobert" .
+
+<http://example.org/worldcup/resource/manager/M-403> a wc:Manager ;
+    rdfs:label "Jomo Sono" ;
+    wc:countryName "South Africa" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Jomo_Sono> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jomo_Sono> ;
+    schema:familyName "Sono" ;
+    schema:givenName "Jomo" .
+
+<http://example.org/worldcup/resource/manager/M-404> a wc:Manager ;
+    rdfs:label "Ammar Souayah" ;
+    wc:countryName "Tunisia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ammar_Souayah> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ammar_Souayah> ;
+    schema:familyName "Souayah" ;
+    schema:givenName "Ammar" .
+
+<http://example.org/worldcup/resource/manager/M-405> a wc:Manager ;
+    rdfs:label "Gareth Southgate" ;
+    wc:countryName "England" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Gareth_Southgate> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Gareth_Southgate> ;
+    schema:familyName "Southgate" ;
+    schema:givenName "Gareth" .
+
+<http://example.org/worldcup/resource/manager/M-406> a wc:Manager ;
+    rdfs:label "Nuengrutai Srathongvian" ;
+    wc:countryName "Thailand" ;
+    wc:isFemale true ;
+    owl:sameAs <http://dbpedia.org/resource/Nuengrutai_Srathongvian> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Nuengrutai_Srathongvian> ;
+    schema:familyName "Srathongvian" ;
+    schema:givenName "Nuengrutai" .
+
+<http://example.org/worldcup/resource/manager/M-407> a wc:Manager ;
+    rdfs:label "Guillermo Stábile" ;
+    wc:countryName "Argentina" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Guillermo_Stábile> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Guillermo_St%C3%A1bile> ;
+    schema:familyName "Stábile" ;
+    schema:givenName "Guillermo" .
+
+<http://example.org/worldcup/resource/manager/M-408> a wc:Manager ;
+    rdfs:label "Alen Stajcic" ;
+    wc:countryName "Australia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Alen_Stajcic> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Alen_Stajcic> ;
+    schema:familyName "Stajcic" ;
+    schema:givenName "Alen" .
+
+<http://example.org/worldcup/resource/manager/M-409> a wc:Manager ;
+    rdfs:label "Åge Steen" ;
+    wc:countryName "Norway" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Åge_Steen> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/%C3%85ge_Steen> ;
+    schema:familyName "Steen" ;
+    schema:givenName "Åge" .
+
+<http://example.org/worldcup/resource/manager/M-410> a wc:Manager ;
+    rdfs:label "Jock Stein" ;
+    wc:countryName "Scotland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Jock_Stein> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jock_Stein> ;
+    schema:familyName "Stein" ;
+    schema:givenName "Jock" .
+
+<http://example.org/worldcup/resource/manager/M-411> a wc:Manager ;
+    rdfs:label "Dragan Stojković" ;
+    wc:countryName "Serbia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Dragan_Stojković> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Dragan_Stojkovi%C4%87> ;
+    schema:familyName "Stojković" ;
+    schema:givenName "Dragan" .
+
+<http://example.org/worldcup/resource/manager/M-412> a wc:Manager ;
+    rdfs:label "Luis Suárez" ;
+    wc:countryName "Spain" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Luis_Suárez_(footballer,_born_1935)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Luis_Su%C3%A1rez_(footballer,_born_1935)> ;
+    schema:familyName "Suárez" ;
+    schema:givenName "Luis" .
+
+<http://example.org/worldcup/resource/manager/M-413> a wc:Manager ;
+    rdfs:label "Luis Fernando Suárez" ;
+    wc:countryName "Colombia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Luis_Fernando_Suárez> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Luis_Fernando_Su%C3%A1rez> ;
+    schema:familyName "Suárez" ;
+    schema:givenName "Luis Fernando" .
+
+<http://example.org/worldcup/resource/manager/M-414> a wc:Manager ;
+    rdfs:label "Pia Sundhage" ;
+    wc:countryName "Sweden" ;
+    wc:isFemale true ;
+    owl:sameAs <http://dbpedia.org/resource/Pia_Sundhage> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Pia_Sundhage> ;
+    schema:familyName "Sundhage" ;
+    schema:givenName "Pia" .
+
+<http://example.org/worldcup/resource/manager/M-415> a wc:Manager ;
+    rdfs:label "Alberto Suppici" ;
+    wc:countryName "Uruguay" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Alberto_Suppici> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Alberto_Suppici> ;
+    schema:familyName "Suppici" ;
+    schema:givenName "Alberto" .
+
+<http://example.org/worldcup/resource/manager/M-416> a wc:Manager ;
+    rdfs:label "Safet Sušić" ;
+    wc:countryName "Bosnia and Herzegovina" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Safet_Sušić> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Safet_Su%C5%A1i%C4%87> ;
+    schema:familyName "Sušić" ;
+    schema:givenName "Safet" .
+
+<http://example.org/worldcup/resource/manager/M-417> a wc:Manager ;
+    rdfs:label "Tamotsu Suzuki" ;
+    wc:countryName "Japan" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Tamotsu_Suzuki> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Tamotsu_Suzuki> ;
+    schema:familyName "Suzuki" ;
+    schema:givenName "Tamotsu" .
+
+<http://example.org/worldcup/resource/manager/M-418> a wc:Manager ;
+    rdfs:label "Tommy Svensson" ;
+    wc:countryName "Sweden" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Tommy_Svensson> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Tommy_Svensson> ;
+    schema:familyName "Svensson" ;
+    schema:givenName "Tommy" .
+
+<http://example.org/worldcup/resource/manager/M-419> a wc:Manager ;
+    rdfs:label "Óscar Tabárez" ;
+    wc:countryName "Uruguay" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Óscar_Tabárez> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/%C3%93scar_Tab%C3%A1rez> ;
+    schema:familyName "Tabárez" ;
+    schema:givenName "Óscar" .
+
+<http://example.org/worldcup/resource/manager/M-420> a wc:Manager ;
+    rdfs:label "Fabián Taborda" ;
+    wc:countryName "Colombia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Fabián_Taborda> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Fabi%C3%A1n_Taborda> ;
+    schema:familyName "Taborda" ;
+    schema:givenName "Fabián" .
+
+<http://example.org/worldcup/resource/manager/M-421> a wc:Manager ;
+    rdfs:label "Asako Takakura" ;
+    wc:countryName "Japan" ;
+    wc:isFemale true ;
+    owl:sameAs <http://dbpedia.org/resource/Asako_Takakura> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Asako_Takakura> ;
+    schema:familyName "Takakura" ;
+    schema:givenName "Asako" .
+
+<http://example.org/worldcup/resource/manager/M-422> a wc:Manager ;
+    rdfs:label "Jalal Talebi" ;
+    wc:countryName "Iran" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Jalal_Talebi> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jalal_Talebi> ;
+    schema:familyName "Talebi" ;
+    schema:givenName "Jalal" .
+
+<http://example.org/worldcup/resource/manager/M-423> a wc:Manager ;
+    rdfs:label "José Tapia" ;
+    wc:countryName "Cuba" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/José_Tapia> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jos%C3%A9_Tapia> ;
+    schema:familyName "Tapia" ;
+    schema:givenName "José" .
+
+<http://example.org/worldcup/resource/manager/M-424> a wc:Manager ;
+    rdfs:label "Antoine Tassy" ;
+    wc:countryName "Haiti" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Antoine_Tassy> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Antoine_Tassy> ;
+    schema:familyName "Tassy" ;
+    schema:givenName "Antoine" .
+
+<http://example.org/worldcup/resource/manager/M-425> a wc:Manager ;
+    rdfs:label "Tina Theune-Meyer" ;
+    wc:countryName "Germany" ;
+    wc:isFemale true ;
+    owl:sameAs <http://dbpedia.org/resource/Tina_Theune> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Tina_Theune> ;
+    schema:familyName "Theune-Meyer" ;
+    schema:givenName "Tina" .
+
+<http://example.org/worldcup/resource/manager/M-426> a wc:Manager ;
+    rdfs:label "Guy Thys" ;
+    wc:countryName "Belgium" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Guy_Thys> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Guy_Thys> ;
+    schema:familyName "Thys" ;
+    schema:givenName "Guy" .
+
+<http://example.org/worldcup/resource/manager/M-427> a wc:Manager ;
+    rdfs:label "Tim" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Tim_(footballer)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Tim_(footballer)> ;
+    schema:familyName "Tim" .
+
+<http://example.org/worldcup/resource/manager/M-428> a wc:Manager ;
+    rdfs:label "Aleksandar Tirnanić" ;
+    wc:countryName "Yugoslavia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Aleksandar_Tirnanić> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Aleksandar_Tirnani%C4%87> ;
+    schema:familyName "Tirnanić" ;
+    schema:givenName "Aleksandar" .
+
+<http://example.org/worldcup/resource/manager/M-429> a wc:Manager ;
+    rdfs:label "Tite" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Tite_(football_manager)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Tite_(football_manager)> ;
+    schema:familyName "Tite" .
+
+<http://example.org/worldcup/resource/manager/M-430> a wc:Manager ;
+    rdfs:label "José Torres" ;
+    wc:countryName "Portugal" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/José_Augusto_Torres> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jos%C3%A9_Augusto_Torres> ;
+    schema:familyName "Torres" ;
+    schema:givenName "José" .
+
+<http://example.org/worldcup/resource/manager/M-431> a wc:Manager ;
+    rdfs:label "Clémentine Touré" ;
+    wc:countryName "Ivory Coast" ;
+    wc:isFemale true ;
+    owl:sameAs <http://dbpedia.org/resource/Clémentine_Touré> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Cl%C3%A9mentine_Tour%C3%A9> ;
+    schema:familyName "Touré" ;
+    schema:givenName "Clémentine" .
+
+<http://example.org/worldcup/resource/manager/M-432> a wc:Manager ;
+    rdfs:label "Juan José Tramutola" ;
+    wc:countryName "Argentina" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Juan_José_Tramutola> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Juan_Jos%C3%A9_Tramutola> ;
+    schema:familyName "Tramutola" ;
+    schema:givenName "Juan José" .
+
+<http://example.org/worldcup/resource/manager/M-433> a wc:Manager ;
+    rdfs:label "Giovanni Trapattoni" ;
+    wc:countryName "Italy" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Giovanni_Trapattoni> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Giovanni_Trapattoni> ;
+    schema:familyName "Trapattoni" ;
+    schema:givenName "Giovanni" .
+
+<http://example.org/worldcup/resource/manager/M-434> a wc:Manager ;
+    rdfs:label "Ignacio Tréllez" ;
+    wc:countryName "Mexico" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ignacio_Tréllez> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ignacio_Tr%C3%A9llez> ;
+    schema:familyName "Tréllez" ;
+    schema:givenName "Ignacio" .
+
+<http://example.org/worldcup/resource/manager/M-435> a wc:Manager ;
+    rdfs:label "Philippe Troussier" ;
+    wc:countryName "France" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Philippe_Troussier> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Philippe_Troussier> ;
+    schema:familyName "Troussier" ;
+    schema:givenName "Philippe" .
+
+<http://example.org/worldcup/resource/manager/M-436> a wc:Manager ;
+    rdfs:label "Neil Turnbull" ;
+    wc:countryName "England" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Neil_Turnbull> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Neil_Turnbull> ;
+    schema:familyName "Turnbull" ;
+    schema:givenName "Neil" .
+
+<http://example.org/worldcup/resource/manager/M-437> a wc:Manager ;
+    rdfs:label "Ngozi Eucharia Uche" ;
+    wc:countryName "Nigeria" ;
+    wc:isFemale true ;
+    owl:sameAs <http://dbpedia.org/resource/Ngozi_Eucharia_Uche> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ngozi_Eucharia_Uche> ;
+    schema:familyName "Uche" ;
+    schema:givenName "Ngozi Eucharia" .
+
+<http://example.org/worldcup/resource/manager/M-438> a wc:Manager ;
+    rdfs:label "Eiji Ueda" ;
+    wc:countryName "Japan" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Eiji_Ueda> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Eiji_Ueda> ;
+    schema:familyName "Ueda" ;
+    schema:givenName "Eiji" .
+
+<http://example.org/worldcup/resource/manager/M-439> a wc:Manager ;
+    rdfs:label "Josef Uridil" ;
+    wc:countryName "Romania" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Josef_Uridil> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Josef_Uridil> ;
+    schema:familyName "Uridil" ;
+    schema:givenName "Josef" .
+
+<http://example.org/worldcup/resource/manager/M-440> a wc:Manager ;
+    rdfs:label "Vadão" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Vadão> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Vad%C3%A3o> ;
+    schema:familyName "Vadão" .
+
+<http://example.org/worldcup/resource/manager/M-441> a wc:Manager ;
+    rdfs:label "Ferruccio Valcareggi" ;
+    wc:countryName "Italy" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ferruccio_Valcareggi> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ferruccio_Valcareggi> ;
+    schema:familyName "Valcareggi" ;
+    schema:givenName "Ferruccio" .
+
+<http://example.org/worldcup/resource/manager/M-442> a wc:Manager ;
+    rdfs:label "Amelia Valverde" ;
+    wc:countryName "Costa Rica" ;
+    wc:isFemale true ;
+    owl:sameAs <http://dbpedia.org/resource/Amelia_Valverde> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Amelia_Valverde> ;
+    schema:familyName "Valverde" ;
+    schema:givenName "Amelia" .
+
+<http://example.org/worldcup/resource/manager/M-443> a wc:Manager ;
+    rdfs:label "Marco van Basten" ;
+    wc:countryName "Netherlands" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Marco_van_Basten> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Marco_van_Basten> ;
+    schema:familyName "van Basten" ;
+    schema:givenName "Marco" .
+
+<http://example.org/worldcup/resource/manager/M-444> a wc:Manager ;
+    rdfs:label "Louis van Gaal" ;
+    wc:countryName "Netherlands" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Louis_van_Gaal> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Louis_van_Gaal> ;
+    schema:familyName "van Gaal" ;
+    schema:givenName "Louis" .
+
+<http://example.org/worldcup/resource/manager/M-445> a wc:Manager ;
+    rdfs:label "Paul Van Himst" ;
+    wc:countryName "Belgium" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Paul_Van_Himst> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Paul_Van_Himst> ;
+    schema:familyName "Van Himst" ;
+    schema:givenName "Paul" .
+
+<http://example.org/worldcup/resource/manager/M-446> a wc:Manager ;
+    rdfs:label "Bert van Marwijk" ;
+    wc:countryName "Netherlands" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Bert_van_Marwijk> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Bert_van_Marwijk> ;
+    schema:familyName "van Marwijk" ;
+    schema:givenName "Bert" .
+
+<http://example.org/worldcup/resource/manager/M-447> a wc:Manager ;
+    rdfs:label "Jozef Vengloš" ;
+    wc:countryName "Czechoslovakia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Jozef_Vengloš> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jozef_Venglo%C5%A1> ;
+    schema:familyName "Vengloš" ;
+    schema:givenName "Jozef" .
+
+<http://example.org/worldcup/resource/manager/M-448> a wc:Manager ;
+    rdfs:label "Pim Verbeek" ;
+    wc:countryName "Netherlands" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Pim_Verbeek> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Pim_Verbeek> ;
+    schema:familyName "Verbeek" ;
+    schema:givenName "Pim" .
+
+<http://example.org/worldcup/resource/manager/M-449> a wc:Manager ;
+    rdfs:label "Octavio Vial" ;
+    wc:countryName "Mexico" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Octavio_Vial> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Octavio_Vial> ;
+    schema:familyName "Vial" ;
+    schema:givenName "Octavio" .
+
+<http://example.org/worldcup/resource/manager/M-450> a wc:Manager ;
+    rdfs:label "Azeglio Vicini" ;
+    wc:countryName "Italy" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Azeglio_Vicini> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Azeglio_Vicini> ;
+    schema:familyName "Vicini" ;
+    schema:givenName "Azeglio" .
+
+<http://example.org/worldcup/resource/manager/M-451> a wc:Manager ;
+    rdfs:label "Blagoje Vidinić" ;
+    wc:countryName "Yugoslavia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Blagoje_Vidinić> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Blagoje_Vidini%C4%87> ;
+    schema:familyName "Vidinić" ;
+    schema:givenName "Blagoje" .
+
+<http://example.org/worldcup/resource/manager/M-452> a wc:Manager ;
+    rdfs:label "Ondino Viera" ;
+    wc:countryName "Uruguay" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ondino_Viera> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ondino_Viera> ;
+    schema:familyName "Viera" ;
+    schema:givenName "Ondino" .
+
+<http://example.org/worldcup/resource/manager/M-453> a wc:Manager ;
+    rdfs:label "Jorge Vilda" ;
+    wc:countryName "Spain" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Jorge_Vilda> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jorge_Vilda> ;
+    schema:familyName "Vilda" ;
+    schema:givenName "Jorge" .
+
+<http://example.org/worldcup/resource/manager/M-454> a wc:Manager ;
+    rdfs:label "José Villalonga" ;
+    wc:countryName "Spain" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/José_Villalonga_Llorente> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jos%C3%A9_Villalonga_Llorente> ;
+    schema:familyName "Villalonga" ;
+    schema:givenName "José" .
+
+<http://example.org/worldcup/resource/manager/M-455> a wc:Manager ;
+    rdfs:label "Jean Vincent" ;
+    wc:countryName "France" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Jean_Vincent_(footballer)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Jean_Vincent_(footballer)> ;
+    schema:familyName "Vincent" ;
+    schema:givenName "Jean" .
+
+<http://example.org/worldcup/resource/manager/M-456> a wc:Manager ;
+    rdfs:label "Luiz Vinhaes" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Luiz_Vinhaes> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Luiz_Vinhaes> ;
+    schema:familyName "Vinhaes" ;
+    schema:givenName "Luiz" .
+
+<http://example.org/worldcup/resource/manager/M-457> a wc:Manager ;
+    rdfs:label "Berti Vogts" ;
+    wc:countryName "Germany" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Berti_Vogts> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Berti_Vogts> ;
+    schema:familyName "Vogts" ;
+    schema:givenName "Berti" .
+
+<http://example.org/worldcup/resource/manager/M-458> a wc:Manager ;
+    rdfs:label "Rudi Völler" ;
+    wc:countryName "Germany" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Rudi_Völler> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Rudi_V%C3%B6ller> ;
+    schema:familyName "Völler" ;
+    schema:givenName "Rudi" .
+
+<http://example.org/worldcup/resource/manager/M-459> a wc:Manager ;
+    rdfs:label "Martina Voss-Tecklenburg" ;
+    wc:countryName "Germany" ;
+    wc:isFemale true ;
+    owl:sameAs <http://dbpedia.org/resource/Martina_Voss-Tecklenburg> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Martina_Voss-Tecklenburg> ;
+    schema:familyName "Voss-Tecklenburg" ;
+    schema:givenName "Martina" .
+
+<http://example.org/worldcup/resource/manager/M-460> a wc:Manager ;
+    rdfs:label "Ivan Vutsov" ;
+    wc:countryName "Bulgaria" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Ivan_Vutsov> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Ivan_Vutsov> ;
+    schema:familyName "Vutsov" ;
+    schema:givenName "Ivan" .
+
+<http://example.org/worldcup/resource/manager/M-461> a wc:Manager ;
+    rdfs:label "Rudolf Vytlačil" ;
+    wc:countryName "Czechoslovakia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Rudolf_Vytlačil> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Rudolf_Vytla%C4%8Dil> ;
+    schema:familyName "Vytlačil" ;
+    schema:givenName "Rudolf" .
+
+<http://example.org/worldcup/resource/manager/M-462> a wc:Manager ;
+    rdfs:label "Tony Waiters" ;
+    wc:countryName "England" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Tony_Waiters> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Tony_Waiters> ;
+    schema:familyName "Waiters" ;
+    schema:givenName "Tony" .
+
+<http://example.org/worldcup/resource/manager/M-463> a wc:Manager ;
+    rdfs:label "Dawson Walker" ;
+    wc:countryName "Scotland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Dawson_Walker> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Dawson_Walker> ;
+    schema:familyName "Walker" ;
+    schema:givenName "Dawson" .
+
+<http://example.org/worldcup/resource/manager/M-464> a wc:Manager ;
+    rdfs:label "Robert Waseige" ;
+    wc:countryName "Belgium" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Robert_Waseige> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Robert_Waseige> ;
+    schema:familyName "Waseige" ;
+    schema:givenName "Robert" .
+
+<http://example.org/worldcup/resource/manager/M-465> a wc:Manager ;
+    rdfs:label "Vladimír Weiss" ;
+    wc:countryName "Slovakia" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Vladimír_Weiss_(footballer,_born_1964)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Vladim%C3%ADr_Weiss_(footballer,_born_1964)> ;
+    schema:familyName "Weiss" ;
+    schema:givenName "Vladimír" .
+
+<http://example.org/worldcup/resource/manager/M-466> a wc:Manager ;
+    rdfs:label "Clemens Westerhof" ;
+    wc:countryName "Netherlands" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Clemens_Westerhof> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Clemens_Westerhof> ;
+    schema:familyName "Westerhof" ;
+    schema:givenName "Clemens" .
+
+<http://example.org/worldcup/resource/manager/M-467> a wc:Manager ;
+    rdfs:label "Sarina Wiegman" ;
+    wc:countryName "Netherlands" ;
+    wc:isFemale true ;
+    owl:sameAs <http://dbpedia.org/resource/Sarina_Wiegman> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Sarina_Wiegman> ;
+    schema:familyName "Wiegman" ;
+    schema:givenName "Sarina" .
+
+<http://example.org/worldcup/resource/manager/M-468> a wc:Manager ;
+    rdfs:label "Marc Wilmots" ;
+    wc:countryName "Belgium" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Marc_Wilmots> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Marc_Wilmots> ;
+    schema:familyName "Wilmots" ;
+    schema:givenName "Marc" .
+
+<http://example.org/worldcup/resource/manager/M-469> a wc:Manager ;
+    rdfs:label "Wilsinho" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Wilsinho_(football_manager)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Wilsinho_(football_manager)> ;
+    schema:familyName "Wilsinho" .
+
+<http://example.org/worldcup/resource/manager/M-470> a wc:Manager ;
+    rdfs:label "Walter Winterbottom" ;
+    wc:countryName "England" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Walter_Winterbottom> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Walter_Winterbottom> ;
+    schema:familyName "Winterbottom" ;
+    schema:givenName "Walter" .
+
+<http://example.org/worldcup/resource/manager/M-471> a wc:Manager ;
+    rdfs:label "Murat Yakin" ;
+    wc:countryName "Switzerland" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Murat_Yakin> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Murat_Yakin> ;
+    schema:familyName "Yakin" ;
+    schema:givenName "Murat" .
+
+<http://example.org/worldcup/resource/manager/M-472> a wc:Manager ;
+    rdfs:label "Deok-yeo Yoon" ;
+    wc:countryName "South Korea" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Yoon_Deok-yeo> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Yoon_Deok-yeo> ;
+    schema:familyName "Yoon" ;
+    schema:givenName "Deok-yeo" .
+
+<http://example.org/worldcup/resource/manager/M-473> a wc:Manager ;
+    rdfs:label "Alberto Zaccheroni" ;
+    wc:countryName "Italy" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Alberto_Zaccheroni> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Alberto_Zaccheroni> ;
+    schema:familyName "Zaccheroni" ;
+    schema:givenName "Alberto" .
+
+<http://example.org/worldcup/resource/manager/M-474> a wc:Manager ;
+    rdfs:label "Mário Zagallo" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Mário_Zagallo> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/M%C3%A1rio_Zagallo> ;
+    schema:familyName "Zagallo" ;
+    schema:givenName "Mário" .
+
+<http://example.org/worldcup/resource/manager/M-475> a wc:Manager ;
+    rdfs:label "Zico" ;
+    wc:countryName "Brazil" ;
+    wc:isFemale false ;
+    owl:sameAs <http://dbpedia.org/resource/Zico_(footballer)> ;
+    foaf:isPrimaryTopicOf <https://en.wikipedia.org/wiki/Zico_(footballer)> ;
+    schema:familyName "Zico" .
+

@@ -1,0 +1,366 @@
+@prefix wc: <http://example.org/worldcup/ontology#> .
+
+<http://example.org/worldcup/resource/membership/WC-1930/T-03/P-56486> wc:wonAward <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-1930/T-83/P-71973> wc:wonAward <http://example.org/worldcup/resource/award/A-6> .
+
+<http://example.org/worldcup/resource/membership/WC-1930/T-84/P-18628> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-1934/T-21/P-60513> wc:wonAward <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-1934/T-31/P-77348> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-1934/T-41/P-56703> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-1938/T-09/P-09730> wc:wonAward <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-1938/T-36/P-67652> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-1938/T-36/P-89034> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-1938/T-41/P-65885> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-1950/T-09/P-22428> wc:wonAward <http://example.org/worldcup/resource/award/A-6> .
+
+<http://example.org/worldcup/resource/membership/WC-1950/T-09/P-49381> wc:wonAward <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-1950/T-73/P-26928> wc:wonAward <http://example.org/worldcup/resource/award/A-6> .
+
+<http://example.org/worldcup/resource/membership/WC-1950/T-73/P-65220> wc:wonAward <http://example.org/worldcup/resource/award/A-6> .
+
+<http://example.org/worldcup/resource/membership/WC-1950/T-84/P-16302> wc:wonAward <http://example.org/worldcup/resource/award/A-6> .
+
+<http://example.org/worldcup/resource/membership/WC-1950/T-84/P-18523> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-1954/T-05/P-85257> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-1954/T-36/P-07028> wc:wonAward <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-1954/T-75/P-14406> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-1954/T-86/P-05766> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-1958/T-09/P-38906> wc:wonAward <http://example.org/worldcup/resource/award/A-5>,
+        <http://example.org/worldcup/resource/award/A-8> .
+
+<http://example.org/worldcup/resource/membership/WC-1958/T-30/P-77939> wc:wonAward <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-1958/T-86/P-08136> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-1962/T-09/P-45310> wc:wonAward <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-1962/T-09/P-46080> wc:wonAward <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-1962/T-13/P-22224> wc:wonAward <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-1962/T-36/P-21188> wc:wonAward <http://example.org/worldcup/resource/award/A-4>,
+        <http://example.org/worldcup/resource/award/A-8> .
+
+<http://example.org/worldcup/resource/membership/WC-1962/T-72/P-11702> wc:wonAward <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-1962/T-87/P-55024> wc:wonAward <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-1966/T-28/P-34802> wc:wonAward <http://example.org/worldcup/resource/award/A-6> .
+
+<http://example.org/worldcup/resource/membership/WC-1966/T-36/P-82516> wc:wonAward <http://example.org/worldcup/resource/award/A-6> .
+
+<http://example.org/worldcup/resource/membership/WC-1966/T-58/P-74747> wc:wonAward <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-1966/T-72/P-53800> wc:wonAward <http://example.org/worldcup/resource/award/A-6> .
+
+<http://example.org/worldcup/resource/membership/WC-1966/T-86/P-12272> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-1966/T-86/P-72864> wc:wonAward <http://example.org/worldcup/resource/award/A-6>,
+        <http://example.org/worldcup/resource/award/A-8> .
+
+<http://example.org/worldcup/resource/membership/WC-1970/T-09/P-77430> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-1970/T-56/P-96979> wc:wonAward <http://example.org/worldcup/resource/award/A-6>,
+        <http://example.org/worldcup/resource/award/A-8> .
+
+<http://example.org/worldcup/resource/membership/WC-1970/T-86/P-72441> wc:wonAward <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-1974/T-48/P-16991> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-1974/T-57/P-21597> wc:wonAward <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-1974/T-57/P-48883> wc:wonAward <http://example.org/worldcup/resource/award/A-8> .
+
+<http://example.org/worldcup/resource/membership/WC-1974/T-57/P-92867> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-1978/T-03/P-35082> wc:wonAward <http://example.org/worldcup/resource/award/A-1>,
+        <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-1978/T-09/P-89519> wc:wonAward <http://example.org/worldcup/resource/award/A-3> .
+
+<http://example.org/worldcup/resource/membership/WC-1978/T-41/P-03775> wc:wonAward <http://example.org/worldcup/resource/award/A-8> .
+
+<http://example.org/worldcup/resource/membership/WC-1978/T-41/P-91717> wc:wonAward <http://example.org/worldcup/resource/award/A-2> .
+
+<http://example.org/worldcup/resource/membership/WC-1978/T-48/P-63266> wc:wonAward <http://example.org/worldcup/resource/award/A-6> .
+
+<http://example.org/worldcup/resource/membership/WC-1978/T-56/P-96979> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-1982/T-09/P-35736> wc:wonAward <http://example.org/worldcup/resource/award/A-2> .
+
+<http://example.org/worldcup/resource/membership/WC-1982/T-09/P-37483> wc:wonAward <http://example.org/worldcup/resource/award/A-6> .
+
+<http://example.org/worldcup/resource/membership/WC-1982/T-30/P-69834> wc:wonAward <http://example.org/worldcup/resource/award/A-8> .
+
+<http://example.org/worldcup/resource/membership/WC-1982/T-41/P-91717> wc:wonAward <http://example.org/worldcup/resource/award/A-1>,
+        <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-1982/T-86/P-59574> wc:wonAward <http://example.org/worldcup/resource/award/A-3>,
+        <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-1986/T-03/P-80404> wc:wonAward <http://example.org/worldcup/resource/award/A-1>,
+        <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-1986/T-06/P-97414> wc:wonAward <http://example.org/worldcup/resource/award/A-8> .
+
+<http://example.org/worldcup/resource/membership/WC-1986/T-09/P-90635> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-1986/T-22/P-36502> wc:wonAward <http://example.org/worldcup/resource/award/A-3> .
+
+<http://example.org/worldcup/resource/membership/WC-1986/T-28/P-36651> wc:wonAward <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-1986/T-73/P-12940> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-1986/T-86/P-07171> wc:wonAward <http://example.org/worldcup/resource/award/A-2> .
+
+<http://example.org/worldcup/resource/membership/WC-1990/T-03/P-80404> wc:wonAward <http://example.org/worldcup/resource/award/A-3> .
+
+<http://example.org/worldcup/resource/membership/WC-1990/T-11/P-58080> wc:wonAward <http://example.org/worldcup/resource/award/A-6> .
+
+<http://example.org/worldcup/resource/membership/WC-1990/T-21/P-71260> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-1990/T-28/P-36651> wc:wonAward <http://example.org/worldcup/resource/award/A-6> .
+
+<http://example.org/worldcup/resource/membership/WC-1990/T-41/P-76544> wc:wonAward <http://example.org/worldcup/resource/award/A-1>,
+        <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-1990/T-86/P-49502> wc:wonAward <http://example.org/worldcup/resource/award/A-2> .
+
+<http://example.org/worldcup/resource/membership/WC-1990/T-87/P-62861> wc:wonAward <http://example.org/worldcup/resource/award/A-8> .
+
+<http://example.org/worldcup/resource/membership/WC-1991/T-31/P-30335> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-1991/T-53/P-58688> wc:wonAward <http://example.org/worldcup/resource/award/A-3>,
+        <http://example.org/worldcup/resource/award/A-6> .
+
+<http://example.org/worldcup/resource/membership/WC-1991/T-83/P-54794> wc:wonAward <http://example.org/worldcup/resource/award/A-2>,
+        <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-1991/T-83/P-99328> wc:wonAward <http://example.org/worldcup/resource/award/A-1>,
+        <http://example.org/worldcup/resource/award/A-6> .
+
+<http://example.org/worldcup/resource/membership/WC-1994/T-06/P-00531> wc:wonAward <http://example.org/worldcup/resource/award/A-7> .
+
+<http://example.org/worldcup/resource/membership/WC-1994/T-09/P-61251> wc:wonAward <http://example.org/worldcup/resource/award/A-1>,
+        <http://example.org/worldcup/resource/award/A-6> .
+
+<http://example.org/worldcup/resource/membership/WC-1994/T-10/P-81648> wc:wonAward <http://example.org/worldcup/resource/award/A-3>,
+        <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-1994/T-41/P-78756> wc:wonAward <http://example.org/worldcup/resource/award/A-2> .
+
+<http://example.org/worldcup/resource/membership/WC-1994/T-48/P-33834> wc:wonAward <http://example.org/worldcup/resource/award/A-8> .
+
+<http://example.org/worldcup/resource/membership/WC-1994/T-62/P-73354> wc:wonAward <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-1994/T-74/P-60371> wc:wonAward <http://example.org/worldcup/resource/award/A-6> .
+
+<http://example.org/worldcup/resource/membership/WC-1995/T-14/P-35093> wc:wonAward <http://example.org/worldcup/resource/award/A-6> .
+
+<http://example.org/worldcup/resource/membership/WC-1995/T-53/P-29915> wc:wonAward <http://example.org/worldcup/resource/award/A-3>,
+        <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-1995/T-53/P-67204> wc:wonAward <http://example.org/worldcup/resource/award/A-2> .
+
+<http://example.org/worldcup/resource/membership/WC-1995/T-53/P-84389> wc:wonAward <http://example.org/worldcup/resource/award/A-1>,
+        <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-1998/T-03/P-84542> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-1998/T-09/P-62722> wc:wonAward <http://example.org/worldcup/resource/award/A-1> .
+
+<http://example.org/worldcup/resource/membership/WC-1998/T-18/P-58374> wc:wonAward <http://example.org/worldcup/resource/award/A-2>,
+        <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-1998/T-28/P-51130> wc:wonAward <http://example.org/worldcup/resource/award/A-8> .
+
+<http://example.org/worldcup/resource/membership/WC-1998/T-30/P-55991> wc:wonAward <http://example.org/worldcup/resource/award/A-7> .
+
+<http://example.org/worldcup/resource/membership/WC-1998/T-30/P-56947> wc:wonAward <http://example.org/worldcup/resource/award/A-3> .
+
+<http://example.org/worldcup/resource/membership/WC-1998/T-41/P-34670> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-1999/T-09/P-57452> wc:wonAward <http://example.org/worldcup/resource/award/A-2>,
+        <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-1999/T-14/P-14903> wc:wonAward <http://example.org/worldcup/resource/award/A-1>,
+        <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-1999/T-14/P-75180> wc:wonAward <http://example.org/worldcup/resource/award/A-7> .
+
+<http://example.org/worldcup/resource/membership/WC-1999/T-53/P-29915> wc:wonAward <http://example.org/worldcup/resource/award/A-6> .
+
+<http://example.org/worldcup/resource/membership/WC-1999/T-83/P-17759> wc:wonAward <http://example.org/worldcup/resource/award/A-7> .
+
+<http://example.org/worldcup/resource/membership/WC-1999/T-83/P-54794> wc:wonAward <http://example.org/worldcup/resource/award/A-3> .
+
+<http://example.org/worldcup/resource/membership/WC-2002/T-09/P-62722> wc:wonAward <http://example.org/worldcup/resource/award/A-2>,
+        <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-2002/T-09/P-74261> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-2002/T-31/P-27787> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-2002/T-31/P-33751> wc:wonAward <http://example.org/worldcup/resource/award/A-1>,
+        <http://example.org/worldcup/resource/award/A-7> .
+
+<http://example.org/worldcup/resource/membership/WC-2002/T-71/P-55097> wc:wonAward <http://example.org/worldcup/resource/award/A-3> .
+
+<http://example.org/worldcup/resource/membership/WC-2002/T-83/P-05728> wc:wonAward <http://example.org/worldcup/resource/award/A-8> .
+
+<http://example.org/worldcup/resource/membership/WC-2003/T-09/P-90420> wc:wonAward <http://example.org/worldcup/resource/award/A-6> .
+
+<http://example.org/worldcup/resource/membership/WC-2003/T-31/P-36668> wc:wonAward <http://example.org/worldcup/resource/award/A-7> .
+
+<http://example.org/worldcup/resource/membership/WC-2003/T-31/P-50598> wc:wonAward <http://example.org/worldcup/resource/award/A-3>,
+        <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-2003/T-31/P-52478> wc:wonAward <http://example.org/worldcup/resource/award/A-1>,
+        <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-2003/T-74/P-36470> wc:wonAward <http://example.org/worldcup/resource/award/A-2> .
+
+<http://example.org/worldcup/resource/membership/WC-2006/T-03/P-19888> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-2006/T-09/P-62722> wc:wonAward <http://example.org/worldcup/resource/award/A-6> .
+
+<http://example.org/worldcup/resource/membership/WC-2006/T-30/P-56430> wc:wonAward <http://example.org/worldcup/resource/award/A-1> .
+
+<http://example.org/worldcup/resource/membership/WC-2006/T-31/P-27787> wc:wonAward <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-2006/T-31/P-36287> wc:wonAward <http://example.org/worldcup/resource/award/A-8> .
+
+<http://example.org/worldcup/resource/membership/WC-2006/T-41/P-11392> wc:wonAward <http://example.org/worldcup/resource/award/A-7> .
+
+<http://example.org/worldcup/resource/membership/WC-2006/T-41/P-88863> wc:wonAward <http://example.org/worldcup/resource/award/A-2> .
+
+<http://example.org/worldcup/resource/membership/WC-2006/T-41/P-99537> wc:wonAward <http://example.org/worldcup/resource/award/A-3> .
+
+<http://example.org/worldcup/resource/membership/WC-2007/T-09/P-07458> wc:wonAward <http://example.org/worldcup/resource/award/A-1>,
+        <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-2007/T-09/P-93057> wc:wonAward <http://example.org/worldcup/resource/award/A-3> .
+
+<http://example.org/worldcup/resource/membership/WC-2007/T-31/P-52478> wc:wonAward <http://example.org/worldcup/resource/award/A-2> .
+
+<http://example.org/worldcup/resource/membership/WC-2007/T-31/P-54576> wc:wonAward <http://example.org/worldcup/resource/award/A-7> .
+
+<http://example.org/worldcup/resource/membership/WC-2007/T-53/P-74483> wc:wonAward <http://example.org/worldcup/resource/award/A-6> .
+
+<http://example.org/worldcup/resource/membership/WC-2007/T-83/P-89236> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-2010/T-31/P-28154> wc:wonAward <http://example.org/worldcup/resource/award/A-4>,
+        <http://example.org/worldcup/resource/award/A-8> .
+
+<http://example.org/worldcup/resource/membership/WC-2010/T-48/P-51336> wc:wonAward <http://example.org/worldcup/resource/award/A-2>,
+        <http://example.org/worldcup/resource/award/A-6> .
+
+<http://example.org/worldcup/resource/membership/WC-2010/T-73/P-49097> wc:wonAward <http://example.org/worldcup/resource/award/A-3>,
+        <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-2010/T-73/P-61793> wc:wonAward <http://example.org/worldcup/resource/award/A-7> .
+
+<http://example.org/worldcup/resource/membership/WC-2010/T-84/P-86087> wc:wonAward <http://example.org/worldcup/resource/award/A-1> .
+
+<http://example.org/worldcup/resource/membership/WC-2011/T-04/P-87785> wc:wonAward <http://example.org/worldcup/resource/award/A-8> .
+
+<http://example.org/worldcup/resource/membership/WC-2011/T-09/P-07458> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-2011/T-44/P-72113> wc:wonAward <http://example.org/worldcup/resource/award/A-1>,
+        <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-2011/T-83/P-80833> wc:wonAward <http://example.org/worldcup/resource/award/A-3>,
+        <http://example.org/worldcup/resource/award/A-7> .
+
+<http://example.org/worldcup/resource/membership/WC-2011/T-83/P-89236> wc:wonAward <http://example.org/worldcup/resource/award/A-2>,
+        <http://example.org/worldcup/resource/award/A-6> .
+
+<http://example.org/worldcup/resource/membership/WC-2014/T-03/P-14758> wc:wonAward <http://example.org/worldcup/resource/award/A-1> .
+
+<http://example.org/worldcup/resource/membership/WC-2014/T-09/P-87008> wc:wonAward <http://example.org/worldcup/resource/award/A-6> .
+
+<http://example.org/worldcup/resource/membership/WC-2014/T-16/P-89392> wc:wonAward <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-2014/T-30/P-17509> wc:wonAward <http://example.org/worldcup/resource/award/A-8> .
+
+<http://example.org/worldcup/resource/membership/WC-2014/T-31/P-19408> wc:wonAward <http://example.org/worldcup/resource/award/A-7> .
+
+<http://example.org/worldcup/resource/membership/WC-2014/T-31/P-28154> wc:wonAward <http://example.org/worldcup/resource/award/A-2>,
+        <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-2014/T-48/P-23705> wc:wonAward <http://example.org/worldcup/resource/award/A-3> .
+
+<http://example.org/worldcup/resource/membership/WC-2015/T-12/P-60142> wc:wonAward <http://example.org/worldcup/resource/award/A-8> .
+
+<http://example.org/worldcup/resource/membership/WC-2015/T-30/P-64050> wc:wonAward <http://example.org/worldcup/resource/award/A-2> .
+
+<http://example.org/worldcup/resource/membership/WC-2015/T-31/P-30564> wc:wonAward <http://example.org/worldcup/resource/award/A-6> .
+
+<http://example.org/worldcup/resource/membership/WC-2015/T-31/P-66612> wc:wonAward <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-2015/T-44/P-04310> wc:wonAward <http://example.org/worldcup/resource/award/A-3> .
+
+<http://example.org/worldcup/resource/membership/WC-2015/T-83/P-62104> wc:wonAward <http://example.org/worldcup/resource/award/A-1>,
+        <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-2015/T-83/P-80833> wc:wonAward <http://example.org/worldcup/resource/award/A-7> .
+
+<http://example.org/worldcup/resource/membership/WC-2018/T-06/P-09658> wc:wonAward <http://example.org/worldcup/resource/award/A-7> .
+
+<http://example.org/worldcup/resource/membership/WC-2018/T-06/P-72011> wc:wonAward <http://example.org/worldcup/resource/award/A-2> .
+
+<http://example.org/worldcup/resource/membership/WC-2018/T-06/P-72637> wc:wonAward <http://example.org/worldcup/resource/award/A-6> .
+
+<http://example.org/worldcup/resource/membership/WC-2018/T-18/P-29491> wc:wonAward <http://example.org/worldcup/resource/award/A-1> .
+
+<http://example.org/worldcup/resource/membership/WC-2018/T-28/P-58924> wc:wonAward <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-2018/T-30/P-64077> wc:wonAward <http://example.org/worldcup/resource/award/A-8> .
+
+<http://example.org/worldcup/resource/membership/WC-2018/T-30/P-90908> wc:wonAward <http://example.org/worldcup/resource/award/A-3>,
+        <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-2019/T-28/P-23779> wc:wonAward <http://example.org/worldcup/resource/award/A-2> .
+
+<http://example.org/worldcup/resource/membership/WC-2019/T-28/P-84864> wc:wonAward <http://example.org/worldcup/resource/award/A-6> .
+
+<http://example.org/worldcup/resource/membership/WC-2019/T-31/P-91637> wc:wonAward <http://example.org/worldcup/resource/award/A-8> .
+
+<http://example.org/worldcup/resource/membership/WC-2019/T-48/P-47320> wc:wonAward <http://example.org/worldcup/resource/award/A-7> .
+
+<http://example.org/worldcup/resource/membership/WC-2019/T-83/P-09273> wc:wonAward <http://example.org/worldcup/resource/award/A-1>,
+        <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-2019/T-83/P-37034> wc:wonAward <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-2019/T-83/P-65982> wc:wonAward <http://example.org/worldcup/resource/award/A-3> .
+
+<http://example.org/worldcup/resource/membership/WC-2022/T-03/P-10739> wc:wonAward <http://example.org/worldcup/resource/award/A-8> .
+
+<http://example.org/worldcup/resource/membership/WC-2022/T-03/P-13162> wc:wonAward <http://example.org/worldcup/resource/award/A-7> .
+
+<http://example.org/worldcup/resource/membership/WC-2022/T-03/P-14758> wc:wonAward <http://example.org/worldcup/resource/award/A-1>,
+        <http://example.org/worldcup/resource/award/A-5> .
+
+<http://example.org/worldcup/resource/membership/WC-2022/T-18/P-29491> wc:wonAward <http://example.org/worldcup/resource/award/A-3> .
+
+<http://example.org/worldcup/resource/membership/WC-2022/T-30/P-64077> wc:wonAward <http://example.org/worldcup/resource/award/A-2>,
+        <http://example.org/worldcup/resource/award/A-4> .
+
+<http://example.org/worldcup/resource/membership/WC-2022/T-30/P-89750> wc:wonAward <http://example.org/worldcup/resource/award/A-6> .
+

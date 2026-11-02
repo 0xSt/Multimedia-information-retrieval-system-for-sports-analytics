@@ -1,0 +1,1133 @@
+id,caso,strategia,posizione,uri,nome,score,ms,pertinente
+P1,1,solo semantica,1.0,http://example.org/worldcup/resource/player/P-48079,Germano,0.8511,431,False
+P1,1,solo semantica,2.0,http://example.org/worldcup/resource/player/P-70594,Carlos Germano,0.8505,431,False
+P1,1,solo semantica,3.0,http://example.org/worldcup/resource/player/P-49168,Paulo Sérgio,0.8455,431,False
+P1,1,solo semantica,4.0,http://example.org/worldcup/resource/player/P-08627,Pedrosa,0.8448,431,False
+P1,1,solo semantica,5.0,http://example.org/worldcup/resource/player/P-16675,Vítor Baía,0.8434,431,False
+P1,1,solo semantica,6.0,http://example.org/worldcup/resource/player/P-55784,Paulo Santos,0.8433,431,False
+P1,1,solo semantica,7.0,http://example.org/worldcup/resource/player/P-54481,Barbosa,0.8415,431,False
+P1,1,solo semantica,8.0,http://example.org/worldcup/resource/player/P-95116,Pedro Contreras,0.841,431,False
+P1,1,solo semantica,9.0,http://example.org/worldcup/resource/player/P-62514,Eduardo Pereira,0.8402,431,False
+P1,1,solo semantica,10.0,http://example.org/worldcup/resource/player/P-64377,Marcos,0.8395,431,True
+P1,1,indice prima 50,1.0,http://example.org/worldcup/resource/player/P-45712,Ricardo,0.8389,56,False
+P1,1,indice prima 50,2.0,http://example.org/worldcup/resource/player/P-01939,Rogério Ceni,0.8319,56,True
+P1,1,indice prima 50,3.0,http://example.org/worldcup/resource/player/P-16675,Vítor Baía,0.8318,56,False
+P1,1,indice prima 50,4.0,http://example.org/worldcup/resource/player/P-45039,Ricardo,0.824,56,False
+P1,1,indice prima 50,5.0,http://example.org/worldcup/resource/player/P-91718,Cafu,0.8226,56,False
+P1,1,indice prima 50,6.0,http://example.org/worldcup/resource/player/P-67041,Nélson Pereira,0.8217,56,False
+P1,1,indice prima 50,7.0,http://example.org/worldcup/resource/player/P-47469,Oswaldo Ibarra,0.8198,56,False
+P1,1,indice prima 100,1.0,http://example.org/worldcup/resource/player/P-45712,Ricardo,0.8389,61,False
+P1,1,indice prima 100,2.0,http://example.org/worldcup/resource/player/P-01939,Rogério Ceni,0.8319,61,True
+P1,1,indice prima 100,3.0,http://example.org/worldcup/resource/player/P-16675,Vítor Baía,0.8318,61,False
+P1,1,indice prima 100,4.0,http://example.org/worldcup/resource/player/P-45039,Ricardo,0.824,61,False
+P1,1,indice prima 100,5.0,http://example.org/worldcup/resource/player/P-91718,Cafu,0.8226,61,False
+P1,1,indice prima 100,6.0,http://example.org/worldcup/resource/player/P-67041,Nélson Pereira,0.8217,61,False
+P1,1,indice prima 100,7.0,http://example.org/worldcup/resource/player/P-47469,Oswaldo Ibarra,0.8198,61,False
+P1,1,indice prima 100,8.0,http://example.org/worldcup/resource/player/P-64377,Marcos,0.8186,61,True
+P1,1,indice prima 100,9.0,http://example.org/worldcup/resource/player/P-79836,Gustavo Munúa,0.8152,61,False
+P1,1,indice prima 100,10.0,http://example.org/worldcup/resource/player/P-50787,Jorge Campos,0.8136,61,False
+P1,1,indice prima 500,1.0,http://example.org/worldcup/resource/player/P-45712,Ricardo,0.8389,59,False
+P1,1,indice prima 500,2.0,http://example.org/worldcup/resource/player/P-01939,Rogério Ceni,0.8319,59,True
+P1,1,indice prima 500,3.0,http://example.org/worldcup/resource/player/P-16675,Vítor Baía,0.8318,59,False
+P1,1,indice prima 500,4.0,http://example.org/worldcup/resource/player/P-45039,Ricardo,0.824,59,False
+P1,1,indice prima 500,5.0,http://example.org/worldcup/resource/player/P-91718,Cafu,0.8226,59,False
+P1,1,indice prima 500,6.0,http://example.org/worldcup/resource/player/P-67041,Nélson Pereira,0.8217,59,False
+P1,1,indice prima 500,7.0,http://example.org/worldcup/resource/player/P-47469,Oswaldo Ibarra,0.8198,59,False
+P1,1,indice prima 500,8.0,http://example.org/worldcup/resource/player/P-64377,Marcos,0.8186,59,True
+P1,1,indice prima 500,9.0,http://example.org/worldcup/resource/player/P-79836,Gustavo Munúa,0.8152,59,False
+P1,1,indice prima 500,10.0,http://example.org/worldcup/resource/player/P-50787,Jorge Campos,0.8136,59,False
+P1,1,grafo prima,1.0,http://example.org/worldcup/resource/player/P-45712,Ricardo,0.8389,396,False
+P1,1,grafo prima,2.0,http://example.org/worldcup/resource/player/P-01939,Rogério Ceni,0.8319,396,True
+P1,1,grafo prima,3.0,http://example.org/worldcup/resource/player/P-16675,Vítor Baía,0.8318,396,False
+P1,1,grafo prima,4.0,http://example.org/worldcup/resource/player/P-45039,Ricardo,0.824,396,False
+P1,1,grafo prima,5.0,http://example.org/worldcup/resource/player/P-91718,Cafu,0.8226,396,False
+P1,1,grafo prima,6.0,http://example.org/worldcup/resource/player/P-67041,Nélson Pereira,0.8217,396,False
+P1,1,grafo prima,7.0,http://example.org/worldcup/resource/player/P-47469,Oswaldo Ibarra,0.8198,396,False
+P1,1,grafo prima,8.0,http://example.org/worldcup/resource/player/P-64377,Marcos,0.8186,396,True
+P1,1,grafo prima,9.0,http://example.org/worldcup/resource/player/P-79836,Gustavo Munúa,0.8152,396,False
+P1,1,grafo prima,10.0,http://example.org/worldcup/resource/player/P-50787,Jorge Campos,0.8136,396,False
+P1,1,grafo prima (domanda intera),1.0,http://example.org/worldcup/resource/player/P-16675,Vítor Baía,0.8434,155,False
+P1,1,grafo prima (domanda intera),2.0,http://example.org/worldcup/resource/player/P-95116,Pedro Contreras,0.841,155,False
+P1,1,grafo prima (domanda intera),3.0,http://example.org/worldcup/resource/player/P-64377,Marcos,0.8395,155,True
+P1,1,grafo prima (domanda intera),4.0,http://example.org/worldcup/resource/player/P-01939,Rogério Ceni,0.8372,155,True
+P1,1,grafo prima (domanda intera),5.0,http://example.org/worldcup/resource/player/P-45039,Ricardo,0.8345,155,False
+P1,1,grafo prima (domanda intera),6.0,http://example.org/worldcup/resource/player/P-47469,Oswaldo Ibarra,0.8298,155,False
+P1,1,grafo prima (domanda intera),7.0,http://example.org/worldcup/resource/player/P-79836,Gustavo Munúa,0.8296,155,False
+P1,1,grafo prima (domanda intera),8.0,http://example.org/worldcup/resource/player/P-53809,Daniel Viteri,0.8292,155,False
+P1,1,grafo prima (domanda intera),9.0,http://example.org/worldcup/resource/player/P-74863,Darío Silva,0.8288,155,False
+P1,1,grafo prima (domanda intera),10.0,http://example.org/worldcup/resource/player/P-67041,Nélson Pereira,0.8282,155,False
+P2,1,solo semantica,1.0,http://example.org/worldcup/resource/player/P-29491,Luka Modrić,0.8349,35,True
+P2,1,solo semantica,2.0,http://example.org/worldcup/resource/player/P-91294,Domagoj Vida,0.8345,35,False
+P2,1,solo semantica,3.0,http://example.org/worldcup/resource/player/P-08916,Vedran Ćorluka,0.834,35,False
+P2,1,solo semantica,4.0,http://example.org/worldcup/resource/player/P-25428,Danijel Subašić,0.8289,35,False
+P2,1,solo semantica,5.0,http://example.org/worldcup/resource/player/P-65182,Andrej Kramarić,0.8281,35,False
+P2,1,solo semantica,6.0,http://example.org/worldcup/resource/player/P-07670,Mateo Kovačić,0.8279,35,True
+P2,1,solo semantica,7.0,http://example.org/worldcup/resource/player/P-89420,Josip Pivarić,0.8273,35,False
+P2,1,solo semantica,8.0,http://example.org/worldcup/resource/player/P-12763,Nikola Kalinić,0.8261,35,False
+P2,1,solo semantica,9.0,http://example.org/worldcup/resource/player/P-22160,Nikola Vlašić,0.8255,35,False
+P2,1,solo semantica,10.0,http://example.org/worldcup/resource/player/P-46461,Bruno Petković,0.8241,35,False
+P2,1,indice prima 50,1.0,http://example.org/worldcup/resource/player/P-25428,Danijel Subašić,0.8531,25,False
+P2,1,indice prima 50,2.0,http://example.org/worldcup/resource/player/P-08916,Vedran Ćorluka,0.8381,25,False
+P2,1,indice prima 50,3.0,http://example.org/worldcup/resource/player/P-57922,Duje Ćaleta-Car,0.8293,25,False
+P2,1,indice prima 50,4.0,http://example.org/worldcup/resource/player/P-89420,Josip Pivarić,0.8277,25,False
+P2,1,indice prima 50,5.0,http://example.org/worldcup/resource/player/P-65425,Šime Vrsaljko,0.8263,25,False
+P2,1,indice prima 50,6.0,http://example.org/worldcup/resource/player/P-86004,Ivan Strinić,0.8237,25,False
+P2,1,indice prima 50,7.0,http://example.org/worldcup/resource/player/P-12935,Milan Rodić,0.823,25,False
+P2,1,indice prima 100,1.0,http://example.org/worldcup/resource/player/P-25428,Danijel Subašić,0.8531,26,False
+P2,1,indice prima 100,2.0,http://example.org/worldcup/resource/player/P-08916,Vedran Ćorluka,0.8381,26,False
+P2,1,indice prima 100,3.0,http://example.org/worldcup/resource/player/P-57922,Duje Ćaleta-Car,0.8293,26,False
+P2,1,indice prima 100,4.0,http://example.org/worldcup/resource/player/P-89420,Josip Pivarić,0.8277,26,False
+P2,1,indice prima 100,5.0,http://example.org/worldcup/resource/player/P-65425,Šime Vrsaljko,0.8263,26,False
+P2,1,indice prima 100,6.0,http://example.org/worldcup/resource/player/P-86004,Ivan Strinić,0.8237,26,False
+P2,1,indice prima 100,7.0,http://example.org/worldcup/resource/player/P-12935,Milan Rodić,0.823,26,False
+P2,1,indice prima 100,8.0,http://example.org/worldcup/resource/player/P-45505,Adem Ljajić,0.8189,26,False
+P2,1,indice prima 100,9.0,http://example.org/worldcup/resource/player/P-29491,Luka Modrić,0.8185,26,True
+P2,1,indice prima 100,10.0,http://example.org/worldcup/resource/player/P-12763,Nikola Kalinić,0.8175,26,False
+P2,1,indice prima 500,1.0,http://example.org/worldcup/resource/player/P-25428,Danijel Subašić,0.8531,37,False
+P2,1,indice prima 500,2.0,http://example.org/worldcup/resource/player/P-08916,Vedran Ćorluka,0.8381,37,False
+P2,1,indice prima 500,3.0,http://example.org/worldcup/resource/player/P-57922,Duje Ćaleta-Car,0.8293,37,False
+P2,1,indice prima 500,4.0,http://example.org/worldcup/resource/player/P-89420,Josip Pivarić,0.8277,37,False
+P2,1,indice prima 500,5.0,http://example.org/worldcup/resource/player/P-65425,Šime Vrsaljko,0.8263,37,False
+P2,1,indice prima 500,6.0,http://example.org/worldcup/resource/player/P-86004,Ivan Strinić,0.8237,37,False
+P2,1,indice prima 500,7.0,http://example.org/worldcup/resource/player/P-12935,Milan Rodić,0.823,37,False
+P2,1,indice prima 500,8.0,http://example.org/worldcup/resource/player/P-45505,Adem Ljajić,0.8189,37,False
+P2,1,indice prima 500,9.0,http://example.org/worldcup/resource/player/P-29491,Luka Modrić,0.8185,37,True
+P2,1,indice prima 500,10.0,http://example.org/worldcup/resource/player/P-12763,Nikola Kalinić,0.8175,37,False
+P2,1,grafo prima,1.0,http://example.org/worldcup/resource/player/P-25428,Danijel Subašić,0.8531,226,False
+P2,1,grafo prima,2.0,http://example.org/worldcup/resource/player/P-08916,Vedran Ćorluka,0.8381,226,False
+P2,1,grafo prima,3.0,http://example.org/worldcup/resource/player/P-57922,Duje Ćaleta-Car,0.8293,226,False
+P2,1,grafo prima,4.0,http://example.org/worldcup/resource/player/P-89420,Josip Pivarić,0.8277,226,False
+P2,1,grafo prima,5.0,http://example.org/worldcup/resource/player/P-65425,Šime Vrsaljko,0.8263,226,False
+P2,1,grafo prima,6.0,http://example.org/worldcup/resource/player/P-86004,Ivan Strinić,0.8237,226,False
+P2,1,grafo prima,7.0,http://example.org/worldcup/resource/player/P-12935,Milan Rodić,0.823,226,False
+P2,1,grafo prima,8.0,http://example.org/worldcup/resource/player/P-45505,Adem Ljajić,0.8189,226,False
+P2,1,grafo prima,9.0,http://example.org/worldcup/resource/player/P-29491,Luka Modrić,0.8185,226,True
+P2,1,grafo prima,10.0,http://example.org/worldcup/resource/player/P-12763,Nikola Kalinić,0.8175,226,False
+P2,1,grafo prima (domanda intera),1.0,http://example.org/worldcup/resource/player/P-29491,Luka Modrić,0.8349,107,True
+P2,1,grafo prima (domanda intera),2.0,http://example.org/worldcup/resource/player/P-91294,Domagoj Vida,0.8345,107,False
+P2,1,grafo prima (domanda intera),3.0,http://example.org/worldcup/resource/player/P-08916,Vedran Ćorluka,0.834,107,False
+P2,1,grafo prima (domanda intera),4.0,http://example.org/worldcup/resource/player/P-25428,Danijel Subašić,0.8289,107,False
+P2,1,grafo prima (domanda intera),5.0,http://example.org/worldcup/resource/player/P-65182,Andrej Kramarić,0.8281,107,False
+P2,1,grafo prima (domanda intera),6.0,http://example.org/worldcup/resource/player/P-07670,Mateo Kovačić,0.8279,107,True
+P2,1,grafo prima (domanda intera),7.0,http://example.org/worldcup/resource/player/P-89420,Josip Pivarić,0.8273,107,False
+P2,1,grafo prima (domanda intera),8.0,http://example.org/worldcup/resource/player/P-12763,Nikola Kalinić,0.8261,107,False
+P2,1,grafo prima (domanda intera),9.0,http://example.org/worldcup/resource/player/P-56297,Dejan Lovren,0.8231,107,False
+P2,1,grafo prima (domanda intera),10.0,http://example.org/worldcup/resource/player/P-99988,Dominik Livaković,0.8218,107,False
+P3,1,solo semantica,1.0,http://example.org/worldcup/resource/player/P-09165,Christine Francke,0.8373,29,False
+P3,1,solo semantica,2.0,http://example.org/worldcup/resource/player/P-58688,Linda Medalen,0.8372,29,False
+P3,1,solo semantica,3.0,http://example.org/worldcup/resource/player/P-36470,Victoria Svensson,0.8346,29,False
+P3,1,solo semantica,4.0,http://example.org/worldcup/resource/player/P-54794,Michelle Akers,0.8344,29,True
+P3,1,solo semantica,5.0,http://example.org/worldcup/resource/player/P-16359,Marie Hammarström,0.8326,29,False
+P3,1,solo semantica,6.0,http://example.org/worldcup/resource/player/P-62261,Shirley Berruz,0.8319,29,False
+P3,1,solo semantica,7.0,http://example.org/worldcup/resource/player/P-20634,Karina Alvariza,0.8313,29,False
+P3,1,solo semantica,8.0,http://example.org/worldcup/resource/player/P-64203,Maravilha,0.8312,29,False
+P3,1,solo semantica,9.0,http://example.org/worldcup/resource/player/P-66491,Mariela Ricotti,0.8304,29,False
+P3,1,solo semantica,10.0,http://example.org/worldcup/resource/player/P-42701,Marie Ewrelius,0.8299,29,False
+P3,1,indice prima 50,,,,,21,
+P3,1,indice prima 100,,,,,25,
+P3,1,indice prima 500,1.0,http://example.org/worldcup/resource/player/P-08232,Gift Showemimo,0.7312,27,False
+P3,1,grafo prima,1.0,http://example.org/worldcup/resource/player/P-08232,Gift Showemimo,0.7312,193,False
+P3,1,grafo prima,2.0,http://example.org/worldcup/resource/player/P-17206,Elena Danilova,0.7271,193,False
+P3,1,grafo prima,3.0,http://example.org/worldcup/resource/player/P-52478,Birgit Prinz,0.7243,193,True
+P3,1,grafo prima,4.0,http://example.org/worldcup/resource/player/P-30564,Anja Mittag,0.7228,193,False
+P3,1,grafo prima,5.0,http://example.org/worldcup/resource/player/P-54794,Michelle Akers,0.7198,193,True
+P3,1,grafo prima,6.0,http://example.org/worldcup/resource/player/P-14240,Mavis Dgajmah,0.7177,193,False
+P3,1,grafo prima,7.0,http://example.org/worldcup/resource/player/P-57488,Mavis Ogun,0.7164,193,False
+P3,1,grafo prima,8.0,http://example.org/worldcup/resource/player/P-50598,Maren Meinert,0.7155,193,False
+P3,1,grafo prima,9.0,http://example.org/worldcup/resource/player/P-58688,Linda Medalen,0.7147,193,False
+P3,1,grafo prima,10.0,http://example.org/worldcup/resource/player/P-18928,Gaëlle Enganamouit,0.7146,193,False
+P3,1,grafo prima (domanda intera),1.0,http://example.org/worldcup/resource/player/P-09165,Christine Francke,0.8373,74,False
+P3,1,grafo prima (domanda intera),2.0,http://example.org/worldcup/resource/player/P-58688,Linda Medalen,0.8372,74,False
+P3,1,grafo prima (domanda intera),3.0,http://example.org/worldcup/resource/player/P-36470,Victoria Svensson,0.8346,74,False
+P3,1,grafo prima (domanda intera),4.0,http://example.org/worldcup/resource/player/P-54794,Michelle Akers,0.8344,74,True
+P3,1,grafo prima (domanda intera),5.0,http://example.org/worldcup/resource/player/P-16359,Marie Hammarström,0.8326,74,False
+P3,1,grafo prima (domanda intera),6.0,http://example.org/worldcup/resource/player/P-62261,Shirley Berruz,0.8319,74,False
+P3,1,grafo prima (domanda intera),7.0,http://example.org/worldcup/resource/player/P-20634,Karina Alvariza,0.8313,74,False
+P3,1,grafo prima (domanda intera),8.0,http://example.org/worldcup/resource/player/P-64203,Maravilha,0.8312,74,False
+P3,1,grafo prima (domanda intera),9.0,http://example.org/worldcup/resource/player/P-66491,Mariela Ricotti,0.8304,74,False
+P3,1,grafo prima (domanda intera),10.0,http://example.org/worldcup/resource/player/P-42701,Marie Ewrelius,0.8299,74,False
+P4,1,solo semantica,1.0,http://example.org/worldcup/resource/player/P-88863,Fabio Cannavaro,0.8389,18,True
+P4,1,solo semantica,2.0,http://example.org/worldcup/resource/player/P-56668,Fabrizio Poletti,0.8367,18,False
+P4,1,solo semantica,3.0,http://example.org/worldcup/resource/player/P-29143,Giuseppe Bergomi,0.8332,18,False
+P4,1,solo semantica,4.0,http://example.org/worldcup/resource/player/P-57248,Leonardo Bonucci,0.8301,18,False
+P4,1,solo semantica,5.0,http://example.org/worldcup/resource/player/P-92874,Giorgio Chiellini,0.8287,18,False
+P4,1,solo semantica,6.0,http://example.org/worldcup/resource/player/P-05329,Giuseppe Furino,0.8237,18,False
+P4,1,solo semantica,7.0,http://example.org/worldcup/resource/player/P-92427,Itália,0.8215,18,False
+P4,1,solo semantica,8.0,http://example.org/worldcup/resource/player/P-55511,Alessandro Nesta,0.8208,18,True
+P4,1,solo semantica,9.0,http://example.org/worldcup/resource/player/P-45085,Roberto Rosato,0.8203,18,False
+P4,1,solo semantica,10.0,http://example.org/worldcup/resource/player/P-26539,Andrea Barzagli,0.8201,18,True
+P4,1,indice prima 50,1.0,http://example.org/worldcup/resource/player/P-55511,Alessandro Nesta,0.8395,19,True
+P4,1,indice prima 50,2.0,http://example.org/worldcup/resource/player/P-26539,Andrea Barzagli,0.8392,19,True
+P4,1,indice prima 50,3.0,http://example.org/worldcup/resource/player/P-88863,Fabio Cannavaro,0.8369,19,True
+P4,1,indice prima 50,4.0,http://example.org/worldcup/resource/player/P-42227,Gianluca Zambrotta,0.8287,19,True
+P4,1,indice prima 50,5.0,http://example.org/worldcup/resource/player/P-70140,Massimo Oddo,0.8276,19,True
+P4,1,indice prima 50,6.0,http://example.org/worldcup/resource/player/P-37126,Marco Materazzi,0.8272,19,True
+P4,1,indice prima 50,7.0,http://example.org/worldcup/resource/player/P-14267,Cristian Zaccardo,0.8251,19,True
+P4,1,indice prima 50,8.0,http://example.org/worldcup/resource/player/P-48645,Alberto Gilardino,0.8246,19,False
+P4,1,indice prima 100,1.0,http://example.org/worldcup/resource/player/P-55511,Alessandro Nesta,0.8395,24,True
+P4,1,indice prima 100,2.0,http://example.org/worldcup/resource/player/P-26539,Andrea Barzagli,0.8392,24,True
+P4,1,indice prima 100,3.0,http://example.org/worldcup/resource/player/P-88863,Fabio Cannavaro,0.8369,24,True
+P4,1,indice prima 100,4.0,http://example.org/worldcup/resource/player/P-42227,Gianluca Zambrotta,0.8287,24,True
+P4,1,indice prima 100,5.0,http://example.org/worldcup/resource/player/P-70140,Massimo Oddo,0.8276,24,True
+P4,1,indice prima 100,6.0,http://example.org/worldcup/resource/player/P-37126,Marco Materazzi,0.8272,24,True
+P4,1,indice prima 100,7.0,http://example.org/worldcup/resource/player/P-14267,Cristian Zaccardo,0.8251,24,True
+P4,1,indice prima 100,8.0,http://example.org/worldcup/resource/player/P-48645,Alberto Gilardino,0.8246,24,False
+P4,1,indice prima 100,9.0,http://example.org/worldcup/resource/player/P-97154,Simone Barone,0.8237,24,False
+P4,1,indice prima 100,10.0,http://example.org/worldcup/resource/player/P-29172,Filippo Inzaghi,0.8224,24,False
+P4,1,indice prima 500,1.0,http://example.org/worldcup/resource/player/P-55511,Alessandro Nesta,0.8395,37,True
+P4,1,indice prima 500,2.0,http://example.org/worldcup/resource/player/P-26539,Andrea Barzagli,0.8392,37,True
+P4,1,indice prima 500,3.0,http://example.org/worldcup/resource/player/P-88863,Fabio Cannavaro,0.8369,37,True
+P4,1,indice prima 500,4.0,http://example.org/worldcup/resource/player/P-42227,Gianluca Zambrotta,0.8287,37,True
+P4,1,indice prima 500,5.0,http://example.org/worldcup/resource/player/P-70140,Massimo Oddo,0.8276,37,True
+P4,1,indice prima 500,6.0,http://example.org/worldcup/resource/player/P-37126,Marco Materazzi,0.8272,37,True
+P4,1,indice prima 500,7.0,http://example.org/worldcup/resource/player/P-14267,Cristian Zaccardo,0.8251,37,True
+P4,1,indice prima 500,8.0,http://example.org/worldcup/resource/player/P-48645,Alberto Gilardino,0.8246,37,False
+P4,1,indice prima 500,9.0,http://example.org/worldcup/resource/player/P-97154,Simone Barone,0.8237,37,False
+P4,1,indice prima 500,10.0,http://example.org/worldcup/resource/player/P-29172,Filippo Inzaghi,0.8224,37,False
+P4,1,grafo prima,1.0,http://example.org/worldcup/resource/player/P-55511,Alessandro Nesta,0.8395,137,True
+P4,1,grafo prima,2.0,http://example.org/worldcup/resource/player/P-26539,Andrea Barzagli,0.8392,137,True
+P4,1,grafo prima,3.0,http://example.org/worldcup/resource/player/P-88863,Fabio Cannavaro,0.8369,137,True
+P4,1,grafo prima,4.0,http://example.org/worldcup/resource/player/P-42227,Gianluca Zambrotta,0.8287,137,True
+P4,1,grafo prima,5.0,http://example.org/worldcup/resource/player/P-70140,Massimo Oddo,0.8276,137,True
+P4,1,grafo prima,6.0,http://example.org/worldcup/resource/player/P-37126,Marco Materazzi,0.8272,137,True
+P4,1,grafo prima,7.0,http://example.org/worldcup/resource/player/P-14267,Cristian Zaccardo,0.8251,137,True
+P4,1,grafo prima,8.0,http://example.org/worldcup/resource/player/P-48645,Alberto Gilardino,0.8246,137,False
+P4,1,grafo prima,9.0,http://example.org/worldcup/resource/player/P-97154,Simone Barone,0.8237,137,False
+P4,1,grafo prima,10.0,http://example.org/worldcup/resource/player/P-29172,Filippo Inzaghi,0.8224,137,False
+P4,1,grafo prima (domanda intera),1.0,http://example.org/worldcup/resource/player/P-88863,Fabio Cannavaro,0.8389,97,True
+P4,1,grafo prima (domanda intera),2.0,http://example.org/worldcup/resource/player/P-55511,Alessandro Nesta,0.8208,97,True
+P4,1,grafo prima (domanda intera),3.0,http://example.org/worldcup/resource/player/P-26539,Andrea Barzagli,0.8201,97,True
+P4,1,grafo prima (domanda intera),4.0,http://example.org/worldcup/resource/player/P-42038,Francesco Totti,0.8172,97,False
+P4,1,grafo prima (domanda intera),5.0,http://example.org/worldcup/resource/player/P-99473,Fabio Grosso,0.8168,97,True
+P4,1,grafo prima (domanda intera),6.0,http://example.org/worldcup/resource/player/P-14267,Cristian Zaccardo,0.8128,97,True
+P4,1,grafo prima (domanda intera),7.0,http://example.org/worldcup/resource/player/P-48645,Alberto Gilardino,0.8114,97,False
+P4,1,grafo prima (domanda intera),8.0,http://example.org/worldcup/resource/player/P-37126,Marco Materazzi,0.8108,97,True
+P4,1,grafo prima (domanda intera),9.0,http://example.org/worldcup/resource/player/P-29172,Filippo Inzaghi,0.8105,97,False
+P4,1,grafo prima (domanda intera),10.0,http://example.org/worldcup/resource/player/P-78133,Fabricio Coloccini,0.8065,97,False
+P5,1,solo semantica,1.0,http://example.org/worldcup/resource/player/P-27787,Miroslav Klose,0.8155,23,True
+P5,1,solo semantica,2.0,http://example.org/worldcup/resource/player/P-34993,Dieter Müller,0.813,23,False
+P5,1,solo semantica,3.0,http://example.org/worldcup/resource/player/P-84535,Eren Derdiyok,0.8125,23,False
+P5,1,solo semantica,4.0,http://example.org/worldcup/resource/player/P-03391,Herbert Zimmermann,0.8098,23,False
+P5,1,solo semantica,5.0,http://example.org/worldcup/resource/player/P-88148,Stefan Kießling,0.8031,23,False
+P5,1,solo semantica,6.0,http://example.org/worldcup/resource/player/P-01169,Aron Jóhannsson,0.8006,23,False
+P5,1,solo semantica,7.0,http://example.org/worldcup/resource/player/P-46979,André Schürrle,0.7984,23,True
+P5,1,solo semantica,8.0,http://example.org/worldcup/resource/player/P-01706,Émile Mpenza,0.7976,23,False
+P5,1,solo semantica,9.0,http://example.org/worldcup/resource/player/P-50663,Bernard,0.7973,23,False
+P5,1,solo semantica,10.0,http://example.org/worldcup/resource/player/P-64134,Rüdiger Abramczik,0.7956,23,False
+P5,1,indice prima 50,,,,,22,
+P5,1,indice prima 100,1.0,http://example.org/worldcup/resource/player/P-27787,Miroslav Klose,0.8297,23,True
+P5,1,indice prima 500,1.0,http://example.org/worldcup/resource/player/P-27787,Miroslav Klose,0.8297,36,True
+P5,1,indice prima 500,2.0,http://example.org/worldcup/resource/player/P-09988,Stephan Lichtsteiner,0.8188,36,False
+P5,1,indice prima 500,3.0,http://example.org/worldcup/resource/player/P-01169,Aron Jóhannsson,0.8109,36,False
+P5,1,indice prima 500,4.0,http://example.org/worldcup/resource/player/P-54036,Benedikt Höwedes,0.8083,36,False
+P5,1,indice prima 500,5.0,http://example.org/worldcup/resource/player/P-06678,Daniel Sturridge,0.8073,36,False
+P5,1,indice prima 500,6.0,http://example.org/worldcup/resource/player/P-50663,Bernard,0.8048,36,False
+P5,1,grafo prima,1.0,http://example.org/worldcup/resource/player/P-27787,Miroslav Klose,0.8297,137,True
+P5,1,grafo prima,2.0,http://example.org/worldcup/resource/player/P-09988,Stephan Lichtsteiner,0.8188,137,False
+P5,1,grafo prima,3.0,http://example.org/worldcup/resource/player/P-01169,Aron Jóhannsson,0.8109,137,False
+P5,1,grafo prima,4.0,http://example.org/worldcup/resource/player/P-54036,Benedikt Höwedes,0.8083,137,False
+P5,1,grafo prima,5.0,http://example.org/worldcup/resource/player/P-06678,Daniel Sturridge,0.8073,137,False
+P5,1,grafo prima,6.0,http://example.org/worldcup/resource/player/P-50663,Bernard,0.8048,137,False
+P5,1,grafo prima,7.0,http://example.org/worldcup/resource/player/P-36686,Mario Gavranović,0.803,137,False
+P5,1,grafo prima,8.0,http://example.org/worldcup/resource/player/P-36287,Lukas Podolski,0.8008,137,False
+P5,1,grafo prima,9.0,http://example.org/worldcup/resource/player/P-35408,Karim Benzema,0.7982,137,False
+P5,1,grafo prima,10.0,http://example.org/worldcup/resource/player/P-97775,Kevin Großkreutz,0.7962,137,False
+P5,1,grafo prima (domanda intera),1.0,http://example.org/worldcup/resource/player/P-27787,Miroslav Klose,0.8155,93,True
+P5,1,grafo prima (domanda intera),2.0,http://example.org/worldcup/resource/player/P-01169,Aron Jóhannsson,0.8006,93,False
+P5,1,grafo prima (domanda intera),3.0,http://example.org/worldcup/resource/player/P-46979,André Schürrle,0.7984,93,True
+P5,1,grafo prima (domanda intera),4.0,http://example.org/worldcup/resource/player/P-50663,Bernard,0.7973,93,False
+P5,1,grafo prima (domanda intera),5.0,http://example.org/worldcup/resource/player/P-06678,Daniel Sturridge,0.7954,93,False
+P5,1,grafo prima (domanda intera),6.0,http://example.org/worldcup/resource/player/P-77996,James Holland,0.7947,93,False
+P5,1,grafo prima (domanda intera),7.0,http://example.org/worldcup/resource/player/P-36287,Lukas Podolski,0.7898,93,False
+P5,1,grafo prima (domanda intera),8.0,http://example.org/worldcup/resource/player/P-54036,Benedikt Höwedes,0.7892,93,False
+P5,1,grafo prima (domanda intera),9.0,http://example.org/worldcup/resource/player/P-97775,Kevin Großkreutz,0.7888,93,False
+P5,1,grafo prima (domanda intera),10.0,http://example.org/worldcup/resource/player/P-99967,Wayne Rooney,0.7858,93,False
+P6,1,solo semantica,1.0,http://example.org/worldcup/resource/player/P-00531,Michel Preud'homme,0.7924,31,True
+P6,1,solo semantica,2.0,http://example.org/worldcup/resource/player/P-33751,Oliver Kahn,0.7872,31,True
+P6,1,solo semantica,3.0,http://example.org/worldcup/resource/player/P-94095,Victor,0.7849,31,False
+P6,1,solo semantica,4.0,http://example.org/worldcup/resource/player/P-59589,René Llense,0.7785,31,False
+P6,1,solo semantica,5.0,http://example.org/worldcup/resource/player/P-85689,Robert Sadowski,0.7773,31,False
+P6,1,solo semantica,6.0,http://example.org/worldcup/resource/player/P-34980,Jorge Martins,0.7768,31,False
+P6,1,solo semantica,7.0,http://example.org/worldcup/resource/player/P-91107,Stephan Lehmann,0.7765,31,False
+P6,1,solo semantica,8.0,http://example.org/worldcup/resource/player/P-79097,René Quitral,0.7763,31,False
+P6,1,solo semantica,9.0,http://example.org/worldcup/resource/player/P-77995,Giuseppe Cavanna,0.7761,31,False
+P6,1,solo semantica,10.0,http://example.org/worldcup/resource/player/P-11392,Gianluigi Buffon,0.7756,31,True
+P6,1,indice prima 50,1.0,http://example.org/worldcup/resource/player/P-94095,Victor,0.7874,25,False
+P6,1,indice prima 50,2.0,http://example.org/worldcup/resource/player/P-50189,Milutin Šoškić,0.7781,25,False
+P6,1,indice prima 50,3.0,http://example.org/worldcup/resource/player/P-00531,Michel Preud'homme,0.7775,25,True
+P6,1,indice prima 50,4.0,http://example.org/worldcup/resource/player/P-33751,Oliver Kahn,0.7771,25,True
+P6,1,indice prima 50,5.0,http://example.org/worldcup/resource/player/P-85689,Robert Sadowski,0.7743,25,False
+P6,1,indice prima 50,6.0,http://example.org/worldcup/resource/player/P-08052,Leo Halle,0.7729,25,False
+P6,1,indice prima 50,7.0,http://example.org/worldcup/resource/player/P-38789,Pascal Zuberbühler,0.7721,25,False
+P6,1,indice prima 50,8.0,http://example.org/worldcup/resource/player/P-13066,Adolphe Hug,0.772,25,False
+P6,1,indice prima 50,9.0,http://example.org/worldcup/resource/player/P-05974,Oscar Wirth,0.7719,25,False
+P6,1,indice prima 50,10.0,http://example.org/worldcup/resource/player/P-59293,Lucidio Sentimenti,0.7712,25,False
+P6,1,indice prima 100,1.0,http://example.org/worldcup/resource/player/P-94095,Victor,0.7874,28,False
+P6,1,indice prima 100,2.0,http://example.org/worldcup/resource/player/P-50189,Milutin Šoškić,0.7781,28,False
+P6,1,indice prima 100,3.0,http://example.org/worldcup/resource/player/P-00531,Michel Preud'homme,0.7775,28,True
+P6,1,indice prima 100,4.0,http://example.org/worldcup/resource/player/P-33751,Oliver Kahn,0.7771,28,True
+P6,1,indice prima 100,5.0,http://example.org/worldcup/resource/player/P-85689,Robert Sadowski,0.7743,28,False
+P6,1,indice prima 100,6.0,http://example.org/worldcup/resource/player/P-08052,Leo Halle,0.7729,28,False
+P6,1,indice prima 100,7.0,http://example.org/worldcup/resource/player/P-38789,Pascal Zuberbühler,0.7721,28,False
+P6,1,indice prima 100,8.0,http://example.org/worldcup/resource/player/P-13066,Adolphe Hug,0.772,28,False
+P6,1,indice prima 100,9.0,http://example.org/worldcup/resource/player/P-05974,Oscar Wirth,0.7719,28,False
+P6,1,indice prima 100,10.0,http://example.org/worldcup/resource/player/P-59293,Lucidio Sentimenti,0.7712,28,False
+P6,1,indice prima 500,1.0,http://example.org/worldcup/resource/player/P-94095,Victor,0.7874,25,False
+P6,1,indice prima 500,2.0,http://example.org/worldcup/resource/player/P-50189,Milutin Šoškić,0.7781,25,False
+P6,1,indice prima 500,3.0,http://example.org/worldcup/resource/player/P-00531,Michel Preud'homme,0.7775,25,True
+P6,1,indice prima 500,4.0,http://example.org/worldcup/resource/player/P-33751,Oliver Kahn,0.7771,25,True
+P6,1,indice prima 500,5.0,http://example.org/worldcup/resource/player/P-85689,Robert Sadowski,0.7743,25,False
+P6,1,indice prima 500,6.0,http://example.org/worldcup/resource/player/P-08052,Leo Halle,0.7729,25,False
+P6,1,indice prima 500,7.0,http://example.org/worldcup/resource/player/P-38789,Pascal Zuberbühler,0.7721,25,False
+P6,1,indice prima 500,8.0,http://example.org/worldcup/resource/player/P-13066,Adolphe Hug,0.772,25,False
+P6,1,indice prima 500,9.0,http://example.org/worldcup/resource/player/P-05974,Oscar Wirth,0.7719,25,False
+P6,1,indice prima 500,10.0,http://example.org/worldcup/resource/player/P-59293,Lucidio Sentimenti,0.7712,25,False
+P6,1,grafo prima,1.0,http://example.org/worldcup/resource/player/P-94095,Victor,0.7874,185,False
+P6,1,grafo prima,2.0,http://example.org/worldcup/resource/player/P-50189,Milutin Šoškić,0.7781,185,False
+P6,1,grafo prima,3.0,http://example.org/worldcup/resource/player/P-00531,Michel Preud'homme,0.7775,185,True
+P6,1,grafo prima,4.0,http://example.org/worldcup/resource/player/P-33751,Oliver Kahn,0.7771,185,True
+P6,1,grafo prima,5.0,http://example.org/worldcup/resource/player/P-85689,Robert Sadowski,0.7743,185,False
+P6,1,grafo prima,6.0,http://example.org/worldcup/resource/player/P-08052,Leo Halle,0.7729,185,False
+P6,1,grafo prima,7.0,http://example.org/worldcup/resource/player/P-38789,Pascal Zuberbühler,0.7721,185,False
+P6,1,grafo prima,8.0,http://example.org/worldcup/resource/player/P-13066,Adolphe Hug,0.772,185,False
+P6,1,grafo prima,9.0,http://example.org/worldcup/resource/player/P-05974,Oscar Wirth,0.7719,185,False
+P6,1,grafo prima,10.0,http://example.org/worldcup/resource/player/P-59293,Lucidio Sentimenti,0.7712,185,False
+P6,1,grafo prima (domanda intera),1.0,http://example.org/worldcup/resource/player/P-00531,Michel Preud'homme,0.7924,132,True
+P6,1,grafo prima (domanda intera),2.0,http://example.org/worldcup/resource/player/P-33751,Oliver Kahn,0.7872,132,True
+P6,1,grafo prima (domanda intera),3.0,http://example.org/worldcup/resource/player/P-94095,Victor,0.7849,132,False
+P6,1,grafo prima (domanda intera),4.0,http://example.org/worldcup/resource/player/P-59589,René Llense,0.7785,132,False
+P6,1,grafo prima (domanda intera),5.0,http://example.org/worldcup/resource/player/P-85689,Robert Sadowski,0.7773,132,False
+P6,1,grafo prima (domanda intera),6.0,http://example.org/worldcup/resource/player/P-34980,Jorge Martins,0.7768,132,False
+P6,1,grafo prima (domanda intera),7.0,http://example.org/worldcup/resource/player/P-91107,Stephan Lehmann,0.7765,132,False
+P6,1,grafo prima (domanda intera),8.0,http://example.org/worldcup/resource/player/P-79097,René Quitral,0.7763,132,False
+P6,1,grafo prima (domanda intera),9.0,http://example.org/worldcup/resource/player/P-77995,Giuseppe Cavanna,0.7761,132,False
+P6,1,grafo prima (domanda intera),10.0,http://example.org/worldcup/resource/player/P-11392,Gianluigi Buffon,0.7756,132,True
+P7,1,solo semantica,1.0,http://example.org/worldcup/resource/player/P-44763,Rafael Márquez,0.858,14,True
+P7,1,solo semantica,2.0,http://example.org/worldcup/resource/player/P-69496,Antonio Carbajal,0.847,14,True
+P7,1,solo semantica,3.0,http://example.org/worldcup/resource/player/P-40312,Andrés Guardado,0.8467,14,True
+P7,1,solo semantica,4.0,http://example.org/worldcup/resource/player/P-83744,Francisco Javier Cruz,0.8424,14,False
+P7,1,solo semantica,5.0,http://example.org/worldcup/resource/player/P-01211,Miguel Gutiérrez,0.8424,14,False
+P7,1,solo semantica,6.0,http://example.org/worldcup/resource/player/P-78973,Leonardo Navarro,0.8422,14,False
+P7,1,solo semantica,7.0,http://example.org/worldcup/resource/player/P-05631,Isidoro Díaz,0.8414,14,False
+P7,1,solo semantica,8.0,http://example.org/worldcup/resource/player/P-78559,Manuel Gutiérrez,0.8403,14,False
+P7,1,solo semantica,9.0,http://example.org/worldcup/resource/player/P-90775,Carlos Calderón de la Barca,0.8403,14,False
+P7,1,solo semantica,10.0,http://example.org/worldcup/resource/player/P-22941,Carlos Hermosillo,0.839,14,False
+P7,1,indice prima 50,1.0,http://example.org/worldcup/resource/player/P-69496,Antonio Carbajal,0.8038,17,True
+P7,1,indice prima 100,1.0,http://example.org/worldcup/resource/player/P-69496,Antonio Carbajal,0.8038,23,True
+P7,1,indice prima 500,1.0,http://example.org/worldcup/resource/player/P-69496,Antonio Carbajal,0.8038,31,True
+P7,1,indice prima 500,2.0,http://example.org/worldcup/resource/player/P-80826,Guillermo Ochoa,0.7909,31,True
+P7,1,grafo prima,1.0,http://example.org/worldcup/resource/player/P-69496,Antonio Carbajal,0.8038,184,True
+P7,1,grafo prima,2.0,http://example.org/worldcup/resource/player/P-80826,Guillermo Ochoa,0.7909,184,True
+P7,1,grafo prima,3.0,http://example.org/worldcup/resource/player/P-64532,Víctor Rangel,0.7827,184,False
+P7,1,grafo prima,4.0,http://example.org/worldcup/resource/player/P-32594,Salvador Carmona,0.7805,184,False
+P7,1,grafo prima,5.0,http://example.org/worldcup/resource/player/P-01730,Carlos Salcedo,0.7801,184,False
+P7,1,grafo prima,6.0,http://example.org/worldcup/resource/player/P-65280,Carlos Septién,0.7777,184,False
+P7,1,grafo prima,7.0,http://example.org/worldcup/resource/player/P-78308,Claudio Suárez,0.7775,184,False
+P7,1,grafo prima,8.0,http://example.org/worldcup/resource/player/P-20318,Rafael Ávalos,0.7774,184,False
+P7,1,grafo prima,9.0,http://example.org/worldcup/resource/player/P-28840,José Luis Borbolla,0.7772,184,False
+P7,1,grafo prima,10.0,http://example.org/worldcup/resource/player/P-47178,Mario Trejo,0.7766,184,False
+P7,1,grafo prima (domanda intera),1.0,http://example.org/worldcup/resource/player/P-44763,Rafael Márquez,0.858,126,True
+P7,1,grafo prima (domanda intera),2.0,http://example.org/worldcup/resource/player/P-69496,Antonio Carbajal,0.847,126,True
+P7,1,grafo prima (domanda intera),3.0,http://example.org/worldcup/resource/player/P-40312,Andrés Guardado,0.8467,126,True
+P7,1,grafo prima (domanda intera),4.0,http://example.org/worldcup/resource/player/P-83744,Francisco Javier Cruz,0.8424,126,False
+P7,1,grafo prima (domanda intera),5.0,http://example.org/worldcup/resource/player/P-01211,Miguel Gutiérrez,0.8424,126,False
+P7,1,grafo prima (domanda intera),6.0,http://example.org/worldcup/resource/player/P-78973,Leonardo Navarro,0.8422,126,False
+P7,1,grafo prima (domanda intera),7.0,http://example.org/worldcup/resource/player/P-05631,Isidoro Díaz,0.8414,126,False
+P7,1,grafo prima (domanda intera),8.0,http://example.org/worldcup/resource/player/P-78559,Manuel Gutiérrez,0.8403,126,False
+P7,1,grafo prima (domanda intera),9.0,http://example.org/worldcup/resource/player/P-90775,Carlos Calderón de la Barca,0.8403,126,False
+P7,1,grafo prima (domanda intera),10.0,http://example.org/worldcup/resource/player/P-22941,Carlos Hermosillo,0.839,126,False
+P8,1,solo semantica,1.0,http://example.org/worldcup/resource/player/P-54794,Michelle Akers,0.8075,21,False
+P8,1,solo semantica,2.0,http://example.org/worldcup/resource/player/P-57965,Amanda Cromwell,0.805,21,False
+P8,1,solo semantica,3.0,http://example.org/worldcup/resource/player/P-57996,Angela Kelly,0.8037,21,False
+P8,1,solo semantica,4.0,http://example.org/worldcup/resource/player/P-03657,Adrianna Franch,0.8022,21,False
+P8,1,solo semantica,5.0,http://example.org/worldcup/resource/player/P-57583,Sarah Rafanelli,0.8012,21,False
+P8,1,solo semantica,6.0,http://example.org/worldcup/resource/player/P-23167,Mariana Larroquette,0.7995,21,False
+P8,1,solo semantica,7.0,http://example.org/worldcup/resource/player/P-73318,Holly Manthei,0.7995,21,False
+P8,1,solo semantica,8.0,http://example.org/worldcup/resource/player/P-26247,Vanessa Bernauer,0.7985,21,False
+P8,1,solo semantica,9.0,http://example.org/worldcup/resource/player/P-39552,Michelle Ring,0.7982,21,False
+P8,1,solo semantica,10.0,http://example.org/worldcup/resource/player/P-84864,Ellen White,0.7972,21,False
+P8,1,indice prima 50,,,,,15,
+P8,1,indice prima 100,,,,,15,
+P8,1,indice prima 500,,,,,23,
+P8,1,grafo prima,1.0,http://example.org/worldcup/resource/player/P-45187,Ali Krieger,0.721,141,True
+P8,1,grafo prima,2.0,http://example.org/worldcup/resource/player/P-62104,Carli Lloyd,0.7196,141,True
+P8,1,grafo prima,3.0,http://example.org/worldcup/resource/player/P-54794,Michelle Akers,0.7164,141,False
+P8,1,grafo prima,4.0,http://example.org/worldcup/resource/player/P-79931,Christen Press,0.716,141,True
+P8,1,grafo prima,5.0,http://example.org/worldcup/resource/player/P-09273,Megan Rapinoe,0.7087,141,True
+P8,1,grafo prima,6.0,http://example.org/worldcup/resource/player/P-65982,Rose Lavelle,0.7063,141,False
+P8,1,grafo prima,7.0,http://example.org/worldcup/resource/player/P-37034,Alex Morgan,0.7058,141,True
+P8,1,grafo prima,8.0,http://example.org/worldcup/resource/player/P-12946,Alyssa Naeher,0.7047,141,True
+P8,1,grafo prima,9.0,http://example.org/worldcup/resource/player/P-99201,Brandi Chastain,0.7035,141,False
+P8,1,grafo prima,10.0,http://example.org/worldcup/resource/player/P-89236,Abby Wambach,0.7016,141,False
+P8,1,grafo prima (domanda intera),1.0,http://example.org/worldcup/resource/player/P-54794,Michelle Akers,0.8075,137,False
+P8,1,grafo prima (domanda intera),2.0,http://example.org/worldcup/resource/player/P-57965,Amanda Cromwell,0.805,137,False
+P8,1,grafo prima (domanda intera),3.0,http://example.org/worldcup/resource/player/P-03657,Adrianna Franch,0.8022,137,False
+P8,1,grafo prima (domanda intera),4.0,http://example.org/worldcup/resource/player/P-57583,Sarah Rafanelli,0.8012,137,False
+P8,1,grafo prima (domanda intera),5.0,http://example.org/worldcup/resource/player/P-73318,Holly Manthei,0.7995,137,False
+P8,1,grafo prima (domanda intera),6.0,http://example.org/worldcup/resource/player/P-89416,Julie Foudy,0.7972,137,False
+P8,1,grafo prima (domanda intera),7.0,http://example.org/worldcup/resource/player/P-75727,Tiffany Roberts,0.7966,137,False
+P8,1,grafo prima (domanda intera),8.0,http://example.org/worldcup/resource/player/P-25850,Kristine Lilly,0.7964,137,False
+P8,1,grafo prima (domanda intera),9.0,http://example.org/worldcup/resource/player/P-24048,Danielle Fotopoulos,0.7964,137,False
+P8,1,grafo prima (domanda intera),10.0,http://example.org/worldcup/resource/player/P-78370,Debbie Keller,0.7953,137,False
+T1,1,solo semantica,1.0,http://example.org/worldcup/resource/participation/WC-1966/T-28,England at the 1966 FIFA Men's World Cup,0.759,29,True
+T1,1,solo semantica,2.0,http://example.org/worldcup/resource/participation/WC-1938/T-09,Brazil at the 1938 FIFA Men's World Cup,0.7537,29,False
+T1,1,solo semantica,3.0,http://example.org/worldcup/resource/participation/WC-1999/T-09,Brazil at the 1999 FIFA Women's World Cup,0.7531,29,False
+T1,1,solo semantica,4.0,http://example.org/worldcup/resource/participation/WC-1930/T-84,Uruguay at the 1930 FIFA Men's World Cup,0.7483,29,True
+T1,1,solo semantica,5.0,http://example.org/worldcup/resource/participation/WC-1930/T-09,Brazil at the 1930 FIFA Men's World Cup,0.7464,29,False
+T1,1,solo semantica,6.0,http://example.org/worldcup/resource/participation/WC-2022/T-28,England at the 2022 FIFA Men's World Cup,0.7449,29,False
+T1,1,solo semantica,7.0,http://example.org/worldcup/resource/participation/WC-1970/T-86,West Germany at the 1970 FIFA Men's World Cup,0.7418,29,False
+T1,1,solo semantica,8.0,http://example.org/worldcup/resource/participation/WC-1958/T-09,Brazil at the 1958 FIFA Men's World Cup,0.7404,29,False
+T1,1,solo semantica,9.0,http://example.org/worldcup/resource/participation/WC-1994/T-09,Brazil at the 1994 FIFA Men's World Cup,0.7395,29,False
+T1,1,solo semantica,10.0,http://example.org/worldcup/resource/participation/WC-1950/T-09,Brazil at the 1950 FIFA Men's World Cup,0.7391,29,False
+T1,1,indice prima 50,1.0,http://example.org/worldcup/resource/participation/WC-1974/T-86,West Germany at the 1974 FIFA Men's World Cup,0.8018,14,True
+T1,1,indice prima 50,2.0,http://example.org/worldcup/resource/participation/WC-1978/T-03,Argentina at the 1978 FIFA Men's World Cup,0.7958,14,True
+T1,1,indice prima 50,3.0,http://example.org/worldcup/resource/participation/WC-1998/T-30,France at the 1998 FIFA Men's World Cup,0.7813,14,True
+T1,1,indice prima 50,4.0,http://example.org/worldcup/resource/participation/WC-1930/T-84,Uruguay at the 1930 FIFA Men's World Cup,0.7755,14,True
+T1,1,indice prima 50,5.0,http://example.org/worldcup/resource/participation/WC-1966/T-28,England at the 1966 FIFA Men's World Cup,0.7691,14,True
+T1,1,indice prima 50,6.0,http://example.org/worldcup/resource/participation/WC-1934/T-41,Italy at the 1934 FIFA Men's World Cup,0.768,14,True
+T1,1,indice prima 50,7.0,http://example.org/worldcup/resource/participation/WC-1999/T-83,United States at the 1999 FIFA Women's World Cup,0.7636,14,True
+T1,1,indice prima 100,1.0,http://example.org/worldcup/resource/participation/WC-1974/T-86,West Germany at the 1974 FIFA Men's World Cup,0.8018,13,True
+T1,1,indice prima 100,2.0,http://example.org/worldcup/resource/participation/WC-1978/T-03,Argentina at the 1978 FIFA Men's World Cup,0.7958,13,True
+T1,1,indice prima 100,3.0,http://example.org/worldcup/resource/participation/WC-1998/T-30,France at the 1998 FIFA Men's World Cup,0.7813,13,True
+T1,1,indice prima 100,4.0,http://example.org/worldcup/resource/participation/WC-1930/T-84,Uruguay at the 1930 FIFA Men's World Cup,0.7755,13,True
+T1,1,indice prima 100,5.0,http://example.org/worldcup/resource/participation/WC-1966/T-28,England at the 1966 FIFA Men's World Cup,0.7691,13,True
+T1,1,indice prima 100,6.0,http://example.org/worldcup/resource/participation/WC-1934/T-41,Italy at the 1934 FIFA Men's World Cup,0.768,13,True
+T1,1,indice prima 100,7.0,http://example.org/worldcup/resource/participation/WC-1999/T-83,United States at the 1999 FIFA Women's World Cup,0.7636,13,True
+T1,1,indice prima 100,8.0,http://example.org/worldcup/resource/participation/WC-1982/T-73,Spain at the 1982 FIFA Men's World Cup,0.7572,13,False
+T1,1,indice prima 100,9.0,http://example.org/worldcup/resource/participation/WC-1958/T-74,Sweden at the 1958 FIFA Men's World Cup,0.7556,13,False
+T1,1,indice prima 100,10.0,http://example.org/worldcup/resource/participation/WC-1954/T-75,Switzerland at the 1954 FIFA Men's World Cup,0.7548,13,False
+T1,1,indice prima 500,1.0,http://example.org/worldcup/resource/participation/WC-1974/T-86,West Germany at the 1974 FIFA Men's World Cup,0.8018,14,True
+T1,1,indice prima 500,2.0,http://example.org/worldcup/resource/participation/WC-1978/T-03,Argentina at the 1978 FIFA Men's World Cup,0.7958,14,True
+T1,1,indice prima 500,3.0,http://example.org/worldcup/resource/participation/WC-1998/T-30,France at the 1998 FIFA Men's World Cup,0.7813,14,True
+T1,1,indice prima 500,4.0,http://example.org/worldcup/resource/participation/WC-1930/T-84,Uruguay at the 1930 FIFA Men's World Cup,0.7755,14,True
+T1,1,indice prima 500,5.0,http://example.org/worldcup/resource/participation/WC-1966/T-28,England at the 1966 FIFA Men's World Cup,0.7691,14,True
+T1,1,indice prima 500,6.0,http://example.org/worldcup/resource/participation/WC-1934/T-41,Italy at the 1934 FIFA Men's World Cup,0.768,14,True
+T1,1,indice prima 500,7.0,http://example.org/worldcup/resource/participation/WC-1999/T-83,United States at the 1999 FIFA Women's World Cup,0.7636,14,True
+T1,1,indice prima 500,8.0,http://example.org/worldcup/resource/participation/WC-1982/T-73,Spain at the 1982 FIFA Men's World Cup,0.7572,14,False
+T1,1,indice prima 500,9.0,http://example.org/worldcup/resource/participation/WC-1958/T-74,Sweden at the 1958 FIFA Men's World Cup,0.7556,14,False
+T1,1,indice prima 500,10.0,http://example.org/worldcup/resource/participation/WC-1954/T-75,Switzerland at the 1954 FIFA Men's World Cup,0.7548,14,False
+T1,1,grafo prima,1.0,http://example.org/worldcup/resource/participation/WC-1974/T-86,West Germany at the 1974 FIFA Men's World Cup,0.8018,24,True
+T1,1,grafo prima,2.0,http://example.org/worldcup/resource/participation/WC-1978/T-03,Argentina at the 1978 FIFA Men's World Cup,0.7958,24,True
+T1,1,grafo prima,3.0,http://example.org/worldcup/resource/participation/WC-1998/T-30,France at the 1998 FIFA Men's World Cup,0.7813,24,True
+T1,1,grafo prima,4.0,http://example.org/worldcup/resource/participation/WC-1930/T-84,Uruguay at the 1930 FIFA Men's World Cup,0.7755,24,True
+T1,1,grafo prima,5.0,http://example.org/worldcup/resource/participation/WC-1966/T-28,England at the 1966 FIFA Men's World Cup,0.7691,24,True
+T1,1,grafo prima,6.0,http://example.org/worldcup/resource/participation/WC-1934/T-41,Italy at the 1934 FIFA Men's World Cup,0.768,24,True
+T1,1,grafo prima,7.0,http://example.org/worldcup/resource/participation/WC-1999/T-83,United States at the 1999 FIFA Women's World Cup,0.7636,24,True
+T1,1,grafo prima,8.0,http://example.org/worldcup/resource/participation/WC-1982/T-73,Spain at the 1982 FIFA Men's World Cup,0.7572,24,False
+T1,1,grafo prima,9.0,http://example.org/worldcup/resource/participation/WC-1958/T-74,Sweden at the 1958 FIFA Men's World Cup,0.7556,24,False
+T1,1,grafo prima,10.0,http://example.org/worldcup/resource/participation/WC-1954/T-75,Switzerland at the 1954 FIFA Men's World Cup,0.7548,24,False
+T1,1,grafo prima (domanda intera),1.0,http://example.org/worldcup/resource/participation/WC-1966/T-28,England at the 1966 FIFA Men's World Cup,0.759,15,True
+T1,1,grafo prima (domanda intera),2.0,http://example.org/worldcup/resource/participation/WC-1930/T-84,Uruguay at the 1930 FIFA Men's World Cup,0.7483,15,True
+T1,1,grafo prima (domanda intera),3.0,http://example.org/worldcup/resource/participation/WC-1950/T-09,Brazil at the 1950 FIFA Men's World Cup,0.7391,15,False
+T1,1,grafo prima (domanda intera),4.0,http://example.org/worldcup/resource/participation/WC-1990/T-41,Italy at the 1990 FIFA Men's World Cup,0.7368,15,False
+T1,1,grafo prima (domanda intera),5.0,http://example.org/worldcup/resource/participation/WC-1934/T-41,Italy at the 1934 FIFA Men's World Cup,0.7347,15,True
+T1,1,grafo prima (domanda intera),6.0,http://example.org/worldcup/resource/participation/WC-1974/T-86,West Germany at the 1974 FIFA Men's World Cup,0.7321,15,True
+T1,1,grafo prima (domanda intera),7.0,http://example.org/worldcup/resource/participation/WC-2002/T-71,South Korea at the 2002 FIFA Men's World Cup,0.7279,15,False
+T1,1,grafo prima (domanda intera),8.0,http://example.org/worldcup/resource/participation/WC-2006/T-31,Germany at the 2006 FIFA Men's World Cup,0.7264,15,False
+T1,1,grafo prima (domanda intera),9.0,http://example.org/worldcup/resource/participation/WC-2014/T-09,Brazil at the 2014 FIFA Men's World Cup,0.7241,15,False
+T1,1,grafo prima (domanda intera),10.0,http://example.org/worldcup/resource/participation/WC-2011/T-31,Germany at the 2011 FIFA Women's World Cup,0.7233,15,False
+T2,1,solo semantica,1.0,http://example.org/worldcup/resource/participation/WC-1991/T-50,Nigeria at the 1991 FIFA Women's World Cup,0.7972,15,False
+T2,1,solo semantica,2.0,http://example.org/worldcup/resource/participation/WC-2019/T-70,South Africa at the 2019 FIFA Women's World Cup,0.7899,15,False
+T2,1,solo semantica,3.0,http://example.org/worldcup/resource/participation/WC-1998/T-50,Nigeria at the 1998 FIFA Men's World Cup,0.7876,15,True
+T2,1,solo semantica,4.0,http://example.org/worldcup/resource/participation/WC-1994/T-50,Nigeria at the 1994 FIFA Men's World Cup,0.7868,15,True
+T2,1,solo semantica,5.0,http://example.org/worldcup/resource/participation/WC-2006/T-32,Ghana at the 2006 FIFA Men's World Cup,0.7858,15,True
+T2,1,solo semantica,6.0,http://example.org/worldcup/resource/participation/WC-1986/T-47,Morocco at the 1986 FIFA Men's World Cup,0.7849,15,True
+T2,1,solo semantica,7.0,http://example.org/worldcup/resource/participation/WC-2015/T-50,Nigeria at the 2015 FIFA Women's World Cup,0.7845,15,False
+T2,1,solo semantica,8.0,http://example.org/worldcup/resource/participation/WC-2019/T-50,Nigeria at the 2019 FIFA Women's World Cup,0.7844,15,True
+T2,1,solo semantica,9.0,http://example.org/worldcup/resource/participation/WC-2014/T-50,Nigeria at the 2014 FIFA Men's World Cup,0.7842,15,True
+T2,1,solo semantica,10.0,http://example.org/worldcup/resource/participation/WC-2015/T-11,Cameroon at the 2015 FIFA Women's World Cup,0.783,15,True
+T2,1,indice prima 50,1.0,http://example.org/worldcup/resource/participation/WC-1934/T-26,Egypt at the 1934 FIFA Men's World Cup,0.7394,111,True
+T2,1,indice prima 50,2.0,http://example.org/worldcup/resource/participation/WC-1986/T-47,Morocco at the 1986 FIFA Men's World Cup,0.7333,111,True
+T2,1,indice prima 50,3.0,http://example.org/worldcup/resource/participation/WC-1994/T-50,Nigeria at the 1994 FIFA Men's World Cup,0.7223,111,True
+T2,1,indice prima 50,4.0,http://example.org/worldcup/resource/participation/WC-1998/T-50,Nigeria at the 1998 FIFA Men's World Cup,0.7223,111,True
+T2,1,indice prima 50,5.0,http://example.org/worldcup/resource/participation/WC-2019/T-50,Nigeria at the 2019 FIFA Women's World Cup,0.7217,111,True
+T2,1,indice prima 50,6.0,http://example.org/worldcup/resource/participation/WC-2014/T-50,Nigeria at the 2014 FIFA Men's World Cup,0.7207,111,True
+T2,1,indice prima 100,1.0,http://example.org/worldcup/resource/participation/WC-1934/T-26,Egypt at the 1934 FIFA Men's World Cup,0.7394,14,True
+T2,1,indice prima 100,2.0,http://example.org/worldcup/resource/participation/WC-1986/T-47,Morocco at the 1986 FIFA Men's World Cup,0.7333,14,True
+T2,1,indice prima 100,3.0,http://example.org/worldcup/resource/participation/WC-1994/T-50,Nigeria at the 1994 FIFA Men's World Cup,0.7223,14,True
+T2,1,indice prima 100,4.0,http://example.org/worldcup/resource/participation/WC-1998/T-50,Nigeria at the 1998 FIFA Men's World Cup,0.7223,14,True
+T2,1,indice prima 100,5.0,http://example.org/worldcup/resource/participation/WC-2019/T-50,Nigeria at the 2019 FIFA Women's World Cup,0.7217,14,True
+T2,1,indice prima 100,6.0,http://example.org/worldcup/resource/participation/WC-2014/T-50,Nigeria at the 2014 FIFA Men's World Cup,0.7207,14,True
+T2,1,indice prima 100,7.0,http://example.org/worldcup/resource/participation/WC-1978/T-79,Tunisia at the 1978 FIFA Men's World Cup,0.7189,14,False
+T2,1,indice prima 500,1.0,http://example.org/worldcup/resource/participation/WC-1934/T-26,Egypt at the 1934 FIFA Men's World Cup,0.7394,18,True
+T2,1,indice prima 500,2.0,http://example.org/worldcup/resource/participation/WC-1986/T-47,Morocco at the 1986 FIFA Men's World Cup,0.7333,18,True
+T2,1,indice prima 500,3.0,http://example.org/worldcup/resource/participation/WC-1994/T-50,Nigeria at the 1994 FIFA Men's World Cup,0.7223,18,True
+T2,1,indice prima 500,4.0,http://example.org/worldcup/resource/participation/WC-1998/T-50,Nigeria at the 1998 FIFA Men's World Cup,0.7223,18,True
+T2,1,indice prima 500,5.0,http://example.org/worldcup/resource/participation/WC-2019/T-50,Nigeria at the 2019 FIFA Women's World Cup,0.7217,18,True
+T2,1,indice prima 500,6.0,http://example.org/worldcup/resource/participation/WC-2014/T-50,Nigeria at the 2014 FIFA Men's World Cup,0.7207,18,True
+T2,1,indice prima 500,7.0,http://example.org/worldcup/resource/participation/WC-1978/T-79,Tunisia at the 1978 FIFA Men's World Cup,0.7189,18,False
+T2,1,indice prima 500,8.0,http://example.org/worldcup/resource/participation/WC-2019/T-11,Cameroon at the 2019 FIFA Women's World Cup,0.7033,18,True
+T2,1,indice prima 500,9.0,http://example.org/worldcup/resource/participation/WC-1991/T-50,Nigeria at the 1991 FIFA Women's World Cup,0.7029,18,False
+T2,1,indice prima 500,10.0,http://example.org/worldcup/resource/participation/WC-1982/T-01,Algeria at the 1982 FIFA Men's World Cup,0.7007,18,False
+T2,1,grafo prima,1.0,http://example.org/worldcup/resource/participation/WC-1934/T-26,Egypt at the 1934 FIFA Men's World Cup,0.7394,43,True
+T2,1,grafo prima,2.0,http://example.org/worldcup/resource/participation/WC-1986/T-47,Morocco at the 1986 FIFA Men's World Cup,0.7333,43,True
+T2,1,grafo prima,3.0,http://example.org/worldcup/resource/participation/WC-1994/T-50,Nigeria at the 1994 FIFA Men's World Cup,0.7223,43,True
+T2,1,grafo prima,4.0,http://example.org/worldcup/resource/participation/WC-1998/T-50,Nigeria at the 1998 FIFA Men's World Cup,0.7223,43,True
+T2,1,grafo prima,5.0,http://example.org/worldcup/resource/participation/WC-2019/T-50,Nigeria at the 2019 FIFA Women's World Cup,0.7217,43,True
+T2,1,grafo prima,6.0,http://example.org/worldcup/resource/participation/WC-2014/T-50,Nigeria at the 2014 FIFA Men's World Cup,0.7207,43,True
+T2,1,grafo prima,7.0,http://example.org/worldcup/resource/participation/WC-1978/T-79,Tunisia at the 1978 FIFA Men's World Cup,0.7189,43,False
+T2,1,grafo prima,8.0,http://example.org/worldcup/resource/participation/WC-2019/T-11,Cameroon at the 2019 FIFA Women's World Cup,0.7033,43,True
+T2,1,grafo prima,9.0,http://example.org/worldcup/resource/participation/WC-1991/T-50,Nigeria at the 1991 FIFA Women's World Cup,0.7029,43,False
+T2,1,grafo prima,10.0,http://example.org/worldcup/resource/participation/WC-1982/T-01,Algeria at the 1982 FIFA Men's World Cup,0.7007,43,False
+T2,1,grafo prima (domanda intera),1.0,http://example.org/worldcup/resource/participation/WC-1991/T-50,Nigeria at the 1991 FIFA Women's World Cup,0.7972,19,False
+T2,1,grafo prima (domanda intera),2.0,http://example.org/worldcup/resource/participation/WC-2019/T-70,South Africa at the 2019 FIFA Women's World Cup,0.7899,19,False
+T2,1,grafo prima (domanda intera),3.0,http://example.org/worldcup/resource/participation/WC-1998/T-50,Nigeria at the 1998 FIFA Men's World Cup,0.7876,19,True
+T2,1,grafo prima (domanda intera),4.0,http://example.org/worldcup/resource/participation/WC-1994/T-50,Nigeria at the 1994 FIFA Men's World Cup,0.7868,19,True
+T2,1,grafo prima (domanda intera),5.0,http://example.org/worldcup/resource/participation/WC-2006/T-32,Ghana at the 2006 FIFA Men's World Cup,0.7858,19,True
+T2,1,grafo prima (domanda intera),6.0,http://example.org/worldcup/resource/participation/WC-1986/T-47,Morocco at the 1986 FIFA Men's World Cup,0.7849,19,True
+T2,1,grafo prima (domanda intera),7.0,http://example.org/worldcup/resource/participation/WC-2015/T-50,Nigeria at the 2015 FIFA Women's World Cup,0.7845,19,False
+T2,1,grafo prima (domanda intera),8.0,http://example.org/worldcup/resource/participation/WC-2019/T-50,Nigeria at the 2019 FIFA Women's World Cup,0.7844,19,True
+T2,1,grafo prima (domanda intera),9.0,http://example.org/worldcup/resource/participation/WC-2014/T-50,Nigeria at the 2014 FIFA Men's World Cup,0.7842,19,True
+T2,1,grafo prima (domanda intera),10.0,http://example.org/worldcup/resource/participation/WC-2015/T-11,Cameroon at the 2015 FIFA Women's World Cup,0.783,19,True
+T3,1,solo semantica,1.0,http://example.org/worldcup/resource/participation/WC-2003/T-83,United States at the 2003 FIFA Women's World Cup,0.8322,15,True
+T3,1,solo semantica,2.0,http://example.org/worldcup/resource/participation/WC-1995/T-83,United States at the 1995 FIFA Women's World Cup,0.8241,15,True
+T3,1,solo semantica,3.0,http://example.org/worldcup/resource/participation/WC-2015/T-28,England at the 2015 FIFA Women's World Cup,0.8208,15,True
+T3,1,solo semantica,4.0,http://example.org/worldcup/resource/participation/WC-1999/T-09,Brazil at the 1999 FIFA Women's World Cup,0.8147,15,True
+T3,1,solo semantica,5.0,http://example.org/worldcup/resource/participation/WC-1999/T-83,United States at the 1999 FIFA Women's World Cup,0.8124,15,False
+T3,1,solo semantica,6.0,http://example.org/worldcup/resource/participation/WC-2003/T-74,Sweden at the 2003 FIFA Women's World Cup,0.8062,15,False
+T3,1,solo semantica,7.0,http://example.org/worldcup/resource/participation/WC-2007/T-83,United States at the 2007 FIFA Women's World Cup,0.8039,15,True
+T3,1,solo semantica,8.0,http://example.org/worldcup/resource/participation/WC-2019/T-83,United States at the 2019 FIFA Women's World Cup,0.8036,15,False
+T3,1,solo semantica,9.0,http://example.org/worldcup/resource/participation/WC-2003/T-44,Japan at the 2003 FIFA Women's World Cup,0.8035,15,False
+T3,1,solo semantica,10.0,http://example.org/worldcup/resource/participation/WC-1999/T-44,Japan at the 1999 FIFA Women's World Cup,0.8034,15,False
+T3,1,indice prima 50,1.0,http://example.org/worldcup/resource/participation/WC-2019/T-70,South Africa at the 2019 FIFA Women's World Cup,0.6986,13,False
+T3,1,indice prima 50,2.0,http://example.org/worldcup/resource/participation/WC-2019/T-71,South Korea at the 2019 FIFA Women's World Cup,0.6919,13,False
+T3,1,indice prima 50,3.0,http://example.org/worldcup/resource/participation/WC-2019/T-49,New Zealand at the 2019 FIFA Women's World Cup,0.6914,13,False
+T3,1,indice prima 50,4.0,http://example.org/worldcup/resource/participation/WC-2019/T-64,Scotland at the 2019 FIFA Women's World Cup,0.69,13,False
+T3,1,indice prima 50,5.0,http://example.org/worldcup/resource/participation/WC-2019/T-04,Australia at the 2019 FIFA Women's World Cup,0.6891,13,False
+T3,1,indice prima 50,6.0,http://example.org/worldcup/resource/participation/WC-2019/T-31,Germany at the 2019 FIFA Women's World Cup,0.6884,13,False
+T3,1,indice prima 50,7.0,http://example.org/worldcup/resource/participation/WC-2019/T-74,Sweden at the 2019 FIFA Women's World Cup,0.6862,13,True
+T3,1,indice prima 50,8.0,http://example.org/worldcup/resource/participation/WC-2003/T-51,North Korea at the 2003 FIFA Women's World Cup,0.6819,13,False
+T3,1,indice prima 50,9.0,http://example.org/worldcup/resource/participation/WC-2019/T-53,Norway at the 2019 FIFA Women's World Cup,0.6815,13,False
+T3,1,indice prima 50,10.0,http://example.org/worldcup/resource/participation/WC-2015/T-28,England at the 2015 FIFA Women's World Cup,0.6806,13,True
+T3,1,indice prima 100,1.0,http://example.org/worldcup/resource/participation/WC-2019/T-70,South Africa at the 2019 FIFA Women's World Cup,0.6986,23,False
+T3,1,indice prima 100,2.0,http://example.org/worldcup/resource/participation/WC-2019/T-71,South Korea at the 2019 FIFA Women's World Cup,0.6919,23,False
+T3,1,indice prima 100,3.0,http://example.org/worldcup/resource/participation/WC-2019/T-49,New Zealand at the 2019 FIFA Women's World Cup,0.6914,23,False
+T3,1,indice prima 100,4.0,http://example.org/worldcup/resource/participation/WC-2019/T-64,Scotland at the 2019 FIFA Women's World Cup,0.69,23,False
+T3,1,indice prima 100,5.0,http://example.org/worldcup/resource/participation/WC-2019/T-04,Australia at the 2019 FIFA Women's World Cup,0.6891,23,False
+T3,1,indice prima 100,6.0,http://example.org/worldcup/resource/participation/WC-2019/T-31,Germany at the 2019 FIFA Women's World Cup,0.6884,23,False
+T3,1,indice prima 100,7.0,http://example.org/worldcup/resource/participation/WC-2019/T-74,Sweden at the 2019 FIFA Women's World Cup,0.6862,23,True
+T3,1,indice prima 100,8.0,http://example.org/worldcup/resource/participation/WC-2003/T-51,North Korea at the 2003 FIFA Women's World Cup,0.6819,23,False
+T3,1,indice prima 100,9.0,http://example.org/worldcup/resource/participation/WC-2019/T-53,Norway at the 2019 FIFA Women's World Cup,0.6815,23,False
+T3,1,indice prima 100,10.0,http://example.org/worldcup/resource/participation/WC-2015/T-28,England at the 2015 FIFA Women's World Cup,0.6806,23,True
+T3,1,indice prima 500,1.0,http://example.org/worldcup/resource/participation/WC-2019/T-70,South Africa at the 2019 FIFA Women's World Cup,0.6986,19,False
+T3,1,indice prima 500,2.0,http://example.org/worldcup/resource/participation/WC-2019/T-71,South Korea at the 2019 FIFA Women's World Cup,0.6919,19,False
+T3,1,indice prima 500,3.0,http://example.org/worldcup/resource/participation/WC-2019/T-49,New Zealand at the 2019 FIFA Women's World Cup,0.6914,19,False
+T3,1,indice prima 500,4.0,http://example.org/worldcup/resource/participation/WC-2019/T-64,Scotland at the 2019 FIFA Women's World Cup,0.69,19,False
+T3,1,indice prima 500,5.0,http://example.org/worldcup/resource/participation/WC-2019/T-04,Australia at the 2019 FIFA Women's World Cup,0.6891,19,False
+T3,1,indice prima 500,6.0,http://example.org/worldcup/resource/participation/WC-2019/T-31,Germany at the 2019 FIFA Women's World Cup,0.6884,19,False
+T3,1,indice prima 500,7.0,http://example.org/worldcup/resource/participation/WC-2019/T-74,Sweden at the 2019 FIFA Women's World Cup,0.6862,19,True
+T3,1,indice prima 500,8.0,http://example.org/worldcup/resource/participation/WC-2003/T-51,North Korea at the 2003 FIFA Women's World Cup,0.6819,19,False
+T3,1,indice prima 500,9.0,http://example.org/worldcup/resource/participation/WC-2019/T-53,Norway at the 2019 FIFA Women's World Cup,0.6815,19,False
+T3,1,indice prima 500,10.0,http://example.org/worldcup/resource/participation/WC-2015/T-28,England at the 2015 FIFA Women's World Cup,0.6806,19,True
+T3,1,grafo prima,1.0,http://example.org/worldcup/resource/participation/WC-2019/T-70,South Africa at the 2019 FIFA Women's World Cup,0.6986,60,False
+T3,1,grafo prima,2.0,http://example.org/worldcup/resource/participation/WC-2019/T-71,South Korea at the 2019 FIFA Women's World Cup,0.6919,60,False
+T3,1,grafo prima,3.0,http://example.org/worldcup/resource/participation/WC-2019/T-49,New Zealand at the 2019 FIFA Women's World Cup,0.6914,60,False
+T3,1,grafo prima,4.0,http://example.org/worldcup/resource/participation/WC-2019/T-64,Scotland at the 2019 FIFA Women's World Cup,0.69,60,False
+T3,1,grafo prima,5.0,http://example.org/worldcup/resource/participation/WC-2019/T-04,Australia at the 2019 FIFA Women's World Cup,0.6891,60,False
+T3,1,grafo prima,6.0,http://example.org/worldcup/resource/participation/WC-2019/T-31,Germany at the 2019 FIFA Women's World Cup,0.6884,60,False
+T3,1,grafo prima,7.0,http://example.org/worldcup/resource/participation/WC-2019/T-74,Sweden at the 2019 FIFA Women's World Cup,0.6862,60,True
+T3,1,grafo prima,8.0,http://example.org/worldcup/resource/participation/WC-2003/T-51,North Korea at the 2003 FIFA Women's World Cup,0.6819,60,False
+T3,1,grafo prima,9.0,http://example.org/worldcup/resource/participation/WC-2019/T-53,Norway at the 2019 FIFA Women's World Cup,0.6815,60,False
+T3,1,grafo prima,10.0,http://example.org/worldcup/resource/participation/WC-2015/T-28,England at the 2015 FIFA Women's World Cup,0.6806,60,True
+T3,1,grafo prima (domanda intera),1.0,http://example.org/worldcup/resource/participation/WC-2003/T-83,United States at the 2003 FIFA Women's World Cup,0.8322,24,True
+T3,1,grafo prima (domanda intera),2.0,http://example.org/worldcup/resource/participation/WC-1995/T-83,United States at the 1995 FIFA Women's World Cup,0.8241,24,True
+T3,1,grafo prima (domanda intera),3.0,http://example.org/worldcup/resource/participation/WC-2015/T-28,England at the 2015 FIFA Women's World Cup,0.8208,24,True
+T3,1,grafo prima (domanda intera),4.0,http://example.org/worldcup/resource/participation/WC-1999/T-09,Brazil at the 1999 FIFA Women's World Cup,0.8147,24,True
+T3,1,grafo prima (domanda intera),5.0,http://example.org/worldcup/resource/participation/WC-1999/T-83,United States at the 1999 FIFA Women's World Cup,0.8124,24,False
+T3,1,grafo prima (domanda intera),6.0,http://example.org/worldcup/resource/participation/WC-2003/T-74,Sweden at the 2003 FIFA Women's World Cup,0.8062,24,False
+T3,1,grafo prima (domanda intera),7.0,http://example.org/worldcup/resource/participation/WC-2007/T-83,United States at the 2007 FIFA Women's World Cup,0.8039,24,True
+T3,1,grafo prima (domanda intera),8.0,http://example.org/worldcup/resource/participation/WC-2019/T-83,United States at the 2019 FIFA Women's World Cup,0.8036,24,False
+T3,1,grafo prima (domanda intera),9.0,http://example.org/worldcup/resource/participation/WC-2003/T-44,Japan at the 2003 FIFA Women's World Cup,0.8035,24,False
+T3,1,grafo prima (domanda intera),10.0,http://example.org/worldcup/resource/participation/WC-1999/T-44,Japan at the 1999 FIFA Women's World Cup,0.8034,24,False
+T4,1,solo semantica,1.0,http://example.org/worldcup/resource/participation/WC-2014/T-84,Uruguay at the 2014 FIFA Men's World Cup,0.8309,15,False
+T4,1,solo semantica,2.0,http://example.org/worldcup/resource/participation/WC-2014/T-62,Russia at the 2014 FIFA Men's World Cup,0.8272,15,False
+T4,1,solo semantica,3.0,http://example.org/worldcup/resource/participation/WC-2014/T-03,Argentina at the 2014 FIFA Men's World Cup,0.827,15,False
+T4,1,solo semantica,4.0,http://example.org/worldcup/resource/participation/WC-2014/T-09,Brazil at the 2014 FIFA Men's World Cup,0.8246,15,False
+T4,1,solo semantica,5.0,http://example.org/worldcup/resource/participation/WC-2014/T-83,United States at the 2014 FIFA Men's World Cup,0.8243,15,False
+T4,1,solo semantica,6.0,http://example.org/worldcup/resource/participation/WC-2014/T-08,Bosnia and Herzegovina at the 2014 FIFA Men's World Cup,0.8206,15,False
+T4,1,solo semantica,7.0,http://example.org/worldcup/resource/participation/WC-2014/T-31,Germany at the 2014 FIFA Men's World Cup,0.8191,15,False
+T4,1,solo semantica,8.0,http://example.org/worldcup/resource/participation/WC-2014/T-04,Australia at the 2014 FIFA Men's World Cup,0.8183,15,True
+T4,1,solo semantica,9.0,http://example.org/worldcup/resource/participation/WC-2014/T-28,England at the 2014 FIFA Men's World Cup,0.8165,15,False
+T4,1,solo semantica,10.0,http://example.org/worldcup/resource/participation/WC-2014/T-44,Japan at the 2014 FIFA Men's World Cup,0.8132,15,False
+T4,1,indice prima 50,1.0,http://example.org/worldcup/resource/participation/WC-2014/T-71,South Korea at the 2014 FIFA Men's World Cup,0.7838,16,False
+T4,1,indice prima 100,1.0,http://example.org/worldcup/resource/participation/WC-2014/T-71,South Korea at the 2014 FIFA Men's World Cup,0.7838,16,False
+T4,1,indice prima 100,2.0,http://example.org/worldcup/resource/participation/WC-2014/T-08,Bosnia and Herzegovina at the 2014 FIFA Men's World Cup,0.7779,16,False
+T4,1,indice prima 500,1.0,http://example.org/worldcup/resource/participation/WC-2014/T-71,South Korea at the 2014 FIFA Men's World Cup,0.7838,21,False
+T4,1,indice prima 500,2.0,http://example.org/worldcup/resource/participation/WC-2014/T-08,Bosnia and Herzegovina at the 2014 FIFA Men's World Cup,0.7779,21,False
+T4,1,indice prima 500,3.0,http://example.org/worldcup/resource/participation/WC-2014/T-25,Ecuador at the 2014 FIFA Men's World Cup,0.771,21,False
+T4,1,indice prima 500,4.0,http://example.org/worldcup/resource/participation/WC-2014/T-58,Portugal at the 2014 FIFA Men's World Cup,0.7656,21,False
+T4,1,indice prima 500,5.0,http://example.org/worldcup/resource/participation/WC-2014/T-62,Russia at the 2014 FIFA Men's World Cup,0.7637,21,False
+T4,1,indice prima 500,6.0,http://example.org/worldcup/resource/participation/WC-2014/T-44,Japan at the 2014 FIFA Men's World Cup,0.7623,21,False
+T4,1,indice prima 500,7.0,http://example.org/worldcup/resource/participation/WC-2014/T-04,Australia at the 2014 FIFA Men's World Cup,0.7619,21,True
+T4,1,indice prima 500,8.0,http://example.org/worldcup/resource/participation/WC-2014/T-73,Spain at the 2014 FIFA Men's World Cup,0.7569,21,False
+T4,1,indice prima 500,9.0,http://example.org/worldcup/resource/participation/WC-2014/T-50,Nigeria at the 2014 FIFA Men's World Cup,0.7499,21,False
+T4,1,indice prima 500,10.0,http://example.org/worldcup/resource/participation/WC-2014/T-35,Honduras at the 2014 FIFA Men's World Cup,0.7493,21,True
+T4,1,grafo prima,1.0,http://example.org/worldcup/resource/participation/WC-2014/T-71,South Korea at the 2014 FIFA Men's World Cup,0.7838,18,False
+T4,1,grafo prima,2.0,http://example.org/worldcup/resource/participation/WC-2014/T-08,Bosnia and Herzegovina at the 2014 FIFA Men's World Cup,0.7779,18,False
+T4,1,grafo prima,3.0,http://example.org/worldcup/resource/participation/WC-2014/T-25,Ecuador at the 2014 FIFA Men's World Cup,0.771,18,False
+T4,1,grafo prima,4.0,http://example.org/worldcup/resource/participation/WC-2014/T-58,Portugal at the 2014 FIFA Men's World Cup,0.7656,18,False
+T4,1,grafo prima,5.0,http://example.org/worldcup/resource/participation/WC-2014/T-62,Russia at the 2014 FIFA Men's World Cup,0.7637,18,False
+T4,1,grafo prima,6.0,http://example.org/worldcup/resource/participation/WC-2014/T-44,Japan at the 2014 FIFA Men's World Cup,0.7623,18,False
+T4,1,grafo prima,7.0,http://example.org/worldcup/resource/participation/WC-2014/T-04,Australia at the 2014 FIFA Men's World Cup,0.7619,18,True
+T4,1,grafo prima,8.0,http://example.org/worldcup/resource/participation/WC-2014/T-73,Spain at the 2014 FIFA Men's World Cup,0.7569,18,False
+T4,1,grafo prima,9.0,http://example.org/worldcup/resource/participation/WC-2014/T-50,Nigeria at the 2014 FIFA Men's World Cup,0.7499,18,False
+T4,1,grafo prima,10.0,http://example.org/worldcup/resource/participation/WC-2014/T-35,Honduras at the 2014 FIFA Men's World Cup,0.7493,18,True
+T4,1,grafo prima (domanda intera),1.0,http://example.org/worldcup/resource/participation/WC-2014/T-84,Uruguay at the 2014 FIFA Men's World Cup,0.8309,21,False
+T4,1,grafo prima (domanda intera),2.0,http://example.org/worldcup/resource/participation/WC-2014/T-62,Russia at the 2014 FIFA Men's World Cup,0.8272,21,False
+T4,1,grafo prima (domanda intera),3.0,http://example.org/worldcup/resource/participation/WC-2014/T-03,Argentina at the 2014 FIFA Men's World Cup,0.827,21,False
+T4,1,grafo prima (domanda intera),4.0,http://example.org/worldcup/resource/participation/WC-2014/T-09,Brazil at the 2014 FIFA Men's World Cup,0.8246,21,False
+T4,1,grafo prima (domanda intera),5.0,http://example.org/worldcup/resource/participation/WC-2014/T-83,United States at the 2014 FIFA Men's World Cup,0.8243,21,False
+T4,1,grafo prima (domanda intera),6.0,http://example.org/worldcup/resource/participation/WC-2014/T-08,Bosnia and Herzegovina at the 2014 FIFA Men's World Cup,0.8206,21,False
+T4,1,grafo prima (domanda intera),7.0,http://example.org/worldcup/resource/participation/WC-2014/T-31,Germany at the 2014 FIFA Men's World Cup,0.8191,21,False
+T4,1,grafo prima (domanda intera),8.0,http://example.org/worldcup/resource/participation/WC-2014/T-04,Australia at the 2014 FIFA Men's World Cup,0.8183,21,True
+T4,1,grafo prima (domanda intera),9.0,http://example.org/worldcup/resource/participation/WC-2014/T-28,England at the 2014 FIFA Men's World Cup,0.8165,21,False
+T4,1,grafo prima (domanda intera),10.0,http://example.org/worldcup/resource/participation/WC-2014/T-44,Japan at the 2014 FIFA Men's World Cup,0.8132,21,False
+M1,1,solo semantica,1.0,http://example.org/worldcup/resource/match/M-2015-45,Germany vs France,0.777,28,False
+M1,1,solo semantica,2.0,http://example.org/worldcup/resource/match/M-2006-64,Italy vs France,0.774,28,True
+M1,1,solo semantica,3.0,http://example.org/worldcup/resource/match/M-1966-11,Hungary vs Brazil,0.7733,28,False
+M1,1,solo semantica,4.0,http://example.org/worldcup/resource/match/M-1982-50,West Germany vs France,0.7718,28,False
+M1,1,solo semantica,5.0,http://example.org/worldcup/resource/match/M-1938-06,Brazil vs Poland,0.7716,28,False
+M1,1,solo semantica,6.0,http://example.org/worldcup/resource/match/M-1986-39,Brazil vs Poland,0.7711,28,False
+M1,1,solo semantica,7.0,http://example.org/worldcup/resource/match/M-2022-64,Argentina vs France,0.7704,28,True
+M1,1,solo semantica,8.0,http://example.org/worldcup/resource/match/M-2006-57,Germany vs Argentina,0.769,28,False
+M1,1,solo semantica,9.0,http://example.org/worldcup/resource/match/M-1978-13,Austria vs Sweden,0.7684,28,False
+M1,1,solo semantica,10.0,http://example.org/worldcup/resource/match/M-1954-21,Hungary vs Brazil,0.7683,28,False
+M1,1,indice prima 50,1.0,http://example.org/worldcup/resource/match/M-2006-64,Italy vs France,0.7264,16,True
+M1,1,indice prima 100,1.0,http://example.org/worldcup/resource/match/M-2006-64,Italy vs France,0.7264,15,True
+M1,1,indice prima 100,2.0,http://example.org/worldcup/resource/match/M-2022-64,Argentina vs France,0.712,15,True
+M1,1,indice prima 100,3.0,http://example.org/worldcup/resource/match/M-1994-52,Brazil vs Italy,0.7066,15,True
+M1,1,indice prima 100,4.0,http://example.org/worldcup/resource/match/M-1974-38,Netherlands vs West Germany,0.7045,15,False
+M1,1,indice prima 500,1.0,http://example.org/worldcup/resource/match/M-2006-64,Italy vs France,0.7264,16,True
+M1,1,indice prima 500,2.0,http://example.org/worldcup/resource/match/M-2022-64,Argentina vs France,0.712,16,True
+M1,1,indice prima 500,3.0,http://example.org/worldcup/resource/match/M-1994-52,Brazil vs Italy,0.7066,16,True
+M1,1,indice prima 500,4.0,http://example.org/worldcup/resource/match/M-1974-38,Netherlands vs West Germany,0.7045,16,False
+M1,1,indice prima 500,5.0,http://example.org/worldcup/resource/match/M-1990-52,West Germany vs Argentina,0.6982,16,False
+M1,1,indice prima 500,6.0,http://example.org/worldcup/resource/match/M-2003-32,Germany vs Sweden,0.6949,16,False
+M1,1,indice prima 500,7.0,http://example.org/worldcup/resource/match/M-2002-64,Germany vs Brazil,0.6949,16,False
+M1,1,indice prima 500,8.0,http://example.org/worldcup/resource/match/M-1998-64,Brazil vs France,0.6901,16,False
+M1,1,indice prima 500,9.0,http://example.org/worldcup/resource/match/M-2014-64,Germany vs Argentina,0.689,16,False
+M1,1,indice prima 500,10.0,http://example.org/worldcup/resource/match/M-1962-32,Brazil vs Czechoslovakia,0.6876,16,False
+M1,1,grafo prima,1.0,http://example.org/worldcup/resource/match/M-2006-64,Italy vs France,0.7264,19,True
+M1,1,grafo prima,2.0,http://example.org/worldcup/resource/match/M-2022-64,Argentina vs France,0.712,19,True
+M1,1,grafo prima,3.0,http://example.org/worldcup/resource/match/M-1994-52,Brazil vs Italy,0.7066,19,True
+M1,1,grafo prima,4.0,http://example.org/worldcup/resource/match/M-1974-38,Netherlands vs West Germany,0.7045,19,False
+M1,1,grafo prima,5.0,http://example.org/worldcup/resource/match/M-1990-52,West Germany vs Argentina,0.6982,19,False
+M1,1,grafo prima,6.0,http://example.org/worldcup/resource/match/M-2003-32,Germany vs Sweden,0.6949,19,False
+M1,1,grafo prima,7.0,http://example.org/worldcup/resource/match/M-2002-64,Germany vs Brazil,0.6949,19,False
+M1,1,grafo prima,8.0,http://example.org/worldcup/resource/match/M-1998-64,Brazil vs France,0.6901,19,False
+M1,1,grafo prima,9.0,http://example.org/worldcup/resource/match/M-2014-64,Germany vs Argentina,0.689,19,False
+M1,1,grafo prima,10.0,http://example.org/worldcup/resource/match/M-1962-32,Brazil vs Czechoslovakia,0.6876,19,False
+M1,1,grafo prima (domanda intera),1.0,http://example.org/worldcup/resource/match/M-2006-64,Italy vs France,0.774,15,True
+M1,1,grafo prima (domanda intera),2.0,http://example.org/worldcup/resource/match/M-2022-64,Argentina vs France,0.7704,15,True
+M1,1,grafo prima (domanda intera),3.0,http://example.org/worldcup/resource/match/M-1994-52,Brazil vs Italy,0.7643,15,True
+M1,1,grafo prima (domanda intera),4.0,http://example.org/worldcup/resource/match/M-1962-32,Brazil vs Czechoslovakia,0.7594,15,False
+M1,1,grafo prima (domanda intera),5.0,http://example.org/worldcup/resource/match/M-2002-64,Germany vs Brazil,0.7535,15,False
+M1,1,grafo prima (domanda intera),6.0,http://example.org/worldcup/resource/match/M-1974-38,Netherlands vs West Germany,0.7514,15,False
+M1,1,grafo prima (domanda intera),7.0,http://example.org/worldcup/resource/match/M-2014-64,Germany vs Argentina,0.7499,15,False
+M1,1,grafo prima (domanda intera),8.0,http://example.org/worldcup/resource/match/M-1990-52,West Germany vs Argentina,0.7498,15,False
+M1,1,grafo prima (domanda intera),9.0,http://example.org/worldcup/resource/match/M-2007-32,Germany vs Brazil,0.7455,15,False
+M1,1,grafo prima (domanda intera),10.0,http://example.org/worldcup/resource/match/M-1954-26,West Germany vs Hungary,0.7444,15,False
+M2,1,solo semantica,1.0,http://example.org/worldcup/resource/match/M-2014-61,Brazil vs Germany,0.8621,10,True
+M2,1,solo semantica,2.0,http://example.org/worldcup/resource/match/M-2014-12,Germany vs Portugal,0.8465,10,True
+M2,1,solo semantica,3.0,http://example.org/worldcup/resource/match/M-2014-01,Brazil vs Croatia,0.842,10,False
+M2,1,solo semantica,4.0,http://example.org/worldcup/resource/match/M-2014-22,Uruguay vs England,0.84,10,False
+M2,1,solo semantica,5.0,http://example.org/worldcup/resource/match/M-2014-57,France vs Germany,0.8398,10,False
+M2,1,solo semantica,6.0,http://example.org/worldcup/resource/match/M-2014-54,Germany vs Algeria,0.8396,10,False
+M2,1,solo semantica,7.0,http://example.org/worldcup/resource/match/M-2014-58,Brazil vs Colombia,0.8347,10,False
+M2,1,solo semantica,8.0,http://example.org/worldcup/resource/match/M-2014-07,England vs Italy,0.8306,10,False
+M2,1,solo semantica,9.0,http://example.org/worldcup/resource/match/M-2014-49,Brazil vs Chile,0.83,10,False
+M2,1,solo semantica,10.0,http://example.org/worldcup/resource/match/M-2014-38,Italy vs Uruguay,0.8291,10,False
+M2,1,indice prima 50,1.0,http://example.org/worldcup/resource/match/M-2014-04,Chile vs Australia,0.6667,13,False
+M2,1,indice prima 50,2.0,http://example.org/worldcup/resource/match/M-2014-47,Algeria vs Russia,0.6639,13,False
+M2,1,indice prima 100,1.0,http://example.org/worldcup/resource/match/M-2014-04,Chile vs Australia,0.6667,13,False
+M2,1,indice prima 100,2.0,http://example.org/worldcup/resource/match/M-2014-47,Algeria vs Russia,0.6639,13,False
+M2,1,indice prima 100,3.0,http://example.org/worldcup/resource/match/M-2014-11,Argentina vs Bosnia and Herzegovina,0.6596,13,False
+M2,1,indice prima 500,1.0,http://example.org/worldcup/resource/match/M-2014-04,Chile vs Australia,0.6667,16,False
+M2,1,indice prima 500,2.0,http://example.org/worldcup/resource/match/M-2014-47,Algeria vs Russia,0.6639,16,False
+M2,1,indice prima 500,3.0,http://example.org/worldcup/resource/match/M-2014-11,Argentina vs Bosnia and Herzegovina,0.6596,16,False
+M2,1,indice prima 500,4.0,http://example.org/worldcup/resource/match/M-2014-17,Russia vs South Korea,0.6528,16,False
+M2,1,indice prima 500,5.0,http://example.org/worldcup/resource/match/M-2014-29,Nigeria vs Bosnia and Herzegovina,0.6525,16,False
+M2,1,indice prima 500,6.0,http://example.org/worldcup/resource/match/M-2014-34,Netherlands vs Chile,0.6517,16,False
+M2,1,indice prima 500,7.0,http://example.org/worldcup/resource/match/M-2014-33,Australia vs Spain,0.6517,16,False
+M2,1,indice prima 500,8.0,http://example.org/worldcup/resource/match/M-2014-40,Greece vs Ivory Coast,0.647,16,False
+M2,1,indice prima 500,9.0,http://example.org/worldcup/resource/match/M-2014-19,Spain vs Chile,0.6467,16,False
+M2,1,indice prima 500,10.0,http://example.org/worldcup/resource/match/M-2014-08,Ivory Coast vs Japan,0.646,16,False
+M2,1,grafo prima,1.0,http://example.org/worldcup/resource/match/M-2014-04,Chile vs Australia,0.6667,26,False
+M2,1,grafo prima,2.0,http://example.org/worldcup/resource/match/M-2014-47,Algeria vs Russia,0.6639,26,False
+M2,1,grafo prima,3.0,http://example.org/worldcup/resource/match/M-2014-11,Argentina vs Bosnia and Herzegovina,0.6596,26,False
+M2,1,grafo prima,4.0,http://example.org/worldcup/resource/match/M-2014-17,Russia vs South Korea,0.6528,26,False
+M2,1,grafo prima,5.0,http://example.org/worldcup/resource/match/M-2014-29,Nigeria vs Bosnia and Herzegovina,0.6525,26,False
+M2,1,grafo prima,6.0,http://example.org/worldcup/resource/match/M-2014-34,Netherlands vs Chile,0.6517,26,False
+M2,1,grafo prima,7.0,http://example.org/worldcup/resource/match/M-2014-33,Australia vs Spain,0.6517,26,False
+M2,1,grafo prima,8.0,http://example.org/worldcup/resource/match/M-2014-40,Greece vs Ivory Coast,0.647,26,False
+M2,1,grafo prima,9.0,http://example.org/worldcup/resource/match/M-2014-19,Spain vs Chile,0.6467,26,False
+M2,1,grafo prima,10.0,http://example.org/worldcup/resource/match/M-2014-08,Ivory Coast vs Japan,0.646,26,False
+M2,1,grafo prima (domanda intera),1.0,http://example.org/worldcup/resource/match/M-2014-61,Brazil vs Germany,0.8621,22,True
+M2,1,grafo prima (domanda intera),2.0,http://example.org/worldcup/resource/match/M-2014-12,Germany vs Portugal,0.8465,22,True
+M2,1,grafo prima (domanda intera),3.0,http://example.org/worldcup/resource/match/M-2014-01,Brazil vs Croatia,0.842,22,False
+M2,1,grafo prima (domanda intera),4.0,http://example.org/worldcup/resource/match/M-2014-22,Uruguay vs England,0.84,22,False
+M2,1,grafo prima (domanda intera),5.0,http://example.org/worldcup/resource/match/M-2014-57,France vs Germany,0.8398,22,False
+M2,1,grafo prima (domanda intera),6.0,http://example.org/worldcup/resource/match/M-2014-54,Germany vs Algeria,0.8396,22,False
+M2,1,grafo prima (domanda intera),7.0,http://example.org/worldcup/resource/match/M-2014-58,Brazil vs Colombia,0.8347,22,False
+M2,1,grafo prima (domanda intera),8.0,http://example.org/worldcup/resource/match/M-2014-07,England vs Italy,0.8306,22,False
+M2,1,grafo prima (domanda intera),9.0,http://example.org/worldcup/resource/match/M-2014-49,Brazil vs Chile,0.83,22,False
+M2,1,grafo prima (domanda intera),10.0,http://example.org/worldcup/resource/match/M-2014-38,Italy vs Uruguay,0.8291,22,False
+M3,1,solo semantica,1.0,http://example.org/worldcup/resource/match/M-1998-51,France vs Paraguay,0.7608,18,False
+M3,1,solo semantica,2.0,http://example.org/worldcup/resource/match/M-1990-45,Argentina vs Yugoslavia,0.7579,18,False
+M3,1,solo semantica,3.0,http://example.org/worldcup/resource/match/M-1990-50,West Germany vs England,0.7579,18,True
+M3,1,solo semantica,4.0,http://example.org/worldcup/resource/match/M-2006-61,Germany vs Italy,0.7545,18,True
+M3,1,solo semantica,5.0,http://example.org/worldcup/resource/match/M-1998-57,Italy vs France,0.7507,18,False
+M3,1,solo semantica,6.0,http://example.org/worldcup/resource/match/M-1938-10,Brazil vs Czechoslovakia,0.7504,18,False
+M3,1,solo semantica,7.0,http://example.org/worldcup/resource/match/M-1958-28,Brazil vs Wales,0.7487,18,False
+M3,1,solo semantica,8.0,http://example.org/worldcup/resource/match/M-1934-14,Czechoslovakia vs Germany,0.7479,18,False
+M3,1,solo semantica,9.0,http://example.org/worldcup/resource/match/M-1995-24,Germany vs China,0.7476,18,False
+M3,1,solo semantica,10.0,http://example.org/worldcup/resource/match/M-2010-55,Paraguay vs Japan,0.7467,18,False
+M3,1,indice prima 50,,,,,12,
+M3,1,indice prima 100,1.0,http://example.org/worldcup/resource/match/M-2003-30,Sweden vs Canada,0.569,12,False
+M3,1,indice prima 100,2.0,http://example.org/worldcup/resource/match/M-1999-30,Norway vs China,0.5672,12,False
+M3,1,indice prima 500,1.0,http://example.org/worldcup/resource/match/M-2003-30,Sweden vs Canada,0.569,14,False
+M3,1,indice prima 500,2.0,http://example.org/worldcup/resource/match/M-1999-30,Norway vs China,0.5672,14,False
+M3,1,indice prima 500,3.0,http://example.org/worldcup/resource/match/M-1991-23,Sweden vs Norway,0.5648,14,False
+M3,1,indice prima 500,4.0,http://example.org/worldcup/resource/match/M-1990-49,Argentina vs Italy,0.564,14,True
+M3,1,indice prima 500,5.0,http://example.org/worldcup/resource/match/M-1995-23,United States vs Norway,0.5634,14,False
+M3,1,indice prima 500,6.0,http://example.org/worldcup/resource/match/M-2002-61,Germany vs South Korea,0.5634,14,False
+M3,1,indice prima 500,7.0,http://example.org/worldcup/resource/match/M-1990-50,West Germany vs England,0.563,14,True
+M3,1,indice prima 500,8.0,http://example.org/worldcup/resource/match/M-1999-29,United States vs Brazil,0.5622,14,False
+M3,1,indice prima 500,9.0,http://example.org/worldcup/resource/match/M-1995-24,Germany vs China,0.5616,14,False
+M3,1,indice prima 500,10.0,http://example.org/worldcup/resource/match/M-2003-29,United States vs Germany,0.5615,14,False
+M3,1,grafo prima,1.0,http://example.org/worldcup/resource/match/M-2003-30,Sweden vs Canada,0.569,24,False
+M3,1,grafo prima,2.0,http://example.org/worldcup/resource/match/M-1999-30,Norway vs China,0.5672,24,False
+M3,1,grafo prima,3.0,http://example.org/worldcup/resource/match/M-1991-23,Sweden vs Norway,0.5648,24,False
+M3,1,grafo prima,4.0,http://example.org/worldcup/resource/match/M-1990-49,Argentina vs Italy,0.564,24,True
+M3,1,grafo prima,5.0,http://example.org/worldcup/resource/match/M-1995-23,United States vs Norway,0.5634,24,False
+M3,1,grafo prima,6.0,http://example.org/worldcup/resource/match/M-2002-61,Germany vs South Korea,0.5634,24,False
+M3,1,grafo prima,7.0,http://example.org/worldcup/resource/match/M-1990-50,West Germany vs England,0.563,24,True
+M3,1,grafo prima,8.0,http://example.org/worldcup/resource/match/M-1999-29,United States vs Brazil,0.5622,24,False
+M3,1,grafo prima,9.0,http://example.org/worldcup/resource/match/M-1995-24,Germany vs China,0.5616,24,False
+M3,1,grafo prima,10.0,http://example.org/worldcup/resource/match/M-2003-29,United States vs Germany,0.5615,24,False
+M3,1,grafo prima (domanda intera),1.0,http://example.org/worldcup/resource/match/M-1990-50,West Germany vs England,0.7579,22,True
+M3,1,grafo prima (domanda intera),2.0,http://example.org/worldcup/resource/match/M-2006-61,Germany vs Italy,0.7545,22,True
+M3,1,grafo prima (domanda intera),3.0,http://example.org/worldcup/resource/match/M-1934-14,Czechoslovakia vs Germany,0.7479,22,False
+M3,1,grafo prima (domanda intera),4.0,http://example.org/worldcup/resource/match/M-1995-24,Germany vs China,0.7476,22,False
+M3,1,grafo prima (domanda intera),5.0,http://example.org/worldcup/resource/match/M-1934-15,Italy vs Austria,0.7465,22,False
+M3,1,grafo prima (domanda intera),6.0,http://example.org/worldcup/resource/match/M-2002-61,Germany vs South Korea,0.746,22,False
+M3,1,grafo prima (domanda intera),7.0,http://example.org/worldcup/resource/match/M-1966-30,England vs Portugal,0.7419,22,False
+M3,1,grafo prima (domanda intera),8.0,http://example.org/worldcup/resource/match/M-1998-61,Brazil vs Netherlands,0.7413,22,True
+M3,1,grafo prima (domanda intera),9.0,http://example.org/worldcup/resource/match/M-1982-49,Poland vs Italy,0.7411,22,False
+M3,1,grafo prima (domanda intera),10.0,http://example.org/worldcup/resource/match/M-1986-49,France vs West Germany,0.7382,22,False
+M4,1,solo semantica,1.0,http://example.org/worldcup/resource/match/M-1990-21,England vs Netherlands,0.8588,173,True
+M4,1,solo semantica,2.0,http://example.org/worldcup/resource/match/M-1990-35,England vs Egypt,0.8577,173,False
+M4,1,solo semantica,3.0,http://example.org/worldcup/resource/match/M-1990-12,Uruguay vs Spain,0.8552,173,True
+M4,1,solo semantica,4.0,http://example.org/worldcup/resource/match/M-1990-30,Italy vs Czechoslovakia,0.8528,173,False
+M4,1,solo semantica,5.0,http://example.org/worldcup/resource/match/M-1990-31,Brazil vs Scotland,0.8519,173,False
+M4,1,solo semantica,6.0,http://example.org/worldcup/resource/match/M-1990-04,Italy vs Austria,0.851,173,False
+M4,1,solo semantica,7.0,http://example.org/worldcup/resource/match/M-1990-17,Austria vs Czechoslovakia,0.8464,173,False
+M4,1,solo semantica,8.0,http://example.org/worldcup/resource/match/M-1990-13,Argentina vs Soviet Union,0.8448,173,False
+M4,1,solo semantica,9.0,http://example.org/worldcup/resource/match/M-1990-34,South Korea vs Uruguay,0.8436,173,False
+M4,1,solo semantica,10.0,http://example.org/worldcup/resource/match/M-1990-06,Brazil vs Sweden,0.8436,173,False
+M4,1,indice prima 50,,,,,21,
+M4,1,indice prima 100,,,,,18,
+M4,1,indice prima 500,1.0,http://example.org/worldcup/resource/match/M-1990-25,Argentina vs Romania,0.6972,22,False
+M4,1,indice prima 500,2.0,http://example.org/worldcup/resource/match/M-1990-20,Sweden vs Scotland,0.6968,22,False
+M4,1,indice prima 500,3.0,http://example.org/worldcup/resource/match/M-1990-27,West Germany vs Colombia,0.695,22,False
+M4,1,indice prima 500,4.0,http://example.org/worldcup/resource/match/M-1990-31,Brazil vs Scotland,0.6933,22,False
+M4,1,indice prima 500,5.0,http://example.org/worldcup/resource/match/M-1990-21,England vs Netherlands,0.6851,22,True
+M4,1,indice prima 500,6.0,http://example.org/worldcup/resource/match/M-1990-33,Belgium vs Spain,0.6842,22,False
+M4,1,indice prima 500,7.0,http://example.org/worldcup/resource/match/M-1990-11,Netherlands vs Egypt,0.682,22,False
+M4,1,indice prima 500,8.0,http://example.org/worldcup/resource/match/M-1990-06,Brazil vs Sweden,0.6817,22,False
+M4,1,indice prima 500,9.0,http://example.org/worldcup/resource/match/M-1990-01,Argentina vs Cameroon,0.6817,22,False
+M4,1,indice prima 500,10.0,http://example.org/worldcup/resource/match/M-1990-02,Soviet Union vs Romania,0.68,22,False
+M4,1,grafo prima,1.0,http://example.org/worldcup/resource/match/M-1990-25,Argentina vs Romania,0.6972,25,False
+M4,1,grafo prima,2.0,http://example.org/worldcup/resource/match/M-1990-20,Sweden vs Scotland,0.6968,25,False
+M4,1,grafo prima,3.0,http://example.org/worldcup/resource/match/M-1990-27,West Germany vs Colombia,0.695,25,False
+M4,1,grafo prima,4.0,http://example.org/worldcup/resource/match/M-1990-31,Brazil vs Scotland,0.6933,25,False
+M4,1,grafo prima,5.0,http://example.org/worldcup/resource/match/M-1990-21,England vs Netherlands,0.6851,25,True
+M4,1,grafo prima,6.0,http://example.org/worldcup/resource/match/M-1990-33,Belgium vs Spain,0.6842,25,False
+M4,1,grafo prima,7.0,http://example.org/worldcup/resource/match/M-1990-11,Netherlands vs Egypt,0.682,25,False
+M4,1,grafo prima,8.0,http://example.org/worldcup/resource/match/M-1990-06,Brazil vs Sweden,0.6817,25,False
+M4,1,grafo prima,9.0,http://example.org/worldcup/resource/match/M-1990-01,Argentina vs Cameroon,0.6817,25,False
+M4,1,grafo prima,10.0,http://example.org/worldcup/resource/match/M-1990-02,Soviet Union vs Romania,0.68,25,False
+M4,1,grafo prima (domanda intera),1.0,http://example.org/worldcup/resource/match/M-1990-21,England vs Netherlands,0.8588,25,True
+M4,1,grafo prima (domanda intera),2.0,http://example.org/worldcup/resource/match/M-1990-35,England vs Egypt,0.8577,25,False
+M4,1,grafo prima (domanda intera),3.0,http://example.org/worldcup/resource/match/M-1990-12,Uruguay vs Spain,0.8552,25,True
+M4,1,grafo prima (domanda intera),4.0,http://example.org/worldcup/resource/match/M-1990-30,Italy vs Czechoslovakia,0.8528,25,False
+M4,1,grafo prima (domanda intera),5.0,http://example.org/worldcup/resource/match/M-1990-31,Brazil vs Scotland,0.8519,25,False
+M4,1,grafo prima (domanda intera),6.0,http://example.org/worldcup/resource/match/M-1990-04,Italy vs Austria,0.851,25,False
+M4,1,grafo prima (domanda intera),7.0,http://example.org/worldcup/resource/match/M-1990-17,Austria vs Czechoslovakia,0.8464,25,False
+M4,1,grafo prima (domanda intera),8.0,http://example.org/worldcup/resource/match/M-1990-13,Argentina vs Soviet Union,0.8448,25,False
+M4,1,grafo prima (domanda intera),9.0,http://example.org/worldcup/resource/match/M-1990-34,South Korea vs Uruguay,0.8436,25,False
+M4,1,grafo prima (domanda intera),10.0,http://example.org/worldcup/resource/match/M-1990-06,Brazil vs Sweden,0.8436,25,False
+M5,1,solo semantica,1.0,http://example.org/worldcup/resource/match/M-2010-62,Germany vs Spain,0.8723,12,True
+M5,1,solo semantica,2.0,http://example.org/worldcup/resource/match/M-2010-54,Brazil vs Chile,0.8721,12,False
+M5,1,solo semantica,3.0,http://example.org/worldcup/resource/match/M-2010-51,Germany vs England,0.8704,12,False
+M5,1,solo semantica,4.0,http://example.org/worldcup/resource/match/M-2010-34,Mexico vs Uruguay,0.8671,12,True
+M5,1,solo semantica,5.0,http://example.org/worldcup/resource/match/M-2010-02,Uruguay vs France,0.8669,12,False
+M5,1,solo semantica,6.0,http://example.org/worldcup/resource/match/M-2010-59,Argentina vs Germany,0.8666,12,False
+M5,1,solo semantica,7.0,http://example.org/worldcup/resource/match/M-2010-55,Paraguay vs Japan,0.863,12,False
+M5,1,solo semantica,8.0,http://example.org/worldcup/resource/match/M-2010-58,Uruguay vs Ghana,0.8617,12,False
+M5,1,solo semantica,9.0,http://example.org/worldcup/resource/match/M-2010-63,Uruguay vs Germany,0.8607,12,False
+M5,1,solo semantica,10.0,http://example.org/worldcup/resource/match/M-2010-60,Paraguay vs Spain,0.8602,12,True
+M5,1,indice prima 50,,,,,16,
+M5,1,indice prima 100,1.0,http://example.org/worldcup/resource/match/M-2010-59,Argentina vs Germany,0.7386,14,False
+M5,1,indice prima 500,1.0,http://example.org/worldcup/resource/match/M-2010-59,Argentina vs Germany,0.7386,15,False
+M5,1,indice prima 500,2.0,http://example.org/worldcup/resource/match/M-2010-64,Netherlands vs Spain,0.7315,15,True
+M5,1,indice prima 500,3.0,http://example.org/worldcup/resource/match/M-2010-40,Ghana vs Germany,0.7304,15,True
+M5,1,indice prima 500,4.0,http://example.org/worldcup/resource/match/M-2010-62,Germany vs Spain,0.7277,15,True
+M5,1,indice prima 500,5.0,http://example.org/worldcup/resource/match/M-2010-51,Germany vs England,0.7265,15,False
+M5,1,indice prima 500,6.0,http://example.org/worldcup/resource/match/M-2010-04,Argentina vs Nigeria,0.7263,15,True
+M5,1,indice prima 500,7.0,http://example.org/worldcup/resource/match/M-2010-09,Netherlands vs Denmark,0.7223,15,False
+M5,1,indice prima 500,8.0,http://example.org/worldcup/resource/match/M-2010-50,United States vs Ghana,0.7218,15,False
+M5,1,indice prima 500,9.0,http://example.org/worldcup/resource/match/M-2010-25,Ghana vs Australia,0.7208,15,False
+M5,1,indice prima 500,10.0,http://example.org/worldcup/resource/match/M-2010-58,Uruguay vs Ghana,0.7204,15,False
+M5,1,grafo prima,1.0,http://example.org/worldcup/resource/match/M-2010-59,Argentina vs Germany,0.7386,25,False
+M5,1,grafo prima,2.0,http://example.org/worldcup/resource/match/M-2010-64,Netherlands vs Spain,0.7315,25,True
+M5,1,grafo prima,3.0,http://example.org/worldcup/resource/match/M-2010-40,Ghana vs Germany,0.7304,25,True
+M5,1,grafo prima,4.0,http://example.org/worldcup/resource/match/M-2010-62,Germany vs Spain,0.7277,25,True
+M5,1,grafo prima,5.0,http://example.org/worldcup/resource/match/M-2010-51,Germany vs England,0.7265,25,False
+M5,1,grafo prima,6.0,http://example.org/worldcup/resource/match/M-2010-04,Argentina vs Nigeria,0.7263,25,True
+M5,1,grafo prima,7.0,http://example.org/worldcup/resource/match/M-2010-09,Netherlands vs Denmark,0.7223,25,False
+M5,1,grafo prima,8.0,http://example.org/worldcup/resource/match/M-2010-50,United States vs Ghana,0.7218,25,False
+M5,1,grafo prima,9.0,http://example.org/worldcup/resource/match/M-2010-25,Ghana vs Australia,0.7208,25,False
+M5,1,grafo prima,10.0,http://example.org/worldcup/resource/match/M-2010-58,Uruguay vs Ghana,0.7204,25,False
+M5,1,grafo prima (domanda intera),1.0,http://example.org/worldcup/resource/match/M-2010-62,Germany vs Spain,0.8723,21,True
+M5,1,grafo prima (domanda intera),2.0,http://example.org/worldcup/resource/match/M-2010-54,Brazil vs Chile,0.8721,21,False
+M5,1,grafo prima (domanda intera),3.0,http://example.org/worldcup/resource/match/M-2010-51,Germany vs England,0.8704,21,False
+M5,1,grafo prima (domanda intera),4.0,http://example.org/worldcup/resource/match/M-2010-34,Mexico vs Uruguay,0.8671,21,True
+M5,1,grafo prima (domanda intera),5.0,http://example.org/worldcup/resource/match/M-2010-02,Uruguay vs France,0.8669,21,False
+M5,1,grafo prima (domanda intera),6.0,http://example.org/worldcup/resource/match/M-2010-59,Argentina vs Germany,0.8666,21,False
+M5,1,grafo prima (domanda intera),7.0,http://example.org/worldcup/resource/match/M-2010-55,Paraguay vs Japan,0.863,21,False
+M5,1,grafo prima (domanda intera),8.0,http://example.org/worldcup/resource/match/M-2010-58,Uruguay vs Ghana,0.8617,21,False
+M5,1,grafo prima (domanda intera),9.0,http://example.org/worldcup/resource/match/M-2010-63,Uruguay vs Germany,0.8607,21,False
+M5,1,grafo prima (domanda intera),10.0,http://example.org/worldcup/resource/match/M-2010-60,Paraguay vs Spain,0.8602,21,True
+F1,1,solo semantica,1.0,http://example.org/worldcup/resource/federation/T-84,Uruguay,0.8084,16,True
+F1,1,solo semantica,2.0,http://example.org/worldcup/resource/federation/T-70,South Africa,0.8006,16,False
+F1,1,solo semantica,3.0,http://example.org/worldcup/resource/federation/T-09,Brazil,0.7993,16,True
+F1,1,solo semantica,4.0,http://example.org/worldcup/resource/federation/T-03,Argentina,0.7975,16,True
+F1,1,solo semantica,5.0,http://example.org/worldcup/resource/federation/T-25,Ecuador,0.7952,16,False
+F1,1,solo semantica,6.0,http://example.org/worldcup/resource/federation/T-55,Paraguay,0.7899,16,False
+F1,1,solo semantica,7.0,http://example.org/worldcup/resource/federation/T-07,Bolivia,0.7805,16,False
+F1,1,solo semantica,8.0,http://example.org/worldcup/resource/federation/T-13,Chile,0.778,16,False
+F1,1,solo semantica,9.0,http://example.org/worldcup/resource/federation/T-56,Peru,0.7742,16,False
+F1,1,solo semantica,10.0,http://example.org/worldcup/resource/federation/T-71,South Korea,0.7669,16,False
+F1,1,indice prima 50,1.0,http://example.org/worldcup/resource/federation/T-09,Brazil,0.684,12,True
+F1,1,indice prima 50,2.0,http://example.org/worldcup/resource/federation/T-03,Argentina,0.6732,12,True
+F1,1,indice prima 50,3.0,http://example.org/worldcup/resource/federation/T-55,Paraguay,0.6731,12,False
+F1,1,indice prima 50,4.0,http://example.org/worldcup/resource/federation/T-07,Bolivia,0.6692,12,False
+F1,1,indice prima 100,1.0,http://example.org/worldcup/resource/federation/T-09,Brazil,0.684,12,True
+F1,1,indice prima 100,2.0,http://example.org/worldcup/resource/federation/T-03,Argentina,0.6732,12,True
+F1,1,indice prima 100,3.0,http://example.org/worldcup/resource/federation/T-55,Paraguay,0.6731,12,False
+F1,1,indice prima 100,4.0,http://example.org/worldcup/resource/federation/T-07,Bolivia,0.6692,12,False
+F1,1,indice prima 100,5.0,http://example.org/worldcup/resource/federation/T-84,Uruguay,0.6678,12,True
+F1,1,indice prima 100,6.0,http://example.org/worldcup/resource/federation/T-13,Chile,0.6653,12,False
+F1,1,indice prima 100,7.0,http://example.org/worldcup/resource/federation/T-56,Peru,0.6576,12,False
+F1,1,indice prima 100,8.0,http://example.org/worldcup/resource/federation/T-25,Ecuador,0.6562,12,False
+F1,1,indice prima 100,9.0,http://example.org/worldcup/resource/federation/T-16,Colombia,0.6294,12,False
+F1,1,indice prima 500,1.0,http://example.org/worldcup/resource/federation/T-09,Brazil,0.684,14,True
+F1,1,indice prima 500,2.0,http://example.org/worldcup/resource/federation/T-03,Argentina,0.6732,14,True
+F1,1,indice prima 500,3.0,http://example.org/worldcup/resource/federation/T-55,Paraguay,0.6731,14,False
+F1,1,indice prima 500,4.0,http://example.org/worldcup/resource/federation/T-07,Bolivia,0.6692,14,False
+F1,1,indice prima 500,5.0,http://example.org/worldcup/resource/federation/T-84,Uruguay,0.6678,14,True
+F1,1,indice prima 500,6.0,http://example.org/worldcup/resource/federation/T-13,Chile,0.6653,14,False
+F1,1,indice prima 500,7.0,http://example.org/worldcup/resource/federation/T-56,Peru,0.6576,14,False
+F1,1,indice prima 500,8.0,http://example.org/worldcup/resource/federation/T-25,Ecuador,0.6562,14,False
+F1,1,indice prima 500,9.0,http://example.org/worldcup/resource/federation/T-16,Colombia,0.6294,14,False
+F1,1,grafo prima,1.0,http://example.org/worldcup/resource/federation/T-09,Brazil,0.684,15,True
+F1,1,grafo prima,2.0,http://example.org/worldcup/resource/federation/T-03,Argentina,0.6732,15,True
+F1,1,grafo prima,3.0,http://example.org/worldcup/resource/federation/T-55,Paraguay,0.6731,15,False
+F1,1,grafo prima,4.0,http://example.org/worldcup/resource/federation/T-07,Bolivia,0.6692,15,False
+F1,1,grafo prima,5.0,http://example.org/worldcup/resource/federation/T-84,Uruguay,0.6678,15,True
+F1,1,grafo prima,6.0,http://example.org/worldcup/resource/federation/T-13,Chile,0.6653,15,False
+F1,1,grafo prima,7.0,http://example.org/worldcup/resource/federation/T-56,Peru,0.6576,15,False
+F1,1,grafo prima,8.0,http://example.org/worldcup/resource/federation/T-25,Ecuador,0.6562,15,False
+F1,1,grafo prima,9.0,http://example.org/worldcup/resource/federation/T-16,Colombia,0.6294,15,False
+F1,1,grafo prima (domanda intera),1.0,http://example.org/worldcup/resource/federation/T-84,Uruguay,0.8084,13,True
+F1,1,grafo prima (domanda intera),2.0,http://example.org/worldcup/resource/federation/T-09,Brazil,0.7993,13,True
+F1,1,grafo prima (domanda intera),3.0,http://example.org/worldcup/resource/federation/T-03,Argentina,0.7975,13,True
+F1,1,grafo prima (domanda intera),4.0,http://example.org/worldcup/resource/federation/T-25,Ecuador,0.7952,13,False
+F1,1,grafo prima (domanda intera),5.0,http://example.org/worldcup/resource/federation/T-55,Paraguay,0.7899,13,False
+F1,1,grafo prima (domanda intera),6.0,http://example.org/worldcup/resource/federation/T-07,Bolivia,0.7805,13,False
+F1,1,grafo prima (domanda intera),7.0,http://example.org/worldcup/resource/federation/T-13,Chile,0.778,13,False
+F1,1,grafo prima (domanda intera),8.0,http://example.org/worldcup/resource/federation/T-56,Peru,0.7742,13,False
+F1,1,grafo prima (domanda intera),9.0,http://example.org/worldcup/resource/federation/T-16,Colombia,0.7624,13,False
+C1,1,solo semantica,1.0,http://example.org/worldcup/resource/club/club-africain,Club Africain,0.8396,19,False
+C1,1,solo semantica,2.0,http://example.org/worldcup/resource/club/al-ittihad,Al-Ittihad,0.8348,19,True
+C1,1,solo semantica,3.0,http://example.org/worldcup/resource/club/kuwait-sc,Kuwait SC,0.8287,19,False
+C1,1,solo semantica,4.0,http://example.org/worldcup/resource/club/angers,Angers,0.8283,19,True
+C1,1,solo semantica,5.0,http://example.org/worldcup/resource/club/wydad-ac,Wydad AC,0.8273,19,True
+C1,1,solo semantica,6.0,http://example.org/worldcup/resource/club/fulham,Fulham,0.8265,19,False
+C1,1,solo semantica,7.0,http://example.org/worldcup/resource/club/club-brugge,Club Brugge,0.826,19,False
+C1,1,solo semantica,8.0,http://example.org/worldcup/resource/club/qatar-sc,Qatar SC,0.8252,19,True
+C1,1,solo semantica,9.0,http://example.org/worldcup/resource/club/al-wehda,Al Wehda,0.8235,19,True
+C1,1,solo semantica,10.0,http://example.org/worldcup/resource/club/qpr,QPR,0.823,19,True
+C1,1,indice prima 50,1.0,http://example.org/worldcup/resource/club/al-wehda,Al Wehda,0.8698,11,True
+C1,1,indice prima 50,2.0,http://example.org/worldcup/resource/club/al-duhail,Al-Duhail,0.8661,11,False
+C1,1,indice prima 50,3.0,http://example.org/worldcup/resource/club/al-ittihad,Al-Ittihad,0.8647,11,True
+C1,1,indice prima 50,4.0,http://example.org/worldcup/resource/club/sporting-cp,Sporting CP,0.8624,11,False
+C1,1,indice prima 50,5.0,http://example.org/worldcup/resource/club/esperance-de-tunis,Esperance de Tunis,0.861,11,False
+C1,1,indice prima 50,6.0,http://example.org/worldcup/resource/club/genk,Genk,0.8596,11,True
+C1,1,indice prima 50,7.0,http://example.org/worldcup/resource/club/valencia,Valencia,0.8595,11,False
+C1,1,indice prima 50,8.0,http://example.org/worldcup/resource/club/club-africain,Club Africain,0.8588,11,False
+C1,1,indice prima 50,9.0,http://example.org/worldcup/resource/club/al-gharafa,Al-Gharafa,0.8574,11,False
+C1,1,indice prima 50,10.0,http://example.org/worldcup/resource/club/wydad-ac,Wydad AC,0.8559,11,True
+C1,1,indice prima 100,1.0,http://example.org/worldcup/resource/club/al-wehda,Al Wehda,0.8698,11,True
+C1,1,indice prima 100,2.0,http://example.org/worldcup/resource/club/al-duhail,Al-Duhail,0.8661,11,False
+C1,1,indice prima 100,3.0,http://example.org/worldcup/resource/club/al-ittihad,Al-Ittihad,0.8647,11,True
+C1,1,indice prima 100,4.0,http://example.org/worldcup/resource/club/sporting-cp,Sporting CP,0.8624,11,False
+C1,1,indice prima 100,5.0,http://example.org/worldcup/resource/club/esperance-de-tunis,Esperance de Tunis,0.861,11,False
+C1,1,indice prima 100,6.0,http://example.org/worldcup/resource/club/genk,Genk,0.8596,11,True
+C1,1,indice prima 100,7.0,http://example.org/worldcup/resource/club/valencia,Valencia,0.8595,11,False
+C1,1,indice prima 100,8.0,http://example.org/worldcup/resource/club/club-africain,Club Africain,0.8588,11,False
+C1,1,indice prima 100,9.0,http://example.org/worldcup/resource/club/al-gharafa,Al-Gharafa,0.8574,11,False
+C1,1,indice prima 100,10.0,http://example.org/worldcup/resource/club/wydad-ac,Wydad AC,0.8559,11,True
+C1,1,indice prima 500,1.0,http://example.org/worldcup/resource/club/al-wehda,Al Wehda,0.8698,9,True
+C1,1,indice prima 500,2.0,http://example.org/worldcup/resource/club/al-duhail,Al-Duhail,0.8661,9,False
+C1,1,indice prima 500,3.0,http://example.org/worldcup/resource/club/al-ittihad,Al-Ittihad,0.8647,9,True
+C1,1,indice prima 500,4.0,http://example.org/worldcup/resource/club/sporting-cp,Sporting CP,0.8624,9,False
+C1,1,indice prima 500,5.0,http://example.org/worldcup/resource/club/esperance-de-tunis,Esperance de Tunis,0.861,9,False
+C1,1,indice prima 500,6.0,http://example.org/worldcup/resource/club/genk,Genk,0.8596,9,True
+C1,1,indice prima 500,7.0,http://example.org/worldcup/resource/club/valencia,Valencia,0.8595,9,False
+C1,1,indice prima 500,8.0,http://example.org/worldcup/resource/club/club-africain,Club Africain,0.8588,9,False
+C1,1,indice prima 500,9.0,http://example.org/worldcup/resource/club/al-gharafa,Al-Gharafa,0.8574,9,False
+C1,1,indice prima 500,10.0,http://example.org/worldcup/resource/club/wydad-ac,Wydad AC,0.8559,9,True
+C1,1,grafo prima,1.0,http://example.org/worldcup/resource/club/al-wehda,Al Wehda,0.8698,43,True
+C1,1,grafo prima,2.0,http://example.org/worldcup/resource/club/al-duhail,Al-Duhail,0.8661,43,False
+C1,1,grafo prima,3.0,http://example.org/worldcup/resource/club/al-ittihad,Al-Ittihad,0.8647,43,True
+C1,1,grafo prima,4.0,http://example.org/worldcup/resource/club/sporting-cp,Sporting CP,0.8624,43,False
+C1,1,grafo prima,5.0,http://example.org/worldcup/resource/club/esperance-de-tunis,Esperance de Tunis,0.861,43,False
+C1,1,grafo prima,6.0,http://example.org/worldcup/resource/club/genk,Genk,0.8596,43,True
+C1,1,grafo prima,7.0,http://example.org/worldcup/resource/club/valencia,Valencia,0.8595,43,False
+C1,1,grafo prima,8.0,http://example.org/worldcup/resource/club/club-africain,Club Africain,0.8588,43,False
+C1,1,grafo prima,9.0,http://example.org/worldcup/resource/club/al-gharafa,Al-Gharafa,0.8574,43,False
+C1,1,grafo prima,10.0,http://example.org/worldcup/resource/club/wydad-ac,Wydad AC,0.8559,43,True
+C1,1,grafo prima (domanda intera),1.0,http://example.org/worldcup/resource/club/club-africain,Club Africain,0.8396,18,False
+C1,1,grafo prima (domanda intera),2.0,http://example.org/worldcup/resource/club/al-ittihad,Al-Ittihad,0.8348,18,True
+C1,1,grafo prima (domanda intera),3.0,http://example.org/worldcup/resource/club/kuwait-sc,Kuwait SC,0.8287,18,False
+C1,1,grafo prima (domanda intera),4.0,http://example.org/worldcup/resource/club/angers,Angers,0.8283,18,True
+C1,1,grafo prima (domanda intera),5.0,http://example.org/worldcup/resource/club/wydad-ac,Wydad AC,0.8273,18,True
+C1,1,grafo prima (domanda intera),6.0,http://example.org/worldcup/resource/club/fulham,Fulham,0.8265,18,False
+C1,1,grafo prima (domanda intera),7.0,http://example.org/worldcup/resource/club/club-brugge,Club Brugge,0.826,18,False
+C1,1,grafo prima (domanda intera),8.0,http://example.org/worldcup/resource/club/qatar-sc,Qatar SC,0.8252,18,True
+C1,1,grafo prima (domanda intera),9.0,http://example.org/worldcup/resource/club/al-wehda,Al Wehda,0.8235,18,True
+C1,1,grafo prima (domanda intera),10.0,http://example.org/worldcup/resource/club/qpr,QPR,0.823,18,True
+S1,1,solo semantica,1.0,http://example.org/worldcup/resource/stadium/S-132,Estadio Azteca,0.8819,14,True
+S1,1,solo semantica,2.0,http://example.org/worldcup/resource/stadium/S-133,Estadio Olímpico Universitario,0.8722,14,False
+S1,1,solo semantica,3.0,http://example.org/worldcup/resource/stadium/S-129,Estadio Tres de Marzo,0.8716,14,False
+S1,1,solo semantica,4.0,http://example.org/worldcup/resource/stadium/S-134,Estadio Tecnológico,0.8684,14,False
+S1,1,solo semantica,5.0,http://example.org/worldcup/resource/stadium/S-188,Vicente Calderón,0.8651,14,False
+S1,1,solo semantica,6.0,http://example.org/worldcup/resource/stadium/S-138,Estadio La Corregidora,0.8651,14,False
+S1,1,solo semantica,7.0,http://example.org/worldcup/resource/stadium/S-128,Estadio Jalisco,0.8643,14,False
+S1,1,solo semantica,8.0,http://example.org/worldcup/resource/stadium/S-130,Estadio Sergio León Chavez,0.8609,14,False
+S1,1,solo semantica,9.0,http://example.org/worldcup/resource/stadium/S-135,Estadio Universitario,0.8597,14,False
+S1,1,solo semantica,10.0,http://example.org/worldcup/resource/stadium/S-136,Estadio Neza 86,0.8593,14,False
+S1,1,indice prima 50,1.0,http://example.org/worldcup/resource/stadium/S-132,Estadio Azteca,0.8283,10,True
+S1,1,indice prima 100,1.0,http://example.org/worldcup/resource/stadium/S-132,Estadio Azteca,0.8283,12,True
+S1,1,indice prima 100,2.0,http://example.org/worldcup/resource/stadium/S-133,Estadio Olímpico Universitario,0.8035,12,False
+S1,1,indice prima 100,3.0,http://example.org/worldcup/resource/stadium/S-134,Estadio Tecnológico,0.8024,12,False
+S1,1,indice prima 100,4.0,http://example.org/worldcup/resource/stadium/S-129,Estadio Tres de Marzo,0.8008,12,False
+S1,1,indice prima 100,5.0,http://example.org/worldcup/resource/stadium/S-135,Estadio Universitario,0.8006,12,False
+S1,1,indice prima 100,6.0,http://example.org/worldcup/resource/stadium/S-130,Estadio Sergio León Chavez,0.7996,12,False
+S1,1,indice prima 500,1.0,http://example.org/worldcup/resource/stadium/S-132,Estadio Azteca,0.8283,10,True
+S1,1,indice prima 500,2.0,http://example.org/worldcup/resource/stadium/S-133,Estadio Olímpico Universitario,0.8035,10,False
+S1,1,indice prima 500,3.0,http://example.org/worldcup/resource/stadium/S-134,Estadio Tecnológico,0.8024,10,False
+S1,1,indice prima 500,4.0,http://example.org/worldcup/resource/stadium/S-129,Estadio Tres de Marzo,0.8008,10,False
+S1,1,indice prima 500,5.0,http://example.org/worldcup/resource/stadium/S-135,Estadio Universitario,0.8006,10,False
+S1,1,indice prima 500,6.0,http://example.org/worldcup/resource/stadium/S-130,Estadio Sergio León Chavez,0.7996,10,False
+S1,1,indice prima 500,7.0,http://example.org/worldcup/resource/stadium/S-131,Estadio Nou Camp,0.7943,10,False
+S1,1,indice prima 500,8.0,http://example.org/worldcup/resource/stadium/S-136,Estadio Neza 86,0.7926,10,False
+S1,1,indice prima 500,9.0,http://example.org/worldcup/resource/stadium/S-128,Estadio Jalisco,0.792,10,False
+S1,1,indice prima 500,10.0,http://example.org/worldcup/resource/stadium/S-138,Estadio La Corregidora,0.7837,10,False
+S1,1,grafo prima,1.0,http://example.org/worldcup/resource/stadium/S-132,Estadio Azteca,0.8283,10,True
+S1,1,grafo prima,2.0,http://example.org/worldcup/resource/stadium/S-133,Estadio Olímpico Universitario,0.8035,10,False
+S1,1,grafo prima,3.0,http://example.org/worldcup/resource/stadium/S-134,Estadio Tecnológico,0.8024,10,False
+S1,1,grafo prima,4.0,http://example.org/worldcup/resource/stadium/S-129,Estadio Tres de Marzo,0.8008,10,False
+S1,1,grafo prima,5.0,http://example.org/worldcup/resource/stadium/S-135,Estadio Universitario,0.8006,10,False
+S1,1,grafo prima,6.0,http://example.org/worldcup/resource/stadium/S-130,Estadio Sergio León Chavez,0.7996,10,False
+S1,1,grafo prima,7.0,http://example.org/worldcup/resource/stadium/S-131,Estadio Nou Camp,0.7943,10,False
+S1,1,grafo prima,8.0,http://example.org/worldcup/resource/stadium/S-136,Estadio Neza 86,0.7926,10,False
+S1,1,grafo prima,9.0,http://example.org/worldcup/resource/stadium/S-128,Estadio Jalisco,0.792,10,False
+S1,1,grafo prima,10.0,http://example.org/worldcup/resource/stadium/S-138,Estadio La Corregidora,0.7837,10,False
+S1,1,grafo prima (domanda intera),1.0,http://example.org/worldcup/resource/stadium/S-132,Estadio Azteca,0.8819,9,True
+S1,1,grafo prima (domanda intera),2.0,http://example.org/worldcup/resource/stadium/S-133,Estadio Olímpico Universitario,0.8722,9,False
+S1,1,grafo prima (domanda intera),3.0,http://example.org/worldcup/resource/stadium/S-129,Estadio Tres de Marzo,0.8716,9,False
+S1,1,grafo prima (domanda intera),4.0,http://example.org/worldcup/resource/stadium/S-134,Estadio Tecnológico,0.8684,9,False
+S1,1,grafo prima (domanda intera),5.0,http://example.org/worldcup/resource/stadium/S-138,Estadio La Corregidora,0.8651,9,False
+S1,1,grafo prima (domanda intera),6.0,http://example.org/worldcup/resource/stadium/S-128,Estadio Jalisco,0.8643,9,False
+S1,1,grafo prima (domanda intera),7.0,http://example.org/worldcup/resource/stadium/S-130,Estadio Sergio León Chavez,0.8609,9,False
+S1,1,grafo prima (domanda intera),8.0,http://example.org/worldcup/resource/stadium/S-135,Estadio Universitario,0.8597,9,False
+S1,1,grafo prima (domanda intera),9.0,http://example.org/worldcup/resource/stadium/S-136,Estadio Neza 86,0.8593,9,False
+S1,1,grafo prima (domanda intera),10.0,http://example.org/worldcup/resource/stadium/S-137,Estadio Cuauhtémoc,0.8553,9,False
+X1,4,solo semantica,1.0,http://example.org/worldcup/resource/match/M-1954-13,Hungary vs West Germany,0.7659,9,False
+X1,4,solo semantica,2.0,http://example.org/worldcup/resource/match/M-1982-05,Hungary vs El Salvador,0.7656,9,False
+X1,4,solo semantica,3.0,http://example.org/worldcup/resource/match/M-1998-51,France vs Paraguay,0.7446,9,False
+X1,4,solo semantica,4.0,http://example.org/worldcup/resource/match/M-2019-12,United States vs Thailand,0.7427,9,False
+X1,4,solo semantica,5.0,http://example.org/worldcup/resource/match/M-1986-31,England vs Poland,0.7423,9,False
+X1,4,solo semantica,6.0,http://example.org/worldcup/resource/match/M-1954-06,Hungary vs South Korea,0.7351,9,False
+X1,4,solo semantica,7.0,http://example.org/worldcup/resource/match/M-2015-17,Switzerland vs Ecuador,0.7342,9,False
+X1,4,solo semantica,8.0,http://example.org/worldcup/resource/match/M-1934-14,Czechoslovakia vs Germany,0.7331,9,False
+X1,4,solo semantica,9.0,http://example.org/worldcup/resource/match/M-1998-29,Argentina vs Jamaica,0.733,9,False
+X1,4,solo semantica,10.0,http://example.org/worldcup/resource/match/M-2002-49,Germany vs Paraguay,0.7327,9,False
+X1,4,indice prima 50,,,,,9,
+X1,4,indice prima 100,1.0,http://example.org/worldcup/resource/match/M-1966-32,England vs West Germany,0.6941,403,True
+X1,4,indice prima 500,1.0,http://example.org/worldcup/resource/match/M-1966-32,England vs West Germany,0.6941,19,True
+X1,4,indice prima 500,2.0,http://example.org/worldcup/resource/match/M-2015-52,United States vs Japan,0.6736,19,True
+X1,4,indice prima 500,3.0,http://example.org/worldcup/resource/match/M-2003-32,Germany vs Sweden,0.6725,19,False
+X1,4,indice prima 500,4.0,http://example.org/worldcup/resource/match/M-1995-26,Germany vs Norway,0.6688,19,False
+X1,4,indice prima 500,5.0,http://example.org/worldcup/resource/match/M-1990-52,West Germany vs Argentina,0.6686,19,False
+X1,4,indice prima 500,6.0,http://example.org/worldcup/resource/match/M-1978-38,Argentina vs Netherlands,0.6679,19,False
+X1,4,indice prima 500,7.0,http://example.org/worldcup/resource/match/M-1954-26,West Germany vs Hungary,0.666,19,False
+X1,4,indice prima 500,8.0,http://example.org/worldcup/resource/match/M-1938-18,Italy vs Hungary,0.6628,19,False
+X1,4,grafo prima,1.0,http://example.org/worldcup/resource/match/M-1966-32,England vs West Germany,0.6941,18,True
+X1,4,grafo prima,2.0,http://example.org/worldcup/resource/match/M-2015-52,United States vs Japan,0.6736,18,True
+X1,4,grafo prima,3.0,http://example.org/worldcup/resource/match/M-2003-32,Germany vs Sweden,0.6725,18,False
+X1,4,grafo prima,4.0,http://example.org/worldcup/resource/match/M-1995-26,Germany vs Norway,0.6688,18,False
+X1,4,grafo prima,5.0,http://example.org/worldcup/resource/match/M-1990-52,West Germany vs Argentina,0.6686,18,False
+X1,4,grafo prima,6.0,http://example.org/worldcup/resource/match/M-1978-38,Argentina vs Netherlands,0.6679,18,False
+X1,4,grafo prima,7.0,http://example.org/worldcup/resource/match/M-1954-26,West Germany vs Hungary,0.666,18,False
+X1,4,grafo prima,8.0,http://example.org/worldcup/resource/match/M-1938-18,Italy vs Hungary,0.6628,18,False
+X1,4,grafo prima,9.0,http://example.org/worldcup/resource/match/M-1958-35,Brazil vs Sweden,0.6599,18,False
+X1,4,grafo prima,10.0,http://example.org/worldcup/resource/match/M-1982-52,Italy vs West Germany,0.6598,18,False
+X1,4,grafo prima (domanda intera),1.0,http://example.org/worldcup/resource/match/M-1966-32,England vs West Germany,0.7313,18,True
+X1,4,grafo prima (domanda intera),2.0,http://example.org/worldcup/resource/match/M-2022-64,Argentina vs France,0.7243,18,True
+X1,4,grafo prima (domanda intera),3.0,http://example.org/worldcup/resource/match/M-1938-18,Italy vs Hungary,0.721,18,False
+X1,4,grafo prima (domanda intera),4.0,http://example.org/worldcup/resource/match/M-2015-52,United States vs Japan,0.7179,18,True
+X1,4,grafo prima (domanda intera),5.0,http://example.org/worldcup/resource/match/M-1994-52,Brazil vs Italy,0.7161,18,False
+X1,4,grafo prima (domanda intera),6.0,http://example.org/worldcup/resource/match/M-1962-32,Brazil vs Czechoslovakia,0.7158,18,False
+X1,4,grafo prima (domanda intera),7.0,http://example.org/worldcup/resource/match/M-2014-64,Germany vs Argentina,0.7155,18,False
+X1,4,grafo prima (domanda intera),8.0,http://example.org/worldcup/resource/match/M-1998-64,Brazil vs France,0.7148,18,False
+X1,4,grafo prima (domanda intera),9.0,http://example.org/worldcup/resource/match/M-1982-52,Italy vs West Germany,0.7138,18,False
+X1,4,grafo prima (domanda intera),10.0,http://example.org/worldcup/resource/match/M-1954-26,West Germany vs Hungary,0.7134,18,False
+X2,2,solo semantica,1.0,http://example.org/worldcup/resource/player/P-23705,Arjen Robben,0.8064,15,
+X2,2,solo semantica,2.0,http://example.org/worldcup/resource/player/P-44799,Steven Bergwijn,0.8063,15,
+X2,2,solo semantica,3.0,http://example.org/worldcup/resource/player/P-69700,Mark van Bommel,0.8043,15,
+X2,2,solo semantica,4.0,http://example.org/worldcup/resource/player/P-84043,John van Loen,0.8006,15,
+X2,2,solo semantica,5.0,http://example.org/worldcup/resource/player/P-99166,Peter van Vossen,0.8005,15,
+X2,2,solo semantica,6.0,http://example.org/worldcup/resource/player/P-20084,Gregory van der Wiel,0.7999,15,
+X2,2,solo semantica,7.0,http://example.org/worldcup/resource/player/P-21967,Frans van der Veen,0.7999,15,
+X2,2,solo semantica,8.0,http://example.org/worldcup/resource/player/P-52936,John van 't Schip,0.7994,15,
+X2,2,solo semantica,9.0,http://example.org/worldcup/resource/player/P-70280,Stefan de Vrij,0.7972,15,
+X2,2,solo semantica,10.0,http://example.org/worldcup/resource/player/P-03298,Stijn Schaars,0.7969,15,
+X2,2,indice prima 50,,,,,15,
+X2,2,indice prima 100,1.0,http://example.org/worldcup/resource/player/P-17967,Ryan Babel,0.7212,16,
+X2,2,indice prima 500,1.0,http://example.org/worldcup/resource/player/P-17967,Ryan Babel,0.7212,24,
+X2,2,grafo prima,1.0,http://example.org/worldcup/resource/player/P-17967,Ryan Babel,0.7212,117,
+X2,2,grafo prima,2.0,http://example.org/worldcup/resource/player/P-46895,Khalid Boulahrouz,0.6911,117,
+X2,2,grafo prima,3.0,http://example.org/worldcup/resource/player/P-20084,Gregory van der Wiel,0.6892,117,
+X2,2,grafo prima,4.0,http://example.org/worldcup/resource/player/P-69700,Mark van Bommel,0.6874,117,
+X2,2,grafo prima,5.0,http://example.org/worldcup/resource/player/P-53668,Nigel de Jong,0.6863,117,
+X2,2,grafo prima,6.0,http://example.org/worldcup/resource/player/P-93449,Demy de Zeeuw,0.6831,117,
+X2,2,grafo prima,7.0,http://example.org/worldcup/resource/player/P-68125,Rafael van der Vaart,0.6794,117,
+X2,2,grafo prima,8.0,http://example.org/worldcup/resource/player/P-28832,John Heitinga,0.6793,117,
+X2,2,grafo prima,9.0,http://example.org/worldcup/resource/player/P-63744,Edson Braafheid,0.6789,117,
+X2,2,grafo prima,10.0,http://example.org/worldcup/resource/player/P-32095,Michel Vorm,0.6774,117,
+X2,2,grafo prima (domanda intera),1.0,http://example.org/worldcup/resource/player/P-23705,Arjen Robben,0.8064,79,
+X2,2,grafo prima (domanda intera),2.0,http://example.org/worldcup/resource/player/P-69700,Mark van Bommel,0.8043,79,
+X2,2,grafo prima (domanda intera),3.0,http://example.org/worldcup/resource/player/P-20084,Gregory van der Wiel,0.7999,79,
+X2,2,grafo prima (domanda intera),4.0,http://example.org/worldcup/resource/player/P-03298,Stijn Schaars,0.7969,79,
+X2,2,grafo prima (domanda intera),5.0,http://example.org/worldcup/resource/player/P-68125,Rafael van der Vaart,0.7961,79,
+X2,2,grafo prima (domanda intera),6.0,http://example.org/worldcup/resource/player/P-99934,Robin van Persie,0.7958,79,
+X2,2,grafo prima (domanda intera),7.0,http://example.org/worldcup/resource/player/P-21832,Giovanni van Bronckhorst,0.7877,79,
+X2,2,grafo prima (domanda intera),8.0,http://example.org/worldcup/resource/player/P-46895,Khalid Boulahrouz,0.787,79,
+X2,2,grafo prima (domanda intera),9.0,http://example.org/worldcup/resource/player/P-40197,Joris Mathijsen,0.7841,79,
+X2,2,grafo prima (domanda intera),10.0,http://example.org/worldcup/resource/player/P-51336,Wesley Sneijder,0.7839,79,
+X3,3,solo semantica,1.0,http://example.org/worldcup/resource/player/P-67668,Luka Sučić,0.9096,12,
+X3,3,solo semantica,2.0,http://example.org/worldcup/resource/player/P-79215,Marcelo Brozović,0.8976,12,
+X3,3,solo semantica,3.0,http://example.org/worldcup/resource/player/P-86466,Kristijan Jakić,0.8968,12,
+X3,3,solo semantica,4.0,http://example.org/worldcup/resource/player/P-91350,Josip Stanišić,0.8945,12,
+X3,3,solo semantica,5.0,http://example.org/worldcup/resource/player/P-16484,Josip Juranović,0.8917,12,
+X3,3,solo semantica,6.0,http://example.org/worldcup/resource/player/P-72637,Romelu Lukaku,0.8909,12,
+X3,3,solo semantica,7.0,http://example.org/worldcup/resource/player/P-91294,Domagoj Vida,0.8894,12,
+X3,3,solo semantica,8.0,http://example.org/worldcup/resource/player/P-07670,Mateo Kovačić,0.8872,12,
+X3,3,solo semantica,9.0,http://example.org/worldcup/resource/player/P-99988,Dominik Livaković,0.8869,12,
+X3,3,solo semantica,10.0,http://example.org/worldcup/resource/player/P-57417,Josip Šutalo,0.8839,12,
+X3,3,indice prima 50,1.0,http://example.org/worldcup/resource/player/P-67668,Luka Sučić,0.9096,14,
+X3,3,indice prima 50,2.0,http://example.org/worldcup/resource/player/P-79215,Marcelo Brozović,0.8976,14,
+X3,3,indice prima 50,3.0,http://example.org/worldcup/resource/player/P-86466,Kristijan Jakić,0.8968,14,
+X3,3,indice prima 50,4.0,http://example.org/worldcup/resource/player/P-07670,Mateo Kovačić,0.8872,14,
+X3,3,indice prima 50,5.0,http://example.org/worldcup/resource/player/P-22160,Nikola Vlašić,0.8826,14,
+X3,3,indice prima 50,6.0,http://example.org/worldcup/resource/player/P-64353,Lovro Majer,0.87,14,
+X3,3,indice prima 50,7.0,http://example.org/worldcup/resource/player/P-78056,Saša Lukić,0.8687,14,
+X3,3,indice prima 50,8.0,http://example.org/worldcup/resource/player/P-65979,Ivan Rakitić,0.8684,14,
+X3,3,indice prima 50,9.0,http://example.org/worldcup/resource/player/P-93884,Ivan Perišić,0.8666,14,
+X3,3,indice prima 50,10.0,http://example.org/worldcup/resource/player/P-44932,Luka Milivojević,0.865,14,
+X3,3,indice prima 100,1.0,http://example.org/worldcup/resource/player/P-67668,Luka Sučić,0.9096,13,
+X3,3,indice prima 100,2.0,http://example.org/worldcup/resource/player/P-79215,Marcelo Brozović,0.8976,13,
+X3,3,indice prima 100,3.0,http://example.org/worldcup/resource/player/P-86466,Kristijan Jakić,0.8968,13,
+X3,3,indice prima 100,4.0,http://example.org/worldcup/resource/player/P-07670,Mateo Kovačić,0.8872,13,
+X3,3,indice prima 100,5.0,http://example.org/worldcup/resource/player/P-22160,Nikola Vlašić,0.8826,13,
+X3,3,indice prima 100,6.0,http://example.org/worldcup/resource/player/P-64353,Lovro Majer,0.87,13,
+X3,3,indice prima 100,7.0,http://example.org/worldcup/resource/player/P-78056,Saša Lukić,0.8687,13,
+X3,3,indice prima 100,8.0,http://example.org/worldcup/resource/player/P-65979,Ivan Rakitić,0.8684,13,
+X3,3,indice prima 100,9.0,http://example.org/worldcup/resource/player/P-93884,Ivan Perišić,0.8666,13,
+X3,3,indice prima 100,10.0,http://example.org/worldcup/resource/player/P-44932,Luka Milivojević,0.865,13,
+X3,3,indice prima 500,1.0,http://example.org/worldcup/resource/player/P-67668,Luka Sučić,0.9096,19,
+X3,3,indice prima 500,2.0,http://example.org/worldcup/resource/player/P-79215,Marcelo Brozović,0.8976,19,
+X3,3,indice prima 500,3.0,http://example.org/worldcup/resource/player/P-86466,Kristijan Jakić,0.8968,19,
+X3,3,indice prima 500,4.0,http://example.org/worldcup/resource/player/P-07670,Mateo Kovačić,0.8872,19,
+X3,3,indice prima 500,5.0,http://example.org/worldcup/resource/player/P-22160,Nikola Vlašić,0.8826,19,
+X3,3,indice prima 500,6.0,http://example.org/worldcup/resource/player/P-64353,Lovro Majer,0.87,19,
+X3,3,indice prima 500,7.0,http://example.org/worldcup/resource/player/P-78056,Saša Lukić,0.8687,19,
+X3,3,indice prima 500,8.0,http://example.org/worldcup/resource/player/P-65979,Ivan Rakitić,0.8684,19,
+X3,3,indice prima 500,9.0,http://example.org/worldcup/resource/player/P-93884,Ivan Perišić,0.8666,19,
+X3,3,indice prima 500,10.0,http://example.org/worldcup/resource/player/P-44932,Luka Milivojević,0.865,19,
+X3,3,grafo prima,1.0,http://example.org/worldcup/resource/player/P-67668,Luka Sučić,0.9096,189,
+X3,3,grafo prima,2.0,http://example.org/worldcup/resource/player/P-79215,Marcelo Brozović,0.8976,189,
+X3,3,grafo prima,3.0,http://example.org/worldcup/resource/player/P-86466,Kristijan Jakić,0.8968,189,
+X3,3,grafo prima,4.0,http://example.org/worldcup/resource/player/P-07670,Mateo Kovačić,0.8872,189,
+X3,3,grafo prima,5.0,http://example.org/worldcup/resource/player/P-22160,Nikola Vlašić,0.8826,189,
+X3,3,grafo prima,6.0,http://example.org/worldcup/resource/player/P-64353,Lovro Majer,0.87,189,
+X3,3,grafo prima,7.0,http://example.org/worldcup/resource/player/P-78056,Saša Lukić,0.8687,189,
+X3,3,grafo prima,8.0,http://example.org/worldcup/resource/player/P-65979,Ivan Rakitić,0.8684,189,
+X3,3,grafo prima,9.0,http://example.org/worldcup/resource/player/P-93884,Ivan Perišić,0.8666,189,
+X3,3,grafo prima,10.0,http://example.org/worldcup/resource/player/P-44932,Luka Milivojević,0.865,189,
+X3,3,grafo prima (domanda intera),1.0,http://example.org/worldcup/resource/player/P-67668,Luka Sučić,0.9096,172,
+X3,3,grafo prima (domanda intera),2.0,http://example.org/worldcup/resource/player/P-79215,Marcelo Brozović,0.8976,172,
+X3,3,grafo prima (domanda intera),3.0,http://example.org/worldcup/resource/player/P-86466,Kristijan Jakić,0.8968,172,
+X3,3,grafo prima (domanda intera),4.0,http://example.org/worldcup/resource/player/P-07670,Mateo Kovačić,0.8872,172,
+X3,3,grafo prima (domanda intera),5.0,http://example.org/worldcup/resource/player/P-22160,Nikola Vlašić,0.8826,172,
+X3,3,grafo prima (domanda intera),6.0,http://example.org/worldcup/resource/player/P-64353,Lovro Majer,0.87,172,
+X3,3,grafo prima (domanda intera),7.0,http://example.org/worldcup/resource/player/P-78056,Saša Lukić,0.8687,172,
+X3,3,grafo prima (domanda intera),8.0,http://example.org/worldcup/resource/player/P-65979,Ivan Rakitić,0.8684,172,
+X3,3,grafo prima (domanda intera),9.0,http://example.org/worldcup/resource/player/P-93884,Ivan Perišić,0.8666,172,
+X3,3,grafo prima (domanda intera),10.0,http://example.org/worldcup/resource/player/P-44932,Luka Milivojević,0.865,172,
+X4,2,solo semantica,1.0,http://example.org/worldcup/resource/participation/WC-2022/T-59,Qatar at the 2022 FIFA Men's World Cup,0.7513,12,
+X4,2,solo semantica,2.0,http://example.org/worldcup/resource/participation/WC-2022/T-63,Saudi Arabia at the 2022 FIFA Men's World Cup,0.7398,12,
+X4,2,solo semantica,3.0,http://example.org/worldcup/resource/participation/WC-2022/T-83,United States at the 2022 FIFA Men's World Cup,0.7356,12,
+X4,2,solo semantica,4.0,http://example.org/worldcup/resource/participation/WC-2011/T-31,Germany at the 2011 FIFA Women's World Cup,0.7347,12,
+X4,2,solo semantica,5.0,http://example.org/worldcup/resource/participation/WC-2022/T-48,Netherlands at the 2022 FIFA Men's World Cup,0.7328,12,
+X4,2,solo semantica,6.0,http://example.org/worldcup/resource/participation/WC-1994/T-83,United States at the 1994 FIFA Men's World Cup,0.732,12,
+X4,2,solo semantica,7.0,http://example.org/worldcup/resource/participation/WC-2002/T-14,China at the 2002 FIFA Men's World Cup,0.7301,12,
+X4,2,solo semantica,8.0,http://example.org/worldcup/resource/participation/WC-2022/T-28,England at the 2022 FIFA Men's World Cup,0.73,12,
+X4,2,solo semantica,9.0,http://example.org/worldcup/resource/participation/WC-2011/T-51,North Korea at the 2011 FIFA Women's World Cup,0.729,12,
+X4,2,solo semantica,10.0,http://example.org/worldcup/resource/participation/WC-2022/T-22,Denmark at the 2022 FIFA Men's World Cup,0.7284,12,
+X4,2,indice prima 50,,,,,12,
+X4,2,indice prima 100,1.0,http://example.org/worldcup/resource/participation/WC-1995/T-74,Sweden at the 1995 FIFA Women's World Cup,0.7083,94,
+X4,2,indice prima 500,1.0,http://example.org/worldcup/resource/participation/WC-1995/T-74,Sweden at the 1995 FIFA Women's World Cup,0.7083,19,
+X4,2,indice prima 500,2.0,http://example.org/worldcup/resource/participation/WC-2002/T-44,Japan at the 2002 FIFA Men's World Cup,0.6961,19,
+X4,2,indice prima 500,3.0,http://example.org/worldcup/resource/participation/WC-1994/T-83,United States at the 1994 FIFA Men's World Cup,0.6959,19,
+X4,2,indice prima 500,4.0,http://example.org/worldcup/resource/participation/WC-2018/T-62,Russia at the 2018 FIFA Men's World Cup,0.694,19,
+X4,2,indice prima 500,5.0,http://example.org/worldcup/resource/participation/WC-1982/T-73,Spain at the 1982 FIFA Men's World Cup,0.6913,19,
+X4,2,indice prima 500,6.0,http://example.org/worldcup/resource/participation/WC-2019/T-30,France at the 2019 FIFA Women's World Cup,0.6908,19,
+X4,2,indice prima 500,7.0,http://example.org/worldcup/resource/participation/WC-1991/T-14,China at the 1991 FIFA Women's World Cup,0.6876,19,
+X4,2,indice prima 500,8.0,http://example.org/worldcup/resource/participation/WC-2007/T-14,China at the 2007 FIFA Women's World Cup,0.6812,19,
+X4,2,indice prima 500,9.0,http://example.org/worldcup/resource/participation/WC-2011/T-31,Germany at the 2011 FIFA Women's World Cup,0.678,19,
+X4,2,indice prima 500,10.0,http://example.org/worldcup/resource/participation/WC-1986/T-46,Mexico at the 1986 FIFA Men's World Cup,0.6743,19,
+X4,2,grafo prima,1.0,http://example.org/worldcup/resource/participation/WC-1995/T-74,Sweden at the 1995 FIFA Women's World Cup,0.7083,17,
+X4,2,grafo prima,2.0,http://example.org/worldcup/resource/participation/WC-2002/T-44,Japan at the 2002 FIFA Men's World Cup,0.6961,17,
+X4,2,grafo prima,3.0,http://example.org/worldcup/resource/participation/WC-1994/T-83,United States at the 1994 FIFA Men's World Cup,0.6959,17,
+X4,2,grafo prima,4.0,http://example.org/worldcup/resource/participation/WC-2018/T-62,Russia at the 2018 FIFA Men's World Cup,0.694,17,
+X4,2,grafo prima,5.0,http://example.org/worldcup/resource/participation/WC-1982/T-73,Spain at the 1982 FIFA Men's World Cup,0.6913,17,
+X4,2,grafo prima,6.0,http://example.org/worldcup/resource/participation/WC-2019/T-30,France at the 2019 FIFA Women's World Cup,0.6908,17,
+X4,2,grafo prima,7.0,http://example.org/worldcup/resource/participation/WC-1991/T-14,China at the 1991 FIFA Women's World Cup,0.6876,17,
+X4,2,grafo prima,8.0,http://example.org/worldcup/resource/participation/WC-2007/T-14,China at the 2007 FIFA Women's World Cup,0.6812,17,
+X4,2,grafo prima,9.0,http://example.org/worldcup/resource/participation/WC-2011/T-31,Germany at the 2011 FIFA Women's World Cup,0.678,17,
+X4,2,grafo prima,10.0,http://example.org/worldcup/resource/participation/WC-1986/T-46,Mexico at the 1986 FIFA Men's World Cup,0.6743,17,
+X4,2,grafo prima (domanda intera),1.0,http://example.org/worldcup/resource/participation/WC-2022/T-59,Qatar at the 2022 FIFA Men's World Cup,0.7513,17,
+X4,2,grafo prima (domanda intera),2.0,http://example.org/worldcup/resource/participation/WC-2011/T-31,Germany at the 2011 FIFA Women's World Cup,0.7347,17,
+X4,2,grafo prima (domanda intera),3.0,http://example.org/worldcup/resource/participation/WC-1994/T-83,United States at the 1994 FIFA Men's World Cup,0.732,17,
+X4,2,grafo prima (domanda intera),4.0,http://example.org/worldcup/resource/participation/WC-1954/T-75,Switzerland at the 1954 FIFA Men's World Cup,0.7284,17,
+X4,2,grafo prima (domanda intera),5.0,http://example.org/worldcup/resource/participation/WC-2018/T-62,Russia at the 2018 FIFA Men's World Cup,0.7238,17,
+X4,2,grafo prima (domanda intera),6.0,http://example.org/worldcup/resource/participation/WC-2007/T-14,China at the 2007 FIFA Women's World Cup,0.7218,17,
+X4,2,grafo prima (domanda intera),7.0,http://example.org/worldcup/resource/participation/WC-1991/T-14,China at the 1991 FIFA Women's World Cup,0.7215,17,
+X4,2,grafo prima (domanda intera),8.0,http://example.org/worldcup/resource/participation/WC-2015/T-12,Canada at the 2015 FIFA Women's World Cup,0.7204,17,
+X4,2,grafo prima (domanda intera),9.0,http://example.org/worldcup/resource/participation/WC-1958/T-74,Sweden at the 1958 FIFA Men's World Cup,0.7148,17,
+X4,2,grafo prima (domanda intera),10.0,http://example.org/worldcup/resource/participation/WC-2010/T-70,South Africa at the 2010 FIFA Men's World Cup,0.7125,17,
