@@ -3,7 +3,7 @@
 Progetto del corso di Information Retrieval. Quattro fonti eterogenee (dati relazionali, tabelle annuali, statistiche e immagini dei giocatori) vengono integrate in un knowledge graph RDF basato su un'ontologia propria, caricato in Neo4j e interrogato con una ricerca che combina query Cypher, ricerca full-text sui nomi e ricerca semantica su testo (MiniLM) e immagini (CLIP).
 
 - **Grafo:** 126.744 nodi, 273.516 archi, 24 classi, 27 tipi di relazione; tutti i Mondiali maschili e femminili dal 1930 al 2022, con immagini, club e statistiche dei giocatori del 2022.
-- **Ricerca:** ricerca guidata con modelli Cypher (meccanismo A) e domande libere tradotte in Cypher da un LLM (meccanismo B, Gemini), con indici full-text e vettoriali dentro la stessa query.
+- **Ricerca:** ricerca guidata con modelli Cypher e domande libere tradotte in Cypher da un LLM, con indici full-text e vettoriali dentro la stessa query.
 - **App:** demo in Streamlit.
 
 Il report del progetto è in `docs/`.
@@ -12,7 +12,7 @@ Il report del progetto è in `docs/`.
 
 ```
 ontology/            ontologia (spec.py → wc-ontology.ttl) e figure dello schema
-notebooks/           la pipeline, da eseguire in ordine (tabella sotto)
+notebooks/           la pipeline di operazioni fatte sui dati, da eseguire in ordine
 src/wc_retrieval/    codice della ricerca, usato da notebook e app
 app/app.py           app Streamlit
 data/processed/      tabelle pulite e integrate (Parquet), prodotte dai notebook 01 e 02
@@ -23,13 +23,13 @@ docs/                report
 
 | Notebook | Cosa fa | Operazioni |
 |---|---|---|
-| `01_preprocessing` | pulizia delle fonti, indice delle immagini, entity resolution dei giocatori | Op. 5, 7, 9–11, 14 |
-| `02_costruzione_grafo` | tabelle integrate → triple RDF → import in Neo4j con n10s | Op. 15–24 |
-| `03_indici_fulltext` | indici full-text dei nomi | Op. 27, 32 |
-| `04_embedding_immagini` | embedding CLIP, `labelConfidence`, indice vettoriale delle immagini | Op. 29 |
-| `05_embedding_descrizioni` | descrizioni dei nodi, embedding MiniLM, indici vettoriali | Op. 30 |
-| `06_valutazione_retrieval` | valutazione del retrieval (E2 descrizioni, E3 immagini) | Op. 33 |
-| `07_grafo_vs_fonti` | il grafo rispetto ai singoli dataset | Op. 34 |
+| `01_preprocessing` | pulizia delle fonti, indice delle immagini, entity resolution dei giocatori 
+| `02_costruzione_grafo` | tabelle integrate → triple RDF → import in Neo4j con n10s 
+| `03_indici_fulltext` | indici full-text dei nomi
+| `04_embedding_immagini` | embedding CLIP, `labelConfidence`, indice vettoriale delle immagini 
+| `05_embedding_descrizioni` | descrizioni dei nodi, embedding MiniLM, indici vettoriali 
+| `06_valutazione_retrieval` | valutazione del retrieval (E2 descrizioni, E3 immagini) 
+| `07_grafo_vs_fonti` | Confronto tra grafo e i singoli dataset 
 
 ## Requisiti
 
@@ -40,22 +40,10 @@ docs/                report
 - Per il meccanismo B, una chiave API di Gemini (vedi il passo 5 sotto).
 - La password di Neo4j non è salvata da nessuna parte: notebook e app la chiedono all'avvio (oppure si legge dalla variabile `NEO4J_PASSWORD`).
 
-## Dati
-
-### Cosa c'è nella repository e cosa no
-
-| Cartella | Nella repository | Da dove viene |
-|---|---|---|
-| `data/raw/` | **no** (licenze di terzi, oltre 400 MB) | si scarica: vedi sotto |
-| `data/processed/` | sì | notebook 01 e 02 |
-| `data/kg/` | sì | notebook 02 |
-| `data/embeddings/` | **no** (circa 200 MB) | si rigenera con i notebook 04 e 05 |
-| `data/valutazione/` | sì, senza le tavole delle immagini usate per i giudizi | notebook 06 e 07 |
-| `.env` | **no** (contiene la chiave API) | si crea da `.env.example` |
 
 ### I quattro dataset originali
 
-Vanno scaricati e messi in `data/raw/` con questi nomi di cartella (al posto di `INSERIRE_LINK` va il link della pagina del dataset). I notebook leggono i file in sola lettura e non li modificano.
+Vanno scaricati e messi in `data/raw/` con questi nomi di cartella. I notebook leggono i file in sola lettura e non li modificano.
 
 | Cartella | Dataset | File usati |
 |---|---|---|
