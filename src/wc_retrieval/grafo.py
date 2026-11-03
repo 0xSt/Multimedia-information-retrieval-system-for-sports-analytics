@@ -1,7 +1,5 @@
 """Connessione a Neo4j per il retrieval.
 
-Tutte le query dei modelli girano in transazioni di sola lettura: il retrieval non può modificare il grafo.
-Le sole scritture ammesse sono la creazione degli indici (notebook 03–05).
 """
 import textwrap
 

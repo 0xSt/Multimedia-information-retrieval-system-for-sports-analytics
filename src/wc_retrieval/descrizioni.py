@@ -7,10 +7,7 @@ trasformano poi in vettori (embedding.py) e servono a trovare un'entità descrit
 
 Il lavoro è diviso in due parti:
 1. leggi_dati(): poche query Cypher "in blocco" (una per tipo di dato, non una per nodo), in sola lettura;
-2. descrizioni(): le frasi, costruite in Python dalle tabelle lette. Questa parte non tocca il database,
-   quindi si può provare anche su tabelle costruite a mano.
-Le frasi dicono solo fatti presenti nel grafo: niente nazionalità dei club (non è nei dati), niente
-statistiche di un torneo in cui il dataset 1 non registra le presenze (prima del 1970, femminile 1999).
+2. descrizioni(): le frasi, costruite in Python dalle tabelle lette. 
 """
 from collections import Counter
 
@@ -100,9 +97,7 @@ RUOLI = {"GK": "goalkeeper", "DF": "defender", "MF": "midfielder", "FW": "forwar
 PODIO = {1: "world champion", 2: "runner-up", 3: "third place", 4: "fourth place"}
 
 
-# =====================================================================================================
-# Piccoli aiuti per scrivere le frasi
-# =====================================================================================================
+# helper functions
 def _vuoto(x):
     """True se il valore manca (None, NaN, NA di pandas)."""
     try:

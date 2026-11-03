@@ -8,9 +8,7 @@ Le descrizioni dei nodi (descrizioni.py) si trasformano in vettori con `all-Mini
 un modello di frasi piccolo e veloce: due frasi con lo stesso significato hanno vettori vicini.
 
 Gli embedding sono dati derivati: si salvano in Parquet in
-data/embeddings/ e si caricano in Neo4j come proprietà dei nodi, con un indice vettoriale. Non entrano nelle
-triple RDF. Se il grafo viene ricostruito (la cella "ATTENZIONE" del notebook di costruzione svuota il
-database), basta ricaricarli dal Parquet con carica_embedding_immagini().
+data/embeddings/ e si caricano in Neo4j come proprietà dei nodi, con un indice vettoriale.
 """
 import time
 
@@ -50,10 +48,6 @@ def vettori_testo(modello, testi):
 
 def calcola_embedding_immagini(tabella, radice, cartella_lotti, modello, lotto=1000, batch=32):
     """Calcola gli embedding a lotti, salvando ogni lotto in un file Parquet.
-
-    Se il calcolo si interrompe (kernel riavviato, PC spento), rieseguendo la funzione i lotti già salvati
-    si saltano e si riparte dal primo mancante. tabella: colonne uri e filePath (relativo a radice).
-    Restituisce (embedding, errori): DataFrame uri + embedding, e i file che non si sono potuti aprire.
     """
     cartella_lotti.mkdir(parents=True, exist_ok=True)
     n_lotti = (len(tabella) + lotto - 1) // lotto
@@ -157,10 +151,6 @@ def carica_descrizioni(grafo, tabella, lotto=1000):
 def crea_indice_vettoriale(grafo, nome, etichetta, proprieta, dimensioni, quantizzazione=False, ricrea=True):
     """Indice vettoriale di Neo4j (similarità coseno) sulla proprietà `proprieta` dei nodi `etichetta`.
 
-    quantizzazione=False: dalla versione 5.23 Neo4j comprime di default i vettori dell'indice (quantizzazione
-    a 8 bit) per risparmiare memoria; con punteggi CLIP molto vicini tra loro la compressione altera punteggi e
-    ordine dei risultati, e con 41.460 vettori la memoria non è un problema. ricrea=True: cancella e ricrea
-    l'indice, perché le opzioni di un indice esistente non si possono cambiare.
     """
     if ricrea:
         grafo.scrivi(f"DROP INDEX {nome} IF EXISTS")
