@@ -1,6 +1,6 @@
-"""Meccanismo B (Op. 32): un LLM (Gemini) scrive la query Cypher a partire dalla domanda e dallo schema del grafo.
+"""Meccanismo B: un LLM (Gemini) scrive la query Cypher a partire dalla domanda e dallo schema del grafo.
 
-Come funziona (architettura-retrieval.md, §5bis):
+Come funziona:
 1. il prompt contiene lo schema del grafo (SCHEMA) e le regole (REGOLE): l'LLM risponde con un JSON che contiene
    la query Cypher, i nomi da cercare con il full-text e i testi da cercare per significato (ricerca semantica);
 2. i nomi diventano query Lucene (ricerca.query_lucene, con tolleranza agli errori di battitura) e i testi

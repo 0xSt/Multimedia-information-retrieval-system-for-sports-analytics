@@ -1,11 +1,11 @@
-"""Modelli Cypher: un modello per ogni tipo di domanda del catalogo (architettura-retrieval.md, §2).
+"""Modelli Cypher: un modello per ogni tipo di domanda del catalogo dell'app.
 
 Ogni modello riceve parametri già risolti (URI dei nodi, anno, genere, metrica) e restituisce un dizionario
 di valori e DataFrame. Gli stessi modelli servono alla ricerca guidata (A) e alla domanda libera (B):
 B si limita a trovare i parametri a partire dalla frase.
 
-Tipi P1 implementati: S1 scheda giocatore, S2 squadra in un torneo, S3 scheda partita, S4 scheda torneo,
-C1 classifica per metrica, F1 testa a testa. R1 e R2 arrivano con gli embedding (Op. 29–30).
+Tipi implementati: S1 scheda giocatore, S2 squadra in un torneo, S3 scheda partita, S4 scheda torneo,
+C1 classifica per metrica, F1 testa a testa. R1 e R2 usano gli embedding (ricerca.py).
 """
 import pandas as pd
 
@@ -23,13 +23,13 @@ def _riga(df):
 
 
 # =====================================================================================================
-# Supporto: federazioni con i predecessori (D11)
+# Supporto: federazioni con i predecessori
 # =====================================================================================================
 def federazioni(grafo, uri):
     """URI della federazione e di tutti i suoi predecessori (Germany → Germany + West Germany).
 
     Serve alle classifiche e ai confronti tra nazionali: i titoli e le partite della Germania Ovest
-    appartengono alla storia della Germania (D11).
+    appartengono alla storia della Germania.
     """
     df = grafo.leggi("""
         MATCH (f:Federation {uri: $uri})
@@ -92,7 +92,7 @@ def scheda_giocatore(grafo, uri):
                s.tacklesPer90 AS contrasti_per_90, s.duelsWonPer90 AS duelli_vinti_per_90,
                s.savePercentage AS parate, s.cleanSheetRate AS porta_inviolata""", uri=uri))
 
-    # Immagine: prima le non duplicate, poi la confidenza più alta (calcolata con CLIP nell'Op. 29)
+    # Immagine: prima le non duplicate, poi la confidenza più alta (calcolata con CLIP nel notebook 04)
     immagine = _riga(grafo.leggi("""
         MATCH (:Player {uri: $uri})<-[:depicts]-(i:Image)
         WITH i ORDER BY i.hasDuplicateContent, coalesce(i.labelConfidence, -1.0) DESC, i.filePath

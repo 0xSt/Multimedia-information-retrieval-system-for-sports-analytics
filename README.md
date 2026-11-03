@@ -21,15 +21,15 @@ data/valutazione/    casi della valutazione e risultati
 docs/                report
 ```
 
-| Notebook | Cosa fa | Operazioni |
-|---|---|---|
-| `01_preprocessing` | pulizia delle fonti, indice delle immagini, entity resolution dei giocatori | Op. 5, 7, 9–11, 14 |
-| `02_costruzione_grafo` | tabelle integrate → triple RDF → import in Neo4j con n10s | Op. 15–24 |
-| `03_indici_fulltext` | indici full-text dei nomi | Op. 27, 32 |
-| `04_embedding_immagini` | embedding CLIP, `labelConfidence`, indice vettoriale delle immagini | Op. 29 |
-| `05_embedding_descrizioni` | descrizioni dei nodi, embedding MiniLM, indici vettoriali | Op. 30 |
-| `06_valutazione_retrieval` | valutazione del retrieval (E2 descrizioni, E3 immagini) | Op. 33 |
-| `07_grafo_vs_fonti` | il grafo rispetto ai singoli dataset | Op. 34 |
+| Notebook | Cosa fa |
+|---|---|
+| `01_preprocessing` | pulizia delle fonti, indice delle immagini, entity resolution dei giocatori |
+| `02_costruzione_grafo` | tabelle integrate → triple RDF → import in Neo4j con n10s |
+| `03_indici_fulltext` | indici full-text dei nomi |
+| `04_embedding_immagini` | embedding CLIP, `labelConfidence`, indice vettoriale delle immagini |
+| `05_embedding_descrizioni` | descrizioni dei nodi, embedding MiniLM, indici vettoriali |
+| `06_valutazione_retrieval` | valutazione del retrieval (E1 descrizioni, E2 immagini) |
+| `07_grafo_vs_fonti` | il grafo rispetto ai singoli dataset |
 
 ## Requisiti
 

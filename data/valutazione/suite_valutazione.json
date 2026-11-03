@@ -1,5 +1,5 @@
 {
- "e2": [
+ "e1": [
   {
    "id": "P1",
    "caso": 1,
@@ -269,7 +269,7 @@
    "perche": "caso 2: concetto vago ('deludente') senza un attributo nel grafo"
   }
  ],
- "e3": {
+ "e2": {
   "a_persona": {
    "famosi": [
     "P-14758",

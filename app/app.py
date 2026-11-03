@@ -1,8 +1,8 @@
-"""App di dimostrazione del retrieval sul knowledge graph dei Mondiali (Op. 31: meccanismo A; Op. 32: meccanismo B).
+"""App di dimostrazione del retrieval sul knowledge graph dei Mondiali (meccanismo A: ricerca guidata; meccanismo B: domanda libera).
 
 Avvio, dalla cartella del progetto e con il .venv attivo:
     streamlit run app/app.py
-Si apre nel browser (http://localhost:8501). Serve Neo4j avviato con il grafo e gli indici delle Op. 27–30.
+Si apre nel browser (http://localhost:8501). Serve Neo4j avviato con il grafo e gli indici creati dai notebook 02–05.
 
 Struttura:
 - barra laterale: connessione a Neo4j, scelta del meccanismo e del tipo di domanda;
@@ -11,15 +11,19 @@ Struttura:
 - B, domanda libera: Gemini scrive la query Cypher (llm.py); si mostrano la query, i nomi e i testi cercati
   e i risultati (tabella, immagini, scheda del giocatore). La chiave API si legge da GEMINI_API_KEY o si
   scrive nella barra laterale (resta solo nella sessione);
-- riquadro "Come ho trovato la risposta": tutte le query Cypher eseguite, con i parametri.
+- C, query Cypher: l'utente scrive una query, che gira in sola lettura e con un tempo massimo;
+- riquadro "Come ho trovato la risposta": tutte le query Cypher eseguite, una clausola per riga, con i parametri.
 Tutta la logica sta in src/wc_retrieval (modelli Cypher, ricerca per nome, vettoriale e per immagini):
-l'app si limita a raccogliere i parametri e a mostrare i risultati (decisione R1: B riuserà gli stessi modelli).
+l'app si limita a raccogliere i parametri e a mostrare i risultati (B riusa gli stessi modelli).
 
 Streamlit riesegue lo script dall'inizio a ogni interazione: le risposte si ricalcolano dai valori dei campi
 (le query durano millisecondi), mentre connessione e modelli si tengono in memoria.
 """
 import os
+import re
 import sys
+import textwrap
+import time
 from pathlib import Path
 
 import altair as alt
@@ -33,7 +37,7 @@ from wc_retrieval import embedding as emb                  # noqa: E402
 from wc_retrieval import llm, modelli, ricerca             # noqa: E402
 from wc_retrieval.grafo import BASE, Grafo                 # noqa: E402
 
-DIR4 = ROOT / "data" / "raw" / "dataset_4" / "Images" / "Images"     # immagini dei giocatori (filePath, D17)
+DIR4 = ROOT / "data" / "raw" / "dataset_4" / "Images" / "Images"     # immagini dei giocatori (filePath)
 
 TIPI = {
     "S1": "Scheda giocatore",
@@ -141,7 +145,7 @@ def tabella(df, **rinomina):
 
 
 def immagine(percorso, larghezza, didascalia=None):
-    """Mostra un'immagine dal disco (percorso relativo alla cartella delle immagini, D17)."""
+    """Mostra un'immagine dal disco (percorso relativo alla cartella delle immagini)."""
     file = DIR4 / percorso if percorso else None
     if file is not None and file.is_file():
         st.image(str(file), width=larghezza, caption=didascalia)
@@ -155,7 +159,7 @@ def numero(x):
 
 
 # =====================================================================================================
-# Risposte: una funzione per tipo di scheda (riusate anche da R1, e da B nell'Op. 32)
+# Risposte: una funzione per tipo di scheda (riusate anche da R1 e dal meccanismo B)
 # =====================================================================================================
 def mostra_giocatore(g, uri):
     s = modelli.scheda_giocatore(g, uri)
@@ -406,7 +410,7 @@ def modulo_f1(g):
 
 def modulo_r1(g):
     st.caption("Ricerca semantica: la descrizione passa nel modello di frasi all-MiniLM-L6-v2 e si cercano le "
-               "descrizioni dei nodi più vicine (indici vettoriali, Op. 30). Funziona con descrizioni, "
+               "descrizioni dei nodi più vicine (indici vettoriali). Funziona con descrizioni, "
                "non con i nomi: per i nomi usa le altre schede.")
     c = st.columns([3, 1])
     with c[0]:
@@ -420,7 +424,7 @@ def modulo_r1(g):
     vettore = emb.vettori_testo(modello_testo(), [testo])[0]
     trovati = ricerca.cerca_descrizioni(g, vettore, classi=None if classe == TUTTI else [classe], k=10)
     if trovati.empty:
-        st.warning("Nessun risultato: gli indici delle descrizioni ci sono? (Op. 30)")
+        st.warning("Nessun risultato: gli indici delle descrizioni ci sono? (notebook 05)")
         return
     st.markdown("**Nodi più vicini** (punteggio = (1 + coseno) / 2; i primi sono spesso molto vicini tra loro)")
     st.dataframe(trovati.assign(classe=trovati["classe"].map(CLASSI))[["nome", "classe", "punteggio", "descrizione"]]
@@ -432,7 +436,7 @@ def modulo_r1(g):
 
 def modulo_r2(g):
     st.caption("Ricerca multimediale: il testo passa nella parte testuale di CLIP e si cercano le immagini più "
-               "vicine (indice vettoriale image_clip, Op. 29); ogni immagine porta al giocatore raffigurato.")
+               "vicine (indice vettoriale image_clip); ogni immagine porta al giocatore raffigurato.")
     c = st.columns([3, 1])
     with c[0]:
         testo = st.text_input("Descrivi l'immagine (in inglese)", "a goalkeeper diving to save the ball",
@@ -444,7 +448,7 @@ def modulo_r2(g):
     vettore = emb.vettori_testo(modello_clip(), [testo])[0]
     trovate = ricerca.cerca_immagini(g, vettore, k=n)
     if trovate.empty:
-        st.warning("Nessuna immagine: l'indice image_clip c'è? (Op. 29)")
+        st.warning("Nessuna immagine: l'indice image_clip c'è? (notebook 04)")
         return
     colonne = st.columns(4)
     for k, r in enumerate(trovate.itertuples()):
@@ -460,6 +464,123 @@ def modulo_r2(g):
 
 MODULI = {"S1": modulo_s1, "S2": modulo_s2, "S3": modulo_s3, "S4": modulo_s4,
           "C1": modulo_c1, "F1": modulo_f1, "R1": modulo_r1, "R2": modulo_r2}
+
+
+# =====================================================================================================
+# Query Cypher leggibili: una clausola per riga, rientro dentro le graffe
+# =====================================================================================================
+# Testi tra apici (non si toccano) e simboli che contano: parentesi, graffe e parole chiave delle clausole.
+# Una clausola non segue mai ".", ":", "$" o una lettera (n.match, :Match, $limit) e non è una chiave (with: 1).
+STRINGHE = re.compile(r"'(?:\\.|[^'\\])*'|\"(?:\\.|[^\"\\])*\"|`[^`]*`")
+SIMBOLI = re.compile(r"[()\[\]{}]|(?<![\w.:$])(?:OPTIONAL MATCH|MATCH|WHERE|WITH|RETURN|ORDER BY|SKIP|LIMIT|UNWIND|CALL|"
+                     r"YIELD|UNION ALL|UNION)\b(?!\s*:)", re.IGNORECASE)
+
+
+def cypher_leggibile(query, larghezza=100):
+    """La query da mostrare: com'è scritta se è già su righe brevi, altrimenti una clausola per riga.
+
+    Le query generate da Gemini arrivano spesso su una riga sola. Si va a capo prima di ogni clausola (MATCH,
+    WHERE, WITH, RETURN, ...) e si rientra di due spazi per ogni graffa aperta (EXISTS { ... }, CALL { ... }).
+    Non si va a capo dentro parentesi tonde e quadre (pattern, liste) né in "STARTS WITH" / "ENDS WITH".
+    """
+    query = textwrap.dedent(query).strip()
+    if all(len(r) <= larghezza for r in query.splitlines()):
+        return query
+    # pezzi alternati: codice e testi tra apici
+    pezzi, fine = [], 0
+    for m in STRINGHE.finditer(query):
+        pezzi += [(query[fine:m.start()], False), (m.group(), True)]
+        fine = m.end()
+    pezzi.append((query[fine:], False))
+    righe, riga, rientro, tonde = [], "", 0, 0
+    aperte = []                                        # una voce per graffa aperta: True se dentro si è andati a capo
+    for testo, tra_apici in pezzi:
+        if tra_apici:
+            riga += testo
+            continue
+        testo = re.sub(r"\s+", " ", testo)
+        pos = 0
+        for m in SIMBOLI.finditer(testo):
+            riga += testo[pos:m.start()]
+            pos, t = m.end(), m.group()
+            if t in "([":
+                tonde += 1
+            elif t in ")]":
+                tonde -= 1
+            elif t == "{":
+                aperte.append(False)
+            elif t == "}":
+                if aperte and aperte.pop() and riga.strip():   # blocco su più righe: la graffa chiusa va a capo
+                    righe.append("  " * rientro + riga.strip())
+                    riga, rientro = "", len(aperte)
+            elif tonde == 0 and not (t.upper() == "WITH" and re.search(r"(STARTS|ENDS)\s*$", riga, re.IGNORECASE)):
+                if riga.strip():                       # a capo prima della clausola
+                    righe.append("  " * rientro + riga.strip())
+                riga, rientro = "", len(aperte)
+                if aperte:
+                    aperte[-1] = True
+            riga += t
+        riga += testo[pos:]
+    if riga.strip():
+        righe.append("  " * rientro + riga.strip())
+    return "\n".join(righe)
+
+
+def mostra_query(k, query, parametri):
+    """Una query della traccia: titolo, testo su più righe e tabella dei parametri (i vettori riassunti)."""
+    st.markdown(f"**Query {k}**")
+    st.code(cypher_leggibile(query), language="cypher")
+    if parametri:
+        valori = [{"parametro": f"${p}",
+                   "valore": f"vettore di {len(v)} numeri" if isinstance(v, list) and len(v) > 50 else str(v)}
+                  for p, v in parametri.items()]
+        st.dataframe(pd.DataFrame(valori), hide_index=True)
+
+
+# =====================================================================================================
+# C: query Cypher scritta dall'utente
+# =====================================================================================================
+ESEMPIO_CYPHER = """MATCH (t:Tournament)
+RETURN t.label AS torneo, t.year AS anno, t.gender AS genere
+ORDER BY anno DESC
+LIMIT 10"""
+MASSIMO_RIGHE = 1000
+
+
+def pagina_cypher(g):
+    st.caption("Scrivi una query Cypher sul grafo. Gira in sola lettura (Neo4j rifiuta le query che modificano il "
+               "grafo) e si ferma dopo 30 secondi; si mostrano al massimo 1.000 righe.")
+    if "schema_c" not in st.session_state:             # etichette e relazioni, lette una volta per sessione
+        st.session_state["schema_c"] = (
+            g.leggi("CALL db.labels() YIELD label RETURN label ORDER BY label")["label"].tolist(),
+            g.leggi("CALL db.relationshipTypes() YIELD relationshipType AS tipo RETURN tipo ORDER BY tipo")["tipo"].tolist())
+    etichette, relazioni = st.session_state["schema_c"]
+    with st.expander("Classi e relazioni del grafo"):
+        st.markdown("**Classi:** " + ", ".join(f"`{e}`" for e in etichette if e not in ("Resource", "_GraphConfig")))
+        st.markdown("**Relazioni:** " + ", ".join(f"`{r}`" for r in relazioni))
+    # form: la query si esegue solo premendo "Esegui", non a ogni interazione con la pagina
+    with st.form("query_c"):
+        query = st.text_area("Query Cypher", ESEMPIO_CYPHER, height=160)
+        if st.form_submit_button("Esegui") and query.strip():
+            inizio = time.perf_counter()
+            try:
+                st.session_state["risposta_c"] = (g.leggi_libera(query), time.perf_counter() - inizio, None)
+            except Exception as e:
+                errore = f"{type(e).__name__}: {e}"
+                if "AccessMode" in errore or "read access mode" in errore:
+                    errore = "La query modifica il grafo: qui sono ammesse solo letture."
+                st.session_state["risposta_c"] = (None, 0, errore)
+    if "risposta_c" not in st.session_state:
+        return
+    righe, durata, errore = st.session_state["risposta_c"]
+    if errore:
+        st.error(errore)
+    elif righe.empty:
+        st.info(f"Nessuna riga ({durata * 1000:.0f} ms).")
+    else:
+        st.markdown(f"**{len(righe)} righe** in {durata * 1000:.0f} ms"
+                    + (f" (mostrate le prime {MASSIMO_RIGHE})" if len(righe) > MASSIMO_RIGHE else ""))
+        tabella(righe.head(MASSIMO_RIGHE).map(_leggibile))
 
 
 # =====================================================================================================
@@ -480,7 +601,7 @@ def mostra_tentativo(k, t):
         modello = "MiniLM (descrizioni)" if v["tipo"] == "text" else "CLIP (immagini)"
         st.caption(f"ricerca semantica ${v['param']}: «{v['testo']}» → vettore {modello}")
     if piano["cypher"]:
-        st.code(piano["cypher"], language="cypher")
+        st.code(cypher_leggibile(piano["cypher"]), language="cypher")
     if t["errore"]:
         st.warning(t["errore"])
     elif t["righe"] is not None and t["righe"].empty:
@@ -544,10 +665,9 @@ def mostra_traccia(g):
     """Le query Cypher eseguite per costruire la risposta (la traccia di grafo.py), con i parametri."""
     with st.expander(f"Come ho trovato la risposta: {len(g.traccia)} query Cypher"):
         for k, q in enumerate(g.traccia, 1):
-            parametri = {p: (f"[vettore di {len(v)} numeri]" if isinstance(v, list) and len(v) > 50 else v)
-                         for p, v in q["parametri"].items()}
-            st.markdown(f"**{k}.** parametri: `{parametri}`")
-            st.code(q["query"], language="cypher")
+            if k > 1:
+                st.divider()
+            mostra_query(k, q["query"], q["parametri"])
 
 
 # =====================================================================================================
@@ -570,10 +690,11 @@ with st.sidebar:
             st.error(st.session_state["errore_connessione"])
         st.stop()
     st.success("Connesso a Neo4j")
-    meccanismo = st.radio("Meccanismo", ["A", "B"], key="meccanismo",
-                          format_func={"A": "A · Ricerca guidata", "B": "B · Domanda libera"}.get)
+    meccanismo = st.radio("Meccanismo", ["A", "B", "C"], key="meccanismo",
+                          format_func={"A": "A · Ricerca guidata", "B": "B · Domanda libera",
+                                       "C": "C · Query Cypher"}.get)
     tipo = st.radio("Tipo di domanda", list(TIPI), format_func=lambda t: f"{t} · {TIPI[t]}", key="tipo",
-                    disabled=meccanismo == "B")
+                    disabled=meccanismo != "A")
     if meccanismo == "B" and not (os.environ.get("GEMINI_API_KEY") or st.session_state.get("chiave_gemini")):
         chiave = st.text_input("Chiave API di Gemini", type="password")
         if chiave:                                     # copiata in una variabile della sessione (non di un widget),
@@ -586,6 +707,9 @@ try:
     if meccanismo == "B":
         st.header("Domanda libera")
         pagina_b(g)
+    elif meccanismo == "C":
+        st.header("Query Cypher")
+        pagina_cypher(g)
     else:
         st.header(f"{tipo} · {TIPI[tipo]}")
         MODULI[tipo](g)

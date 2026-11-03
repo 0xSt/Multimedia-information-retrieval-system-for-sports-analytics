@@ -2,8 +2,8 @@
 
 Gli embedding di frasi sono deboli sui nomi propri ("Ronaldo" e "Cristiano Ronaldo" sono stringhe simili ma
 persone diverse); il full-text cerca le parole, tollera gli errori di battitura (ricerca fuzzy) e ordina i
-risultati in modo prevedibile (architettura-retrieval.md, §4). La ricerca vettoriale sulle descrizioni dei nodi
-(Op. 30) trova invece le entità descritte senza nome; quella sulle immagini (Op. 29) le foto descritte a parole.
+risultati in modo prevedibile. La ricerca vettoriale sulle descrizioni dei nodi
+trova invece le entità descritte senza nome; quella sulle immagini le foto descritte a parole.
 Le due ricerche restano funzioni separate, così la valutazione può confrontarle.
 """
 import re
@@ -17,7 +17,7 @@ INDICI_NOMI = {
     "Federation": ("nomi_federazioni", ["label", "altLabel"]),
     "Club": ("nomi_club", ["label"]),
     "Stadium": ("nomi_stadi", ["label", "cityName"]),
-    "Manager": ("nomi_allenatori", ["label"]),          # Op. 32: nomi usati dal meccanismo B
+    "Manager": ("nomi_allenatori", ["label"]),          # nomi usati dal meccanismo B
     "Referee": ("nomi_arbitri", ["label"]),
 }
 
@@ -34,7 +34,7 @@ DETTAGLIO = {
 }
 
 
-# Un indice vettoriale per classe sulle descrizioni dei nodi (Op. 30): nome dell'indice
+# Un indice vettoriale per classe sulle descrizioni dei nodi: nome dell'indice
 INDICI_DESCRIZIONI = {
     "Player": "player_text",
     "Participation": "participation_text",
@@ -129,7 +129,7 @@ def cerca_descrizioni(grafo, vettore, classi=None, k=10, candidati=100):
 
     classi: elenco di classi in cui cercare (default: tutte e sei). Si interroga l'indice di ogni classe e si
     uniscono i risultati per punteggio: il modello è lo stesso, quindi i punteggi sono confrontabili.
-    candidati: sovracampionamento, come in cerca_immagini (decisione R10).
+    candidati: sovracampionamento, come in cerca_immagini.
     """
     risultati = []
     for classe in classi or INDICI_DESCRIZIONI:

@@ -1,7 +1,7 @@
-"""Scrive data/valutazione/suite_valutazione.json: i casi della valutazione del retrieval (Op. 33).
+"""Scrive data/valutazione/suite_valutazione.json: i casi della valutazione del retrieval.
 
 Uso, dalla radice del progetto: python data/valutazione/crea_suite.py data/valutazione/suite_valutazione.json
-Il perché di ogni caso è nel campo "perche" e in claude/valutazione-retrieval.md (progetto claude.ai).
+Il perché di ogni caso è nel campo "perche".
 """
 import json, sys
 
@@ -15,7 +15,7 @@ def rosa(anno, paese=None, ruolo=None, genere=None):
         s += f", (pa)-[:team]->(:NationalTeam)-[:representsFederation]->(:Federation {{label: '{paese}'}})"
     return s
 
-E2 = [
+E1 = [
  # ---------------- caso 1: domande con risposta esatta nel grafo -------------------------------------------
  dict(id="P1", caso=1, classe="Player", domanda="Brazilian goalkeepers at the 2002 World Cup",
       testo_semantico="Brazilian goalkeeper", filtro=f"EXISTS {{ MATCH {rosa(2002)} }}",
@@ -147,7 +147,7 @@ FAMOSI = ["P-14758", "P-70442", "P-87008", "P-64077", "P-29491", "P-58924", "P-4
 MENO_NOTI = ["P-57615", "P-67578", "P-42223", "P-80656", "P-37935", "P-45981", "P-68599", "P-15905", "P-03472",
              "P-47182", "P-37860", "P-74111", "P-85670", "P-57029", "P-68060"]
 
-E3 = {
+E2 = {
  "a_persona": {"famosi": FAMOSI, "meno_noti": MENO_NOTI, "testo": "a photo of {nome}", "k": 5,
                "perche": "CLIP riconosce la persona dal nome? Pertinenti = le immagini collegate al giocatore (depicts)"},
  "b_concetti": [
@@ -172,5 +172,5 @@ E3 = {
  "d_scheda": {"giocatori": FAMOSI[:10] + MENO_NOTI[:10], "seme": 0,
               "perche": "l'immagine della scheda (non duplicata, labelConfidence più alta) ritrae il giocatore? Confronto con un'immagine a caso della stessa cartella"},
 }
-json.dump({"e2": E2, "e3": E3}, open(sys.argv[1], "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-print("E2:", len(E2), "| E3a:", len(FAMOSI) + len(MENO_NOTI), "| E3b:", len(E3["b_concetti"]), "| E3c:", len(E3["c_giudizi"]), "| E3d:", len(E3["d_scheda"]["giocatori"]))
+json.dump({"e1": E1, "e2": E2}, open(sys.argv[1], "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+print("E1:", len(E1), "| E2a:", len(FAMOSI) + len(MENO_NOTI), "| E2b:", len(E2["b_concetti"]), "| E2c:", len(E2["c_giudizi"]), "| E2d:", len(E2["d_scheda"]["giocatori"]))

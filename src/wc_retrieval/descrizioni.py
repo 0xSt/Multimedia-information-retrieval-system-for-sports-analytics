@@ -1,4 +1,4 @@
-"""Descrizioni dei nodi in linguaggio naturale (verbalizzazione del knowledge graph, Op. 30).
+"""Descrizioni dei nodi in linguaggio naturale (verbalizzazione del knowledge graph).
 
 Per ognuna delle sei classi principali (Player, Participation, Match, Federation, Club, Stadium) ogni nodo
 riceve una frase in inglese, costruita con una frase-modello riempita con i dati del grafo. Le frasi si
@@ -162,7 +162,7 @@ def testo_giocatore(g, conv, con_presenze):
     frase = g["nome"] + ", " + (RUOLI.get(ruoli.most_common(1)[0][0], "player") if ruoli else "football player")
     if squadre:
         frase += " for " + elenco(squadre)
-    # le date al 1° gennaio 1900 sono segnaposto della fonte (ontologia-finale.md, §7)
+    # le date al 1° gennaio 1900 sono segnaposto della fonte
     if not _vuoto(g["nascita"]) and g["nascita"].year != 1900:
         frase += f", born in {g['nascita'].year}"
     frasi = [frase + "."]

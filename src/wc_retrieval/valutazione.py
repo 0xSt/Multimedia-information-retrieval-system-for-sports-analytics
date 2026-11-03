@@ -1,16 +1,16 @@
-"""Valutazione del retrieval a partire dalla query Cypher (Op. 33); i casi sono in data/valutazione/suite_valutazione.json.
+"""Valutazione del retrieval a partire dalla query Cypher; i casi sono in data/valutazione/suite_valutazione.json.
 
 Contiene due cose:
-- le STRATEGIE di ricerca confrontate in E2 (solo semantica, indice prima, grafo prima) e le ricerche di immagini
-  di E3, scritte come query Cypher che ricevono il vettore della domanda come parametro;
+- le STRATEGIE di ricerca confrontate in E1 (solo semantica, indice prima, grafo prima) e le ricerche di immagini
+  di E2, scritte come query Cypher che ricevono il vettore della domanda come parametro;
 - le METRICHE di ranking: precisione@k, richiamo@k, nDCG@k, reciprocal rank.
-Il documento claude/valutazione-retrieval.md spiega perché ogni caso è nella suite.
+Il perché di ogni caso è nel campo "perche" della suite.
 """
 import math
 
 from .ricerca import INDICI_DESCRIZIONI
 
-CANDIDATI = 100        # candidati chiesti all'indice nella ricerca semantica pura (decisione R10)
+CANDIDATI = 100        # candidati chiesti all'indice nella ricerca semantica pura
 
 
 # =====================================================================================================
@@ -40,13 +40,13 @@ def reciproco(lista, pertinenti):
 
 
 def metriche(lista, pertinenti):
-    """Le metriche di E2 per una classifica di 10 risultati."""
+    """Le metriche di E1 per una classifica di 10 risultati."""
     return {"P@5": precisione(lista, pertinenti, 5), "R@10": richiamo(lista, pertinenti, 10),
             "nDCG@10": ndcg(lista, pertinenti, 10), "RR": reciproco(lista, pertinenti), "vuota": len(lista) == 0}
 
 
 # =====================================================================================================
-# Strategie di E2 sulle descrizioni dei nodi. filtro = condizione Cypher su n (la parte data al grafo);
+# Strategie di E1 sulle descrizioni dei nodi. filtro = condizione Cypher su n (la parte data al grafo);
 # escludi = URI da togliere (il nodo usato come domanda in "simili a…")
 # =====================================================================================================
 def solo_semantica(grafo, classe, vettore, k=10, escludi=""):
@@ -77,7 +77,7 @@ def grafo_prima(grafo, classe, vettore, filtro, k=10, escludi=""):
 
 
 # =====================================================================================================
-# Immagini (E3): il vettore è un testo passato in CLIP
+# Immagini (E2): il vettore è un testo passato in CLIP
 # =====================================================================================================
 def immagini_indice(grafo, vettore, k=10):
     """Le k immagini più vicine al testo su tutte le 41.460 (indice image_clip, 100 candidati)."""
@@ -100,7 +100,7 @@ def immagini_squadra(grafo, vettore, paese, k=10):
                        v=vettore, paese=paese, k=k)
 
 
-# Insiemi di immagini pertinenti ricavati dal grafo (E3b)
+# Insiemi di immagini pertinenti ricavati dal grafo (E2b)
 PERTINENTI_IMMAGINI = {
     "portieri": """MATCH (i:Image)-[:depicts]->(:Player)<-[:player]-(:SquadMembership)-[:position]->(:Position {notation: 'GK'})
                    RETURN DISTINCT i.uri AS uri""",
@@ -112,7 +112,7 @@ PERTINENTI_IMMAGINI = {
 
 
 def immagini_pertinenti(grafo, etichetta, filtro=None):
-    """Insieme pertinente e insieme di partenza (per la base casuale) di un concetto di E3b.
+    """Insieme pertinente e insieme di partenza (per la base casuale) di un concetto di E2b.
 
     etichetta: "portieri" oppure "squadra:<paese>"; filtro: None (tutte le immagini) oppure "squadra:<paese>".
     """

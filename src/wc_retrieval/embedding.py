@@ -1,4 +1,4 @@
-"""Embedding delle immagini con CLIP (Op. 29) e delle descrizioni dei nodi (Op. 30).
+"""Embedding delle immagini con CLIP e delle descrizioni dei nodi.
 
 CLIP (Contrastive Language-Image Pre-training) trasforma immagini e testi in vettori dello stesso spazio:
 un'immagine e una frase che la descrive hanno vettori vicini. Si usa il modello `clip-ViT-B-32` di
@@ -7,7 +7,7 @@ sentence-transformers (512 dimensioni), su CPU.
 Le descrizioni dei nodi (descrizioni.py) si trasformano in vettori con `all-MiniLM-L6-v2` (384 dimensioni),
 un modello di frasi piccolo e veloce: due frasi con lo stesso significato hanno vettori vicini.
 
-Gli embedding sono dati derivati (decisione R6 di architettura-retrieval.md): si salvano in Parquet in
+Gli embedding sono dati derivati: si salvano in Parquet in
 data/embeddings/ e si caricano in Neo4j come proprietà dei nodi, con un indice vettoriale. Non entrano nelle
 triple RDF. Se il grafo viene ricostruito (la cella "ATTENZIONE" del notebook di costruzione svuota il
 database), basta ricaricarli dal Parquet con carica_embedding_immagini().
