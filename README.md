@@ -1,6 +1,6 @@
 # Knowledge graph dei Mondiali FIFA per il Multimedia Information Retrieval
 
-Progetto del corso di Multimedia Information Retrieval (Sports Analytics). Quattro fonti eterogenee (dati relazionali, tabelle annuali, statistiche e immagini dei giocatori) vengono integrate in un knowledge graph RDF basato su un'ontologia propria, caricato in Neo4j e interrogato con una ricerca che combina query Cypher, ricerca full-text sui nomi e ricerca semantica su testo (MiniLM) e immagini (CLIP).
+Progetto del corso di Information Retrieval. Quattro fonti eterogenee (dati relazionali, tabelle annuali, statistiche e immagini dei giocatori) vengono integrate in un knowledge graph RDF basato su un'ontologia propria, caricato in Neo4j e interrogato con una ricerca che combina query Cypher, ricerca full-text sui nomi e ricerca semantica su testo (MiniLM) e immagini (CLIP).
 
 - **Grafo:** 126.744 nodi, 273.516 archi, 24 classi, 27 tipi di relazione; tutti i Mondiali maschili e femminili dal 1930 al 2022, con immagini, club e statistiche dei giocatori del 2022.
 - **Ricerca:** ricerca guidata con modelli Cypher (meccanismo A) e domande libere tradotte in Cypher da un LLM (meccanismo B, Gemini), con indici full-text e vettoriali dentro la stessa query.
