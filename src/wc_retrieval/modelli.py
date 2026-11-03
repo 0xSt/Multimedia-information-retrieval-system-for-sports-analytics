@@ -9,12 +9,9 @@ C1 classifica per metrica, F1 testa a testa. R1 e R2 usano gli embedding (ricerc
 """
 import pandas as pd
 
-# Nome della nazionale da un'etichetta di partecipazione: "Argentina at the 2022 FIFA Men's World Cup" → "Argentina"
-SQUADRA = "split({}.label, ' at the ')[0]"
-
-
 def _squadra(var):
-    return SQUADRA.format(var)
+    # Nome della nazionale dall'etichetta della partecipazione: "Argentina at the 2022 FIFA Men's World Cup" → "Argentina"
+    return f"split({var}.label, ' at the ')[0]"
 
 
 def _riga(df):
@@ -47,9 +44,7 @@ def scheda_giocatore(grafo, uri):
     """Anagrafica, Mondiali giocati con le statistiche di ciascuno, totali, dati 2022 del dataset 3, immagine."""
     anagrafica = _riga(grafo.leggi("""
         MATCH (p:Player {uri: $uri})
-        RETURN p.label AS nome, p.givenName AS nome_proprio, p.familyName AS cognome,
-               p.birthDate AS nascita, p.isFemale AS donna,
-               head([(p)-[:sameAs]->(d) | d.uri]) AS dbpedia""", uri=uri))
+        RETURN p.label AS nome, p.birthDate AS nascita, head([(p)-[:sameAs]->(d) | d.uri]) AS dbpedia""", uri=uri))
     if anagrafica is None:
         raise ValueError(f"Giocatore non trovato: {uri}")
 
@@ -99,7 +94,7 @@ def scheda_giocatore(grafo, uri):
         WITH count(i) AS immagini, collect({percorso: i.filePath, confidenza: i.labelConfidence})[0] AS migliore
         RETURN immagini, migliore.percorso AS percorso, migliore.confidenza AS confidenza""", uri=uri))
 
-    return {"tipo": "S1", "anagrafica": anagrafica, "mondiali": mondiali, "totali": totali,
+    return {"anagrafica": anagrafica, "mondiali": mondiali, "totali": totali,
             "statistiche_2022": stat_2022, "immagine": immagine}
 
 
@@ -112,7 +107,7 @@ def scheda_partecipazione(grafo, federazione_uri, anno, genere="men"):
         MATCH (:Federation {uri: $f})<-[:representsFederation]-(:NationalTeam {gender: $genere})
               <-[:team]-(pa:Participation)-[:tournament]->(t:Tournament {year: $anno})
         RETURN pa.uri AS uri, pa.label AS partecipazione, pa.performance AS risultato,
-               pa.finalPosition AS posizione, pa.finalRank AS classifica_finale, pa.isHost AS ospitante,
+               pa.finalRank AS classifica_finale, pa.isHost AS ospitante,
                pa.fifaRanking AS ranking_fifa, head([(pa)-[:kitSponsor]->(b) | b.label]) AS sponsor_tecnico,
                [(pa)-[:hasManager]->(m) | m.label] AS allenatori""", f=federazione_uri, anno=anno, genere=genere))
     if info is None:
@@ -155,7 +150,7 @@ def scheda_partecipazione(grafo, federazione_uri, anno, genere="men"):
                COUNT { (p)<-[:player]-(:Goal {isOwnGoal: false})-[:participation]->(pa) } AS gol
         ORDER BY maglia, giocatore""", pa=pa)
 
-    return {"tipo": "S2", "info": info, "partite": partite, "gironi": gironi,
+    return {"info": info, "partite": partite, "gironi": gironi,
             "marcatori": marcatori, "rosa": rosa}
 
 
@@ -192,11 +187,11 @@ def scheda_partita(grafo, uri):
               (m)-[:homeTeam]->(h:Participation), (m)-[:awayTeam]->(a:Participation)
         OPTIONAL MATCH (m)-[:playedAt]->(st:Stadium)
         OPTIONAL MATCH (m)-[:refereedBy]->(r:Referee)
-        RETURN m.label AS partita, t.label AS torneo, t.year AS anno, s.stageName AS fase,
+        RETURN t.label AS torneo, s.stageName AS fase,
                head([(m)-[:inGroup]->(gr) | gr.label]) AS girone, m.matchDate AS data,
                {_squadra('h')} AS casa, {_squadra('a')} AS trasferta, m.homeScore AS gol_casa, m.awayScore AS gol_trasferta,
                m.extraTime AS supplementari, m.penaltyShootout AS serie_di_rigori,
-               m.homePenalties AS rigori_casa, m.awayPenalties AS rigori_trasferta, m.isReplay AS ripetizione,
+               m.homePenalties AS rigori_casa, m.awayPenalties AS rigori_trasferta,
                st.label AS stadio, st.cityName AS citta, r.label AS arbitro""", uri=uri))
     if info is None:
         raise ValueError(f"Partita non trovata: {uri}")
@@ -222,7 +217,7 @@ def scheda_partita(grafo, uri):
         RETURN {_squadra('c')} AS squadra, p.label AS tiratore, e.isConverted AS segnato
         ORDER BY e.uri""", uri=uri)
 
-    return {"tipo": "S3", "info": info, "gol": gol, "cartellini": cartellini,
+    return {"info": info, "gol": gol, "cartellini": cartellini,
             "sostituzioni": sostituzioni, "rigori": rigori}
 
 
@@ -257,7 +252,7 @@ def scheda_torneo(grafo, anno, genere="men", n_marcatori=5):
         RETURN a.label AS premio, p.label AS giocatore, {_squadra('pa')} AS squadra
         ORDER BY a.uri, giocatore""", t=t)
 
-    return {"tipo": "S4", "info": info, "podio": podio, "marcatori": marcatori, "premi": premi}
+    return {"info": info, "podio": podio, "marcatori": marcatori, "premi": premi}
 
 
 # =====================================================================================================
@@ -291,8 +286,7 @@ def classifica(grafo, metrica, anno=None, federazione_uri=None, genere=None, n=1
         WITH p, count(e) AS valore, collect(DISTINCT f.label) AS squadre, min(t.year) AS dal, max(t.year) AS al
         RETURN p.uri AS uri, p.label AS giocatore, squadre, valore, dal, al
         ORDER BY valore DESC, giocatore LIMIT $n""", anno=anno, genere=genere, feds=feds, n=n)
-    return {"tipo": "C1", "metrica": metrica, "filtri": {"anno": anno, "federazione": federazione_uri, "genere": genere},
-            "classifica": tabella}
+    return {"classifica": tabella}
 
 
 # =====================================================================================================
@@ -323,4 +317,4 @@ def testa_a_testa(grafo, federazione_uri, avversario_uri, genere=None):
         "serie_di_rigori_vinte": int((ai_rigori & (rig_fatti > rig_subiti)).sum()),
         "serie_di_rigori_perse": int((ai_rigori & (rig_fatti < rig_subiti)).sum()),
     }
-    return {"tipo": "F1", "partite": partite.drop(columns="federazione_casa"), "bilancio": bilancio}
+    return {"partite": partite.drop(columns="federazione_casa"), "bilancio": bilancio}

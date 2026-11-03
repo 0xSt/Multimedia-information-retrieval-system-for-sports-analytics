@@ -53,6 +53,3 @@ class Grafo:
 
     def nuova_traccia(self):
         self.traccia = []
-
-    def chiudi(self):
-        self.driver.close()

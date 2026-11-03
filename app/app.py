@@ -1,11 +1,11 @@
-"""App di dimostrazione del retrieval sul knowledge graph dei Mondiali (meccanismo A: ricerca guidata; meccanismo B: domanda libera).
+"""App di dimostrazione del retrieval sul knowledge graph dei Mondiali (modalità A: ricerca guidata; B: domanda libera; C: query Cypher).
 
 Avvio, dalla cartella del progetto e con il .venv attivo:
     streamlit run app/app.py
 Si apre nel browser (http://localhost:8501). Serve Neo4j avviato con il grafo e gli indici creati dai notebook 02–05.
 
 Struttura:
-- barra laterale: connessione a Neo4j, scelta del meccanismo e del tipo di domanda;
+- barra laterale: connessione a Neo4j, scelta della modalità e del tipo di domanda;
 - A, ricerca guidata: il modulo del tipo scelto (campi con suggerimenti) e la risposta (scheda, tabella,
   grafico, immagini);
 - B, domanda libera: Gemini scrive la query Cypher (llm.py); si mostrano la query, i nomi e i testi cercati
@@ -35,7 +35,7 @@ if str(ROOT / "src") not in sys.path:
     sys.path.insert(0, str(ROOT / "src"))
 from wc_retrieval import embedding as emb                  # noqa: E402
 from wc_retrieval import llm, modelli, ricerca             # noqa: E402
-from wc_retrieval.grafo import BASE, Grafo                 # noqa: E402
+from wc_retrieval.grafo import Grafo                       # noqa: E402
 
 DIR4 = ROOT / "data" / "raw" / "dataset_4" / "Images" / "Images"     # immagini dei giocatori (filePath)
 
@@ -55,8 +55,7 @@ METRICHE = {
     "espulsioni": "Espulsioni", "premi": "Premi individuali", "mondiali": "Mondiali giocati",
 }
 GENERI = {"men": "maschile", "women": "femminile"}
-CLASSI = {"Player": "giocatore", "Participation": "nazionale in un Mondiale", "Match": "partita",
-          "Federation": "federazione", "Club": "club", "Stadium": "stadio"}
+CLASSI = {"Player": "giocatore", "Participation": "nazionale in un Mondiale", "Match": "partita"}   # classi di R1
 TUTTI = "tutti"
 
 st.set_page_config(page_title="Mondiali — retrieval su knowledge graph", page_icon="⚽", layout="wide")
@@ -159,7 +158,7 @@ def numero(x):
 
 
 # =====================================================================================================
-# Risposte: una funzione per tipo di scheda (riusate anche da R1 e dal meccanismo B)
+# Risposte: una funzione per tipo di scheda (riusate anche da R1 e dalla modalità B)
 # =====================================================================================================
 def mostra_giocatore(g, uri):
     s = modelli.scheda_giocatore(g, uri)
@@ -296,9 +295,6 @@ def mostra_nodo(g, uri, classe):
                   (pa)-[:tournament]->(t:Tournament)
             RETURN f.uri AS federazione, t.year AS anno, t.gender AS genere""", uri=uri).iloc[0]
         mostra_partecipazione(g, r["federazione"], int(r["anno"]), r["genere"])
-    else:
-        st.info("La scheda di questa classe arriverà con i tipi P2 (S5 storia di una nazionale, S6 club, "
-                "S7 stadio); qui sopra c'è la sua descrizione.")
 
 
 # =====================================================================================================
@@ -422,7 +418,7 @@ def modulo_r1(g):
     if not testo.strip():
         return
     vettore = emb.vettori_testo(modello_testo(), [testo])[0]
-    trovati = ricerca.cerca_descrizioni(g, vettore, classi=None if classe == TUTTI else [classe], k=10)
+    trovati = ricerca.cerca_descrizioni(g, vettore, classi=list(CLASSI) if classe == TUTTI else [classe], k=10)
     if trovati.empty:
         st.warning("Nessun risultato: gli indici delle descrizioni ci sono? (notebook 05)")
         return
@@ -545,19 +541,25 @@ RETURN t.label AS torneo, t.year AS anno, t.gender AS genere
 ORDER BY anno DESC
 LIMIT 10"""
 MASSIMO_RIGHE = 1000
+# Ogni tipo di relazione con le classi che collega e il numero di archi ("Resource" è l'etichetta comune di n10s)
+RELAZIONI = """
+    MATCH (x)-[r]->(y)
+    RETURN type(r) AS relazione, [l IN labels(x) WHERE l <> 'Resource'] AS da,
+           [l IN labels(y) WHERE l <> 'Resource'] AS verso, count(*) AS archi
+    ORDER BY relazione"""
 
 
 def pagina_cypher(g):
     st.caption("Scrivi una query Cypher sul grafo. Gira in sola lettura (Neo4j rifiuta le query che modificano il "
                "grafo) e si ferma dopo 30 secondi; si mostrano al massimo 1.000 righe.")
-    if "schema_c" not in st.session_state:             # etichette e relazioni, lette una volta per sessione
-        st.session_state["schema_c"] = (
-            g.leggi("CALL db.labels() YIELD label RETURN label ORDER BY label")["label"].tolist(),
-            g.leggi("CALL db.relationshipTypes() YIELD relationshipType AS tipo RETURN tipo ORDER BY tipo")["tipo"].tolist())
-    etichette, relazioni = st.session_state["schema_c"]
-    with st.expander("Classi e relazioni del grafo"):
-        st.markdown("**Classi:** " + ", ".join(f"`{e}`" for e in etichette if e not in ("Resource", "_GraphConfig")))
-        st.markdown("**Relazioni:** " + ", ".join(f"`{r}`" for r in relazioni))
+    if "relazioni_c" not in st.session_state:          # letto una volta per sessione
+        rel = g.leggi(RELAZIONI)
+        for c in ("da", "verso"):                      # un nodo senza classe del grafo è una risorsa esterna (DBpedia)
+            rel[c] = rel[c].map(lambda classi: ", ".join(classi) or "risorsa esterna")
+        st.session_state["relazioni_c"] = rel
+    with st.expander("Relazioni del grafo e classi che collegano"):
+        st.dataframe(st.session_state["relazioni_c"].rename(columns={
+            "relazione": "Relazione", "da": "Da", "verso": "Verso", "archi": "Archi"}), hide_index=True)
     # form: la query si esegue solo premendo "Esegui", non a ogni interazione con la pagina
     with st.form("query_c"):
         query = st.text_area("Query Cypher", ESEMPIO_CYPHER, height=160)
@@ -584,7 +586,7 @@ def pagina_cypher(g):
 
 
 # =====================================================================================================
-# Meccanismo B: domanda libera → Gemini scrive la query Cypher (llm.py)
+# Modalità B: domanda libera → Gemini scrive la query Cypher (llm.py)
 # =====================================================================================================
 @st.cache_resource(show_spinner=False)
 def assistente(chiave):
@@ -690,12 +692,12 @@ with st.sidebar:
             st.error(st.session_state["errore_connessione"])
         st.stop()
     st.success("Connesso a Neo4j")
-    meccanismo = st.radio("Meccanismo", ["A", "B", "C"], key="meccanismo",
+    modalita = st.radio("Modalità", ["A", "B", "C"], key="modalita",
                           format_func={"A": "A · Ricerca guidata", "B": "B · Domanda libera",
                                        "C": "C · Query Cypher"}.get)
     tipo = st.radio("Tipo di domanda", list(TIPI), format_func=lambda t: f"{t} · {TIPI[t]}", key="tipo",
-                    disabled=meccanismo != "A")
-    if meccanismo == "B" and not (os.environ.get("GEMINI_API_KEY") or st.session_state.get("chiave_gemini")):
+                    disabled=modalita != "A")
+    if modalita == "B" and not (os.environ.get("GEMINI_API_KEY") or st.session_state.get("chiave_gemini")):
         chiave = st.text_input("Chiave API di Gemini", type="password")
         if chiave:                                     # copiata in una variabile della sessione (non di un widget),
             st.session_state["chiave_gemini"] = chiave  # così resta anche passando da A a B
@@ -704,10 +706,10 @@ with st.sidebar:
 g = st.session_state["grafo"]
 g.nuova_traccia()                                  # la traccia contiene solo le query di questa risposta
 try:
-    if meccanismo == "B":
+    if modalita == "B":
         st.header("Domanda libera")
         pagina_b(g)
-    elif meccanismo == "C":
+    elif modalita == "C":
         st.header("Query Cypher")
         pagina_cypher(g)
     else:

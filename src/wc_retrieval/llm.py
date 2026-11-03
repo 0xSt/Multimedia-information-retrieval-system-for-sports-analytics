@@ -1,4 +1,4 @@
-"""Meccanismo B: un LLM (Gemini) scrive la query Cypher a partire dalla domanda e dallo schema del grafo.
+"""Modalità B: un LLM (Gemini) scrive la query Cypher a partire dalla domanda e dallo schema del grafo.
 
 Come funziona:
 1. il prompt contiene lo schema del grafo (SCHEMA) e le regole (REGOLE): l'LLM risponde con un JSON che contiene
@@ -145,7 +145,7 @@ class AssistenteCypher:
 
         I modelli si passano come funzioni, così si caricano solo se una domanda li usa davvero.
         """
-        from google import genai                     # import qui: serve solo al meccanismo B
+        from google import genai                     # import qui: serve solo alla modalità B
         from google.genai import types
         self.client = genai.Client(api_key=chiave)
         self.config = types.GenerateContentConfig(system_instruction=SCHEMA + REGOLE,
@@ -167,7 +167,7 @@ class AssistenteCypher:
         return p
 
     def rispondi(self, grafo, domanda):
-        """Esegue la domanda; restituisce i tentativi (piano, parametri, errore o righe) e le righe finali."""
+        """Esegue la domanda; restituisce i tentativi (piano, errore o righe) e le righe finali."""
         tentativi, problema = [], None
         for _ in range(TENTATIVI):
             voce = {"piano": self.piano(domanda, problema), "errore": None, "righe": None}

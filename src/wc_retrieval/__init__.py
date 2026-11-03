@@ -6,7 +6,7 @@ Moduli:
     modelli   un modello Cypher per ogni tipo di domanda del catalogo
     descrizioni descrizioni dei nodi in linguaggio naturale, dai dati del grafo
     embedding embedding CLIP delle immagini, labelConfidence, embedding delle descrizioni, indici vettoriali
-    llm       meccanismo B: Gemini scrive la query Cypher dallo schema, con full-text e ricerca semantica
+    llm       modalità B: Gemini scrive la query Cypher dallo schema, con full-text e ricerca semantica
     valutazione strategie di ricerca e metriche della valutazione del retrieval
 """
 import os

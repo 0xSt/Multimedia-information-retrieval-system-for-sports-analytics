@@ -120,7 +120,7 @@ Il \textbf{task di retrieval} scelto è il \emph{question answering analitico e 
 \section{Dati e preprocessing}
 % =====================================================================================================
 
-\subsection{Le fonti e le categorie di dati}
+\subsection{Le fonti}
 La Tabella~\ref{tab:fonti} elenca le quattro fonti. La spina dorsale è il dataset 1, il \emph{Fjelstul World Cup Database}: ha identificativi stabili (\code{P-14758} per un giocatore, \code{M-2022-64} per una partita) e copre tutti i Mondiali con rose, partite ed eventi. Le altre tre fonti aggiungono solo ciò che manca.
 
 \begin{table}[!htb]
@@ -139,7 +139,46 @@ Dataset 4 & cartelle JPG & 41.510 immagini di 831 giocatori & foto dei convocati
 \label{tab:fonti}
 \end{table}
 
-Le \textbf{categorie di dati} rappresentate sono: struttura dei tornei (torneo, fase, girone, partita, stadio), squadre e organizzazioni (confederazione, federazione, nazionale, partecipazione a un torneo), persone (giocatori, allenatori, arbitri), convocazioni e prestazioni (rosa, presenze, eventi di gioco, premi), dati commerciali del 2022 (club, marche) e contenuti multimediali (immagini).
+\subsection{La struttura dei dataset}
+Le quattro fonti hanno forme diverse: una base di dati relazionale, una serie di tabelle annuali, una tabella piatta e un albero di cartelle. Solo il dataset 1 ha identificativi; le altre fonti si collegano a lui per nome, ed è per questo che servono l'allineamento dei nomi e l'entity resolution descritti più avanti. La Tabella~\ref{tab:struttura} riassume, per ogni fonte, che cosa rappresenta una riga (o un file), quali identificativi ha e come si collega al dataset 1.
+
+\begin{table}[!htb]
+\centering\small
+\begin{tabularx}{\textwidth}{@{}l >{\raggedright\arraybackslash}p{3.3cm} Y >{\raggedright\arraybackslash}p{2.6cm} Y@{}}
+\toprule
+\textbf{Dataset} & \textbf{Struttura} & \textbf{Una riga (o un file) è} & \textbf{Identificativi} & \textbf{Collegamento al dataset 1} \\
+\midrule
+1 & 27 tabelle SQLite collegate da chiavi esterne & un'entità (torneo, squadra, giocatore, partita, stadio, \dots) oppure un fatto che le collega (convocazione, presenza, gol, cartellino, \dots) & testuali e stabili: \code{WC-2022}, \code{T-03}, \code{P-14758}, \code{M-2022-64} & è il riferimento \\
+2 & 22 CSV, uno per Mondiale maschile (1930--2022) & una squadra in un torneo: posizione finale, partite, vittorie, pareggi, sconfitte, gol fatti e subiti, differenza reti, punti & nessuno: anno (dal nome del file) e nome della squadra & anno e nome della squadra, con 5 alias (\emph{USA} $\to$ \emph{United States}) \\
+3 & un CSV & un convocato del 2022 (814): nome, data di nascita, nazionale, maglia, ruolo, club, scarpe, sponsor tecnico, ranking FIFA, statistiche & nessuno: nome, data di nascita, nazionale e maglia & entity resolution sul nome, dentro la stessa nazionale \\
+4 & albero di cartelle: \code{Group A}--\code{H} / \code{<Squadra> Players} / \code{Images\_<giocatore>} & un'immagine JPG o PNG (circa 50 per giocatore) & nessuno: giocatore, squadra, girone e capitano sono solo nei nomi delle cartelle & entity resolution sul nome della cartella \\
+\bottomrule
+\end{tabularx}
+\caption{Struttura delle quattro fonti e collegamento al dataset 1.}
+\label{tab:struttura}
+\end{table}
+
+\subsection{Le categorie di dati}
+Dalle fonti si ricavano sette categorie di dati (Tabella~\ref{tab:categorie}). Le prime quattro coprono tutti i Mondiali dal 1930 e vengono quasi solo dal dataset 1; le altre riguardano il Mondiale 2022 e arrivano dai dataset 3 e 4, collegate ai giocatori dall'entity resolution.
+
+\begin{table}[!htb]
+\centering\small
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{2.6cm} Y l >{\raggedright\arraybackslash}p{3.4cm}@{}}
+\toprule
+\textbf{Categoria} & \textbf{Contenuto} & \textbf{Fonti} & \textbf{Classi dell'ontologia} \\
+\midrule
+Struttura dei tornei & 30 tornei (22 maschili, 8 femminili), 155 fasi, 159 gironi, 1.248 partite con risultato, supplementari e rigori, 240 stadi & 1 & Tournament, Stage, Group, Match, Stadium \\
+Squadre e organizzazioni & 6 confederazioni, 88 federazioni con le successioni storiche, 121 nazionali, 625 partecipazioni (fase raggiunta, posizione finale, ospitante), classifiche dei gironi & 1, 2, 3 & Confederation, Federation, NationalTeam, Participation, GroupStanding \\
+Persone & 10.401 giocatori, 475 allenatori, 493 arbitri & 1 & Player, Manager, Referee \\
+Convocazioni e prestazioni & 13.843 convocazioni (maglia, ruolo, premi), 27.432 presenze dal 1970, gol, cartellini, sostituzioni, rigori delle serie finali; statistiche dei convocati 2022 & 1, 3 & SquadMembership, Appearance, Goal, Booking, Substitution, PenaltyKick, Position, Award \\
+Dati commerciali (2022) & 291 club e 15 marche (sponsor tecnici e scarpe) & 3 & Club, Brand \\
+Contenuti multimediali (2022) & 41.460 immagini dei convocati, ciascuna collegata al giocatore raffigurato, con il capitano dal nome della cartella & 4 & Image \\
+Collegamenti esterni & pagine DBpedia e Wikipedia di giocatori, squadre, stadi e tornei (11.574 risorse) & 1 & \code{owl:sameAs}, \code{rdfs:seeAlso} \\
+\bottomrule
+\end{tabularx}
+\caption{Le categorie di dati del grafo, con le fonti da cui vengono e le classi che le rappresentano.}
+\label{tab:categorie}
+\end{table}
 
 \subsection{Esplorazione: i problemi trovati}
 L'analisi esplorativa ha confrontato ogni fonte con il dataset 1 e ha trovato problemi che, se ignorati, avrebbero prodotto un grafo sbagliato senza messaggi di errore:
@@ -187,6 +226,25 @@ L'ontologia (schema completo nella repository, \code{ontology/schema\_core.svg})
   \item \textbf{gli attributi che cambiano nel tempo stanno sulla convocazione}: maglia, ruolo, capitano, club e premi sono proprietà di \emph{SquadMembership}, non di \emph{Player};
   \item \textbf{riuso di vocabolari standard} (schema.org, FOAF, SKOS) e annotazione della fonte di ogni classe e proprietà.
 \end{itemize}
+
+\textbf{Struttura dello schema.} Le 26 classi si dividono in cinque gruppi (Tabella~\ref{tab:schema}). Due classi sono astratte e raccolgono le sottoclassi: \emph{Person} (giocatori, allenatori, arbitri) e \emph{MatchEvent} (gol, cartellini, sostituzioni, rigori); le altre 24 hanno istanze nel grafo. Il centro dello schema è \emph{Participation}: le partite la puntano come squadra di casa o in trasferta, convocazioni, presenze ed eventi la puntano come squadra del giocatore, e da lei partono gli archi verso nazionale, torneo e allenatori. Una domanda tipica percorre un cammino breve attraverso di lei: i gol di un giocatore in un Mondiale sono \emph{Goal} $\to$ \code{player} $\to$ \emph{Player} insieme a \emph{Goal} $\to$ \code{participation} $\to$ \emph{Participation} $\to$ \code{tournament} $\to$ \emph{Tournament}. Le 67 proprietà dato descrivono gli attributi delle classi (anno e date del torneo, punteggio della partita, maglia e statistiche della convocazione, minuto degli eventi, percorso e confidenza delle immagini) e ognuna, come ogni classe e relazione, è annotata con la sua fonte (\code{wc:sourceDataset}: 1--4 oppure D, derivata).
+
+\begin{table}[!htb]
+\centering\small
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{2.6cm} >{\raggedright\arraybackslash}p{4.2cm} Y@{}}
+\toprule
+\textbf{Gruppo} & \textbf{Classi} & \textbf{Relazioni principali} \\
+\midrule
+Struttura del torneo & Tournament, Stage, Group, Match, Stadium & \code{stageOf} (fase $\to$ torneo), \code{groupOf} (girone $\to$ fase), \code{inStage}, \code{inGroup}, \code{playedAt}, \code{refereedBy} (dalla partita) \\
+Squadre & Confederation, Federation, NationalTeam, Participation, GroupStanding & \code{memberOf}, \code{predecessorOf} (tra federazioni), \code{representsFederation} (nazionale $\to$ federazione), \code{team}, \code{tournament}, \code{hasManager}, \code{kitSponsor} (dalla partecipazione), \code{homeTeam}, \code{awayTeam} (partita $\to$ partecipazione), \code{inGroupStanding} \\
+Persone e convocazioni & Person (Player, Manager, Referee), SquadMembership, Appearance, Position, Award & \code{player}, \code{participation}, \code{position}, \code{club}, \code{bootBrand}, \code{wonAward} (dalla convocazione); presenze con \code{player}, \code{participation}, \code{position}, \code{inMatch} \\
+Eventi di partita & MatchEvent (Goal, Booking, Substitution, PenaltyKick) & \code{inMatch}, \code{player}, \code{participation}; \code{creditedTo} per il gol (la squadra a cui conta) \\
+Altre fonti & Club, Brand, Image & \code{depicts} (immagine $\to$ giocatore) \\
+\bottomrule
+\end{tabularx}
+\caption{Le classi dell'ontologia per gruppo e le relazioni che le collegano.}
+\label{tab:schema}
+\end{table}
 
 
 Due decisioni mostrano il tipo di problemi risolti dallo schema. \textbf{Partite e gironi}: dato che i nomi dei gironi sono incoerenti, il girone di una partita si ricava dalle due squadre (il girone che, nello stesso torneo, le contiene entrambe); la regola collega 922 partite su 922 a esattamente un girone. \textbf{Identità}: \code{owl:sameAs} è simmetrico e transitivo, quindi usarlo per la Germania Ovest verso la pagina DBpedia della Germania renderebbe le due federazioni la stessa entità; si usa \code{owl:sameAs} solo per l'erede e \code{rdfs:seeAlso} per il predecessore, e la continuità storica è una relazione esplicita (\code{predecessorOf}). La storia secondo la FIFA, con i quattro titoli della Germania, si ricostruisce seguendo quella relazione senza fondere le entità.
@@ -271,11 +329,13 @@ Il codice è un pacchetto Python condiviso da notebook, app e valutazione: conne
 \label{fig:architettura}
 \end{figure}
 
-\textbf{Meccanismo A, ricerca guidata.} L'utente sceglie il tipo di domanda (scheda di un giocatore, di una squadra in un torneo, di una partita, di un torneo, classifica per metrica, testa a testa, entità descritta senza nome, immagini da testo) e riempie i campi; i nomi hanno suggerimenti dall'indice full-text. Ogni tipo ha un modello di query parametrico, controllato su 46 risultati noti (46 su 46 corretti).
+\textbf{Modalità A, ricerca guidata.} L'utente sceglie il tipo di domanda (scheda di un giocatore, di una squadra in un torneo, di una partita, di un torneo, classifica per metrica, testa a testa, entità descritta senza nome, immagini da testo) e riempie i campi; i nomi hanno suggerimenti dall'indice full-text. Ogni tipo ha un modello di query parametrico, controllato su 46 risultati noti (46 su 46 corretti).
 
-\textbf{Meccanismo B, domanda libera.}Un LLM (Gemini) riceve lo schema del grafo e alcune regole (nome proprio $\to$ indice full-text; descrizione o contenuto di una foto $\to$ vettore; fatto esatto $\to$ \code{MATCH}/\code{WHERE}) e risponde con un JSON vincolato da uno schema: la query, i nomi da cercare e i testi da trasformare in vettori. L'LLM non vede i dati; la query gira in una transazione di sola lettura e, in caso di errore o risultato vuoto, l'LLM riceve il problema e riprova una volta. Su nove domande di prova, otto hanno dato un risultato; l'errore tipico è un nome ``come dovrebbe essere'' invece che come è nel grafo (\emph{Paris Saint-Germain} contro \emph{PSG}). Per esempio, \emph{a Dutch winger who reached the final in 2010} diventa una query che trova l'Olanda con il full-text, restringe ai convocati della finale 2010 e ordina per similarità con \emph{winger}.
+\textbf{Modalità B, domanda libera.} Un LLM (Gemini) riceve lo schema del grafo e alcune regole (nome proprio $\to$ indice full-text; descrizione o contenuto di una foto $\to$ vettore; fatto esatto $\to$ \code{MATCH}/\code{WHERE}) e risponde con un JSON vincolato da uno schema: la query, i nomi da cercare e i testi da trasformare in vettori. L'LLM non vede i dati; la query gira in una transazione di sola lettura e, in caso di errore o risultato vuoto, l'LLM riceve il problema e riprova una volta. Su nove domande di prova, otto hanno dato un risultato; l'errore tipico è un nome ``come dovrebbe essere'' invece che come è nel grafo (\emph{Paris Saint-Germain} contro \emph{PSG}). Per esempio, \emph{a Dutch winger who reached the final in 2010} diventa una query che trova l'Olanda con il full-text, restringe ai convocati della finale 2010 e ordina per similarità con \emph{winger}.
 
-\textbf{App.} Un'app Streamlit espone i due meccanismi e mostra, per ogni risposta, tutte le query Cypher eseguite con i loro parametri.
+\textbf{Modalità C, query Cypher.} L'utente scrive direttamente una query Cypher, che gira in una transazione di sola lettura e con un tempo massimo di 30 secondi; l'app mostra il risultato e l'elenco delle relazioni del grafo con le classi che collegano.
+
+\textbf{App.} Un'app Streamlit espone le tre modalità e mostra, per ogni risposta, tutte le query Cypher eseguite, una clausola per riga, con i loro parametri.
 
 \subsection{Benchmark e metriche}
 La valutazione misura il retrieval a partire dalla query Cypher, lasciando fuori l'LLM, la cui valutazione richiederebbe un protocollo a parte (risposte non deterministiche). L'idea centrale è usare il \textbf{grafo come risposta di riferimento}: per molte domande descrittive esiste una query esatta che calcola l'insieme dei nodi pertinenti, e si misura quanti di questi la ricerca semantica mette in cima. Dove il grafo non può conoscere la risposta (contenuto delle foto, concetti vaghi, somiglianza) la pertinenza è giudicata a mano con un criterio scritto prima di vedere i risultati. Le metriche sono precisione (P@$k$), richiamo (R@10), nDCG@10 e MRR.
@@ -283,6 +343,28 @@ La valutazione misura il retrieval a partire dalla query Cypher, lasciando fuori
   \item \textbf{Esperimento 1 (E1), descrizioni dei nodi}: 21 domande con risposta esatta (dimensioni dell'insieme pertinente da 1 a 22) e 3 giudicate a mano. Le domande usano parole diverse dalle frasi-modello (\emph{Brazilian} invece di \emph{for Brazil}), per non rendere la ricerca perfetta per costruzione. Per ogni domanda i vincoli sono divisi in anticipo tra grafo (anno, fase, ospitante) e semantica (parte descrittiva). Si confrontano: \emph{solo semantica} (domanda intera, nessun filtro), \emph{indice prima} con 50, 100 e 500 candidati, \emph{grafo prima}, e un \emph{controllo}: grafo prima con la domanda intera.
   \item \textbf{Esperimento 2 (E2), immagini (CLIP)}: (a) riconoscimento della persona (\emph{a photo of} + nome) per 15 giocatori famosi e 15 presi a caso; (b) concetti con un'etichetta ricavata dal grafo (portieri, maglie di una nazionale), confrontati con la base casuale; (c) cinque concetti giudicati a mano (esultanza, foto di squadra, tuffo del portiere, trofeo, primo piano); (d) immagine della scheda contro un'immagine a caso per 20 giocatori.
 \end{itemize}
+
+\subsection{Il dataset di valutazione}
+I casi della valutazione sono scritti in un unico file (\code{data/valutazione/suite\_valutazione.json}, generato da \code{crea\_suite.py}) e ognuno porta una frase che spiega perché è nella suite. I risultati e i giudizi a mano sono in \code{data/valutazione/risultati/}.
+
+\textbf{E1, descrizioni dei nodi.} Sono 24 domande in inglese sulle sei classi descritte: 10 sui giocatori, 6 sulle partite, 5 sulle partecipazioni e una ciascuna su federazioni, club e stadi. Ogni caso contiene quattro parti scritte prima di eseguire la ricerca: la domanda intera, la sua parte descrittiva (data alla ricerca semantica), il filtro da dare al grafo (una condizione Cypher sui nodi candidati) e la query Cypher esatta che calcola l'insieme pertinente, oppure, quando questa non esiste, il criterio con cui giudicare i risultati a mano. I casi sono di quattro tipi:
+\begin{itemize}
+  \item \textbf{risposta esatta} (20 casi): l'insieme pertinente si calcola con una query, con dimensioni da 1 a 22 nodi;
+  \item \textbf{risposta esatta con aggregazione} (1 caso, \emph{World Cup finals with a hat-trick}): la query deve contare i gol per giocatore e per partita;
+  \item \textbf{concetto senza attributo nel grafo} (2 casi, \emph{Dutch wingers in the squad that reached the 2010 final} e \emph{host nations that disappointed}): il ruolo di ala e la delusione non sono dati del grafo, quindi i risultati si giudicano a mano;
+  \item \textbf{somiglianza} (1 caso, \emph{players similar to Luka Modrić}): il vettore della domanda è quello del nodo di Modrić, che si esclude dai risultati; anche qui si giudica a mano.
+\end{itemize}
+Per esempio, \emph{Brazilian goalkeepers at the 2002 World Cup} ha come parte descrittiva \emph{Brazilian goalkeeper}, come filtro la convocazione al Mondiale 2002, e come insieme pertinente i portieri della rosa del Brasile 2002 trovati con una query sul ruolo e sulla nazionale. Le domande usano di proposito parole diverse dalle descrizioni dei nodi (\emph{Brazilian} contro \emph{for Brazil}, \emph{on home soil} contro \emph{host nation}, \emph{goalless} contro \emph{0-0}).
+
+\textbf{E2, immagini.} Le quattro parti usano insiemi diversi:
+\begin{itemize}
+  \item \textbf{(a)} 30 giocatori del 2022, 15 famosi e 15 meno noti; la domanda è \emph{a photo of} seguito dal nome, e sono pertinenti le immagini collegate al giocatore con \code{depicts};
+  \item \textbf{(b)} cinque concetti con un'etichetta dal grafo: \emph{a photo of a goalkeeper} su tutte le 41.460 immagini (pertinenti le 4.950 dei portieri), le maglie di Brasile, Olanda e Argentina (pertinenti le 1.300 immagini dei convocati di ciascuna squadra) e il portiere tra le sole immagini del Brasile (150 su 1.300);
+  \item \textbf{(c)} cinque concetti senza etichetta: i primi 10 risultati di ciascuno (50 immagini) sono giudicati a mano;
+  \item \textbf{(d)} 20 giocatori (10 famosi, 10 meno noti): per ciascuno si giudicano l'immagine mostrata nella scheda e un'immagine scelta a caso nella stessa cartella, con un seme fisso perché la scelta sia ripetibile (40 immagini).
+\end{itemize}
+
+\textbf{Giudizi a mano.} Sono 142 righe (52 per le domande di E1 senza risposta esatta, 50 per E2c, 40 per E2d), ognuna con la pertinenza (0 o 1) e, dove serve, una nota che motiva il giudizio. Il criterio di ogni caso è scritto nella suite prima di vedere i risultati.
 
 \subsection{Risultati}
 \begin{table}[!htb]
@@ -366,7 +448,7 @@ Un dataset da solo risponde a una sola domanda su sette, il caso di controllo. L
 \begin{itemize}
   \item Le descrizioni dei nodi sono generate dal grafo: la ricerca su di esse non sa nulla che il grafo non sappia già (lo mostra il caso \emph{winger}).
   \item CLIP non riconosce i giocatori poco noti; le etichette delle immagini restano rumorose e la confidenza le segnala, non le corregge.
-  \item L'LLM del meccanismo B non è stato valutato in modo sistematico; le sue query non sono deterministiche e talvolta usano nomi diversi da quelli del grafo.
+  \item L'LLM della modalità B non è stato valutato in modo sistematico; le sue query non sono deterministiche e talvolta usano nomi diversi da quelli del grafo.
   \item Il benchmark è piccolo (24 domande testuali, 30 giocatori, 10 concetti visivi, 20 schede) e i giudizi a mano sono di un solo annotatore: i numeri indicano tendenze, non differenze statisticamente significative.
   
 \end{itemize}

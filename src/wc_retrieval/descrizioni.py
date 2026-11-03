@@ -16,8 +16,7 @@ from collections import Counter
 
 import pandas as pd
 
-# Nome della nazionale da un'etichetta di partecipazione (come in modelli.py)
-SQUADRA = "split({}.label, ' at the ')[0]"
+from .modelli import _squadra                         # nome della nazionale dall'etichetta della partecipazione
 
 # Query in blocco: ognuna restituisce una tabella; le frasi si compongono in Python
 QUERY = {
@@ -33,7 +32,7 @@ QUERY = {
     # una riga per convocazione: squadra, ruolo, premi, capitano, club e scarpe (2022), presenze e gol
     "convocazioni": f"""
         MATCH (p:Player)<-[:player]-(s:SquadMembership)-[:participation]->(pa:Participation)-[:tournament]->(t:Tournament)
-        RETURN p.uri AS uri, t.year AS anno, t.gender AS genere, {SQUADRA.format('pa')} AS squadra,
+        RETURN p.uri AS uri, t.year AS anno, t.gender AS genere, {_squadra('pa')} AS squadra,
                pa.finalPosition AS posizione_squadra, head([(s)-[:position]->(r) | r.notation]) AS ruolo,
                s.isCaptain AS capitano, [(s)-[:wonAward]->(a) | a.label] AS premi,
                head([(s)-[:club]->(c) | c.label]) AS club, head([(s)-[:bootBrand]->(b) | b.label]) AS scarpe,
@@ -44,7 +43,7 @@ QUERY = {
     "partecipazioni": f"""
         MATCH (pa:Participation)-[:tournament]->(t:Tournament),
               (pa)-[:team]->(:NationalTeam)-[:representsFederation]->(f:Federation)
-        RETURN pa.uri AS uri, {SQUADRA.format('pa')} AS squadra, f.uri AS federazione, t.label AS torneo,
+        RETURN pa.uri AS uri, {_squadra('pa')} AS squadra, f.uri AS federazione, t.label AS torneo,
                t.year AS anno, t.gender AS genere, pa.performance AS fase, pa.finalPosition AS posizione,
                pa.isHost AS ospitante, pa.fifaRanking AS ranking_fifa,
                [(pa)-[:hasManager]->(m) | m.label] AS allenatori,
@@ -57,7 +56,7 @@ QUERY = {
               (m)-[:homeTeam]->(h:Participation), (m)-[:awayTeam]->(a:Participation)
         RETURN m.uri AS uri, t.label AS torneo, t.year AS anno, t.gender AS genere, s.stageName AS fase,
                head([(m)-[:inGroup]->(g) | g.groupLetter]) AS girone, m.matchDate AS data,
-               h.uri AS casa_uri, {SQUADRA.format('h')} AS casa, a.uri AS trasferta_uri, {SQUADRA.format('a')} AS trasferta,
+               h.uri AS casa_uri, {_squadra('h')} AS casa, a.uri AS trasferta_uri, {_squadra('a')} AS trasferta,
                m.homeScore AS gol_casa, m.awayScore AS gol_trasferta, m.extraTime AS supplementari,
                m.homePenalties AS rigori_casa, m.awayPenalties AS rigori_trasferta, m.isReplay AS ripetizione,
                head([(m)-[:playedAt]->(st) | st.uri]) AS stadio_uri, head([(m)-[:playedAt]->(st) | st.label]) AS stadio,
@@ -88,7 +87,7 @@ QUERY = {
     "giocatori_club": f"""
         MATCH (c:Club)<-[:club]-(s:SquadMembership)-[:player]->(p:Player),
               (s)-[:participation]->(pa:Participation)-[:tournament]->(t:Tournament)
-        RETURN c.uri AS uri, t.year AS anno, p.label AS giocatore, {SQUADRA.format('pa')} AS squadra,
+        RETURN c.uri AS uri, t.year AS anno, p.label AS giocatore, {_squadra('pa')} AS squadra,
                COUNT {{ (p)<-[:player]-(:Goal {{isOwnGoal: false}})-[:participation]->(pa) }} AS gol""",
 
     "stadi": """

@@ -17,7 +17,7 @@ INDICI_NOMI = {
     "Federation": ("nomi_federazioni", ["label", "altLabel"]),
     "Club": ("nomi_club", ["label"]),
     "Stadium": ("nomi_stadi", ["label", "cityName"]),
-    "Manager": ("nomi_allenatori", ["label"]),          # nomi usati dal meccanismo B
+    "Manager": ("nomi_allenatori", ["label"]),          # nomi usati dalla modalità B
     "Referee": ("nomi_arbitri", ["label"]),
 }
 

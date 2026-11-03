@@ -21,15 +21,15 @@ data/valutazione/    casi della valutazione e risultati
 docs/                report
 ```
 
-| Notebook | Cosa fa | Operazioni |
-|---|---|---|
-| `01_preprocessing` | pulizia delle fonti, indice delle immagini, entity resolution dei giocatori 
-| `02_costruzione_grafo` | tabelle integrate → triple RDF → import in Neo4j con n10s 
-| `03_indici_fulltext` | indici full-text dei nomi
-| `04_embedding_immagini` | embedding CLIP, `labelConfidence`, indice vettoriale delle immagini 
-| `05_embedding_descrizioni` | descrizioni dei nodi, embedding MiniLM, indici vettoriali 
-| `06_valutazione_retrieval` | valutazione del retrieval (E2 descrizioni, E3 immagini) 
-| `07_grafo_vs_fonti` | Confronto tra grafo e i singoli dataset 
+| Notebook | Cosa fa |
+|---|---|
+| `01_preprocessing` | pulizia delle fonti, indice delle immagini, entity resolution dei giocatori |
+| `02_costruzione_grafo` | tabelle integrate → triple RDF → import in Neo4j con n10s |
+| `03_indici_fulltext` | indici full-text dei nomi |
+| `04_embedding_immagini` | embedding CLIP, `labelConfidence`, indice vettoriale delle immagini |
+| `05_embedding_descrizioni` | descrizioni dei nodi, embedding MiniLM, indici vettoriali |
+| `06_valutazione_retrieval` | valutazione del retrieval (E1 descrizioni, E2 immagini) |
+| `07_grafo_vs_fonti` | Confronto tra grafo e i singoli dataset |
 
 ## Requisiti
 
@@ -37,7 +37,7 @@ docs/                report
 - Neo4j 5.26 (LTS) con il plugin [neosemantics (n10s) 5.26.0](https://github.com/neo4j-labs/neosemantics): n10s funziona solo con la versione di Neo4j per cui è compilato.
 - Un ambiente per i notebook: VS Code con l'estensione Jupyter, oppure Jupyter (`pip install notebook`). Il kernel è quello dell'ambiente virtuale (`ipykernel` è in `requirements.txt`).
 - Una connessione a internet al primo avvio: i modelli CLIP (circa 600 MB) e MiniLM (circa 90 MB) si scaricano da Hugging Face e restano in cache.
-- Per il meccanismo B, una chiave API di Gemini (vedi il passo 5 sotto).
+- Per la modalità B, una chiave API di Gemini (vedi il passo 5 sotto).
 - La password di Neo4j non è salvata da nessuna parte: notebook e app la chiedono all'avvio (oppure si legge dalla variabile `NEO4J_PASSWORD`).
 
 
@@ -88,7 +88,7 @@ Per il dataset 4, l'archivio di Kaggle va estratto dentro `data/raw/dataset_4/` 
 | `05` | nessuno | sì | `data/embeddings/descrizioni_minilm.parquet`, embedding nel grafo | pochi minuti |
 | `06` | nessuno | sì (dopo 02–05) | `data/valutazione/risultati/` | |
 | `07` | nessuno | sì (dopo 02 e 04) | `data/valutazione/risultati/` | |
-| app | dataset 4 (solo per mostrare le foto) | sì (dopo 02–05) | niente | senza il dataset 4 funziona e scrive "(immagine non disponibile)"; il meccanismo B richiede la chiave Gemini |
+| app | dataset 4 (solo per mostrare le foto) | sì (dopo 02–05) | niente | senza il dataset 4 funziona e scrive "(immagine non disponibile)"; la modalità B richiede la chiave Gemini |
 
 ## Esecuzione passo per passo
 
@@ -104,7 +104,7 @@ Comandi per Windows (prompt dei comandi); su Linux e macOS `.venv\Scripts\` dive
 2. **Neo4j:** in Neo4j Desktop creare un'istanza Neo4j 5.26, installare il plugin n10s dal pannello *Plugins* dell'istanza, scegliere la password e avviarla. Notebook e app si collegano a `neo4j://localhost:7687`, utente `neo4j`, database `neo4j`.
 3. **Dataset:** scaricare i quattro dataset in `data/raw/` come descritto sopra.
 4. **Notebook da `01` a `05`, in ordine:** aprire ogni notebook con il kernel di `.venv` ed eseguire tutte le celle dall'alto in basso. I notebook si possono avviare sia dalla cartella `notebooks/` sia dalla radice della repository. Ogni notebook che usa Neo4j chiede la password all'inizio.
-5. **Chiave Gemini (facoltativa, solo per il meccanismo B):** copiare `.env.example` in `.env` e scrivere la chiave dopo `GEMINI_API_KEY=`. In alternativa si incolla nella barra laterale dell'app.
+5. **Chiave Gemini (facoltativa, solo per la modalità B):** copiare `.env.example` in `.env` e scrivere la chiave dopo `GEMINI_API_KEY=`. In alternativa si incolla nella barra laterale dell'app.
    ```
    copy .env.example .env
    ```
