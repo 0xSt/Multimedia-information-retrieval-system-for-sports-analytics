@@ -329,11 +329,20 @@ Il codice è un pacchetto Python condiviso da notebook, app e valutazione: conne
 \label{fig:architettura}
 \end{figure}
 
+L'app offre tre modalità di interrogazione, riassunte nella Figura~\ref{fig:modalita}.
+
 \textbf{Modalità A, ricerca guidata.} L'utente sceglie il tipo di domanda (scheda di un giocatore, di una squadra in un torneo, di una partita, di un torneo, classifica per metrica, testa a testa, entità descritta senza nome, immagini da testo) e riempie i campi; i nomi hanno suggerimenti dall'indice full-text. Ogni tipo ha un modello di query parametrico, controllato su 46 risultati noti (46 su 46 corretti).
 
 \textbf{Modalità B, domanda libera.} Un LLM (Gemini) riceve lo schema del grafo e alcune regole (nome proprio $\to$ indice full-text; descrizione o contenuto di una foto $\to$ vettore; fatto esatto $\to$ \code{MATCH}/\code{WHERE}) e risponde con un JSON vincolato da uno schema: la query, i nomi da cercare e i testi da trasformare in vettori. L'LLM non vede i dati; la query gira in una transazione di sola lettura e, in caso di errore o risultato vuoto, l'LLM riceve il problema e riprova una volta. Su nove domande di prova, otto hanno dato un risultato; l'errore tipico è un nome ``come dovrebbe essere'' invece che come è nel grafo (\emph{Paris Saint-Germain} contro \emph{PSG}). Per esempio, \emph{a Dutch winger who reached the final in 2010} diventa una query che trova l'Olanda con il full-text, restringe ai convocati della finale 2010 e ordina per similarità con \emph{winger}.
 
 \textbf{Modalità C, query Cypher.} L'utente scrive direttamente una query Cypher, che gira in una transazione di sola lettura e con un tempo massimo di 30 secondi; l'app mostra il risultato e l'elenco delle relazioni del grafo con le classi che collegano.
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=\textwidth]{figure/diagramma_5_modalita.pdf}
+\caption{Le tre modalità di interrogazione. Tutte eseguono query Cypher in una transazione di sola lettura; in A la query è prescritta e riceve i campi del modulo, in B la scrive Gemini, in C l'utente.}
+\label{fig:modalita}
+\end{figure}
 
 \textbf{App.} Un'app Streamlit espone le tre modalità e mostra, per ogni risposta, tutte le query Cypher eseguite, una clausola per riga, con i loro parametri.
 
