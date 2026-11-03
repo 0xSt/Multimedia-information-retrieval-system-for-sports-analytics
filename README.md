@@ -6,7 +6,6 @@ Progetto del corso di Information Retrieval. Quattro fonti eterogenee (dati rela
 - **Ricerca:** ricerca guidata con modelli Cypher e domande libere tradotte in Cypher da un LLM, con indici full-text e vettoriali dentro la stessa query.
 - **App:** demo in Streamlit.
 
-Il report del progetto è in `docs/`.
 
 ## Struttura
 
@@ -18,7 +17,6 @@ app/app.py           app Streamlit
 data/processed/      tabelle pulite e integrate (Parquet), prodotte dai notebook 01 e 02
 data/kg/             il grafo in triple RDF (27 file Turtle), prodotto dal notebook 02
 data/valutazione/    casi della valutazione e risultati
-docs/                report
 ```
 
 | Notebook | Cosa fa |
