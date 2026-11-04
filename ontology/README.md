@@ -18,13 +18,10 @@ Da questa cartella:
 | `schema_core.svg` | schema dell'ontologia: classi, relazioni e fonte di ogni elemento |
 | `schema_full.svg` | lo stesso schema con le proprietà dato di ogni classe |
 
-Versione 0.3 (17/10/2026): i ruoli (Position) contengono solo i codici e i nomi del dataset 1
-(skos:notation, skos:prefLabel@en); rimosse le etichette italiane, la gerarchia skos:broader
-e lo schema SKOS, che non erano nella fonte.
+
 
 
 ## Schema completo
 
 ![Schema completo dell'ontologia: classi, relazioni e proprietà dato](schema_full.svg)
 
-Ogni classe riporta le sue proprietà dato; colori e archi sono quelli di `schema_core.svg` (fonte di ogni elemento, relazioni e sottoclassi).
