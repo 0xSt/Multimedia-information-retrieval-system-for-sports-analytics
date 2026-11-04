@@ -22,4 +22,4 @@ Versione 0.3 (17/10/2026): i ruoli (Position) contengono solo i codici e i nomi 
 (skos:notation, skos:prefLabel@en); rimosse le etichette italiane, la gerarchia skos:broader
 e lo schema SKOS, che non erano nella fonte.
 
-<img src="https://github.com/0xSt/Multimedia-information-retrieval-system-for-sports-analytics/edit/main/ontology/schema.full.svg" alt="Testo alternativo" width="300">
+<img src="ontology/schema.full.svg" alt="Testo alternativo" width="300">
