@@ -46,9 +46,9 @@ Vanno scaricati e messi in `data/raw/` con questi nomi di cartella. I notebook l
 | Cartella | Dataset | File usati |
 |---|---|---|
 | `data/raw/dataset_1/` | Fjelstul World Cup Database, repository [jfjelstul/worldcup](https://github.com/jfjelstul/worldcup) | `worldcup.db` (database SQLite) |
-| `data/raw/dataset_2/` | Kaggle, "FIFA World Cup 1930–2022" (Sourav Banerjee), [link](INSERIRE_LINK) | i 22 file annuali `FIFA - <anno>.csv` (`FIFA - World Cup Summary.csv` è nel dataset ma non si usa) |
-| `data/raw/dataset_3/` | Kaggle, "FIFA WC 2022 Players Stats" (Rhugved Bhojane), [link](INSERIRE_LINK) | `FIFA WC 2022 Players Stats.csv` |
-| `data/raw/dataset_4/` | Kaggle, immagini dei giocatori del Mondiale 2022 (Soumendra Prasad), [link](INSERIRE_LINK) | le cartelle delle immagini sotto `Images/Images/` |
+| `data/raw/dataset_2/` | Kaggle, "FIFA World Cup 1930–2022" (Sourav Banerjee), [link](https://www.kaggle.com/datasets/iamsouravbanerjee/fifa-football-world-cup-dataset?select=FIFA+-+2022.csv) | i 22 file annuali `FIFA - <anno>.csv` (`FIFA - World Cup Summary.csv` è nel dataset ma non si usa) |
+| `data/raw/dataset_3/` | Kaggle, "FIFA WC 2022 Players Stats" (Rhugved Bhojane), [link](https://www.kaggle.com/datasets/rhugvedbhojane/fifa-world-cup-2022-players-statistics) | `FIFA WC 2022 Players Stats.csv` |
+| `data/raw/dataset_4/` | Kaggle, immagini dei giocatori del Mondiale 2022 (Soumendra Prasad), [link](https://www.kaggle.com/datasets/soumendraprasad/fifa-2022-all-players-image-dataset) | le cartelle delle immagini sotto `Images/Images/` |
 
 Struttura attesa dopo l'estrazione degli archivi (i nomi dei file non vanno cambiati):
 
