@@ -23,3 +23,4 @@ Versione 0.3 (17/10/2026): i ruoli (Position) contengono solo i codici e i nomi 
 e lo schema SKOS, che non erano nella fonte.
 
 <img src="ontology/schema.full.svg" alt="Testo alternativo" width="300">
+![Testo alternativo](ontology/schema.full.svg)
