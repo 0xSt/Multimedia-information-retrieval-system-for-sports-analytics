@@ -6,6 +6,12 @@ Progetto del corso di Information Retrieval. Quattro fonti eterogenee (dati rela
 - **Ricerca:** ricerca guidata con modelli Cypher e domande libere tradotte in Cypher da un LLM, con indici full-text e vettoriali dentro la stessa query.
 - **App:** demo in Streamlit.
 
+## Schema dell'ontologia
+
+![Schema dell'ontologia: classi e relazioni, colorate per fonte](ontology/schema_core.svg)
+
+Classi e relazioni dell'ontologia, con il colore del dataset da cui viene ogni elemento. Lo schema completo, con le proprietà dato di ogni classe, è nel [README dell'ontologia](ontology/README.md).
+
 
 ## Struttura
 
