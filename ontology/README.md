@@ -22,6 +22,7 @@ Versione 0.3 (17/10/2026): i ruoli (Position) contengono solo i codici e i nomi 
 (skos:notation, skos:prefLabel@en); rimosse le etichette italiane, la gerarchia skos:broader
 e lo schema SKOS, che non erano nella fonte.
 
+
 ## Schema completo
 
 ![Schema completo dell'ontologia: classi, relazioni e proprietà dato](schema_full.svg)
