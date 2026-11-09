@@ -39,10 +39,9 @@ data/valutazione/    casi della valutazione e risultati
 
 - Python 3.12 e i pacchetti di `requirements.txt`.
 - Neo4j 5.26 (LTS) con il plugin [neosemantics (n10s) 5.26.0](https://github.com/neo4j-labs/neosemantics): n10s funziona solo con la versione di Neo4j per cui è compilato.
-- Un ambiente per i notebook: VS Code con l'estensione Jupyter, oppure Jupyter (`pip install notebook`). Il kernel è quello dell'ambiente virtuale (`ipykernel` è in `requirements.txt`).
-- Una connessione a internet al primo avvio: i modelli CLIP (circa 600 MB) e MiniLM (circa 90 MB) si scaricano da Hugging Face e restano in cache.
-- Per la modalità B, una chiave API di Gemini (vedi il passo 5 sotto).
-- La password di Neo4j non è salvata da nessuna parte: notebook e app la chiedono all'avvio (oppure si legge dalla variabile `NEO4J_PASSWORD`).
+- Un ambiente per i notebook.
+- Per la modalità B, una chiave API di Gemini.
+- La password di Neo4j non è salvata da nessuna parte. Notebook e app la chiedono all'avvio (oppure si legge dalla variabile `NEO4J_PASSWORD`).
 
 
 ### I quattro dataset originali
